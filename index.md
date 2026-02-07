@@ -13,10 +13,10 @@ permalink: /
 {: .fs-6 .fw-300 }
 
 [景氣溫度計]({{ site.baseurl }}/reports/climate-index-w07/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[技能漂移]({{ site.baseurl }}/reports/skills-drift-w06/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[產業分層]({{ site.baseurl }}/reports/industry-segments-w06/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[薪資帶]({{ site.baseurl }}/reports/salary-bands-w06/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[求職策略]({{ site.baseurl }}/reports/career-strategy-w06/){: .btn .fs-5 .mb-4 .mb-md-0 }
+[技能漂移]({{ site.baseurl }}/reports/skills-drift-w07/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[產業分層]({{ site.baseurl }}/reports/industry-segments-w07/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[薪資帶]({{ site.baseurl }}/reports/salary-bands-w07/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[求職策略]({{ site.baseurl }}/reports/career-strategy-w07/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
