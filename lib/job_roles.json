@@ -1,0 +1,461 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "total_roles": 53,
+    "industries": 14,
+    "ai_vectors": 5
+  },
+  "ai_replacement_vectors": {
+    "cognitive_routine": {
+      "description": "認知例行工作 - 可程式化的腦力工作",
+      "risk_level": "high",
+      "examples": ["資料輸入", "基礎會計", "客服腳本"]
+    },
+    "cognitive_nonroutine": {
+      "description": "認知非例行工作 - 需要判斷和創造力",
+      "risk_level": "medium",
+      "examples": ["策略規劃", "研究分析", "設計創作"]
+    },
+    "physical_routine": {
+      "description": "體力例行工作 - 重複性體力勞動",
+      "risk_level": "high",
+      "examples": ["生產線操作", "倉儲搬運", "包裝作業"]
+    },
+    "physical_nonroutine": {
+      "description": "體力非例行工作 - 需要靈活應變的體力工作",
+      "risk_level": "low",
+      "examples": ["設備維修", "現場施工", "醫療照護"]
+    },
+    "interpersonal": {
+      "description": "人際互動工作 - 高度依賴人際溝通",
+      "risk_level": "low",
+      "examples": ["業務銷售", "心理諮商", "教育教學"]
+    }
+  },
+  "roles": [
+    {
+      "id": 1,
+      "name_en": "Software Engineer",
+      "name_zh": "軟體工程師",
+      "industry": "tech",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["software", "軟體", "engineer", "工程師", "developer", "開發", "程式", "programmer", "coding"]
+    },
+    {
+      "id": 2,
+      "name_en": "Data Scientist",
+      "name_zh": "資料科學家",
+      "industry": "tech",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["data scientist", "資料科學家", "資料科學", "數據科學家", "ML", "machine learning", "AI", "深度學習"]
+    },
+    {
+      "id": 3,
+      "name_en": "Data Analyst",
+      "name_zh": "資料分析師",
+      "industry": "tech",
+      "ai_vector": "cognitive_routine",
+      "keywords": ["data analyst", "資料分析師", "資料分析", "數據分析師", "數據分析", "BI", "報表", "analytics"]
+    },
+    {
+      "id": 4,
+      "name_en": "Frontend Engineer",
+      "name_zh": "前端工程師",
+      "industry": "tech",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["frontend", "前端", "前端工程師", "React", "Vue", "JavaScript", "UI", "Angular", "web developer"]
+    },
+    {
+      "id": 5,
+      "name_en": "Backend Engineer",
+      "name_zh": "後端工程師",
+      "industry": "tech",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["backend", "後端", "後端工程師", "server", "API", "database", "資料庫"]
+    },
+    {
+      "id": 6,
+      "name_en": "DevOps Engineer",
+      "name_zh": "DevOps工程師",
+      "industry": "tech",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["devops", "SRE", "infrastructure", "CI/CD", "kubernetes", "雲端", "cloud", "運維"]
+    },
+    {
+      "id": 7,
+      "name_en": "Product Manager",
+      "name_zh": "產品經理",
+      "industry": "tech",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["product manager", "PM", "產品經理", "產品", "product owner"]
+    },
+    {
+      "id": 8,
+      "name_en": "UI/UX Designer",
+      "name_zh": "UI/UX設計師",
+      "industry": "creative",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["UI", "UX", "設計師", "designer", "user experience", "介面", "互動設計"]
+    },
+    {
+      "id": 9,
+      "name_en": "Graphic Designer",
+      "name_zh": "平面設計師",
+      "industry": "creative",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["graphic", "平面設計", "視覺設計", "美編", "視覺"]
+    },
+    {
+      "id": 10,
+      "name_en": "Marketing Specialist",
+      "name_zh": "行銷專員",
+      "industry": "retail_service",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["marketing", "行銷", "數位行銷", "廣告", "SEO", "SEM", "社群"]
+    },
+    {
+      "id": 11,
+      "name_en": "Sales Representative",
+      "name_zh": "業務代表",
+      "industry": "retail_service",
+      "ai_vector": "interpersonal",
+      "keywords": ["sales", "業務", "銷售", "客戶開發", "業代"]
+    },
+    {
+      "id": 12,
+      "name_en": "Customer Service",
+      "name_zh": "客服專員",
+      "industry": "retail_service",
+      "ai_vector": "cognitive_routine",
+      "keywords": ["customer service", "客服", "客戶服務", "support", "服務"]
+    },
+    {
+      "id": 13,
+      "name_en": "Accountant",
+      "name_zh": "會計師",
+      "industry": "finance",
+      "ai_vector": "cognitive_routine",
+      "keywords": ["accountant", "會計", "帳務", "財務", "稅務", "記帳"]
+    },
+    {
+      "id": 14,
+      "name_en": "Financial Analyst",
+      "name_zh": "財務分析師",
+      "industry": "finance",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["financial analyst", "財務分析", "投資分析", "財報", "金融分析"]
+    },
+    {
+      "id": 15,
+      "name_en": "HR Specialist",
+      "name_zh": "人資專員",
+      "industry": "professional",
+      "ai_vector": "interpersonal",
+      "keywords": ["HR", "人資", "人力資源", "招募", "recruiting", "人事"]
+    },
+    {
+      "id": 16,
+      "name_en": "Administrative Assistant",
+      "name_zh": "行政助理",
+      "industry": "professional",
+      "ai_vector": "cognitive_routine",
+      "keywords": ["admin", "行政", "助理", "秘書", "總務", "行政人員"]
+    },
+    {
+      "id": 17,
+      "name_en": "Legal Counsel",
+      "name_zh": "法務人員",
+      "industry": "legal",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["legal", "法務", "律師", "法律", "合約", "法務專員"]
+    },
+    {
+      "id": 18,
+      "name_en": "Nurse",
+      "name_zh": "護理師",
+      "industry": "healthcare",
+      "ai_vector": "physical_nonroutine",
+      "keywords": ["nurse", "護理", "護士", "照護", "護理師"]
+    },
+    {
+      "id": 19,
+      "name_en": "Doctor",
+      "name_zh": "醫師",
+      "industry": "healthcare",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["doctor", "醫師", "醫生", "physician", "主治"]
+    },
+    {
+      "id": 20,
+      "name_en": "Teacher",
+      "name_zh": "教師",
+      "industry": "education",
+      "ai_vector": "interpersonal",
+      "keywords": ["teacher", "教師", "老師", "講師", "教育", "教學"]
+    },
+    {
+      "id": 21,
+      "name_en": "Civil Engineer",
+      "name_zh": "土木工程師",
+      "industry": "construction",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["civil engineer", "土木", "工程師", "建築", "結構", "土木工程"]
+    },
+    {
+      "id": 22,
+      "name_en": "Construction Worker",
+      "name_zh": "營建工人",
+      "industry": "construction",
+      "ai_vector": "physical_nonroutine",
+      "keywords": ["construction", "工地", "工人", "施工", "營造", "營建"]
+    },
+    {
+      "id": 23,
+      "name_en": "Manufacturing Operator",
+      "name_zh": "生產線作業員",
+      "industry": "manufacturing",
+      "ai_vector": "physical_routine",
+      "keywords": ["operator", "作業員", "生產線", "製造", "組裝", "生產"]
+    },
+    {
+      "id": 24,
+      "name_en": "Quality Control",
+      "name_zh": "品管人員",
+      "industry": "manufacturing",
+      "ai_vector": "cognitive_routine",
+      "keywords": ["QC", "QA", "品管", "品質", "檢驗", "品保"]
+    },
+    {
+      "id": 25,
+      "name_en": "Warehouse Worker",
+      "name_zh": "倉儲人員",
+      "industry": "logistics",
+      "ai_vector": "physical_routine",
+      "keywords": ["warehouse", "倉儲", "倉管", "物流", "搬運", "倉庫"]
+    },
+    {
+      "id": 26,
+      "name_en": "Delivery Driver",
+      "name_zh": "配送司機",
+      "industry": "logistics",
+      "ai_vector": "physical_routine",
+      "keywords": ["driver", "司機", "配送", "送貨", "運輸", "外送"]
+    },
+    {
+      "id": 27,
+      "name_en": "Retail Staff",
+      "name_zh": "門市人員",
+      "industry": "retail_service",
+      "ai_vector": "interpersonal",
+      "keywords": ["retail", "門市", "店員", "銷售", "專櫃", "零售"]
+    },
+    {
+      "id": 28,
+      "name_en": "Chef",
+      "name_zh": "廚師",
+      "industry": "retail_service",
+      "ai_vector": "physical_nonroutine",
+      "keywords": ["chef", "廚師", "料理", "餐飲", "烹飪", "廚房"]
+    },
+    {
+      "id": 29,
+      "name_en": "Security Guard",
+      "name_zh": "保全人員",
+      "industry": "professional",
+      "ai_vector": "physical_routine",
+      "keywords": ["security", "保全", "警衛", "安全", "守衛"]
+    },
+    {
+      "id": 30,
+      "name_en": "Social Worker",
+      "name_zh": "社工人員",
+      "industry": "care",
+      "ai_vector": "interpersonal",
+      "keywords": ["social worker", "社工", "社會工作", "福利", "社工師"]
+    },
+    {
+      "id": 31,
+      "name_en": "Security Engineer",
+      "name_zh": "資安工程師",
+      "industry": "tech",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["security engineer", "資安", "資訊安全", "cybersecurity", "infosec", "penetration"]
+    },
+    {
+      "id": 32,
+      "name_en": "QA Engineer",
+      "name_zh": "測試工程師",
+      "industry": "tech",
+      "ai_vector": "cognitive_routine",
+      "keywords": ["QA", "test", "測試", "automation", "testing", "軟體測試"]
+    },
+    {
+      "id": 33,
+      "name_en": "Mobile Developer",
+      "name_zh": "行動開發工程師",
+      "industry": "tech",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["mobile", "iOS", "Android", "app", "應用程式", "行動"]
+    },
+    {
+      "id": 34,
+      "name_en": "Pharmacist",
+      "name_zh": "藥師",
+      "industry": "healthcare",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["pharmacist", "藥師", "藥劑", "調劑", "藥局"]
+    },
+    {
+      "id": 35,
+      "name_en": "Medical Technician",
+      "name_zh": "醫檢師",
+      "industry": "healthcare",
+      "ai_vector": "cognitive_routine",
+      "keywords": ["medical technician", "醫檢", "檢驗", "醫事", "醫技"]
+    },
+    {
+      "id": 36,
+      "name_en": "Caregiver",
+      "name_zh": "照護員",
+      "industry": "care",
+      "ai_vector": "physical_nonroutine",
+      "keywords": ["caregiver", "照護", "照顧", "看護", "長照", "照服"]
+    },
+    {
+      "id": 37,
+      "name_en": "Bank Teller",
+      "name_zh": "銀行櫃員",
+      "industry": "finance",
+      "ai_vector": "cognitive_routine",
+      "keywords": ["teller", "櫃員", "銀行", "臨櫃", "行員"]
+    },
+    {
+      "id": 38,
+      "name_en": "Insurance Agent",
+      "name_zh": "保險業務員",
+      "industry": "finance",
+      "ai_vector": "interpersonal",
+      "keywords": ["insurance", "保險", "業務員", "壽險", "保險顧問"]
+    },
+    {
+      "id": 39,
+      "name_en": "Auditor",
+      "name_zh": "稽核人員",
+      "industry": "finance",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["auditor", "稽核", "審計", "查核", "內稽"]
+    },
+    {
+      "id": 40,
+      "name_en": "Project Manager",
+      "name_zh": "專案經理",
+      "industry": "professional",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["project manager", "專案經理", "PM", "專案管理", "PMO"]
+    },
+    {
+      "id": 41,
+      "name_en": "Consultant",
+      "name_zh": "顧問",
+      "industry": "professional",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["consultant", "顧問", "管理顧問", "諮詢", "顧問師"]
+    },
+    {
+      "id": 42,
+      "name_en": "Translator",
+      "name_zh": "翻譯人員",
+      "industry": "professional",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["translator", "翻譯", "口譯", "筆譯", "語言"]
+    },
+    {
+      "id": 43,
+      "name_en": "Video Editor",
+      "name_zh": "影片剪輯師",
+      "industry": "creative",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["video editor", "影片", "剪輯", "後製", "視頻", "editing"]
+    },
+    {
+      "id": 44,
+      "name_en": "Copywriter",
+      "name_zh": "文案撰寫人員",
+      "industry": "creative",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["copywriter", "文案", "寫手", "編輯", "內容", "撰稿"]
+    },
+    {
+      "id": 45,
+      "name_en": "Photographer",
+      "name_zh": "攝影師",
+      "industry": "creative",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["photographer", "攝影", "攝影師", "拍攝", "商攝"]
+    },
+    {
+      "id": 46,
+      "name_en": "Farmer",
+      "name_zh": "農民",
+      "industry": "agriculture",
+      "ai_vector": "physical_nonroutine",
+      "keywords": ["farmer", "農民", "農夫", "農業", "種植", "務農"]
+    },
+    {
+      "id": 47,
+      "name_en": "Agricultural Technician",
+      "name_zh": "農業技術人員",
+      "industry": "agriculture",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["agricultural", "農技", "農業技術", "農藝", "農改"]
+    },
+    {
+      "id": 48,
+      "name_en": "CEO",
+      "name_zh": "執行長",
+      "industry": "management",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["CEO", "執行長", "總經理", "總裁", "負責人"]
+    },
+    {
+      "id": 49,
+      "name_en": "Operations Manager",
+      "name_zh": "營運管理經理",
+      "industry": "management",
+      "ai_vector": "cognitive_nonroutine",
+      "keywords": ["operations", "營運", "營運經理", "管理", "運營"]
+    },
+    {
+      "id": 50,
+      "name_en": "Store Manager",
+      "name_zh": "店長",
+      "industry": "retail_service",
+      "ai_vector": "interpersonal",
+      "keywords": ["store manager", "店長", "店經理", "門市經理"]
+    },
+    {
+      "id": 51,
+      "name_en": "Electrician",
+      "name_zh": "電工",
+      "industry": "skilled_trade",
+      "ai_vector": "physical_nonroutine",
+      "keywords": ["electrician", "電工", "電氣", "水電", "電機"]
+    },
+    {
+      "id": 52,
+      "name_en": "Plumber",
+      "name_zh": "水管工",
+      "industry": "skilled_trade",
+      "ai_vector": "physical_nonroutine",
+      "keywords": ["plumber", "水管工", "配管", "水電工"]
+    },
+    {
+      "id": 53,
+      "name_en": "Mechanic",
+      "name_zh": "技工",
+      "industry": "skilled_trade",
+      "ai_vector": "physical_nonroutine",
+      "keywords": ["mechanic", "技工", "修理", "維修", "機械"]
+    }
+  ]
+}

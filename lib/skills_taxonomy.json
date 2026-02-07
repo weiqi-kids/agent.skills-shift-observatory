@@ -1,0 +1,69 @@
+{
+  "programming_languages": {
+    "synonyms": {
+      "JavaScript": ["JS", "javascript", "Javascript"],
+      "TypeScript": ["TS", "typescript"],
+      "Python": ["python", "Python3", "py"],
+      "Java": ["java", "JAVA"],
+      "Go": ["Golang", "golang", "go-lang"],
+      "Rust": ["rust"],
+      "C++": ["cpp", "C plus plus"],
+      "C#": ["csharp", "C Sharp"],
+      "Ruby": ["ruby"],
+      "PHP": ["php"],
+      "Swift": ["swift"],
+      "Kotlin": ["kotlin"],
+      "SQL": ["sql", "SQL Server", "MySQL", "PostgreSQL", "sqlite"]
+    }
+  },
+  "frameworks_tools": {
+    "synonyms": {
+      "React": ["ReactJS", "React.js", "react"],
+      "Vue": ["Vue.js", "VueJS", "vue"],
+      "Angular": ["AngularJS", "angular"],
+      "Node.js": ["NodeJS", "node", "Node"],
+      "Django": ["django"],
+      "Flask": ["flask"],
+      "Spring": ["Spring Boot", "SpringBoot"],
+      "Docker": ["docker", "containers"],
+      "Kubernetes": ["K8s", "k8s", "kubernetes"],
+      "Terraform": ["terraform", "IaC"],
+      "AWS": ["Amazon Web Services", "aws"],
+      "GCP": ["Google Cloud", "Google Cloud Platform"],
+      "Azure": ["Microsoft Azure", "azure"]
+    }
+  },
+  "data_ai": {
+    "synonyms": {
+      "Machine Learning": ["ML", "机器学习", "機器學習"],
+      "Deep Learning": ["DL", "深度學習"],
+      "TensorFlow": ["tensorflow", "TF"],
+      "PyTorch": ["pytorch", "Torch"],
+      "Pandas": ["pandas"],
+      "NumPy": ["numpy"],
+      "Spark": ["Apache Spark", "PySpark"],
+      "Hadoop": ["hadoop"],
+      "Data Analysis": ["資料分析", "数据分析"],
+      "Data Science": ["資料科學", "数据科学"]
+    }
+  },
+  "soft_skills": {
+    "synonyms": {
+      "Communication": ["溝通", "沟通", "communication skills"],
+      "Teamwork": ["團隊合作", "团队合作", "team player"],
+      "Leadership": ["領導", "领导", "lead", "管理能力"],
+      "Problem Solving": ["問題解決", "问题解决"],
+      "Critical Thinking": ["批判性思考", "分析能力"],
+      "Project Management": ["專案管理", "项目管理", "PM"]
+    }
+  },
+  "certifications": {
+    "synonyms": {
+      "AWS Certified": ["AWS認證", "AWS certification"],
+      "PMP": ["Project Management Professional"],
+      "Scrum Master": ["CSM", "scrum"],
+      "CISSP": ["資安認證"],
+      "CPA": ["會計師", "Certified Public Accountant"]
+    }
+  }
+}

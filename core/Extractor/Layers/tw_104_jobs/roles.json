@@ -1,0 +1,426 @@
+[
+  {
+    "id": 1,
+    "search_term": "軟體工程師",
+    "key": "software_engineer",
+    "sector": "tech",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "基準線，量體最大"
+  },
+  {
+    "id": 2,
+    "search_term": "AI工程師",
+    "key": "ai_engineer",
+    "sector": "tech",
+    "ai_displacement_vector": "ai_native",
+    "observation_purpose": "AI原生職缺增長"
+  },
+  {
+    "id": 3,
+    "search_term": "資料分析師",
+    "key": "data_analyst",
+    "sector": "tech",
+    "ai_displacement_vector": "cognitive_routine",
+    "observation_purpose": "易受AI影響的認知例行工作"
+  },
+  {
+    "id": 4,
+    "search_term": "資安工程師",
+    "key": "cybersecurity_engineer",
+    "sector": "tech",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "安全領域需求"
+  },
+  {
+    "id": 5,
+    "search_term": "QA工程師",
+    "key": "qa_engineer",
+    "sector": "tech",
+    "ai_displacement_vector": "cognitive_routine",
+    "observation_purpose": "測試自動化趨勢"
+  },
+  {
+    "id": 6,
+    "search_term": "財務分析師",
+    "key": "financial_analyst",
+    "sector": "finance",
+    "ai_displacement_vector": "cognitive_routine",
+    "observation_purpose": "金融業數據分析"
+  },
+  {
+    "id": 7,
+    "search_term": "精算師",
+    "key": "actuary",
+    "sector": "finance",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "高階認知工作"
+  },
+  {
+    "id": 8,
+    "search_term": "銀行櫃員",
+    "key": "bank_teller",
+    "sector": "finance",
+    "ai_displacement_vector": "cognitive_routine",
+    "observation_purpose": "易自動化的金融服務"
+  },
+  {
+    "id": 9,
+    "search_term": "律師",
+    "key": "lawyer",
+    "sector": "legal",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "法律專業需求"
+  },
+  {
+    "id": 10,
+    "search_term": "法務助理",
+    "key": "legal_assistant",
+    "sector": "legal",
+    "ai_displacement_vector": "cognitive_routine",
+    "observation_purpose": "法律輔助工作"
+  },
+  {
+    "id": 11,
+    "search_term": "醫師",
+    "key": "doctor",
+    "sector": "healthcare",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "醫療專業需求"
+  },
+  {
+    "id": 12,
+    "search_term": "護理師",
+    "key": "nurse",
+    "sector": "healthcare",
+    "ai_displacement_vector": "physical_nonroutine",
+    "observation_purpose": "照護工作需求"
+  },
+  {
+    "id": 13,
+    "search_term": "藥師",
+    "key": "pharmacist",
+    "sector": "healthcare",
+    "ai_displacement_vector": "cognitive_routine",
+    "observation_purpose": "醫藥配藥工作"
+  },
+  {
+    "id": 14,
+    "search_term": "營養師",
+    "key": "nutritionist",
+    "sector": "healthcare",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "健康諮詢需求"
+  },
+  {
+    "id": 15,
+    "search_term": "教師",
+    "key": "teacher",
+    "sector": "education",
+    "ai_displacement_vector": "interpersonal",
+    "observation_purpose": "教育工作需求"
+  },
+  {
+    "id": 16,
+    "search_term": "補習班老師",
+    "key": "cram_school_teacher",
+    "sector": "education",
+    "ai_displacement_vector": "cognitive_routine",
+    "observation_purpose": "補教產業需求"
+  },
+  {
+    "id": 17,
+    "search_term": "建築師",
+    "key": "architect",
+    "sector": "construction",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "設計專業需求"
+  },
+  {
+    "id": 18,
+    "search_term": "土木工程師",
+    "key": "civil_engineer",
+    "sector": "construction",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "基礎建設需求"
+  },
+  {
+    "id": 19,
+    "search_term": "工地主任",
+    "key": "site_supervisor",
+    "sector": "construction",
+    "ai_displacement_vector": "physical_nonroutine",
+    "observation_purpose": "工地管理需求"
+  },
+  {
+    "id": 20,
+    "search_term": "機械工程師",
+    "key": "mechanical_engineer",
+    "sector": "manufacturing",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "製造業技術需求"
+  },
+  {
+    "id": 21,
+    "search_term": "作業員",
+    "key": "production_operator",
+    "sector": "manufacturing",
+    "ai_displacement_vector": "physical_routine",
+    "observation_purpose": "易自動化的體力勞動"
+  },
+  {
+    "id": 22,
+    "search_term": "品管工程師",
+    "key": "qa_inspector",
+    "sector": "manufacturing",
+    "ai_displacement_vector": "cognitive_routine",
+    "observation_purpose": "品質控制需求"
+  },
+  {
+    "id": 23,
+    "search_term": "門市人員",
+    "key": "retail_staff",
+    "sector": "retail_service",
+    "ai_displacement_vector": "physical_routine",
+    "observation_purpose": "零售服務需求"
+  },
+  {
+    "id": 24,
+    "search_term": "客服人員",
+    "key": "customer_service",
+    "sector": "retail_service",
+    "ai_displacement_vector": "cognitive_routine",
+    "observation_purpose": "客服自動化趨勢"
+  },
+  {
+    "id": 25,
+    "search_term": "餐飲服務人員",
+    "key": "food_service",
+    "sector": "retail_service",
+    "ai_displacement_vector": "physical_nonroutine",
+    "observation_purpose": "餐飲業需求"
+  },
+  {
+    "id": 26,
+    "search_term": "倉儲人員",
+    "key": "warehouse_worker",
+    "sector": "logistics",
+    "ai_displacement_vector": "physical_routine",
+    "observation_purpose": "物流倉儲需求"
+  },
+  {
+    "id": 27,
+    "search_term": "貨運司機",
+    "key": "truck_driver",
+    "sector": "logistics",
+    "ai_displacement_vector": "physical_nonroutine",
+    "observation_purpose": "運輸業需求"
+  },
+  {
+    "id": 28,
+    "search_term": "平面設計師",
+    "key": "graphic_designer",
+    "sector": "creative",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "創意設計需求"
+  },
+  {
+    "id": 29,
+    "search_term": "文案編輯",
+    "key": "copywriter",
+    "sector": "creative",
+    "ai_displacement_vector": "cognitive_routine",
+    "observation_purpose": "內容創作需求"
+  },
+  {
+    "id": 30,
+    "search_term": "翻譯人員",
+    "key": "translator",
+    "sector": "creative",
+    "ai_displacement_vector": "cognitive_routine",
+    "observation_purpose": "機器翻譯影響"
+  },
+  {
+    "id": 31,
+    "search_term": "照顧服務員",
+    "key": "caregiver",
+    "sector": "care",
+    "ai_displacement_vector": "physical_nonroutine",
+    "observation_purpose": "長照需求增長"
+  },
+  {
+    "id": 32,
+    "search_term": "幼教老師",
+    "key": "preschool_teacher",
+    "sector": "care",
+    "ai_displacement_vector": "interpersonal",
+    "observation_purpose": "幼教需求"
+  },
+  {
+    "id": 33,
+    "search_term": "會計師",
+    "key": "accountant",
+    "sector": "professional",
+    "ai_displacement_vector": "cognitive_routine",
+    "observation_purpose": "會計自動化趨勢"
+  },
+  {
+    "id": 34,
+    "search_term": "人力資源管理",
+    "key": "hr_manager",
+    "sector": "professional",
+    "ai_displacement_vector": "cognitive_routine",
+    "observation_purpose": "HR工作需求"
+  },
+  {
+    "id": 35,
+    "search_term": "產品經理",
+    "key": "product_manager",
+    "sector": "professional",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "產品管理需求"
+  },
+  {
+    "id": 36,
+    "search_term": "房仲",
+    "key": "real_estate_agent",
+    "sector": "professional",
+    "ai_displacement_vector": "interpersonal",
+    "observation_purpose": "不動產仲介需求"
+  },
+  {
+    "id": 37,
+    "search_term": "農業技術人員",
+    "key": "agriculture_technician",
+    "sector": "agriculture",
+    "ai_displacement_vector": "physical_nonroutine",
+    "observation_purpose": "農業技術需求"
+  },
+  {
+    "id": 38,
+    "search_term": "行政人員",
+    "key": "admin_staff",
+    "sector": "public_service",
+    "ai_displacement_vector": "cognitive_routine",
+    "observation_purpose": "行政工作自動化"
+  },
+  {
+    "id": 39,
+    "search_term": "社工",
+    "key": "social_worker",
+    "sector": "public_service",
+    "ai_displacement_vector": "interpersonal",
+    "observation_purpose": "社會服務需求"
+  },
+  {
+    "id": 40,
+    "search_term": "prompt engineer",
+    "key": "prompt_engineer",
+    "sector": "tech",
+    "ai_displacement_vector": "ai_native",
+    "observation_purpose": "AI原生新職缺"
+  },
+  {
+    "id": 41,
+    "search_term": "水電技師",
+    "key": "plumber_electrician",
+    "sector": "skilled_trade",
+    "ai_displacement_vector": "physical_nonroutine",
+    "observation_purpose": "技術工需求"
+  },
+  {
+    "id": 42,
+    "search_term": "冷氣技師",
+    "key": "hvac_technician",
+    "sector": "skilled_trade",
+    "ai_displacement_vector": "physical_nonroutine",
+    "observation_purpose": "空調維修需求"
+  },
+  {
+    "id": 43,
+    "search_term": "汽車修護技師",
+    "key": "auto_mechanic",
+    "sector": "skilled_trade",
+    "ai_displacement_vector": "physical_nonroutine",
+    "observation_purpose": "汽車維修需求"
+  },
+  {
+    "id": 44,
+    "search_term": "廚師",
+    "key": "chef",
+    "sector": "skilled_trade",
+    "ai_displacement_vector": "physical_nonroutine",
+    "observation_purpose": "烹飪專業需求"
+  },
+  {
+    "id": 45,
+    "search_term": "美髮師",
+    "key": "hairstylist",
+    "sector": "skilled_trade",
+    "ai_displacement_vector": "physical_nonroutine",
+    "observation_purpose": "美容服務需求"
+  },
+  {
+    "id": 46,
+    "search_term": "電焊技師",
+    "key": "welder",
+    "sector": "skilled_trade",
+    "ai_displacement_vector": "physical_nonroutine",
+    "observation_purpose": "焊接技術需求"
+  },
+  {
+    "id": 47,
+    "search_term": "保全人員",
+    "key": "security_guard",
+    "sector": "skilled_trade",
+    "ai_displacement_vector": "physical_routine",
+    "observation_purpose": "安全防護需求"
+  },
+  {
+    "id": 48,
+    "search_term": "清潔人員",
+    "key": "cleaner",
+    "sector": "skilled_trade",
+    "ai_displacement_vector": "physical_routine",
+    "observation_purpose": "清潔服務需求"
+  },
+  {
+    "id": 49,
+    "search_term": "總經理",
+    "key": "general_manager",
+    "sector": "management",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "高階管理需求"
+  },
+  {
+    "id": 50,
+    "search_term": "技術主管",
+    "key": "tech_director",
+    "sector": "management",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "技術管理需求"
+  },
+  {
+    "id": 51,
+    "search_term": "財務主管",
+    "key": "finance_director",
+    "sector": "management",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "財務管理需求"
+  },
+  {
+    "id": 52,
+    "search_term": "營運主管",
+    "key": "operations_director",
+    "sector": "management",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "營運管理需求"
+  },
+  {
+    "id": 53,
+    "search_term": "人資主管",
+    "key": "hr_director",
+    "sector": "management",
+    "ai_displacement_vector": "cognitive_nonroutine",
+    "observation_purpose": "人資管理需求"
+  }
+]

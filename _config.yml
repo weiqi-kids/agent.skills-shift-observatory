@@ -1,0 +1,94 @@
+title: Skills Shift Observatory
+description: 技能需求變化觀測站 — 追蹤全球就業市場變化與 AI 對各產業職缺的衝擊
+baseurl: "/agent.skills-shift-observatory"
+url: "https://weiqi-kids.github.io"
+
+# Theme
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+color_scheme: light
+
+# Logo and branding
+# logo: "/assets/images/logo.svg"
+# No logo configured - title will be displayed
+
+# Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Navigation
+nav_enabled: true
+nav_sort: case_insensitive
+
+# Footer
+footer_content: "Skills Shift Observatory &copy; 2026. Powered by Claude Code."
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/weiqi-kids/agent.skills-shift-observatory"
+gh_edit_branch: "main"
+gh_edit_view_mode: "edit"
+
+# Collections for Narrator reports
+collections:
+  reports:
+    output: true
+    permalink: /reports/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: "docs/Narrator"
+      type: "pages"
+    values:
+      layout: "default"
+      nav_exclude: false
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - core/
+  - lib/
+  - docs/Extractor/
+  - docs/SESSION_STATE.md
+  - docs/explored.md
+  - docs/taiwan-job-sources-research.md
+  - "*.sh"
+  - "*.py"
+  - .env
+  - .claude/
+  - CLAUDE.md
+  - extract_hn_jobs.py
+  - process_batch.sh
+  - process_range.sh
+
+# Include
+include:
+  - docs/
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-relative-links
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

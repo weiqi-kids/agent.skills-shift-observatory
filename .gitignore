@@ -1,0 +1,47 @@
+# 環境設定
+.env
+.env.local
+.env.*.local
+
+# 原始資料（由 fetch.sh 下載，不入版控）
+**/raw/
+*.xml
+*.jsonl
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jekyll / GitHub Pages
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+Gemfile.lock
+
+# Node (if any)
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.claude/
