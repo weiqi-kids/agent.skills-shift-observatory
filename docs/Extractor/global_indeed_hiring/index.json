@@ -1,0 +1,102 @@
+[
+  {
+    "id": "labor_market_overview-2026-01-15_hiring-labs-global-jobs-hiring-trends-reports-for-2026-md",
+    "title": "Hiring Lab's Global Jobs & Hiring Trends Reports for 2026",
+    "category": "labor_market_overview",
+    "date": "",
+    "file": "labor_market_overview/2026-01-15_hiring-labs-global-jobs-hiring-trends-reports-for-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "labor_market_overview-2026-01-13_best-jobs-methodology-md",
+    "title": "2026 Best Jobs Methodology: From Good to Great",
+    "category": "labor_market_overview",
+    "date": "",
+    "file": "labor_market_overview/2026-01-13_best-jobs-methodology.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "labor_market_overview-2026-01-07_november-2025-jolts-report-musical-chairs-but-the-music-has-stopped-md",
+    "title": "November 2025 JOLTS Report: Musical Chairs, but the Music Has Stopped",
+    "category": "labor_market_overview",
+    "date": "",
+    "file": "labor_market_overview/2026-01-07_november-2025-jolts-report-musical-chairs-but-the-music-has-stopped.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "job_seeker_behavior-2026-01-19_2025-indeed-workforce-insights-survey-md",
+    "title": "What Workers Expect When They're Expecting Better Work: Findings From the 2025 Indeed Workforce Insights Survey",
+    "category": "job_seeker_behavior",
+    "date": "",
+    "file": "job_seeker_behavior/2026-01-19_2025-indeed-workforce-insights-survey.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "job_seeker_behavior-2026-01-06_why-urban-and-rural-workers-see-the-future-so-differently-md",
+    "title": "The Great Divide: Why Urban and Rural Workers See the Future So Differently",
+    "category": "job_seeker_behavior",
+    "date": "",
+    "file": "job_seeker_behavior/2026-01-06_why-urban-and-rural-workers-see-the-future-so-differently.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "job_seeker_behavior-2025-12-29_two-workforces-whos-using-ai-and-whos-getting-left-behind-md",
+    "title": "A Tale of Two Workforces: Who's Using AI and Who's Getting Left Behind",
+    "category": "job_seeker_behavior",
+    "date": "",
+    "file": "job_seeker_behavior/2025-12-29_two-workforces-whos-using-ai-and-whos-getting-left-behind.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "job_seeker_behavior-2025-12-23_what-different-generations-want-when-they-seek-a-job-md",
+    "title": "Age Is More Than a Number: What Different Generations Want When They Seek a Job",
+    "category": "job_seeker_behavior",
+    "date": "",
+    "file": "job_seeker_behavior/2025-12-23_what-different-generations-want-when-they-seek-a-job.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "job_posting_trend-2026-01-22_january-labor-market-update-jobs-mentioning-ai-are-growing-amid-broader-hiring-weakness-md",
+    "title": "January 2026 US Labor Market Update: Jobs Mentioning AI Are Growing Amid Broader Hiring Weakness",
+    "category": "job_posting_trend",
+    "date": "",
+    "file": "job_posting_trend/2026-01-22_january-labor-market-update-jobs-mentioning-ai-are-growing-amid-broader-hiring-weakness.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "job_posting_trend-2026-01-09_december-2025-jobs-report-md",
+    "title": "December 2025 Jobs Report: The Job Market Doesn't Have to Break to Be Broken",
+    "category": "job_posting_trend",
+    "date": "",
+    "file": "job_posting_trend/2026-01-09_december-2025-jobs-report.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "industry_hiring-2026-01-16_ai-adoption-accelerating-still-concentrated-among-largest-firms-md",
+    "title": "AI Adoption Is Accelerating but Still Concentrated Among the Largest Firms",
+    "category": "industry_hiring",
+    "date": "",
+    "file": "industry_hiring/2026-01-16_ai-adoption-accelerating-still-concentrated-among-largest-firms.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  }
+]

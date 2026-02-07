@@ -1,0 +1,232 @@
+[
+  {
+    "id": "salary_growth-2025-usa-hiring-trends-md",
+    "title": "",
+    "category": "salary_growth",
+    "date": "",
+    "file": "salary_growth/2025-usa-hiring-trends.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "salary_growth-2025-canada-hiring-trends-md",
+    "title": "",
+    "category": "salary_growth",
+    "date": "",
+    "file": "salary_growth/2025-canada-hiring-trends.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "salary_growth-2024-canada-hiring-trends-md",
+    "title": "",
+    "category": "salary_growth",
+    "date": "",
+    "file": "salary_growth/2024-canada-hiring-trends.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "salary_benchmark-2026-uk-tech-contractor-rates-md",
+    "title": "",
+    "category": "salary_benchmark",
+    "date": "",
+    "file": "salary_benchmark/2026-uk-tech-contractor-rates.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "salary_benchmark-2026-uk-procurement-md",
+    "title": "",
+    "category": "salary_benchmark",
+    "date": "",
+    "file": "salary_benchmark/2026-uk-procurement.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "salary_benchmark-2026-uk-digital-sector-md",
+    "title": "",
+    "category": "salary_benchmark",
+    "date": "",
+    "file": "salary_benchmark/2026-uk-digital-sector.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "salary_benchmark-2026-newzealand-highest-paying-jobs-md",
+    "title": "",
+    "category": "salary_benchmark",
+    "date": "",
+    "file": "salary_benchmark/2026-newzealand-highest-paying-jobs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "salary_benchmark-2026-australia-highest-paying-jobs-md",
+    "title": "",
+    "category": "salary_benchmark",
+    "date": "",
+    "file": "salary_benchmark/2026-australia-highest-paying-jobs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "regional_comparison-2026-uk-overview-md",
+    "title": "",
+    "category": "regional_comparison",
+    "date": "",
+    "file": "regional_comparison/2026-uk-overview.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "regional_comparison-2026-singapore-overview-md",
+    "title": "",
+    "category": "regional_comparison",
+    "date": "",
+    "file": "regional_comparison/2026-singapore-overview.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "regional_comparison-2026-newzealand-overview-md",
+    "title": "",
+    "category": "regional_comparison",
+    "date": "",
+    "file": "regional_comparison/2026-newzealand-overview.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "regional_comparison-2026-japan-overview-md",
+    "title": "",
+    "category": "regional_comparison",
+    "date": "",
+    "file": "regional_comparison/2026-japan-overview.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "regional_comparison-2026-hongkong-overview-md",
+    "title": "",
+    "category": "regional_comparison",
+    "date": "",
+    "file": "regional_comparison/2026-hongkong-overview.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "regional_comparison-2026-global-overview-md",
+    "title": "",
+    "category": "regional_comparison",
+    "date": "",
+    "file": "regional_comparison/2026-global-overview.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "regional_comparison-2026-germany-overview-md",
+    "title": "",
+    "category": "regional_comparison",
+    "date": "",
+    "file": "regional_comparison/2026-germany-overview.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "regional_comparison-2026-china-overview-md",
+    "title": "",
+    "category": "regional_comparison",
+    "date": "",
+    "file": "regional_comparison/2026-china-overview.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "regional_comparison-2026-canada-overview-md",
+    "title": "",
+    "category": "regional_comparison",
+    "date": "",
+    "file": "regional_comparison/2026-canada-overview.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "regional_comparison-2026-australia-overview-md",
+    "title": "",
+    "category": "regional_comparison",
+    "date": "",
+    "file": "regional_comparison/2026-australia-overview.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "hot_skills-2026-uk-tech-talent-explorer-md",
+    "title": "",
+    "category": "hot_skills",
+    "date": "",
+    "file": "hot_skills/2026-uk-tech-talent-explorer.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "employer_strategy-2026-newzealand-pay-rise-expectations-md",
+    "title": "",
+    "category": "employer_strategy",
+    "date": "",
+    "file": "employer_strategy/2026-newzealand-pay-rise-expectations.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "employer_strategy-2026-newzealand-how-to-ask-pay-rise-md",
+    "title": "",
+    "category": "employer_strategy",
+    "date": "",
+    "file": "employer_strategy/2026-newzealand-how-to-ask-pay-rise.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "employer_strategy-2026-australia-pay-rise-expectations-md",
+    "title": "",
+    "category": "employer_strategy",
+    "date": "",
+    "file": "employer_strategy/2026-australia-pay-rise-expectations.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "employer_strategy-2026-australia-how-to-ask-pay-rise-md",
+    "title": "",
+    "category": "employer_strategy",
+    "date": "",
+    "file": "employer_strategy/2026-australia-how-to-ask-pay-rise.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  }
+]

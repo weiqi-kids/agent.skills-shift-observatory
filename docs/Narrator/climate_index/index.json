@@ -1,0 +1,18 @@
+[
+  {
+    "id": "index-md",
+    "title": "景氣溫度計",
+    "date": "",
+    "period": "",
+    "file": "index.md",
+    "source_mode": "climate_index"
+  },
+  {
+    "id": "2026-W06-climate-index-md",
+    "title": "就業景氣溫度計 — 2026年第06週",
+    "date": "2026-W06",
+    "period": "",
+    "file": "2026-W06-climate-index.md",
+    "source_mode": "climate_index"
+  }
+]

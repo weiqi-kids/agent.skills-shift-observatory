@@ -1,0 +1,212 @@
+[
+  {
+    "id": "work_satisfaction-2025_work-environment-satisfaction-and-preferences-md",
+    "title": "Stack Overflow 2025 — 工作環境、滿意度與偏好",
+    "category": "work_satisfaction",
+    "date": "",
+    "file": "work_satisfaction/2025_work-environment-satisfaction-and-preferences.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "work_satisfaction-2024_work-environment-satisfaction-and-preferences-md",
+    "title": "Stack Overflow 2024 — 工作環境、滿意度與偏好",
+    "category": "work_satisfaction",
+    "date": "",
+    "file": "work_satisfaction/2024_work-environment-satisfaction-and-preferences.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "work_satisfaction-2023_work-environment-satisfaction-and-preferences-md",
+    "title": "Stack Overflow 2023 — 工作環境、滿意度與偏好",
+    "category": "work_satisfaction",
+    "date": "",
+    "file": "work_satisfaction/2023_work-environment-satisfaction-and-preferences.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "salary_survey-2025_compensation-and-benefits-md",
+    "title": "Stack Overflow 2025 — 薪資與福利調查",
+    "category": "salary_survey",
+    "date": "",
+    "file": "salary_survey/2025_compensation-and-benefits.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "salary_survey-2024_compensation-and-benefits-md",
+    "title": "Stack Overflow 2024 — 薪資與福利調查",
+    "category": "salary_survey",
+    "date": "",
+    "file": "salary_survey/2024_compensation-and-benefits.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "salary_survey-2023_compensation-and-benefits-md",
+    "title": "Stack Overflow 2023 — 薪資與福利調查",
+    "category": "salary_survey",
+    "date": "",
+    "file": "salary_survey/2023_compensation-and-benefits.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "learning_path-2025_learning-resources-and-education-paths-md",
+    "title": "Stack Overflow 2025 — 學習資源與教育路徑",
+    "category": "learning_path",
+    "date": "",
+    "file": "learning_path/2025_learning-resources-and-education-paths.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "learning_path-2024_learning-resources-and-education-paths-md",
+    "title": "Stack Overflow 2024 — 學習資源與教育路徑",
+    "category": "learning_path",
+    "date": "",
+    "file": "learning_path/2024_learning-resources-and-education-paths.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "language_framework-2025_programming-languages-frameworks-and-tools-usage-md",
+    "title": "Stack Overflow 2025 — 程式語言、框架與工具使用率",
+    "category": "language_framework",
+    "date": "",
+    "file": "language_framework/2025_programming-languages-frameworks-and-tools-usage.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "language_framework-2025_ai-tools-usage-and-attitudes-md",
+    "title": "Stack Overflow 2025 — AI 工具使用率與態度",
+    "category": "language_framework",
+    "date": "",
+    "file": "language_framework/2025_ai-tools-usage-and-attitudes.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "language_framework-2024_programming-languages-frameworks-and-tools-usage-md",
+    "title": "Stack Overflow 2024 — 程式語言、框架與工具使用率",
+    "category": "language_framework",
+    "date": "",
+    "file": "language_framework/2024_programming-languages-frameworks-and-tools-usage.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "language_framework-2024_ai-tools-usage-and-attitudes-md",
+    "title": "Stack Overflow 2024 — AI 工具使用率與態度",
+    "category": "language_framework",
+    "date": "",
+    "file": "language_framework/2024_ai-tools-usage-and-attitudes.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "language_framework-2023_programming-languages-frameworks-and-tools-usage-md",
+    "title": "Stack Overflow 2023 — 程式語言、框架與工具使用率",
+    "category": "language_framework",
+    "date": "",
+    "file": "language_framework/2023_programming-languages-frameworks-and-tools-usage.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "developer_profile-2025_survey-overview-md",
+    "title": "Stack Overflow 2025 年度開發者調查總覽",
+    "category": "developer_profile",
+    "date": "",
+    "file": "developer_profile/2025_survey-overview.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "developer_profile-2025_raw-dataset-download-md",
+    "title": "Stack Overflow 2025 調查原始資料集下載",
+    "category": "developer_profile",
+    "date": "",
+    "file": "developer_profile/2025_raw-dataset-download.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "developer_profile-2025_developer-demographics-experience-and-education-md",
+    "title": "Stack Overflow 2025 — 開發者人口統計、經驗與教育",
+    "category": "developer_profile",
+    "date": "",
+    "file": "developer_profile/2025_developer-demographics-experience-and-education.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "developer_profile-2024_survey-overview-md",
+    "title": "Stack Overflow 2024 年度開發者調查總覽",
+    "category": "developer_profile",
+    "date": "",
+    "file": "developer_profile/2024_survey-overview.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "developer_profile-2024_raw-dataset-download-md",
+    "title": "Stack Overflow 2024 調查原始資料集下載",
+    "category": "developer_profile",
+    "date": "",
+    "file": "developer_profile/2024_raw-dataset-download.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "developer_profile-2024_developer-demographics-experience-and-education-md",
+    "title": "Stack Overflow 2024 — 開發者人口統計、經驗與教育",
+    "category": "developer_profile",
+    "date": "",
+    "file": "developer_profile/2024_developer-demographics-experience-and-education.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "developer_profile-2023_survey-overview-md",
+    "title": "Stack Overflow 2023 年度開發者調查總覽",
+    "category": "developer_profile",
+    "date": "",
+    "file": "developer_profile/2023_survey-overview.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  },
+  {
+    "id": "developer_profile-2023_raw-dataset-download-md",
+    "title": "Stack Overflow 2023 調查原始資料集下載",
+    "category": "developer_profile",
+    "date": "",
+    "file": "developer_profile/2023_raw-dataset-download.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_stackoverflow"
+  }
+]

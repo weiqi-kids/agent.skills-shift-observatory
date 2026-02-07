@@ -1,0 +1,32 @@
+[
+  {
+    "id": "talent_shortage-2026-talent-shortage-global-md",
+    "title": "",
+    "category": "talent_shortage",
+    "date": "",
+    "file": "talent_shortage/2026-talent-shortage-global.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_manpower_outlook"
+  },
+  {
+    "id": "net_outlook_index-2026-Q1-global-md",
+    "title": "",
+    "category": "net_outlook_index",
+    "date": "",
+    "file": "net_outlook_index/2026-Q1-global.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_manpower_outlook"
+  },
+  {
+    "id": "net_outlook_index-2026-Q1-global-alt-md",
+    "title": "",
+    "category": "net_outlook_index",
+    "date": "",
+    "file": "net_outlook_index/2026-Q1-global-alt.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_manpower_outlook"
+  }
+]

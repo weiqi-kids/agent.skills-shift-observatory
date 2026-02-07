@@ -1,0 +1,1432 @@
+[
+  {
+    "id": "unemployment_rate-LNS14000000_2025-12-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2025-12.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2025-11-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2025-11.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2025-10-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2025-10.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2025-09-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2025-09.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2025-08-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2025-08.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2025-07-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2025-07.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2025-06-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2025-06.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2025-05-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2025-05.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2025-04-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2025-04.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2025-03-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2025-03.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2025-02-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2025-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2025-01-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2025-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2024-12-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2024-12.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2024-11-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2024-11.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2024-10-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2024-10.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2024-09-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2024-09.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2024-08-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2024-08.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2024-07-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2024-07.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2024-06-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2024-06.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2024-05-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2024-05.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2024-04-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2024-04.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2024-03-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2024-03.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2024-02-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2024-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2024-01-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2024-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2025-12-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2025-12.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2025-11-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2025-11.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2025-10-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2025-10.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2025-09-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2025-09.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2025-08-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2025-08.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2025-07-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2025-07.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2025-06-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2025-06.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2025-05-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2025-05.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2025-04-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2025-04.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2025-03-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2025-03.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2025-02-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2025-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2025-01-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2025-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2024-12-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2024-12.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2024-11-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2024-11.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2024-10-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2024-10.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2024-09-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2024-09.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2024-08-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2024-08.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2024-07-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2024-07.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2024-06-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2024-06.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2024-05-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2024-05.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2024-04-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2024-04.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2024-03-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2024-03.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2024-02-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2024-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2024-01-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2024-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2025-12-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2025-12.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2025-11-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2025-11.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2025-10-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2025-10.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2025-09-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2025-09.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2025-08-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2025-08.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2025-07-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2025-07.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2025-06-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2025-06.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2025-05-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2025-05.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2025-04-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2025-04.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2025-03-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2025-03.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2025-02-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2025-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2025-01-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2025-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2024-12-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2024-12.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2024-11-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2024-11.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2024-10-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2024-10.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2024-09-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2024-09.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2024-08-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2024-08.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2024-07-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2024-07.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2024-06-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2024-06.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2024-05-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2024-05.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2024-04-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2024-04.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2024-03-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2024-03.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2024-02-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2024-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2024-01-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2024-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2025-11-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2025-11.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2025-10-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2025-10.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2025-09-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2025-09.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2025-08-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2025-08.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2025-07-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2025-07.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2025-06-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2025-06.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2025-05-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2025-05.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2025-04-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2025-04.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2025-03-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2025-03.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2025-02-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2025-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2025-01-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2025-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2024-12-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2024-12.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2024-11-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2024-11.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2024-10-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2024-10.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2024-09-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2024-09.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2024-08-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2024-08.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2024-07-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2024-07.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2024-06-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2024-06.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2024-05-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2024-05.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2024-04-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2024-04.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2024-03-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2024-03.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2024-02-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2024-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2024-01-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2024-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2025-12-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2025-12.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2025-11-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2025-11.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2025-10-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2025-10.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2025-09-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2025-09.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2025-08-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2025-08.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2025-07-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2025-07.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2025-06-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2025-06.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2025-05-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2025-05.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2025-04-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2025-04.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2025-03-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2025-03.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2025-02-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2025-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2025-01-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2025-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2024-12-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2024-12.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2024-11-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2024-11.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2024-10-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2024-10.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2024-09-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2024-09.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2024-08-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2024-08.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2024-07-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2024-07.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2024-06-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2024-06.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2024-05-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2024-05.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2024-04-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2024-04.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2024-03-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2024-03.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2024-02-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2024-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2024-01-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2024-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2025-12-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2025-12.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2025-11-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2025-11.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2025-10-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2025-10.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2025-09-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2025-09.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2025-08-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2025-08.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2025-07-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2025-07.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2025-06-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2025-06.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2025-05-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2025-05.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2025-04-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2025-04.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2025-03-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2025-03.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2025-02-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2025-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2025-01-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2025-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2024-12-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2024-12.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2024-11-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2024-11.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2024-10-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2024-10.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2024-09-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2024-09.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2024-08-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2024-08.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2024-07-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2024-07.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2024-06-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2024-06.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2024-05-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2024-05.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2024-04-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2024-04.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2024-03-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2024-03.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2024-02-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2024-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2024-01-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2024-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  }
+]

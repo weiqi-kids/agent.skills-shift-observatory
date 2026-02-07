@@ -1,0 +1,18 @@
+[
+  {
+    "id": "index-md",
+    "title": "薪資帶",
+    "date": "",
+    "period": "",
+    "file": "index.md",
+    "source_mode": "salary_bands"
+  },
+  {
+    "id": "2026-W06-salary-bands-md",
+    "title": "薪資帶分析 — 2026年第06週",
+    "date": "2026-W06",
+    "period": "",
+    "file": "2026-W06-salary-bands.md",
+    "source_mode": "salary_bands"
+  }
+]
