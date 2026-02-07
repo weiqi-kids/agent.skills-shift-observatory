@@ -12,7 +12,7 @@ permalink: /
 追蹤全球就業市場變化與 AI 對各產業職缺的衝擊
 {: .fs-6 .fw-300 }
 
-[景氣溫度計]({{ site.baseurl }}/reports/climate-index-w06/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[景氣溫度計]({{ site.baseurl }}/reports/climate-index-w07/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [技能漂移]({{ site.baseurl }}/reports/skills-drift-w06/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [產業分層]({{ site.baseurl }}/reports/industry-segments-w06/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [薪資帶]({{ site.baseurl }}/reports/salary-bands-w06/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
