@@ -89,8 +89,20 @@
 對每個 Mode 依序執行：
 
 1. 讀取該 Mode 的 `CLAUDE.md` 和 `core/Narrator/CLAUDE.md`
-2. 讀取 CLAUDE.md 中宣告的來源 Layer 資料（`docs/Extractor/{layer_name}/` 下的 `.md` 檔）
-3. 依照輸出框架產出報告到 `docs/Narrator/{mode_name}/`
+2. 從 Qdrant 向量搜尋取得相關資料（若 Qdrant 可用）
+3. 讀取 CLAUDE.md 中宣告的來源 Layer 資料（`docs/Extractor/{layer_name}/` 下的 `.md` 檔）
+4. 依照輸出框架產出報告到 `docs/Narrator/{mode_name}/`
+5. 更新報告的 Jekyll 前置資料（nav_order 等）
+
+### 步驟五：發布到 GitHub Pages
+
+完成報告產出後，自動發布更新：
+
+1. 執行 `git add docs/Narrator/`
+2. 執行 `git commit -m "更新報告: {YYYY}-W{WW}"`
+3. 執行 `git pull --rebase && git push`
+
+> **注意**：推送後 GitHub Actions 會自動觸發 `pages.yml` 工作流程，重新建置並部署網站。
 
 ### 指定執行
 
