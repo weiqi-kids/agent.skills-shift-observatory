@@ -1,5 +1,35 @@
 [
   {
+    "id": "labor_market_overview-2026-02-05_december-2025-jolts-report-md",
+    "title": "December 2025 JOLTS Report: Balance or Breaking Point?",
+    "category": "labor_market_overview",
+    "date": "",
+    "file": "labor_market_overview/2026-02-05_december-2025-jolts-report.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "labor_market_overview-2026-02-03_jobs-day-data-on-hold-md",
+    "title": "Jobs Day Data Is on Hold, and the Labor Market May Be Too",
+    "category": "labor_market_overview",
+    "date": "",
+    "file": "labor_market_overview/2026-02-03_jobs-day-data-on-hold.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "labor_market_overview-2026-01-28_fomc-reaction-cautious-pause-md",
+    "title": "January 2026 FOMC Reaction: A Cautious Pause",
+    "category": "labor_market_overview",
+    "date": "",
+    "file": "labor_market_overview/2026-01-28_fomc-reaction-cautious-pause.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
     "id": "labor_market_overview-2026-01-15_hiring-labs-global-jobs-hiring-trends-reports-for-2026-md",
     "title": "Hiring Lab's Global Jobs & Hiring Trends Reports for 2026",
     "category": "labor_market_overview",
@@ -65,6 +95,16 @@
     "category": "job_seeker_behavior",
     "date": "",
     "file": "job_seeker_behavior/2025-12-23_what-different-generations-want-when-they-seek-a-job.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "job_posting_trend-2026-01-28_college-degrees-skills-first-market-md",
+    "title": "Where Do College Degrees Still Matter in a \"Skills-First\" Job Market?",
+    "category": "job_posting_trend",
+    "date": "",
+    "file": "job_posting_trend/2026-01-28_college-degrees-skills-first-market.md",
     "source": "",
     "severity": "",
     "source_layer": "global_indeed_hiring"
