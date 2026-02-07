@@ -58,7 +58,27 @@
 
 - JSONL 萃取可平行分派多個 Task（例如：20 筆 JSONL 可一次分派 10 個 Task）
 - 多個 Layer 的 fetch.sh 可平行執行（彼此獨立）
-- Mode 報告產出依序執行（後一 Mode 可能依賴前一 Mode 的輸出作為上下文）
+- Mode 報告產出：前 4 個 Mode 可平行執行，**career_strategy 必須最後執行**（依賴其他報告輸出）
+
+### 2.4 背景執行與主執行緒分工
+
+**原則**：Opus 主執行緒保持空閒以監控進度、處理例外，耗時任務委派給 Sonnet 背景執行。
+
+| 任務類型 | 執行方式 | 說明 |
+|----------|----------|------|
+| fetch.sh（多個 Layer） | `Task(Bash, sonnet, run_in_background=true)` | 平行背景執行，Opus 監控 |
+| JSONL 萃取 | `Task(general-purpose, sonnet)` | 批次平行分派 |
+| Qdrant 搜尋 | Opus 直接執行 | 快速操作，不需委派 |
+| Mode 報告（前 4 個） | `Task(general-purpose, opus)` 平行 | 同時分派 4 個 Task |
+| career_strategy 報告 | `Task(general-purpose, opus)` | **等待前 4 個完成後**再執行 |
+| git push | Opus 直接執行 | 快速操作，需確認結果 |
+
+**背景任務監控**：
+```
+1. 分派 Task 時設定 run_in_background=true
+2. 使用 TaskOutput 檢查進度（block=false）
+3. 任務完成後繼續下一步驟
+```
 
 ---
 
@@ -84,25 +104,57 @@
 掃描 `core/Narrator/Modes/*/`，排除含有 `.disabled` 檔案的目錄。
 每個有效 Mode 目錄應包含 `CLAUDE.md`。
 
-### 步驟四：逐一執行 Mode
+### 步驟四：執行 Mode 報告產出
 
-對每個 Mode 依序執行：
+#### 4.1 執行順序
 
-1. 讀取該 Mode 的 `CLAUDE.md` 和 `core/Narrator/CLAUDE.md`
-2. 從 Qdrant 向量搜尋取得相關資料（若 Qdrant 可用）
-3. 讀取 CLAUDE.md 中宣告的來源 Layer 資料（`docs/Extractor/{layer_name}/` 下的 `.md` 檔）
-4. 依照輸出框架產出報告到 `docs/Narrator/{mode_name}/`
-5. 更新報告的 Jekyll 前置資料（nav_order 等）
+```
+第一批（平行執行）：
+├── Task(opus) → climate_index
+├── Task(opus) → skills_drift
+├── Task(opus) → industry_segments
+└── Task(opus) → salary_bands
+
+等待第一批完成後：
+└── Task(opus) → career_strategy（依賴前 4 個報告）
+```
+
+#### 4.2 每個 Mode 執行步驟
+
+1. **Qdrant 向量搜尋**（Opus 主執行緒執行，取得相關資料）
+2. **分派 Task(opus)**，prompt 包含：
+   - 該 Mode 的 `CLAUDE.md` 指令
+   - Qdrant 搜尋結果
+   - 來源 Layer 路徑（`docs/Extractor/{layer_name}/`）
+3. **Task 內部**：
+   - 讀取 Layer 資料（.md 檔）
+   - 產出報告到 `docs/Narrator/{mode_name}/`
+   - 報告必須標註「本報告使用 Qdrant 向量搜尋取得相關資料」
+   - 設定正確的 Jekyll 前置資料（nav_order = 10000 - 週次）
 
 ### 步驟五：發布到 GitHub Pages
 
 完成報告產出後，自動發布更新：
 
-1. 執行 `git add docs/Narrator/`
-2. 執行 `git commit -m "更新報告: {YYYY}-W{WW}"`
-3. 執行 `git pull --rebase && git push`
+1. **更新首頁 index.md**（全部項目，避免遺漏）：
+   - 頂部按鈕連結 → 最新週次
+   - 「最新報告」表格 → 週次 + 連結
+   - 「Modes 狀態」表格 → 最新報告週次
+   - 「最後更新」日期 → 當天日期
+
+2. **更新各 Mode 索引頁**：
+   - `docs/Narrator/{mode}/index.md` 的 `redirect_to` 和按鈕連結
+
+3. **提交並推送**：
+   ```bash
+   git add docs/Narrator/ index.md
+   git commit -m "更新報告: {YYYY}-W{WW}"
+   git pull --rebase && git push
+   ```
 
 > **注意**：推送後 GitHub Actions 會自動觸發 `pages.yml` 工作流程，重新建置並部署網站。
+
+> **⚠️ 常見錯誤**：首頁有多處週次引用，必須全部更新，不可只改按鈕。
 
 ### 指定執行
 
