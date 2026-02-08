@@ -23,17 +23,27 @@
 ```json
 {
   "dataset": "LFS_SEXAGE_I_R",
-  "description": "Unemployment rate by country",
-  "country": "KOR",
-  "country_name": "Korea",
-  "indicator": "UR",
+  "indicator": "UNE_RATE",
   "indicator_name": "Unemployment rate",
-  "time_period": "2025",
-  "value": 3.5,
+  "category": "unemployment_rate",
+  "country": "KOR",
+  "country_name": "South Korea",
+  "time_period": "2024",
+  "value": 2.8,
+  "unit": "%",
+  "age_group": "Y15T64",
+  "sex": "Total",
   "fetched_at": "2026-02-08T10:00:00Z",
   "source": "oecd_stat"
 }
 ```
+
+### 資料範圍
+
+- **涵蓋國家**：KOR, JPN, USA, DEU, GBR, FRA, CAN, AUS（8 個主要經濟體）
+- **年齡組**：Y15T64（15-64 歲勞動人口）
+- **性別**：Total（不分性別）
+- **時間範圍**：1960 年至今（依 OECD 資料可用性）
 
 ### 萃取邏輯
 
@@ -45,9 +55,9 @@
 
 | Category | 中文名稱 | 判定條件 |
 |----------|----------|----------|
-| `unemployment_rate` | 失業率 | indicator = UR |
-| `employment_rate` | 就業率 | indicator = ER |
-| `participation_rate` | 勞動參與率 | indicator = LFP |
+| `unemployment_rate` | 失業率 | indicator = UNE_RATE |
+| `employment_rate` | 就業率 | indicator = EMP_RATIO |
+| `participation_rate` | 勞動參與率 | indicator = LF_RATE |
 
 **嚴格限制：category 只能使用上述英文值，不可自行新增。**
 
