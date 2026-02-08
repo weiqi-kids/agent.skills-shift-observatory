@@ -1,0 +1,722 @@
+[
+  {
+    "id": "unemployment-2025_USA_UNE_TUNE_SEX_AGE_NB-md",
+    "title": "Unemployment by sex and age (thousands) — United States (2025)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025_USA_UNE_TUNE_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2025_USA_UNE_DEAP_SEX_AGE_RT-md",
+    "title": "Unemployment rate by sex and age (%) — United States (2025)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025_USA_UNE_DEAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2025_KOR_UNE_TUNE_SEX_AGE_NB-md",
+    "title": "Unemployment by sex and age (thousands) — South Korea (2025)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025_KOR_UNE_TUNE_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2025_KOR_UNE_DEAP_SEX_AGE_RT-md",
+    "title": "Unemployment rate by sex and age (%) — South Korea (2025)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025_KOR_UNE_DEAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2025_JPN_UNE_TUNE_SEX_AGE_NB-md",
+    "title": "Unemployment by sex and age (thousands) — Japan (2025)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025_JPN_UNE_TUNE_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2025_JPN_UNE_DEAP_SEX_AGE_RT-md",
+    "title": "Unemployment rate by sex and age (%) — Japan (2025)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025_JPN_UNE_DEAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2025_CAN_UNE_TUNE_SEX_AGE_NB-md",
+    "title": "Unemployment by sex and age (thousands) — Canada (2025)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025_CAN_UNE_TUNE_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2025_CAN_UNE_DEAP_SEX_AGE_RT-md",
+    "title": "Unemployment rate by sex and age (%) — Canada (2025)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025_CAN_UNE_DEAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_USA_UNE_TUNE_SEX_AGE_NB-md",
+    "title": "Unemployment by sex and age (thousands) — United States (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_USA_UNE_TUNE_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_USA_UNE_DEAP_SEX_AGE_RT-md",
+    "title": "Unemployment rate by sex and age (%) — United States (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_USA_UNE_DEAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_KOR_UNE_TUNE_SEX_AGE_NB-md",
+    "title": "Unemployment by sex and age (thousands) — South Korea (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_KOR_UNE_TUNE_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_KOR_UNE_DEAP_SEX_AGE_RT-md",
+    "title": "Unemployment rate by sex and age (%) — South Korea (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_KOR_UNE_DEAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_JPN_UNE_TUNE_SEX_AGE_NB-md",
+    "title": "Unemployment by sex and age (thousands) — Japan (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_JPN_UNE_TUNE_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_JPN_UNE_DEAP_SEX_AGE_RT-md",
+    "title": "Unemployment rate by sex and age (%) — Japan (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_JPN_UNE_DEAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_GBR_UNE_TUNE_SEX_AGE_NB-md",
+    "title": "Unemployment by sex and age (thousands) — United Kingdom (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_GBR_UNE_TUNE_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_GBR_UNE_DEAP_SEX_AGE_RT-md",
+    "title": "Unemployment rate by sex and age (%) — United Kingdom (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_GBR_UNE_DEAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_FRA_UNE_TUNE_SEX_AGE_NB-md",
+    "title": "Unemployment by sex and age (thousands) — France (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_FRA_UNE_TUNE_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_FRA_UNE_DEAP_SEX_AGE_RT-md",
+    "title": "Unemployment rate by sex and age (%) — France (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_FRA_UNE_DEAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_DEU_UNE_TUNE_SEX_AGE_NB-md",
+    "title": "Unemployment by sex and age (thousands) — Germany (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_DEU_UNE_TUNE_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_DEU_UNE_DEAP_SEX_AGE_RT-md",
+    "title": "Unemployment rate by sex and age (%) — Germany (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_DEU_UNE_DEAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_CAN_UNE_TUNE_SEX_AGE_NB-md",
+    "title": "Unemployment by sex and age (thousands) — Canada (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_CAN_UNE_TUNE_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_CAN_UNE_DEAP_SEX_AGE_RT-md",
+    "title": "Unemployment rate by sex and age (%) — Canada (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_CAN_UNE_DEAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_AUS_UNE_TUNE_SEX_AGE_NB-md",
+    "title": "Unemployment by sex and age (thousands) — Australia (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_AUS_UNE_TUNE_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "unemployment-2024_AUS_UNE_DEAP_SEX_AGE_RT-md",
+    "title": "Unemployment rate by sex and age (%) — Australia (2024)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024_AUS_UNE_DEAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "participation_rate-2025_USA_EAP_DWAP_SEX_AGE_RT-md",
+    "title": "Labour force participation rate (%) — United States (2025)",
+    "category": "participation_rate",
+    "date": "",
+    "file": "participation_rate/2025_USA_EAP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "participation_rate-2025_KOR_EAP_DWAP_SEX_AGE_RT-md",
+    "title": "Labour force participation rate (%) — South Korea (2025)",
+    "category": "participation_rate",
+    "date": "",
+    "file": "participation_rate/2025_KOR_EAP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "participation_rate-2025_JPN_EAP_DWAP_SEX_AGE_RT-md",
+    "title": "Labour force participation rate (%) — Japan (2025)",
+    "category": "participation_rate",
+    "date": "",
+    "file": "participation_rate/2025_JPN_EAP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "participation_rate-2025_CAN_EAP_DWAP_SEX_AGE_RT-md",
+    "title": "Labour force participation rate (%) — Canada (2025)",
+    "category": "participation_rate",
+    "date": "",
+    "file": "participation_rate/2025_CAN_EAP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "participation_rate-2024_USA_EAP_DWAP_SEX_AGE_RT-md",
+    "title": "Labour force participation rate (%) — United States (2024)",
+    "category": "participation_rate",
+    "date": "",
+    "file": "participation_rate/2024_USA_EAP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "participation_rate-2024_KOR_EAP_DWAP_SEX_AGE_RT-md",
+    "title": "Labour force participation rate (%) — South Korea (2024)",
+    "category": "participation_rate",
+    "date": "",
+    "file": "participation_rate/2024_KOR_EAP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "participation_rate-2024_JPN_EAP_DWAP_SEX_AGE_RT-md",
+    "title": "Labour force participation rate (%) — Japan (2024)",
+    "category": "participation_rate",
+    "date": "",
+    "file": "participation_rate/2024_JPN_EAP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "participation_rate-2024_GBR_EAP_DWAP_SEX_AGE_RT-md",
+    "title": "Labour force participation rate (%) — United Kingdom (2024)",
+    "category": "participation_rate",
+    "date": "",
+    "file": "participation_rate/2024_GBR_EAP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "participation_rate-2024_FRA_EAP_DWAP_SEX_AGE_RT-md",
+    "title": "Labour force participation rate (%) — France (2024)",
+    "category": "participation_rate",
+    "date": "",
+    "file": "participation_rate/2024_FRA_EAP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "participation_rate-2024_DEU_EAP_DWAP_SEX_AGE_RT-md",
+    "title": "Labour force participation rate (%) — Germany (2024)",
+    "category": "participation_rate",
+    "date": "",
+    "file": "participation_rate/2024_DEU_EAP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "participation_rate-2024_CAN_EAP_DWAP_SEX_AGE_RT-md",
+    "title": "Labour force participation rate (%) — Canada (2024)",
+    "category": "participation_rate",
+    "date": "",
+    "file": "participation_rate/2024_CAN_EAP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "participation_rate-2024_AUS_EAP_DWAP_SEX_AGE_RT-md",
+    "title": "Labour force participation rate (%) — Australia (2024)",
+    "category": "participation_rate",
+    "date": "",
+    "file": "participation_rate/2024_AUS_EAP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "labour_force-2025_USA_EAP_TEAP_SEX_AGE_NB-md",
+    "title": "Labour force by sex and age (thousands) — United States (2025)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025_USA_EAP_TEAP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "labour_force-2025_KOR_EAP_TEAP_SEX_AGE_NB-md",
+    "title": "Labour force by sex and age (thousands) — South Korea (2025)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025_KOR_EAP_TEAP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "labour_force-2025_JPN_EAP_TEAP_SEX_AGE_NB-md",
+    "title": "Labour force by sex and age (thousands) — Japan (2025)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025_JPN_EAP_TEAP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "labour_force-2025_CAN_EAP_TEAP_SEX_AGE_NB-md",
+    "title": "Labour force by sex and age (thousands) — Canada (2025)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025_CAN_EAP_TEAP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "labour_force-2024_USA_EAP_TEAP_SEX_AGE_NB-md",
+    "title": "Labour force by sex and age (thousands) — United States (2024)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024_USA_EAP_TEAP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "labour_force-2024_KOR_EAP_TEAP_SEX_AGE_NB-md",
+    "title": "Labour force by sex and age (thousands) — South Korea (2024)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024_KOR_EAP_TEAP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "labour_force-2024_JPN_EAP_TEAP_SEX_AGE_NB-md",
+    "title": "Labour force by sex and age (thousands) — Japan (2024)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024_JPN_EAP_TEAP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "labour_force-2024_GBR_EAP_TEAP_SEX_AGE_NB-md",
+    "title": "Labour force by sex and age (thousands) — United Kingdom (2024)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024_GBR_EAP_TEAP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "labour_force-2024_FRA_EAP_TEAP_SEX_AGE_NB-md",
+    "title": "Labour force by sex and age (thousands) — France (2024)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024_FRA_EAP_TEAP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "labour_force-2024_DEU_EAP_TEAP_SEX_AGE_NB-md",
+    "title": "Labour force by sex and age (thousands) — Germany (2024)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024_DEU_EAP_TEAP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "labour_force-2024_CAN_EAP_TEAP_SEX_AGE_NB-md",
+    "title": "Labour force by sex and age (thousands) — Canada (2024)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024_CAN_EAP_TEAP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "labour_force-2024_AUS_EAP_TEAP_SEX_AGE_NB-md",
+    "title": "Labour force by sex and age (thousands) — Australia (2024)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024_AUS_EAP_TEAP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2025_USA_EMP_TEMP_SEX_AGE_NB-md",
+    "title": "Employment by sex and age (thousands) — United States (2025)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025_USA_EMP_TEMP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2025_USA_EMP_DWAP_SEX_AGE_RT-md",
+    "title": "Employment-to-population ratio (%) — United States (2025)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025_USA_EMP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2025_KOR_EMP_TEMP_SEX_AGE_NB-md",
+    "title": "Employment by sex and age (thousands) — South Korea (2025)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025_KOR_EMP_TEMP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2025_KOR_EMP_DWAP_SEX_AGE_RT-md",
+    "title": "Employment-to-population ratio (%) — South Korea (2025)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025_KOR_EMP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2025_JPN_EMP_TEMP_SEX_AGE_NB-md",
+    "title": "Employment by sex and age (thousands) — Japan (2025)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025_JPN_EMP_TEMP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2025_JPN_EMP_DWAP_SEX_AGE_RT-md",
+    "title": "Employment-to-population ratio (%) — Japan (2025)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025_JPN_EMP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2025_CAN_EMP_TEMP_SEX_AGE_NB-md",
+    "title": "Employment by sex and age (thousands) — Canada (2025)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025_CAN_EMP_TEMP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2025_CAN_EMP_DWAP_SEX_AGE_RT-md",
+    "title": "Employment-to-population ratio (%) — Canada (2025)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025_CAN_EMP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_USA_EMP_TEMP_SEX_AGE_NB-md",
+    "title": "Employment by sex and age (thousands) — United States (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_USA_EMP_TEMP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_USA_EMP_DWAP_SEX_AGE_RT-md",
+    "title": "Employment-to-population ratio (%) — United States (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_USA_EMP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_KOR_EMP_TEMP_SEX_AGE_NB-md",
+    "title": "Employment by sex and age (thousands) — South Korea (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_KOR_EMP_TEMP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_KOR_EMP_DWAP_SEX_AGE_RT-md",
+    "title": "Employment-to-population ratio (%) — South Korea (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_KOR_EMP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_JPN_EMP_TEMP_SEX_AGE_NB-md",
+    "title": "Employment by sex and age (thousands) — Japan (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_JPN_EMP_TEMP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_JPN_EMP_DWAP_SEX_AGE_RT-md",
+    "title": "Employment-to-population ratio (%) — Japan (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_JPN_EMP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_GBR_EMP_TEMP_SEX_AGE_NB-md",
+    "title": "Employment by sex and age (thousands) — United Kingdom (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_GBR_EMP_TEMP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_GBR_EMP_DWAP_SEX_AGE_RT-md",
+    "title": "Employment-to-population ratio (%) — United Kingdom (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_GBR_EMP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_FRA_EMP_TEMP_SEX_AGE_NB-md",
+    "title": "Employment by sex and age (thousands) — France (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_FRA_EMP_TEMP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_FRA_EMP_DWAP_SEX_AGE_RT-md",
+    "title": "Employment-to-population ratio (%) — France (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_FRA_EMP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_DEU_EMP_TEMP_SEX_AGE_NB-md",
+    "title": "Employment by sex and age (thousands) — Germany (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_DEU_EMP_TEMP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_DEU_EMP_DWAP_SEX_AGE_RT-md",
+    "title": "Employment-to-population ratio (%) — Germany (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_DEU_EMP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_CAN_EMP_TEMP_SEX_AGE_NB-md",
+    "title": "Employment by sex and age (thousands) — Canada (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_CAN_EMP_TEMP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_CAN_EMP_DWAP_SEX_AGE_RT-md",
+    "title": "Employment-to-population ratio (%) — Canada (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_CAN_EMP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_AUS_EMP_TEMP_SEX_AGE_NB-md",
+    "title": "Employment by sex and age (thousands) — Australia (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_AUS_EMP_TEMP_SEX_AGE_NB.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  },
+  {
+    "id": "employment-2024_AUS_EMP_DWAP_SEX_AGE_RT-md",
+    "title": "Employment-to-population ratio (%) — Australia (2024)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024_AUS_EMP_DWAP_SEX_AGE_RT.md",
+    "source": "- **來源**：ILO ILOSTAT",
+    "severity": "",
+    "source_layer": "global_ilo_stats"
+  }
+]

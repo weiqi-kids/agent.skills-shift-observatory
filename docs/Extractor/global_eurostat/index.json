@@ -1,0 +1,22 @@
+[
+  {
+    "id": "employment_rate-2024_EU27_2020_employment-md",
+    "title": "European Union - 27 countries Employment (2024)",
+    "category": "employment_rate",
+    "date": "",
+    "file": "employment_rate/2024_EU27_2020_employment.md",
+    "source": "**來源**：Eurostat",
+    "severity": "",
+    "source_layer": "global_eurostat"
+  },
+  {
+    "id": "employment_rate-2023_EU27_2020_employment-md",
+    "title": "European Union - 27 countries Employment (2023)",
+    "category": "employment_rate",
+    "date": "",
+    "file": "employment_rate/2023_EU27_2020_employment.md",
+    "source": "**來源**：Eurostat",
+    "severity": "",
+    "source_layer": "global_eurostat"
+  }
+]

@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "unemployment-2025-12_M6-md",
+    "title": "Unemployed persons — Australia (2025-12)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-12_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-12_M13-md",
+    "title": "Unemployment rate — Australia (2025-12)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-12_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-11_M6-md",
+    "title": "Unemployed persons — Australia (2025-11)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-11_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-11_M13-md",
+    "title": "Unemployment rate — Australia (2025-11)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-11_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-10_M6-md",
+    "title": "Unemployed persons — Australia (2025-10)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-10_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-10_M13-md",
+    "title": "Unemployment rate — Australia (2025-10)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-10_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-09_M6-md",
+    "title": "Unemployed persons — Australia (2025-09)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-09_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-09_M13-md",
+    "title": "Unemployment rate — Australia (2025-09)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-09_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-08_M6-md",
+    "title": "Unemployed persons — Australia (2025-08)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-08_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-08_M13-md",
+    "title": "Unemployment rate — Australia (2025-08)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-08_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-07_M6-md",
+    "title": "Unemployed persons — Australia (2025-07)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-07_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-07_M13-md",
+    "title": "Unemployment rate — Australia (2025-07)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-07_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-06_M6-md",
+    "title": "Unemployed persons — Australia (2025-06)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-06_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-06_M13-md",
+    "title": "Unemployment rate — Australia (2025-06)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-06_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-05_M6-md",
+    "title": "Unemployed persons — Australia (2025-05)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-05_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-05_M13-md",
+    "title": "Unemployment rate — Australia (2025-05)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-05_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-04_M6-md",
+    "title": "Unemployed persons — Australia (2025-04)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-04_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-04_M13-md",
+    "title": "Unemployment rate — Australia (2025-04)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-04_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-03_M6-md",
+    "title": "Unemployed persons — Australia (2025-03)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-03_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-03_M13-md",
+    "title": "Unemployment rate — Australia (2025-03)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-03_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-02_M6-md",
+    "title": "Unemployed persons — Australia (2025-02)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-02_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-02_M13-md",
+    "title": "Unemployment rate — Australia (2025-02)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-02_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-01_M6-md",
+    "title": "Unemployed persons — Australia (2025-01)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-01_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2025-01_M13-md",
+    "title": "Unemployment rate — Australia (2025-01)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2025-01_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-12_M6-md",
+    "title": "Unemployed persons — Australia (2024-12)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-12_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-12_M13-md",
+    "title": "Unemployment rate — Australia (2024-12)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-12_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-11_M6-md",
+    "title": "Unemployed persons — Australia (2024-11)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-11_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-11_M13-md",
+    "title": "Unemployment rate — Australia (2024-11)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-11_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-10_M6-md",
+    "title": "Unemployed persons — Australia (2024-10)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-10_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-10_M13-md",
+    "title": "Unemployment rate — Australia (2024-10)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-10_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-09_M6-md",
+    "title": "Unemployed persons — Australia (2024-09)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-09_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-09_M13-md",
+    "title": "Unemployment rate — Australia (2024-09)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-09_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-08_M6-md",
+    "title": "Unemployed persons — Australia (2024-08)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-08_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-08_M13-md",
+    "title": "Unemployment rate — Australia (2024-08)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-08_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-07_M6-md",
+    "title": "Unemployed persons — Australia (2024-07)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-07_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-07_M13-md",
+    "title": "Unemployment rate — Australia (2024-07)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-07_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-06_M6-md",
+    "title": "Unemployed persons — Australia (2024-06)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-06_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-06_M13-md",
+    "title": "Unemployment rate — Australia (2024-06)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-06_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-05_M6-md",
+    "title": "Unemployed persons — Australia (2024-05)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-05_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-05_M13-md",
+    "title": "Unemployment rate — Australia (2024-05)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-05_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-04_M6-md",
+    "title": "Unemployed persons — Australia (2024-04)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-04_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-04_M13-md",
+    "title": "Unemployment rate — Australia (2024-04)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-04_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-03_M6-md",
+    "title": "Unemployed persons — Australia (2024-03)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-03_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-03_M13-md",
+    "title": "Unemployment rate — Australia (2024-03)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-03_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-02_M6-md",
+    "title": "Unemployed persons — Australia (2024-02)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-02_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-02_M13-md",
+    "title": "Unemployment rate — Australia (2024-02)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-02_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-01_M6-md",
+    "title": "Unemployed persons — Australia (2024-01)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-01_M6.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2024-01_M13-md",
+    "title": "Unemployment rate — Australia (2024-01)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2024-01_M13.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-12_M9-md",
+    "title": "Labour Force — Australia (2025-12)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-12_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-12_M12-md",
+    "title": "Participation rate — Australia (2025-12)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-12_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-11_M9-md",
+    "title": "Labour Force — Australia (2025-11)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-11_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-11_M12-md",
+    "title": "Participation rate — Australia (2025-11)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-11_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-10_M9-md",
+    "title": "Labour Force — Australia (2025-10)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-10_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-10_M12-md",
+    "title": "Participation rate — Australia (2025-10)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-10_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-09_M9-md",
+    "title": "Labour Force — Australia (2025-09)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-09_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-09_M12-md",
+    "title": "Participation rate — Australia (2025-09)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-09_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-08_M9-md",
+    "title": "Labour Force — Australia (2025-08)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-08_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-08_M12-md",
+    "title": "Participation rate — Australia (2025-08)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-08_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-07_M9-md",
+    "title": "Labour Force — Australia (2025-07)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-07_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-07_M12-md",
+    "title": "Participation rate — Australia (2025-07)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-07_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-06_M9-md",
+    "title": "Labour Force — Australia (2025-06)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-06_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-06_M12-md",
+    "title": "Participation rate — Australia (2025-06)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-06_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-05_M9-md",
+    "title": "Labour Force — Australia (2025-05)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-05_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-05_M12-md",
+    "title": "Participation rate — Australia (2025-05)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-05_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-04_M9-md",
+    "title": "Labour Force — Australia (2025-04)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-04_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-04_M12-md",
+    "title": "Participation rate — Australia (2025-04)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-04_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-03_M9-md",
+    "title": "Labour Force — Australia (2025-03)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-03_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-03_M12-md",
+    "title": "Participation rate — Australia (2025-03)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-03_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-02_M9-md",
+    "title": "Labour Force — Australia (2025-02)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-02_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-02_M12-md",
+    "title": "Participation rate — Australia (2025-02)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-02_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-01_M9-md",
+    "title": "Labour Force — Australia (2025-01)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-01_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2025-01_M12-md",
+    "title": "Participation rate — Australia (2025-01)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2025-01_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-12_M9-md",
+    "title": "Labour Force — Australia (2024-12)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-12_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-12_M12-md",
+    "title": "Participation rate — Australia (2024-12)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-12_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-11_M9-md",
+    "title": "Labour Force — Australia (2024-11)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-11_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-11_M12-md",
+    "title": "Participation rate — Australia (2024-11)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-11_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-10_M9-md",
+    "title": "Labour Force — Australia (2024-10)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-10_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-10_M12-md",
+    "title": "Participation rate — Australia (2024-10)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-10_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-09_M9-md",
+    "title": "Labour Force — Australia (2024-09)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-09_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-09_M12-md",
+    "title": "Participation rate — Australia (2024-09)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-09_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-08_M9-md",
+    "title": "Labour Force — Australia (2024-08)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-08_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-08_M12-md",
+    "title": "Participation rate — Australia (2024-08)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-08_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-07_M9-md",
+    "title": "Labour Force — Australia (2024-07)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-07_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-07_M12-md",
+    "title": "Participation rate — Australia (2024-07)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-07_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-06_M9-md",
+    "title": "Labour Force — Australia (2024-06)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-06_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-06_M12-md",
+    "title": "Participation rate — Australia (2024-06)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-06_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-05_M9-md",
+    "title": "Labour Force — Australia (2024-05)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-05_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-05_M12-md",
+    "title": "Participation rate — Australia (2024-05)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-05_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-04_M9-md",
+    "title": "Labour Force — Australia (2024-04)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-04_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-04_M12-md",
+    "title": "Participation rate — Australia (2024-04)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-04_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-03_M9-md",
+    "title": "Labour Force — Australia (2024-03)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-03_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-03_M12-md",
+    "title": "Participation rate — Australia (2024-03)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-03_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-02_M9-md",
+    "title": "Labour Force — Australia (2024-02)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-02_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-02_M12-md",
+    "title": "Participation rate — Australia (2024-02)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-02_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-01_M9-md",
+    "title": "Labour Force — Australia (2024-01)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-01_M9.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2024-01_M12-md",
+    "title": "Participation rate — Australia (2024-01)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2024-01_M12.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-12_M3-md",
+    "title": "Employed persons — Australia (2025-12)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-12_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-12_M16-md",
+    "title": "Employment to population ratio — Australia (2025-12)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-12_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-11_M3-md",
+    "title": "Employed persons — Australia (2025-11)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-11_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-11_M16-md",
+    "title": "Employment to population ratio — Australia (2025-11)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-11_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-10_M3-md",
+    "title": "Employed persons — Australia (2025-10)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-10_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-10_M16-md",
+    "title": "Employment to population ratio — Australia (2025-10)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-10_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-09_M3-md",
+    "title": "Employed persons — Australia (2025-09)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-09_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-09_M16-md",
+    "title": "Employment to population ratio — Australia (2025-09)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-09_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-08_M3-md",
+    "title": "Employed persons — Australia (2025-08)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-08_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-08_M16-md",
+    "title": "Employment to population ratio — Australia (2025-08)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-08_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-07_M3-md",
+    "title": "Employed persons — Australia (2025-07)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-07_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-07_M16-md",
+    "title": "Employment to population ratio — Australia (2025-07)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-07_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-06_M3-md",
+    "title": "Employed persons — Australia (2025-06)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-06_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-06_M16-md",
+    "title": "Employment to population ratio — Australia (2025-06)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-06_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-05_M3-md",
+    "title": "Employed persons — Australia (2025-05)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-05_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-05_M16-md",
+    "title": "Employment to population ratio — Australia (2025-05)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-05_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-04_M3-md",
+    "title": "Employed persons — Australia (2025-04)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-04_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-04_M16-md",
+    "title": "Employment to population ratio — Australia (2025-04)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-04_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-03_M3-md",
+    "title": "Employed persons — Australia (2025-03)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-03_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-03_M16-md",
+    "title": "Employment to population ratio — Australia (2025-03)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-03_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-02_M3-md",
+    "title": "Employed persons — Australia (2025-02)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-02_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-02_M16-md",
+    "title": "Employment to population ratio — Australia (2025-02)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-02_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-01_M3-md",
+    "title": "Employed persons — Australia (2025-01)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-01_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2025-01_M16-md",
+    "title": "Employment to population ratio — Australia (2025-01)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2025-01_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-12_M3-md",
+    "title": "Employed persons — Australia (2024-12)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-12_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-12_M16-md",
+    "title": "Employment to population ratio — Australia (2024-12)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-12_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-11_M3-md",
+    "title": "Employed persons — Australia (2024-11)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-11_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-11_M16-md",
+    "title": "Employment to population ratio — Australia (2024-11)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-11_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-10_M3-md",
+    "title": "Employed persons — Australia (2024-10)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-10_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-10_M16-md",
+    "title": "Employment to population ratio — Australia (2024-10)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-10_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-09_M3-md",
+    "title": "Employed persons — Australia (2024-09)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-09_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-09_M16-md",
+    "title": "Employment to population ratio — Australia (2024-09)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-09_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-08_M3-md",
+    "title": "Employed persons — Australia (2024-08)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-08_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-08_M16-md",
+    "title": "Employment to population ratio — Australia (2024-08)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-08_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-07_M3-md",
+    "title": "Employed persons — Australia (2024-07)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-07_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-07_M16-md",
+    "title": "Employment to population ratio — Australia (2024-07)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-07_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-06_M3-md",
+    "title": "Employed persons — Australia (2024-06)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-06_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-06_M16-md",
+    "title": "Employment to population ratio — Australia (2024-06)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-06_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-05_M3-md",
+    "title": "Employed persons — Australia (2024-05)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-05_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-05_M16-md",
+    "title": "Employment to population ratio — Australia (2024-05)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-05_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-04_M3-md",
+    "title": "Employed persons — Australia (2024-04)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-04_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-04_M16-md",
+    "title": "Employment to population ratio — Australia (2024-04)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-04_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-03_M3-md",
+    "title": "Employed persons — Australia (2024-03)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-03_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-03_M16-md",
+    "title": "Employment to population ratio — Australia (2024-03)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-03_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-02_M3-md",
+    "title": "Employed persons — Australia (2024-02)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-02_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-02_M16-md",
+    "title": "Employment to population ratio — Australia (2024-02)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-02_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-01_M3-md",
+    "title": "Employed persons — Australia (2024-01)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-01_M3.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2024-01_M16-md",
+    "title": "Employment to population ratio — Australia (2024-01)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2024-01_M16.md",
+    "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  }
+]
