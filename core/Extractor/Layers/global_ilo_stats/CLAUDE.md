@@ -28,11 +28,10 @@
 
 | Category | 中文名稱 | 判定條件 |
 |----------|----------|----------|
-| `global_unemployment` | 全球失業 | indicator 包含 unemployment rate 相關代碼（UNE_*） |
-| `informal_employment` | 非正規就業 | indicator 包含 informal employment 相關代碼（EMP_TEMP_SEX_ECO_NB） |
-| `gender_wage_gap` | 性別薪資差距 | indicator 包含 wage gap 或 earnings by sex 相關代碼（EAR_*） |
-| `youth_employment` | 青年就業 | age_group 為 youth 或 15-24 歲 |
-| `industry_distribution` | 產業分布 | indicator 包含 employment by economic activity（EMP_TEMP_SEX_ECO_NB） |
+| `employment` | 就業統計 | indicator = EMP_TEMP_SEX_AGE_NB_A 或 EMP_DWAP_SEX_AGE_RT_A |
+| `unemployment` | 失業統計 | indicator = UNE_TUNE_SEX_AGE_NB_A 或 UNE_DEAP_SEX_AGE_RT_A |
+| `labour_force` | 勞動力統計 | indicator = EAP_TEAP_SEX_AGE_NB_A 或 EIP_TEIP_SEX_AGE_NB_A |
+| `participation_rate` | 勞動參與率 | indicator = EAP_DWAP_SEX_AGE_RT_A |
 
 **嚴格限制：category 只能使用上述英文值，不可自行新增。** 需要新增 category 時必須與使用者確認後寫入本檔案。
 

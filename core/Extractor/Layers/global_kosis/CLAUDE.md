@@ -1,5 +1,38 @@
 # global_kosis Layer 定義
 
+> ⚠️ **此 Layer 已停用** — 詳見下方「停用原因」
+
+---
+
+## 停用原因（2026-02-08 確認）
+
+### 問題
+
+KOSIS Open API **僅限韓國居民使用**，國際用戶無法註冊取得 API Key。
+
+### 驗證過程
+
+1. 訪問 KOSIS API 申請頁面：https://kosis.kr/openapi/mypage/myApiKeyPage.do
+2. 註冊流程要求以下韓國本地身份驗證方式（擇一）：
+   - **韓國手機號碼** — 需接收驗證簡訊
+   - **I-PIN** — 韓國網路身份認證系統，需韓國身分證
+   - **公認認證書** — 韓國電子簽章，需韓國銀行帳戶
+3. 無任何國際用戶註冊選項
+
+### 結論
+
+- **無法自動化**：無法取得 API Key
+- **無替代方案**：KOSIS 不提供無需認證的公開資料端點
+- **建議替代來源**：
+  - **ILO ILOSTAT** — 包含韓國勞動統計（global_ilo_stats Layer）
+  - **OECD.Stat** — 包含韓國經濟與就業數據（global_oecd_stats Layer）
+
+### 重新評估時間
+
+2027-02-01（若 KOSIS 開放國際 API 存取）
+
+---
+
 ## Layer 定義表
 
 | 項目 | 內容 |

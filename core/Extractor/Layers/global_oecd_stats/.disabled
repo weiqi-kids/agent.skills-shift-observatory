@@ -1,0 +1,1 @@
+OECD SDMX-JSON API returns very large responses (40MB+) that exceed jq memory limits. Needs optimization or alternative endpoint.

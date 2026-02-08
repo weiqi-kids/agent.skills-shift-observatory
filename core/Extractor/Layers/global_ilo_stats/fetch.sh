@@ -1,6 +1,7 @@
 #!/bin/bash
-# global_ilo_stats 資料擷取腳本
-# 職責：從 ILO ILOSTAT SDMX REST API 擷取全球勞動市場統計數據
+# global_ilo_stats data fetcher
+# Fetches labour statistics from ILO ILOSTAT API
+# API: https://rplumber.ilo.org/data/indicator/
 
 set -euo pipefail
 
@@ -10,208 +11,136 @@ PROJECT_ROOT="$(cd "$SCRIPT_DIR/../../../.." && pwd)"
 source "$PROJECT_ROOT/lib/args.sh"
 source "$PROJECT_ROOT/lib/core.sh"
 
-require_cmd curl
-require_cmd jq
-
 LAYER_NAME="global_ilo_stats"
 RAW_DIR="$PROJECT_ROOT/docs/Extractor/$LAYER_NAME/raw"
 
 mkdir -p "$RAW_DIR"
 
-TIMESTAMP=$(date +%Y%m%d-%H%M%S)
-OUTPUT_FILE="$RAW_DIR/ilostat-${TIMESTAMP}.jsonl"
+TIMESTAMP=$(date +%Y%m%d)
+OUTPUT_JSONL="$RAW_DIR/ilo-$TIMESTAMP.jsonl"
 
-# ILOSTAT SDMX REST API
-# 文件: https://sdmx.ilo.org/
-BASE_URL="https://sdmx.ilo.org/rest/data"
+BASE_URL="https://rplumber.ilo.org/data/indicator"
 
-# 主要指標 Dataflow ID => 標籤（使用平行陣列，相容 bash 3.2）
-DF_IDS=("UNE_2EAP_SEX_AGE_RT" "EMP_2EMP_SEX_ECO_DT" "EAR_4MTH_SEX_ECO_CUR_NB")
-DF_LABELS=("Unemployment rate by sex and age" "Employment distribution by sex and economic activity" "Mean monthly earnings by sex and economic activity")
-
-# 感興趣的國家（ISO3 codes）
-COUNTRIES="ARG+AUS+BRA+CHN+DEU+FRA+GBR+IDN+IND+JPN+KOR+MEX+NGA+USA+ZAF"
-
-CURRENT_YEAR=$(date +%Y)
-START_PERIOD=$((CURRENT_YEAR - 3))
-
-TOTAL_RECORDS=0
-
-echo "=== global_ilo_stats 資料擷取開始 ==="
-echo "時間戳: $TIMESTAMP"
-echo "API: $BASE_URL"
+echo "=== global_ilo_stats fetch ==="
+echo "Start: $(date '+%Y-%m-%d %H:%M:%S')"
+echo "Source: ILO ILOSTAT"
 echo ""
 
-for i in $(seq 0 $((${#DF_IDS[@]} - 1))); do
-  df_id="${DF_IDS[$i]}"
-  df_label="${DF_LABELS[$i]}"
-  echo "正在擷取: $df_label ($df_id)"
+if ! command -v jq >/dev/null 2>&1; then
+    echo "Error: jq required" >&2
+    exit 1
+fi
 
-  # SDMX REST API query
-  # Format: /ILO,DF_{id},1.0/{countries}.A....
-  # - A = Annual frequency
-  # - format=jsondata for SDMX-JSON
-  # - lastNObservations=3 to limit data volume
-  API_URL="${BASE_URL}/ILO,DF_${df_id},1.0/${COUNTRIES}.A....?format=jsondata&startPeriod=${START_PERIOD}&detail=full"
+TOTAL_COUNT=0
+CURRENT_YEAR=$(date +%Y)
+START_YEAR=$((CURRENT_YEAR - 2))
 
-  TEMP_FILE="$RAW_DIR/temp_${df_id}_${TIMESTAMP}.json"
+# Indicator definitions
+# Format: indicator_id|description
+INDICATORS=(
+    "EMP_TEMP_SEX_AGE_NB_A|Employment by sex and age (thousands)"
+    "UNE_TUNE_SEX_AGE_NB_A|Unemployment by sex and age (thousands)"
+    "EAP_TEAP_SEX_AGE_NB_A|Labour force by sex and age (thousands)"
+    "UNE_DEAP_SEX_AGE_RT_A|Unemployment rate by sex and age (%)"
+    "EAP_DWAP_SEX_AGE_RT_A|Labour force participation rate (%)"
+    "EMP_DWAP_SEX_AGE_RT_A|Employment-to-population ratio (%)"
+)
 
-  if curl -sS -L \
-       -H "Accept: application/vnd.sdmx.data+json;version=2.0.0" \
-       -H "User-Agent: SkillsShiftObservatory/1.0" \
-       --connect-timeout 30 \
-       --max-time 120 \
-       -o "$TEMP_FILE" \
-       "$API_URL" 2>/dev/null; then
+# Countries (ISO3 codes) - major economies for comparison
+COUNTRIES=(
+    "KOR|South Korea"
+    "JPN|Japan"
+    "CHN|China"
+    "USA|United States"
+    "DEU|Germany"
+    "GBR|United Kingdom"
+    "FRA|France"
+    "CAN|Canada"
+    "AUS|Australia"
+)
 
-    # 檢查是否為有效 JSON
-    if jq empty "$TEMP_FILE" 2>/dev/null; then
-      # 解析 SDMX-JSON 格式，將 observations 展平為 JSONL
-      # SDMX-JSON 結構:
-      #   .structure.dimensions.observation[] => 維度定義（REF_AREA, TIME_PERIOD 等）
-      #   .dataSets[0].observations => {"0:0:0:0:0": [value], ...}
-      #   observation key 的每個數字對應 dimensions 陣列中的 values index
+echo "Fetching ILO statistics..."
+echo ""
 
-      PARSED_COUNT=$(jq -c --arg df_id "$df_id" --arg df_label "$df_label" --arg api_url "$API_URL" '
-        # 取得維度定義
-        .structure.dimensions.observation as $dims |
+for indicator_def in "${INDICATORS[@]}"; do
+    IFS='|' read -r indicator_id description <<< "$indicator_def"
 
-        # 遍歷所有觀測值
-        .dataSets[0].observations | to_entries[] |
-        (
-          # 解析 observation key（如 "0:1:2:0:3"）
-          (.key | split(":") | map(tonumber)) as $indices |
-          .value[0] as $obs_value |
+    echo "Indicator: $description"
 
-          # 將索引解析為實際維度值
-          (reduce range(0; $dims | length) as $i (
-            {};
-            . + {($dims[$i].id): ($dims[$i].values[$indices[$i]] // {id: "unknown", name: "Unknown"})}
-          )) as $dim_values |
+    for country_def in "${COUNTRIES[@]}"; do
+        IFS='|' read -r country_code country_name <<< "$country_def"
 
-          # 建構輸出記錄
-          {
-            indicator: $df_id,
-            indicator_label: $df_label,
-            country_code: ($dim_values.REF_AREA.id // $dim_values.ref_area.id // "unknown"),
-            country: ($dim_values.REF_AREA.name // $dim_values.ref_area.name // "Unknown"),
-            year: ($dim_values.TIME_PERIOD.id // $dim_values.time_period.id // "unknown"),
-            value: $obs_value,
-            sex: ($dim_values.SEX.id // $dim_values.sex.id // "total"),
-            sex_label: ($dim_values.SEX.name // $dim_values.sex.name // "Total"),
-            age_group: ($dim_values.AGE.id // $dim_values.age.id // null),
-            age_label: ($dim_values.AGE.name // $dim_values.age.name // null),
-            classif1: ($dim_values.CLASSIF1.id // $dim_values.classif1.id // null),
-            classif1_label: ($dim_values.CLASSIF1.name // $dim_values.classif1.name // null),
-            unit: ($dim_values.UNIT_MEASURE.id // $dim_values.unit_measure.id // null),
-            dataset: $df_id,
-            source_url: $api_url
-          }
-        )
-      ' "$TEMP_FILE" >> "$OUTPUT_FILE" 2>/dev/null)
+        # Build API URL (SEX_T=Total, AGE_YTHADULT_YGE15=15+)
+        API_URL="${BASE_URL}/?id=${indicator_id}&ref_area=${country_code}&timefrom=${START_YEAR}&sex=SEX_T&classif1=AGE_YTHADULT_YGE15&format=.csv"
 
-      RECORD_COUNT=$(wc -l < "$OUTPUT_FILE" | tr -d ' ')
-      NEW_RECORDS=$((RECORD_COUNT - TOTAL_RECORDS))
-      TOTAL_RECORDS=$RECORD_COUNT
-      echo "  ✓ 成功：新增 $NEW_RECORDS 筆記錄"
-    else
-      echo "  ✗ 回應非有效 JSON，嘗試檢查 HTTP 錯誤..." >&2
-      # 檢查是否為 HTTP 錯誤頁面
-      head -c 200 "$TEMP_FILE" >&2 2>/dev/null || true
-    fi
+        TEMP_FILE="$RAW_DIR/temp-${indicator_id}-${country_code}.csv"
 
-    rm -f "$TEMP_FILE"
-  else
-    echo "  ✗ 無法連線至 ILOSTAT API ($df_id)" >&2
-  fi
+        HTTP_CODE=$(curl -sL -w "%{http_code}" -o "$TEMP_FILE" --max-time 30 "$API_URL" 2>/dev/null || echo "000")
 
-  # API rate limiting
-  sleep 3
-  echo ""
+        if [[ "$HTTP_CODE" == "200" ]] && [[ -s "$TEMP_FILE" ]]; then
+            ROW_COUNT=$(tail -n +2 "$TEMP_FILE" | wc -l | tr -d ' ')
+
+            if [[ "$ROW_COUNT" -gt 0 ]]; then
+                # Convert CSV to JSONL
+                tail -n +2 "$TEMP_FILE" | while IFS=',' read -r ref_area source indicator sex classif1 time obs_value obs_status note_classif note_indicator note_source; do
+                    ref_area="${ref_area//\"/}"
+                    indicator="${indicator//\"/}"
+                    sex="${sex//\"/}"
+                    classif1="${classif1//\"/}"
+                    time="${time//\"/}"
+                    obs_value="${obs_value//\"/}"
+                    obs_status="${obs_status//\"/}"
+
+                    jq -nc \
+                        --arg ref_area "$ref_area" \
+                        --arg country_name "$country_name" \
+                        --arg indicator "$indicator" \
+                        --arg description "$description" \
+                        --arg sex "$sex" \
+                        --arg age_group "$classif1" \
+                        --arg time "$time" \
+                        --arg value "$obs_value" \
+                        --arg status "$obs_status" \
+                        '{
+                            ref_area: $ref_area,
+                            country_name: $country_name,
+                            indicator: $indicator,
+                            description: $description,
+                            sex: $sex,
+                            age_group: $age_group,
+                            time: $time,
+                            value: (if $value == "" then null else ($value | tonumber) end),
+                            obs_status: $status,
+                            fetched_at: (now | strftime("%Y-%m-%dT%H:%M:%SZ")),
+                            source: "ilo_ilostat"
+                        }' 2>/dev/null
+                done >> "$OUTPUT_JSONL"
+
+                TOTAL_COUNT=$((TOTAL_COUNT + ROW_COUNT))
+            fi
+        fi
+
+        rm -f "$TEMP_FILE"
+        sleep 0.2
+    done
+
+    echo "  Done"
 done
 
-# === 備援方案：若 API 完全無法使用，嘗試 ILOSTAT Bulk Download ===
-if [[ ! -s "$OUTPUT_FILE" ]]; then
-  echo "警告：SDMX API 未回傳任何資料，嘗試 ILOSTAT Bulk Download..."
+echo ""
+echo "=== Fetch completed ==="
 
-  BULK_URL="https://rplumber.ilo.org/data/indicator"
-
-  # 簡化的 bulk download（較少指標）
-  BULK_INDICATORS=("UNE_2EAP_SEX_AGE_RT" "EMP_2EMP_SEX_ECO_DT")
-
-  for indicator in "${BULK_INDICATORS[@]}"; do
-    echo "  嘗試 bulk download: $indicator"
-
-    BULK_TEMP="$RAW_DIR/temp_bulk_${indicator}_${TIMESTAMP}.csv"
-
-    if curl -sS -L \
-         -H "User-Agent: SkillsShiftObservatory/1.0" \
-         --connect-timeout 30 \
-         --max-time 180 \
-         -o "$BULK_TEMP" \
-         "${BULK_URL}/?id=${indicator}&timefrom=${START_PERIOD}&type=label&format=csv" 2>/dev/null; then
-
-      # CSV 轉 JSONL（使用 awk 解析 CSV header + rows）
-      if [[ -s "$BULK_TEMP" ]] && head -1 "$BULK_TEMP" | grep -q "ref_area\|REF_AREA" 2>/dev/null; then
-        # 讀取 CSV header 找出欄位索引
-        awk -F',' '
-          NR==1 {
-            for (i=1; i<=NF; i++) {
-              gsub(/"/, "", $i)
-              header[i] = tolower($i)
-              if (header[i] == "ref_area.label" || header[i] == "ref_area") col_country = i
-              if (header[i] == "ref_area") col_country_code = i
-              if (header[i] == "time") col_year = i
-              if (header[i] == "obs_value") col_value = i
-              if (header[i] == "sex.label" || header[i] == "sex") col_sex = i
-              if (header[i] == "classif1.label" || header[i] == "classif1") col_classif = i
-            }
-            next
-          }
-          NR>1 && $col_value != "" {
-            gsub(/"/, "", $col_country)
-            gsub(/"/, "", $col_country_code)
-            gsub(/"/, "", $col_year)
-            gsub(/"/, "", $col_value)
-            gsub(/"/, "", $col_sex)
-            gsub(/"/, "", $col_classif)
-            printf "{\"indicator\":\"%s\",\"indicator_label\":\"%s\",\"country\":\"%s\",\"country_code\":\"%s\",\"year\":\"%s\",\"value\":%s,\"sex\":\"%s\",\"classif1\":\"%s\",\"dataset\":\"%s\",\"source_url\":\"https://ilostat.ilo.org/data/\"}\n", \
-              "'$indicator'", "'$indicator'", $col_country, $col_country_code, $col_year, $col_value, $col_sex, $col_classif, "'$indicator'"
-          }
-        ' "$BULK_TEMP" >> "$OUTPUT_FILE" 2>/dev/null
-
-        BULK_COUNT=$(wc -l < "$OUTPUT_FILE" | tr -d ' ')
-        echo "  ✓ Bulk download 成功：共 $BULK_COUNT 筆"
-      else
-        echo "  ✗ Bulk download 回應非預期格式" >&2
-      fi
-
-      rm -f "$BULK_TEMP"
-    else
-      echo "  ✗ Bulk download 失敗: $indicator" >&2
-    fi
-
-    sleep 2
-  done
-fi
-
-# === 最終檢查 ===
-if [[ -s "$OUTPUT_FILE" ]]; then
-  TOTAL=$(wc -l < "$OUTPUT_FILE" | tr -d ' ')
-  echo "=== global_ilo_stats 資料擷取完成 ==="
-  echo "Fetch completed: $LAYER_NAME"
-  echo "Output: $OUTPUT_FILE"
-  echo "Records: $TOTAL"
+if [[ -f "$OUTPUT_JSONL" ]] && [[ $TOTAL_COUNT -gt 0 ]]; then
+    FINAL_COUNT=$(wc -l < "$OUTPUT_JSONL" | tr -d ' ')
+    echo "Total: $FINAL_COUNT records"
+    echo "Output: $OUTPUT_JSONL"
+    date -u +%Y-%m-%dT%H:%M:%SZ > "$RAW_DIR/.last_fetch"
 else
-  echo "=== global_ilo_stats 資料擷取完成（無資料）==="
-  echo "警告：未擷取到任何資料。可能原因："
-  echo "  1. ILOSTAT API 暫時無法存取"
-  echo "  2. API 端點或格式已變更"
-  echo "  3. 網路連線問題"
-  echo "建議：手動確認 API 可達性 — curl -I ${BASE_URL}/ILO,DF_UNE_2EAP_SEX_AGE_RT,1.0/"
-  # 建立空檔案以標記已執行
-  touch "$OUTPUT_FILE"
+    echo "Warning: No data fetched" >&2
+    touch "$OUTPUT_JSONL"
+    date -u +%Y-%m-%dT%H:%M:%SZ > "$RAW_DIR/.last_fetch"
+    exit 1
 fi
 
-# 記錄最後擷取時間
-date -u +%s > "$RAW_DIR/.last_fetch"
+echo "End: $(date '+%Y-%m-%d %H:%M:%S')"
+echo "Fetch completed: $LAYER_NAME"

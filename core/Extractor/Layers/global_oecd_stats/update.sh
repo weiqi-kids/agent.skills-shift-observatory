@@ -1,5 +1,5 @@
 #!/bin/bash
-# global_ilo_stats update script
+# global_oecd_stats update script
 # Writes to Qdrant and checks for REVIEW_NEEDED
 
 set -euo pipefail
@@ -11,11 +11,11 @@ source "$PROJECT_ROOT/lib/args.sh"
 source "$PROJECT_ROOT/lib/core.sh"
 source "$PROJECT_ROOT/lib/qdrant.sh"
 
-LAYER_NAME="global_ilo_stats"
+LAYER_NAME="global_oecd_stats"
 DOCS_DIR="$PROJECT_ROOT/docs/Extractor/$LAYER_NAME"
 
 # Ensure category directories exist
-for category in employment unemployment labour_force participation_rate; do
+for category in unemployment_rate employment_rate participation_rate; do
     mkdir -p "$DOCS_DIR/$category"
 done
 
