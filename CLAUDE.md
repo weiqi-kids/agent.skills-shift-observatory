@@ -64,6 +64,44 @@
 
 **原則**：Opus 主執行緒保持空閒以監控進度、處理例外，耗時任務委派給 Sonnet 背景執行。
 
+### 2.5 擷取頻率控制
+
+**原則**：避免重複擷取已有的資料，節省資源與時間。
+
+| Layer 類型 | 建議頻率 | 判斷方式 |
+|------------|----------|----------|
+| **職缺資料** (tw_govjobs, global_hn_hiring, global_arbeitnow 等) | 每週一次 | 檢查 `.last_fetch` 時間戳 |
+| **報告/研究** (global_bls, global_linkedin_workforce 等) | 每週一次 | 檢查 `.last_fetch` 時間戳 |
+| **新聞事件** (workforce_news, funding_signals) | 每日一次 | 新聞時效性較高 |
+
+**跳過 fetch 的條件**：
+```bash
+# 檢查 .last_fetch 時間戳
+last_fetch=$(cat docs/Extractor/{layer}/raw/.last_fetch 2>/dev/null)
+days_since=$(( ($(date +%s) - $(date -d "$last_fetch" +%s 2>/dev/null || echo 0)) / 86400 ))
+
+# 若距離上次 fetch 不足 7 天，跳過
+if [[ $days_since -lt 7 ]]; then
+  echo "跳過 {layer}：上次 fetch 於 $last_fetch（$days_since 天前）"
+fi
+```
+
+**強制 fetch**：使用者說「強制更新」或「force fetch」時，忽略頻率限制。
+
+### 2.6 主動資料源探索
+
+**原則**：系統應定期探索新的資料來源，擴展觀測範圍。
+
+執行時機：
+- 使用者明確要求：「找新的資料來源」「探索新來源」
+- 每月系統巡檢時
+
+探索流程：
+1. 使用 WebSearch 搜尋新的就業市場資料來源
+2. 評估 API/RSS 可用性、資料品質、涵蓋範圍
+3. 將結果寫入 `docs/explored.md`（評估中表格）
+4. P1 優先級的來源建議立即建立 Layer
+
 | 任務類型 | 執行方式 | 說明 |
 |----------|----------|------|
 | fetch.sh（多個 Layer） | `Task(Bash, sonnet, run_in_background=true)` | 平行背景執行，Opus 監控 |

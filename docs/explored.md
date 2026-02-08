@@ -21,6 +21,27 @@
 
 ## 評估中
 
+### P1 優先（建議立即採用）
+
+| 資料源 | 類型 | URL | 語言 | 發現日期 | 狀態 | 涵蓋範圍 |
+|--------|------|-----|------|----------|------|----------|
+| Adzuna API | REST API | https://developer.adzuna.com/ | en | 2026-02-08 | 待建 Layer | 全球多國職缺+薪資趨勢 |
+| Eurostat Labour | REST API | https://ec.europa.eu/eurostat/web/labour-market/database | en | 2026-02-08 | 待建 Layer | 歐盟 27 國就業統計 |
+| Statistics Canada | REST API | https://www.statcan.gc.ca/en/developers | en | 2026-02-08 | 待建 Layer | 加拿大勞動力調查 |
+| Australia ABS | REST API | https://www.data.gov.au/data/dataset/australian-bureau-of-statistics-labour-force-api | en | 2026-02-08 | 待建 Layer | 澳洲就業統計 |
+| Korea OPEN DATA | API | https://www.data.go.kr/en/index.do | ko/en | 2026-02-08 | 待建 Layer | 韓國就業市場 |
+
+### P2 中優先（短期評估）
+
+| 資料源 | 類型 | URL | 語言 | 發現日期 | 狀態 | 涵蓋範圍 |
+|--------|------|-----|------|----------|------|----------|
+| Japan Stats Bureau | CSV/Excel | https://www.stat.go.jp/english/data/roudou/ | ja/en | 2026-02-08 | 可透過 ILO 取得 | 日本勞動力 |
+| Stats NZ | 報告 | https://www.stats.govt.nz/topics/labour-market/ | en | 2026-02-08 | 待評估 API | 紐西蘭就業 |
+| Jobicy RSS | RSS | https://jobicy.com/jobs-rss-feed | en | 2026-02-08 | 可整合 | 遠端工作（含亞太）|
+| WHO Health Workforce | OData API | https://www.who.int/data/gho/data/themes/topics/health-workforce | en | 2026-02-08 | 待評估 | 全球醫療人力 |
+
+### P3 低優先（原有）
+
 | 資料源 | 類型 | URL | 語言 | 發現日期 | 狀態 | 下次評估 |
 |--------|------|-----|------|----------|------|----------|
 | 1111人力銀行 | 網頁/API | https://www.1111.com.tw/ | zh-TW | 2026-01-28 | 待測試API | 2026-02-15 |
@@ -35,3 +56,7 @@
 | 資料源 | 類型 | 排除原因 | 排除日期 | 重新評估時間 |
 |--------|------|----------|----------|-------------|
 | LinkedIn Jobs API | API | API嚴格封鎖,無法可靠存取 | 2026-01-28 | 2026-07-01 |
+| Dice Jobs API | API | API 已於 2017 年關閉 | 2026-02-08 | 永久排除 |
+| GitHub Jobs | API | 官方招聘平台已關閉 | 2026-02-08 | 永久排除 |
+| Greenhouse API | API | 僅提供單一公司職缺，無市場趨勢 | 2026-02-08 | 永久排除 |
+| Wellfound (AngelList) | 網頁 | 無 API/RSS，需爬蟲有法律風險 | 2026-02-08 | 2026-08-01 |
