@@ -4,36 +4,37 @@ title: W07
 parent: 產業分層
 nav_order: 9993
 permalink: /reports/industry-segments-w07/
-report_title: "產業分層報告 — 2026年第07週"
+report_title: "產業分層分析 — 2026年第07週"
 mode: industry_segments
 period: "2026-W07"
-generated_at: "2026-02-07T16:00:00Z"
+generated_at: "2026-02-08T12:00:00Z"
 source_layers:
   - tw_govjobs
   - global_arbeitnow
   - global_hn_hiring
-  - global_remoteok
-  - global_weworkremotely
   - workforce_news
   - funding_signals
-  - global_hays_salary
+  - global_bls
   - global_indeed_hiring
+  - global_manpower_outlook
+  - global_hays_salary
   - global_linkedin_workforce
 data_coverage:
   layers_available: 10
   layers_total: 10
   industries_covered: 14/14
-  observation_period: "2026-01-27 ~ 2026-02-07"
+  observation_period: "2026-02-02 ~ 2026-02-08"
 confidence: "中"
+qdrant_search: true
 ---
 
-# 產業分層報告 — 2026年第07週
+# 產業分層分析 — 2026年第07週
 
-> 本報告使用 Qdrant 向量搜尋取得相關資料，結合 Hays 薪資指南、Indeed 招聘趨勢、LinkedIn 職缺需求等全球資料源進行產業分析。
+> 本報告使用 Qdrant 向量搜尋取得相關資料，結合 Hays 薪資指南、Indeed 招聘趨勢、LinkedIn 職缺需求、BLS 經濟數據等全球資料源進行產業分析。
 
 ## 摘要
 
-> 本週觀測 4,710 筆職缺資料，涵蓋台灣微觀資料（tw_govjobs 1,000 筆）與全球宏觀資料（global_arbeitnow 1,181 筆、global_hn_hiring 2,336 筆、遠端職缺 193 筆）。軟體與 SaaS 產業持續主導全球科技人才需求，佔整體觀測職缺超過 60%。本週最重大事件包括：(1) Ricursive Intelligence 以成立兩個月即完成 3 億美元 Series A 融資、估值達 40 億美元的驚人紀錄，顯示 AI 基礎設施投資持續升溫；(2) Pinterest 裁員 15%，明確表示將資源重新分配至 AI 相關團隊；(3) Meta Reality Labs 裁員 10%（約 1,000 人），VR/AR 領域持續收縮。根據 Hays 2025 薪資指南與 Indeed 招聘趨勢報告，AI 採用仍高度集中於大型企業，但正加速擴散至各產業。
+> 本週觀測 4,517 筆職缺資料，涵蓋台灣微觀資料（tw_govjobs 1,000 筆）與全球宏觀資料（global_arbeitnow 1,181 筆、global_hn_hiring 2,336 筆）。軟體與 SaaS 產業持續主導全球科技人才需求，佔整體觀測職缺超過 63%。本週重大事件包括：(1) Ricursive Intelligence 成立僅兩個月即完成 3 億美元 Series A 融資、估值達 40 億美元；(2) Pinterest 裁員 15%，將資源重新分配至 AI 相關團隊；(3) Capital One 以 51.5 億美元收購 Fintech 新創 Brex；(4) Meta Reality Labs 裁員 10%（約 1,000 人）。根據 Indeed Hiring Lab 報告，在整體招聘市場疲軟的背景下，AI 相關職缺刊登逆勢增長，凸顯 AI 技能在就業市場的稀缺性。美國 12 月失業率維持 4.4%，非農就業人數達 1.595 億人。
 
 ## 產業總覽
 
@@ -41,14 +42,14 @@ confidence: "中"
 |------|--------|----------|----------|---------|----------|
 | 軟體與 SaaS | 2,847 | global_hn_hiring, global_arbeitnow | 擴張 | 中 | ***** |
 | 半導體 | <50 | 小樣本 | 穩定 | 中 | *** |
-| 電子硬體 | <50 | 小樣本 | 穩定 | 中 | *** |
-| 金融服務 | 181 | global_arbeitnow, tw_govjobs | 擴張 | 高 | **** |
+| 電子硬體 | <50 | 小樣本 | 收縮 | 中 | ** |
+| 金融服務 | 131 | global_arbeitnow, tw_govjobs | 整併 | 高 | **** |
 | 醫療生技 | 76 | tw_govjobs | 穩定 | 低 | **** |
 | 製造業 | 14 | tw_govjobs | 穩定 | 高 | ** |
 | 零售電商 | 481 | tw_govjobs | 穩定 | 中 | *** |
-| 媒體娛樂 | 56 | tw_govjobs (creative) | 收縮 | 高 | ** |
+| 媒體娛樂 | 56 | tw_govjobs | 收縮 | 高 | ** |
 | 教育 | 16 | tw_govjobs | 穩定 | 中 | *** |
-| 能源與綠能 | <50 | 小樣本 | 穩定 | 低 | **** |
+| 能源與綠能 | <50 | 小樣本 | 穩定 | 低 | *** |
 | 營建不動產 | 18 | tw_govjobs | 穩定 | 低 | *** |
 | 電信 | <50 | 小樣本 | 擴張 | 中 | *** |
 | 政府與非營利 | 87 | tw_govjobs | 穩定 | 低 | *** |
@@ -65,8 +66,8 @@ confidence: "中"
 #### 市場數據
 | 指標 | 數值 | 來源 |
 |------|------|------|
-| 觀測職缺數 | 2,847 | global_hn_hiring (2,336), global_arbeitnow tech (489), global_remoteok tech (68), global_weworkremotely programming (24) |
-| 主要地區 | 北美（HN Hiring）、歐洲（Arbeitnow）、全球遠端 | 綜合來源 |
+| 觀測職缺數 | 2,847 | global_hn_hiring (2,336), global_arbeitnow tech (489), tw_govjobs tech (22) |
+| 主要地區 | 北美（HN Hiring）、歐洲（Arbeitnow）、台灣 | 綜合來源 |
 | 薪資參考 | $115K-$272K USD（資深工程師） | global_hn_hiring |
 
 #### 熱門角色 Top 5
@@ -85,7 +86,7 @@ confidence: "中"
 | React/Vue/TypeScript | 前端框架需求穩定 | global_hn_hiring 職缺描述 |
 | Kubernetes/Docker | 容器化與編排技術 | global_hn_hiring DevOps 職缺 |
 | PostgreSQL/MySQL | 關聯式資料庫 | global_hn_hiring 職缺描述 |
-| AWS/GCP | 雲端平台技能 | global_hn_hiring, global_remoteok |
+| AWS/GCP | 雲端平台技能 | global_hn_hiring, global_arbeitnow |
 
 #### AI 取代向量影響
 | 向量 | 影響程度 | 說明 |
@@ -97,12 +98,13 @@ confidence: "中"
 | 高度人際 | 中 | 技術溝通、客戶對接仍需人際技能 |
 
 #### 事件信號
-- 擴張信號：Ricursive Intelligence 獲 3 億美元 A 輪融資（估值 40 億美元，成立僅兩個月）[^1]
-- 擴張信號：Northwood Space 獲 1 億美元 Series B 融資及 5,000 萬美元政府合約（衛星通訊基礎設施）[^2]
-- 收縮信號：Pinterest 裁員 15%，資源轉向 AI[^3]
+- 擴張信號：Ricursive Intelligence 獲 3 億美元 A 輪融資（估值 40 億美元），成立僅兩個月即成為獨角獸[^1]
+- 擴張信號：Northwood Space 獲 1 億美元 B 輪融資及 5,000 萬美元政府合約（衛星通訊）[^2]
+- 產業洞察：Crunchbase 專欄指出「AI 不是獨立產業，而是基礎設施層」[^3]
+- 產業洞察：Indeed 報告顯示 AI 相關職缺在整體市場疲軟中逆勢增長[^4]
 
 #### 全球對標
-根據 Hays UK 2025 Tech Talent Explorer[^4]，英國科技人才需求持續強勁，尤其在 AI/ML 工程師與雲端架構師領域。Indeed 研究指出 AI 採用正在加速，但仍高度集中於大型企業[^5]。LinkedIn 最新職缺需求報告[^6]顯示，軟體工程師、資料科學家、雲端架構師持續位列全球最熱門職缺。北美科技新創對後端工程師的需求佔比最高（39%），反映微服務架構與 API 經濟的持續發展。
+軟體與 SaaS 產業在全球範圍內持續為人才需求最旺盛的領域。根據 HN Hiring 資料，北美科技新創對後端工程師的需求佔比最高（39%），反映微服務架構與 API 經濟的持續發展。AI 相關職位（如 ML Engineer、AI Infrastructure）的薪資天花板明顯高於傳統軟體開發職位。Indeed Hiring Lab 報告指出，在整體招聘市場疲軟的背景下，提及 AI 的職缺刊登逆勢增長[^4]。
 
 ---
 
@@ -118,8 +120,7 @@ confidence: "中"
 
 #### 熱門角色
 基於有限樣本觀察：
-- FPGA Development Engineer（global_weworkremotely）
-- Semiconductor Design Manager（global_weworkremotely）
+- 專利工程師（半導體製程、電機電子相關）
 - Hardware Manufacturing Engineer（global_arbeitnow）
 
 #### AI 取代向量影響
@@ -149,8 +150,8 @@ confidence: "中"
 > **小樣本警告**：本週觀測到的電子硬體職缺數量不足 50 筆。
 
 #### 熱門角色
-- Hardware Infrastructure Site Reliability Engineer（global_remoteok - SpaceX）
-- Product Designer (Hardware/3D CAD)（global_weworkremotely）
+- Hardware Manufacturing Engineer（global_arbeitnow Munich）
+- 技術保全員（tw_govjobs）
 
 #### AI 取代向量影響
 | 向量 | 影響程度 | 說明 |
@@ -162,7 +163,7 @@ confidence: "中"
 | 高度人際 | 低 | 研發導向，人際需求較低 |
 
 #### 事件信號
-- 收縮信號：Meta Reality Labs 裁員 10%（約 1,000 人），VR/AR 硬體領域持續調整[^7]
+- 收縮信號：Meta Reality Labs 裁員 10%（約 1,000 人），VR/AR 硬體領域持續調整[^5]
 
 ---
 
@@ -171,17 +172,17 @@ confidence: "中"
 #### 市場數據
 | 指標 | 數值 | 來源 |
 |------|------|------|
-| 觀測職缺數 | 181 | tw_govjobs finance (31), global_arbeitnow finance (50), global_arbeitnow hr (46), global_remoteok finance (4), global_weworkremotely management/finance (50) |
-| 主要地區 | 台灣、德國、北美 | tw_govjobs, global_arbeitnow, global_weworkremotely |
+| 觀測職缺數 | 131 | tw_govjobs finance (31), global_arbeitnow finance (50), global_arbeitnow hr (46) |
+| 主要地區 | 台灣、德國 | tw_govjobs, global_arbeitnow |
 
 #### 熱門角色 Top 5
 | 角色 | 來源 |
 |------|------|
 | Senior Accountant | global_arbeitnow |
 | Head of Finance | global_arbeitnow |
-| Finance Manager | global_weworkremotely |
-| Financial Advisor | global_remoteok |
-| 銀行清潔人員（委外） | tw_govjobs |
+| 銀行委外清潔人員 | tw_govjobs |
+| Finance Manager | global_arbeitnow |
+| 國外進口採購 | tw_govjobs |
 
 #### AI 取代向量影響
 | 向量 | 影響程度 | 說明 |
@@ -193,11 +194,11 @@ confidence: "中"
 | 高度人際 | 中 | 客戶關係管理、財務諮詢需人際技能 |
 
 #### 事件信號
-- 收縮信號：Capital One 以 51.5 億美元收購 Fintech 新創 Brex（低於峰值估值一半），併購後可能伴隨組織重組[^8]
-- 擴張信號：Zocks 獲 4,500 萬美元 B 輪融資，專注 AI 財務顧問助手[^9]
+- 整併信號：Capital One 以 51.5 億美元收購 Fintech 新創 Brex，收購價不到峰值估值的一半[^6]
+- 擴張信號：Zocks 獲 4,500 萬美元 B 輪融資，專注 AI 財務顧問助手[^7]
 
 #### 全球對標
-根據 Hays USA 2025 Salary Guide[^10] 與 Hays Canada FY25 Salary Guide[^11]，金融服務業對具備 AI 技能的財務分析師需求持續增長。Fintech 整併活躍，Brex 被收購顯示企業支付卡市場進入整併階段。AI 在金融領域的應用（如 Zocks 的 AI 財務顧問助手）正在改變顧問服務的人力結構。
+金融科技持續整合傳統金融服務。Brex 被 Capital One 收購顯示企業支付卡市場進入整併階段，Fintech 人才可能流向大型金融機構。併購通常伴隨組織重組，短期可能導致重複職能裁員，但中期 Capital One 的資源與規模可能加速產品擴張。AI 在金融領域的應用（如 Zocks 的 AI 財務顧問助手）正在改變顧問服務的人力結構。
 
 ---
 
@@ -216,7 +217,7 @@ confidence: "中"
 | 照顧服務員 | 10+ | tw_govjobs care |
 | 培訓設計師（美容美髮） | 若干 | tw_govjobs healthcare |
 | 家庭照顧服務員 | 若干 | tw_govjobs healthcare |
-| Licensed Professional Counselor | 若干 | global_remoteok |
+| 南港長照中心照服員 | 若干 | tw_govjobs care |
 
 #### AI 取代向量影響
 | 向量 | 影響程度 | 說明 |
@@ -250,7 +251,7 @@ confidence: "中"
 #### 熱門角色
 - 空調鍋爐技術員
 - 職業安全衛生管理員
-- 病媒防治技術員
+- 病媒防治技術員（保障月薪 35,000 元）
 
 #### AI 取代向量影響
 | 向量 | 影響程度 | 說明 |
@@ -284,6 +285,13 @@ confidence: "中"
 | 廚師/廚助 | 50+ | tw_govjobs retail_service |
 | 銷售顧問 | 若干 | tw_govjobs retail_service |
 
+#### 熱門僱主
+- 堤諾 Tino's Pizza Cafe（多門市擴大招募）
+- 瓦薩美式比薩 VASA Pizza
+- 拉亞漢堡（多門市）
+- Selfish Burger
+- 高麗園韓式料理
+
 #### AI 取代向量影響
 | 向量 | 影響程度 | 說明 |
 |------|----------|------|
@@ -294,10 +302,10 @@ confidence: "中"
 | 高度人際 | 中度保護 | 顧客互動、服務體驗仍需人力 |
 
 #### 事件信號
-- 無本週重大事件
+- 穩定：連鎖餐飲持續擴點招募
 
 #### 全球對標
-台灣零售服務業職缺集中於餐飲連鎖（如堤諾、瓦薩、拉亞漢堡）與飯店業，反映服務業復甦與勞動密集特性。
+台灣零售服務業職缺集中於餐飲連鎖與飯店業，反映服務業復甦與勞動密集特性。
 
 ---
 
@@ -311,7 +319,7 @@ confidence: "中"
 
 #### 熱門角色
 - 業務專員/行銷專員
-- 影音相關職位（推測）
+- 影音相關職位
 
 #### AI 取代向量影響
 | 向量 | 影響程度 | 說明 |
@@ -323,11 +331,12 @@ confidence: "中"
 | 高度人際 | 中 | 創意發想、客戶提案需人際技能 |
 
 #### 事件信號
-- 收縮信號：Pinterest 裁員 15%，資源轉向 AI[^3]
-- 收縮信號：Vimeo 被 Bending Spoons 收購後啟動裁員[^12]
+- 收縮信號：Pinterest 裁員 15%，將資源重新分配至 AI 相關團隊[^8]
+- 收縮信號：Vimeo 被 Bending Spoons 收購後啟動裁員[^9]
+- 收縮信號：VSCO 裁員 24 人[^10]
 
 #### 全球對標
-媒體娛樂產業正經歷 AI 驅動的結構性轉型。Pinterest、Vimeo 的裁員均提及將資源重新分配至 AI。這反映平台型媒體公司正以 AI 取代部分人力密集的內容審核與推薦功能。
+媒體娛樂產業正經歷 AI 驅動的結構性轉型。Pinterest、Vimeo、VSCO 的裁員均提及將資源重新分配至 AI。這反映平台型媒體公司正以 AI 取代部分人力密集的內容審核與推薦功能。達沃斯世界經濟論壇上，AI 主導對話內容，超越氣候變遷和全球貧困等傳統議題[^11]。
 
 ---
 
@@ -350,7 +359,7 @@ confidence: "中"
 | 高度人際 | 高度保護 | 學生輔導、情緒支持不可取代 |
 
 #### 事件信號
-- 無重大事件
+- 無本週重大事件
 
 ---
 
@@ -391,7 +400,7 @@ confidence: "中"
 #### 熱門角色
 - 工地主任
 - 測量助理
-- 安管員
+- 安管員（內湖區）
 - 工務工程師
 
 #### AI 取代向量影響
@@ -404,7 +413,7 @@ confidence: "中"
 | 高度人際 | 低 | 技術導向，人際需求較低 |
 
 #### 事件信號
-- 擴張信號：Cambio 獲 1,800 萬美元融資（估值 1 億美元），發展 AI 商業地產軟體[^13]
+- 擴張信號：Cambio 獲 1,800 萬美元融資（估值 1 億美元），發展 AI 商業地產軟體[^12]
 
 ---
 
@@ -440,7 +449,7 @@ confidence: "中"
 | 主要地區 | 台灣 | tw_govjobs |
 
 #### 熱門角色
-- 行政助理
+- 行政助理（派駐台北市政府環境保護局）
 - 社區主任
 - 推展員
 - 外國人業務訪查員
@@ -484,7 +493,7 @@ confidence: "中"
 | 高度人際 | 中度保護 | 客戶關係、諮詢服務需人際技能 |
 
 #### 事件信號
-- 無重大事件
+- 無本週重大事件
 
 ---
 
@@ -496,11 +505,11 @@ confidence: "中"
 |------|------|--------|-------------|----------|
 | 1 | 軟體與 SaaS | 2,847 | AI 基礎設施投資、雲端服務需求 | 主要來自 HN Hiring、Arbeitnow |
 | 2 | 零售電商 | 481 | 服務業復甦、連鎖餐飲擴張 | 主要來自 tw_govjobs |
-| 3 | 金融服務 | 181 | Fintech 整併、AI 財務顧問 | 跨來源綜合 |
+| 3 | 金融服務 | 131 | Fintech 整併、AI 財務顧問 | 跨來源綜合 |
 | 4 | 政府與非營利 | 87 | 穩定需求 | tw_govjobs |
 | 5 | 專業服務 | 85 | 穩定需求 | tw_govjobs |
 | 6 | 醫療生技 | 76 | 高齡化、照護需求 | tw_govjobs |
-| 7 | 媒體娛樂 | 56 | 創意產業 | tw_govjobs creative |
+| 7 | 媒體娛樂 | 56 | 創意產業（但裁員頻繁） | tw_govjobs creative |
 | 8-14 | 其他產業 | <50 | 樣本不足 | 小樣本 |
 
 ### AI 衝擊程度排名
@@ -527,8 +536,8 @@ confidence: "中"
 - 能源與綠能（政策驅動，技術門檻高）
 
 **擴張 + 高 AI 衝擊**（機會與挑戰並存）：
-- 軟體與 SaaS（需持續技能升級）
-- 金融服務（Fintech 人才需求大，但基層職位被自動化）
+- 軟體與 SaaS（需持續技能升級，AI 相關職缺逆勢增長）
+- 金融服務（Fintech 整併創造機會，但基層職位被自動化）
 
 **穩定/收縮 + 低 AI 衝擊**（相對安全）：
 - 營建不動產（週期性波動，但核心職位穩定）
@@ -544,11 +553,11 @@ confidence: "中"
 
 | 產業 | 台灣趨勢 | 全球趨勢 | 一致性 | 說明 |
 |------|----------|----------|--------|------|
-| 軟體與 SaaS | 穩定 | 擴張 | 分歧 | 台灣缺乏 HN Hiring 類型的新創職缺資料，實際需求可能更高 |
-| 金融服務 | 穩定 | 擴張 | 分歧 | 全球 Fintech 整併活躍，台灣金融業受法規限制，數位轉型較慢 |
+| 軟體與 SaaS | 穩定 | 擴張 | 分歧 | 台灣資料僅來自政府就業通，缺少科技新創職缺資料 |
+| 金融服務 | 穩定 | 整併 | 分歧 | 全球 Fintech 整併活躍（Brex 被收購），台灣金融業受法規限制 |
 | 零售電商 | 穩定 | 穩定 | 一致 | 服務業基層人力需求全球皆穩定 |
 | 醫療生技 | 穩定 | 穩定 | 一致 | 高齡化為全球共同趨勢 |
-| 媒體娛樂 | 穩定 | 收縮 | 分歧 | 全球平台型媒體裁員，台灣創意產業受影響較小 |
+| 媒體娛樂 | 穩定 | 收縮 | 分歧 | 全球平台型媒體裁員（Pinterest 15%），台灣創意產業受影響較小 |
 | 製造業 | 穩定 | 收縮 | 分歧 | 全球製造業自動化加速，台灣因半導體產業支撐相對穩定 |
 
 ---
@@ -557,24 +566,27 @@ confidence: "中"
 
 ### 本週產業結構的主要變化
 
-2026 年第 7 週的就業市場持續呈現「AI 重塑」特徵。Ricursive Intelligence 以成立兩個月即完成 3 億美元 Series A 融資、達到 40 億美元估值的驚人紀錄，再次證明資本市場對 AI 基礎模型的激進投注。同時，Pinterest 裁員 15% 並明確表示將資源重新分配至 AI 團隊，Meta Reality Labs 裁員 10%，顯示科技公司正在進行結構性的人力重組。
+2026 年第 7 週的就業市場持續呈現「AI 驅動的結構性轉型」特徵。Ricursive Intelligence 成立僅兩個月即完成 3 億美元 Series A 融資、達到 40 億美元估值的驚人紀錄，再次證明資本市場對 AI 基礎模型的激進投注。
+
+同時，Pinterest 裁員 15% 並明確表示將資源重新分配至 AI 團隊，Meta Reality Labs 裁員 10%（約 1,000 人），這是繼 Vimeo、VSCO、Indeed/Glassdoor 之後又一波平台型公司以 AI 為由進行人力重組的案例。
+
+Capital One 以 51.5 億美元收購 Brex（不到峰值估值的一半），標誌著 Fintech 市場進入整併階段。
 
 ### 跨產業趨勢：AI 作為基礎設施層
 
-根據 Crunchbase 專欄分析[^14]，AI 不應被視為獨立產業，而是「基礎設施層」——如同網際網路曾經是。Indeed 研究指出 AI 採用正在加速但仍高度集中於大型企業[^5]。這意味著：
+Crunchbase 專欄分析指出，AI 不應被視為獨立產業，而是「基礎設施層」——如同網際網路曾經是。Indeed Hiring Lab 報告進一步證實，在整體招聘市場疲軟的背景下，AI 相關職缺刊登逆勢增長。這意味著：
 
-1. AI 技能將成為所有產業的橫向需求，不限於科技公司
-2. 「產業 + AI」混合職位將快速成長（如醫療 AI 工程師、金融 AI 分析師）
-3. 單純的 AI 基礎研究職位競爭激烈，但應用層職位機會更廣
-
-達沃斯世界經濟論壇的觀察[^15]也印證這一趨勢：AI 已取代氣候變遷成為全球領袖最關注的議題，科技 CEO 們對 AI 的發展既興奮又謹慎。
+1. **AI 技能成為橫向需求**：所有產業皆需具備 AI 相關能力的人才
+2. **「產業 + AI」混合職位快速成長**：如醫療 AI 工程師、金融 AI 分析師
+3. **AI 相關職缺逆勢增長**：在整體市場疲軟中，提及 AI 的職缺刊登仍在增長
+4. **傳統技能領域萎縮**：非 AI 相關職缺持續疲軟
 
 ### 對求職者的啟示（基於觀測結果）
 
-1. **軟體工程師**：後端與全端工程師需求最高，但需持續學習 AI 輔助開發工具
-2. **金融從業者**：Fintech 整併創造流動機會，AI 財務顧問助手（如 Zocks）的興起意味著需學習 AI 協作技能
-3. **媒體從業者**：平台型媒體收縮（Pinterest、Vimeo），但創作者經濟仍有空間
-4. **服務業人員**：基層服務業需求穩定，但需關注自動化對收銀、庫存等職位的影響
+1. **軟體工程師**：後端與全端工程師需求最高（佔 67%），AI 相關技能成為加分項
+2. **金融從業者**：Fintech 整併創造流動機會，但基層資料處理職位風險增加
+3. **媒體從業者**：平台型媒體持續收縮，需關注 AI 工具對內容創作的影響
+4. **服務業人員**：基層服務業需求穩定，連鎖餐飲持續擴點招募
 5. **醫療照護人員**：高齡化驅動穩定需求，人際互動技能受保護
 
 ---
@@ -588,21 +600,20 @@ confidence: "中"
 | tw_govjobs | 1,000 | 台灣政府就業通 | 偏向基層職缺，科技職缺較少 |
 | global_arbeitnow | 1,181 | 歐洲（德國為主） | 語言限制，非英語職缺較多 |
 | global_hn_hiring | 2,336 | 北美科技新創 | 偏向科技業，薪資偏高 |
-| global_remoteok | 94 | 全球遠端職缺 | 樣本量小 |
-| global_weworkremotely | 99 | 全球遠端職缺 | 樣本量小 |
-| workforce_news | 20+ | 裁員/擴編事件 | 以科技業為主 |
-| funding_signals | 37+ | 融資動態 | 以科技業為主 |
-| global_hays_salary | 3 | Hays 薪資指南（UK, USA, Canada） | Qdrant 向量搜尋取得 |
-| global_indeed_hiring | 1 | Indeed 招聘趨勢 | Qdrant 向量搜尋取得 |
-| global_linkedin_workforce | 1 | LinkedIn 職缺需求 | Qdrant 向量搜尋取得 |
+| workforce_news | 20 | 裁員/擴編事件 | 以科技業為主 |
+| funding_signals | 37 | 融資動態 | 以科技業為主 |
+| global_bls | 144 | 美國經濟指標 | 僅美國，月度更新 |
+| global_indeed_hiring | 8 | 勞動市場分析 | 分析文章，非原始職缺數據 |
+| global_manpower_outlook | 3 | 就業展望 | 季度報告，WebFetch 部分失敗 |
 
 ### 分析限制
 
-1. **樣本偏差**：職缺資料以科技業為主（HN Hiring 佔 50%），傳統產業資料不足
+1. **樣本偏差**：職缺資料以科技業為主（HN Hiring 佔 52%），傳統產業資料不足
 2. **地區偏差**：台灣資料僅來自政府就業通，缺少 104/1111 等主流人力銀行
 3. **時間延遲**：融資與裁員事件為新聞報導，可能與實際發生時間有延遲
-4. **產業歸類**：跨產業公司（如 Amazon 同時涵蓋電商、雲端、物流）的職缺歸類可能有模糊
+4. **產業歸類**：跨產業公司的職缺歸類可能有模糊
 5. **小樣本產業**：半導體、電子硬體、能源、電信等產業觀測樣本不足 50 筆，統計意義有限
+6. **ILO/OECD 資料**：global_ilo_stats 與 global_oecd_stats 萃取尚未完成
 
 ---
 
@@ -622,20 +633,17 @@ confidence: "中"
 
 [^1]: funding_signals, "AI Lab Ricursive Intelligence Lands $300M Series A At $4B Valuation", docs/Extractor/funding_signals/funding_round/20260126-ricursive-intelligence-funding_round.md
 [^2]: funding_signals, "Northwood Space Raises $100M Series B And Lands $50M Government Contract", docs/Extractor/funding_signals/funding_round/20260127-northwood-space-funding_round.md
-[^3]: workforce_news, "Pinterest layoffs impact 15% of staff as resources redirected to AI", docs/Extractor/workforce_news/layoff/20260127-pinterest-layoff.md
-[^4]: global_hays_salary, "Hays Tech Talent Explorer — UK 2025", Qdrant 向量搜尋取得
-[^5]: global_indeed_hiring, "AI Adoption Is Accelerating but Still Concentrated Among the Largest Firms", Qdrant 向量搜尋取得
-[^6]: global_linkedin_workforce, "Most In Demand Jobs", Qdrant 向量搜尋取得
-[^7]: workforce_news, "Meta to reportedly lay off 10% of Reality Labs staff", docs/Extractor/workforce_news/layoff/20260114-meta-reality-labs-layoff.md
-[^8]: funding_signals, "Capital One To Buy Fintech Startup Brex At Less Than Half Its Peak Valuation In $5.15B Deal", docs/Extractor/funding_signals/acquisition/20260123-capital-one-brex-acquisition.md
-[^9]: funding_signals, "Zocks Raises $45M Series B From Lightspeed, QED For AI Assistant To Financial Advisers", docs/Extractor/funding_signals/funding_round/20260126-zocks-funding_round.md
-[^10]: global_hays_salary, "Hays USA 2025 Salary Guide & Hiring Trends", Qdrant 向量搜尋取得
-[^11]: global_hays_salary, "Hays Canada FY25 Salary Guide & Hiring Trends", Qdrant 向量搜尋取得
-[^12]: workforce_news, "Vimeo starts layoffs after acquisition by Bending Spoons", docs/Extractor/workforce_news/layoff/20260123-vimeo-layoff.md
-[^13]: funding_signals, "Cambio Lands $18M At $100M Valuation For AI-Powered Commercial Real Estate Software", docs/Extractor/funding_signals/funding_round/20260122-cambio-funding_round.md
-[^14]: funding_signals, "Beyond The Buzz: AI's Real Impact And Illusions We Must Avoid", docs/Extractor/funding_signals/market_trend/20260127-ai-infrastructure-impact-market_trend.md
-[^15]: workforce_news, "AI CEOs transformed Davos into a tech conference", docs/Extractor/workforce_news/market_signal/20260123-davos-ai-ceos-market_signal.md
+[^3]: funding_signals, "Beyond The Buzz: AI's Real Impact And Illusions We Must Avoid", docs/Extractor/funding_signals/market_trend/20260127-ai-infrastructure-impact-market_trend.md
+[^4]: global_indeed_hiring, "January 2026 US Labor Market Update: Jobs Mentioning AI Are Growing Amid Broader Hiring Weakness", docs/Extractor/global_indeed_hiring/job_posting_trend/2026-01-22_january-labor-market-update-jobs-mentioning-ai-are-growing-amid-broader-hiring-weakness.md
+[^5]: workforce_news, "Meta to reportedly lay off 10% of Reality Labs staff", docs/Extractor/workforce_news/layoff/20260114-meta-reality-labs-layoff.md
+[^6]: funding_signals, "Capital One To Buy Fintech Startup Brex At Less Than Half Its Peak Valuation In $5.15B Deal", docs/Extractor/funding_signals/acquisition/20260123-capital-one-brex-acquisition.md
+[^7]: funding_signals, "Zocks Raises $45M Series B From Lightspeed, QED For AI Assistant To Financial Advisers", docs/Extractor/funding_signals/funding_round/20260126-zocks-funding_round.md
+[^8]: workforce_news, "Pinterest layoffs impact 15% of staff as resources redirected to AI", docs/Extractor/workforce_news/layoff/20260127-pinterest-layoff.md
+[^9]: workforce_news, "Vimeo starts layoffs after acquisition by Bending Spoons", docs/Extractor/workforce_news/layoff/20260123-vimeo-layoff.md
+[^10]: workforce_news, "VSCO lays off 24 staff as its consumer business suffers", docs/Extractor/workforce_news/layoff/20251209-vsco-layoff.md
+[^11]: workforce_news, "AI CEOs transformed Davos into a tech conference", docs/Extractor/workforce_news/market_signal/20260123-davos-ai-ceos-market_signal.md
+[^12]: funding_signals, "Cambio Lands $18M At $100M Valuation For AI-Powered Commercial Real Estate Software", docs/Extractor/funding_signals/funding_round/20260122-cambio-funding_round.md
 
 ---
 
-最後更新：2026-02-07
+最後更新：2026-02-08

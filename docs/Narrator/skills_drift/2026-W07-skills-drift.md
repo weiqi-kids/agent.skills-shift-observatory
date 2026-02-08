@@ -4,32 +4,33 @@ title: W07
 parent: 技能漂移
 nav_order: 9993
 permalink: /reports/skills-drift-w07/
-report_title: "技能需求漂移報告 — 2026年第07週"
+report_title: "技能需求漂移分析 — 2026年第07週"
 mode: skills_drift
 period: "2026-W07"
-generated_at: "2026-02-07T16:00:00Z"
+generated_at: "2026-02-08T16:00:00Z"
 source_layers:
   - global_hn_hiring
-  - global_stackoverflow
-  - global_hays_salary
+  - global_arbeitnow
+  - global_remoteok
+  - global_weworkremotely
+  - tw_govjobs
   - global_linkedin_workforce
-  - workforce_news
 data_coverage:
-  layers_available: 5
+  layers_available: 6
   layers_total: 7
   observation_window: "2026-W06 ~ 2026-W07"
-  total_job_postings: 2045
+  total_job_postings: 2074
 confidence: 中
 qdrant_search_used: true
 ---
 
-# 技能需求漂移報告 — 2026年第07週
+# 技能需求漂移分析 — 2026年第07週
 
 > 本報告使用 Qdrant 向量搜尋取得相關資料
 
 ## 摘要
 
-> 本週為 skills_drift Mode 第二次執行，以 W06 基線數據為比較基準。觀測重點包括：(1) AI 工具採用率持續上升，投資人預測 AI 將在 2026 年顯著影響勞動力市場；(2) 全球 HN Hiring 職缺分布顯示後端工程師需求持續領先（902 筆），其次為全端工程師（646 筆）；(3) 資安人才缺口議題持續受到關注，LinkedIn 發布「Closing the Cybersecurity Talent Gap」報告。本週新增 2,045 筆職缺分析，結合 Qdrant 搜尋取得的 Hays Tech Talent Explorer 與 LinkedIn Workforce 趨勢報告。
+> 本週（W07）為 skills_drift Mode 第二次執行，以 W06 基線數據為比較基準，共分析 2,074 筆職缺資料。主要發現：(1) AI 技能需求持續主導，「AI」一詞在 HN Hiring 中出現次數仍居首位（1,328 次），占比極高；(2) 新興 AI 技術標籤「RAG」（檢索增強生成）、「Agentic」（AI 代理）需求成長顯著；(3) Rust 和 Go 語言在系統程式領域需求持續上升；(4) 歐洲市場（Arbeitnow）SRE 職位需求異常突出（576 筆）。
 
 ---
 
@@ -39,86 +40,120 @@ qdrant_search_used: true
 
 | 排名 | 技能標籤 | W07 出現次數 | W06 出現次數 | 變化率 | 主要來源 | AI 取代向量 |
 |------|----------|-------------|-------------|--------|----------|-------------|
-| 1 | Python | 1,950+ | 1,913 | +1.9% | global_hn_hiring | cognitive_nonroutine |
-| 2 | TypeScript（TS） | 1,520+ | 1,503 | +1.1% | global_hn_hiring | cognitive_nonroutine |
-| 3 | Go（Golang） | 1,490+ | 1,482 | +0.5% | global_hn_hiring | cognitive_nonroutine |
-| 4 | Rust | 820+ | 807 | +1.6% | global_hn_hiring | cognitive_nonroutine |
-| 5 | Java | 370+ | 361 | +2.5% | global_hn_hiring | cognitive_nonroutine |
-| 6 | Scala | 285+ | 280 | +1.8% | global_hn_hiring | cognitive_nonroutine |
-| 7 | Ruby | 255+ | 253 | +0.8% | global_hn_hiring | cognitive_nonroutine |
-| 8 | JavaScript（JS） | 220+ | 212 | +3.8% | global_hn_hiring | cognitive_nonroutine |
-| 9 | Kotlin | 54+ | 51 | +5.9% | global_hn_hiring | cognitive_nonroutine |
-| 10 | PHP | 43+ | 41 | +4.9% | global_hn_hiring | cognitive_nonroutine |
+| 1 | Python | 1,148 | 1,913 | -40.0% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 2 | TypeScript（TS） | 1,019 | 1,503 | -32.2% | global_hn_hiring | cognitive_nonroutine |
+| 3 | Go（Golang） | 3,600+ | 1,482 | +142.9% | global_hn_hiring, global_arbeitnow, global_weworkremotely | cognitive_nonroutine |
+| 4 | Rust | 768 | 807 | -4.8% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 5 | Java | 265 | 361 | -26.6% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 6 | Scala | 486 | 280 | +73.6% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 7 | JavaScript（JS） | 230 | 212 | +8.5% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 8 | Ruby | 185 | 253 | -26.9% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 9 | PHP | 82 | 41 | +100.0% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 10 | Kotlin | 31 | 51 | -39.2% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
 
-**觀察**：程式語言需求整體穩定上升，Python 維持第一名地位。Kotlin 和 PHP 雖基數小，但成長率較高（小樣本警告）。
+**觀察**：Go 語言需求本週大幅上升（+142.9%），主要來自 Arbeitnow 歐洲職缺與 WeWorkRemotely 遠端職缺。Scala 成長顯著（+73.6%），反映金融科技與大數據領域持續擴張。Python 雖然絕對次數下降，但仍為 AI/ML 領域的主要語言。
+
+**注意**：本週與 W06 資料來源組成有所差異，變化率需謹慎解讀。
 
 ### 框架與工具（Frameworks & Tools）
 
 | 排名 | 技能標籤 | W07 出現次數 | W06 出現次數 | 變化率 | 主要來源 | AI 取代向量 |
 |------|----------|-------------|-------------|--------|----------|-------------|
-| 1 | React | 1,880+ | 1,862 | +1.0% | global_hn_hiring | cognitive_nonroutine |
-| 2 | Node.js | 475+ | 465 | +2.2% | global_hn_hiring | cognitive_nonroutine |
-| 3 | Django | 170+ | 164 | +3.7% | global_hn_hiring | cognitive_nonroutine |
-| 4 | Next.js | 150+ | 146 | +2.7% | global_hn_hiring | cognitive_nonroutine |
-| 5 | Rails | 145+ | 143 | +1.4% | global_hn_hiring | cognitive_nonroutine |
-| 6 | Vue.js（Vue） | 140+ | 137 | +2.2% | global_hn_hiring | cognitive_nonroutine |
-| 7 | GraphQL | 120+ | 116 | +3.4% | global_hn_hiring | cognitive_nonroutine |
-| 8 | FastAPI | 95+ | 89 | +6.7% | global_hn_hiring | cognitive_nonroutine |
-| 9 | Elixir | 54+ | 51 | +5.9% | global_hn_hiring | cognitive_nonroutine |
-| 10 | Angular | 48+ | 46 | +4.3% | global_hn_hiring | cognitive_nonroutine |
+| 1 | React | 1,102 | 1,862 | -40.8% | global_hn_hiring | cognitive_nonroutine |
+| 2 | Node.js | 288 | 465 | -38.1% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 3 | Rails | 400 | 143 | +179.7% | global_hn_hiring, global_weworkremotely | cognitive_nonroutine |
+| 4 | Vue.js（Vue） | 168 | 137 | +22.6% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 5 | Django | 121 | 164 | -26.2% | global_hn_hiring | cognitive_nonroutine |
+| 6 | Next.js | 29 | 146 | -80.1% | global_hn_hiring | cognitive_nonroutine |
+| 7 | Angular | 56 | 46 | +21.7% | global_arbeitnow | cognitive_nonroutine |
+| 8 | FastAPI | 12 | 89 | -86.5% | global_hn_hiring | cognitive_nonroutine |
+| 9 | Spring | 65 | N/A | 新進榜 | global_arbeitnow | cognitive_nonroutine |
+| 10 | GraphQL | 22 | 116 | -81.0% | global_hn_hiring | cognitive_nonroutine |
 
-**觀察**：FastAPI 成長率領先（+6.7%），反映 Python API 開發需求上升。React 維持前端框架領導地位。
+**觀察**：Rails 需求大幅上升（+179.7%），主要來自 WeWorkRemotely 遠端職缺，反映成熟技術棧在穩定產品開發中的持續需求。Vue.js 和 Angular 穩定成長，顯示前端框架多元化趨勢。
 
 ### 雲端與基礎設施（Cloud & Infrastructure）
 
 | 排名 | 技能標籤 | W07 出現次數 | W06 出現次數 | 變化率 | 主要來源 | AI 取代向量 |
 |------|----------|-------------|-------------|--------|----------|-------------|
-| 1 | AWS | 1,130+ | 1,116 | +1.3% | global_hn_hiring | cognitive_nonroutine |
-| 2 | Kubernetes（K8s） | 505+ | 492 | +2.6% | global_hn_hiring | cognitive_nonroutine |
-| 3 | DevOps | 455+ | 445 | +2.2% | global_hn_hiring | cognitive_nonroutine |
-| 4 | GCP | 395+ | 389 | +1.5% | global_hn_hiring | cognitive_nonroutine |
-| 5 | Docker | 375+ | 365 | +2.7% | global_hn_hiring | cognitive_nonroutine |
-| 6 | Azure | 190+ | 186 | +2.2% | global_hn_hiring | cognitive_nonroutine |
-| 7 | Terraform | 148+ | 141 | +5.0% | global_hn_hiring | cognitive_nonroutine |
-| 8 | CI/CD | 88+ | 83 | +6.0% | global_hn_hiring | cognitive_nonroutine |
+| 1 | AWS | 706 | 1,116 | -36.7% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 2 | SRE | 723 | N/A | 新進榜 | global_arbeitnow, global_hn_hiring | cognitive_nonroutine |
+| 3 | Kubernetes（K8s） | 392 | 492 | -20.3% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 4 | DevOps | 405 | 445 | -9.0% | global_hn_hiring, global_arbeitnow, global_weworkremotely | cognitive_nonroutine |
+| 5 | Docker | 308 | 365 | -15.6% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 6 | Azure | 306 | 186 | +64.5% | global_arbeitnow, global_remoteok | cognitive_nonroutine |
+| 7 | Terraform | 248 | 141 | +75.9% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 8 | GCP | 235 | 389 | -39.6% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 9 | Security（資安） | 1,125 | 60 | +1775.0% | 所有來源 | cognitive_nonroutine |
 
-**觀察**：Terraform 和 CI/CD 需求成長較快，反映基礎設施即代碼（IaC）和自動化部署持續普及。
+**觀察**：SRE（Site Reliability Engineering）首次進入榜單且排名極高（723 次），主要來自 Arbeitnow 歐洲職缺。Terraform 需求大幅成長（+75.9%），反映基礎設施即代碼（IaC）持續普及。Azure 成長顯著（+64.5%），顯示多雲策略在企業中日益重要。資安（Security）需求暴增，反映全球資安人才缺口持續擴大。
 
 ### 數據與 AI（Data & AI）
 
 | 排名 | 技能標籤 | W07 出現次數 | W06 出現次數 | 變化率 | 主要來源 | AI 取代向量 |
 |------|----------|-------------|-------------|--------|----------|-------------|
-| 1 | AI | 4,500+ | 4,388 | +2.6% | global_hn_hiring | cognitive_nonroutine |
-| 2 | Machine Learning（ML） | 830+ | 808 | +2.7% | global_hn_hiring | cognitive_nonroutine |
-| 3 | LLM | 250+ | 234 | +6.8% | global_hn_hiring | cognitive_nonroutine |
-| 4 | Data Science | 80+ | 76 | +5.3% | global_hn_hiring | cognitive_nonroutine |
-| 5 | AI Agents | 新出現 | - | - | global_hn_hiring | cognitive_nonroutine |
+| 1 | AI | 16,456 | 4,388 | +275.0% | 所有來源 | cognitive_nonroutine |
+| 2 | Machine Learning（ML） | 1,520 | 808 | +88.1% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 3 | LLM | 664 | 234 | +183.8% | global_hn_hiring | cognitive_nonroutine |
+| 4 | Data Engineer | 237 | N/A | 新進榜 | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 5 | RAG（檢索增強生成） | 73 | N/A | 新出現 | global_hn_hiring | cognitive_nonroutine |
+| 6 | Agentic/AI Agent | 57 | N/A | 新出現 | global_hn_hiring | cognitive_nonroutine |
+| 7 | PyTorch | 10 | N/A | 小樣本 | global_hn_hiring | cognitive_nonroutine |
+| 8 | Data Science | 29 | 76 | -61.8% | global_hn_hiring, global_remoteok | cognitive_nonroutine |
 
-**觀察**：LLM 需求成長率最高（+6.8%），「AI Agents」作為新興技能標籤首次出現在職缺描述中。
+**觀察**：AI 技能需求繼續爆發性成長（+275.0%），佔據職缺描述的主導地位。LLM 需求成長極快（+183.8%），顯示大型語言模型應用正從實驗階段進入生產部署。RAG 和 Agentic（AI 代理）作為新興技能標籤首次大規模出現，標誌著 AI 應用進入「智能代理」時代。
 
-### 資安（Security）
+### 資料庫（Databases）
 
 | 排名 | 技能標籤 | W07 出現次數 | W06 出現次數 | 變化率 | 主要來源 | AI 取代向量 |
 |------|----------|-------------|-------------|--------|----------|-------------|
-| 1 | Security（資安通用） | 65+ | 60 | +8.3% | global_hn_hiring | cognitive_nonroutine |
-| 2 | Cyber Security | 8 | 6 | +33.3%（小樣本） | global_linkedin_workforce | cognitive_nonroutine |
+| 1 | PostgreSQL | 618 | 424 | +45.8% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
+| 2 | SQL | 186 | N/A | 新進榜 | global_arbeitnow, global_remoteok | cognitive_nonroutine |
+| 3 | Redis | 121 | 137 | -11.7% | global_hn_hiring | cognitive_nonroutine |
+| 4 | MongoDB | 28 | 74 | -62.2% | global_hn_hiring | cognitive_nonroutine |
+| 5 | MySQL | 40 | 49 | -18.4% | global_hn_hiring, global_arbeitnow | cognitive_nonroutine |
 
-**觀察**：資安需求持續上升，呼應 LinkedIn「Closing the Cybersecurity Talent Gap」報告所強調的人才缺口議題。
+**觀察**：PostgreSQL 需求持續成長（+45.8%），穩居資料庫領域首位。SQL 作為基礎技能需求穩定。MongoDB 需求下降，可能反映 NoSQL 熱潮趨緩，關聯式資料庫回歸主流。
 
 ---
 
-## 職缺類別分布（HN Hiring W07）
+## 技能上升榜 Top 10
 
-| 類別 | 職缺數 | 佔比 | 主要技能需求 |
-|------|--------|------|-------------|
-| backend | 902 | 44.1% | Python, Go, Rust, PostgreSQL, AWS |
-| fullstack | 646 | 31.6% | TypeScript, React, Node.js, PostgreSQL |
-| frontend | 241 | 11.8% | React, TypeScript, Vue.js, Next.js |
-| devops | 133 | 6.5% | Kubernetes, Terraform, AWS, Docker |
-| data | 76 | 3.7% | Python, ML, Data Science, SQL |
-| security | 47 | 2.3% | Security, DevSecOps, Cloud Security |
+### 本週 vs 上週變化
 
-**合計**：2,045 筆（本週 HN Hiring 新增職缺）
+| 排名 | 技能標籤 | 分類 | W07 出現次數 | W06 出現次數 | 變化率 | 主要需求產業 | 來源 |
+|------|----------|------|-------------|---------------|--------|-------------|------|
+| 1 | Security（資安） | 資安 | 1,125 | 60 | +1775.0% | 金融、科技、政府 | 所有來源 |
+| 2 | AI | 數據與 AI | 16,456 | 4,388 | +275.0% | 科技全產業 | 所有來源 |
+| 3 | LLM | 數據與 AI | 664 | 234 | +183.8% | AI 新創、企業 AI 應用 | global_hn_hiring |
+| 4 | Rails | 框架與工具 | 400 | 143 | +179.7% | Web 開發、SaaS | global_weworkremotely |
+| 5 | Go（Golang） | 程式語言 | 3,600+ | 1,482 | +142.9% | 雲端服務、區塊鏈 | 多來源 |
+| 6 | PHP | 程式語言 | 82 | 41 | +100.0% | 電商、CMS | global_arbeitnow |
+| 7 | ML | 數據與 AI | 1,520 | 808 | +88.1% | AI 研發、金融科技 | 多來源 |
+| 8 | Terraform | 雲端與基礎設施 | 248 | 141 | +75.9% | DevOps、雲端 | 多來源 |
+| 9 | Scala | 程式語言 | 486 | 280 | +73.6% | 金融科技、大數據 | 多來源 |
+| 10 | Azure | 雲端與基礎設施 | 306 | 186 | +64.5% | 企業雲端 | global_arbeitnow |
+
+---
+
+## 技能下降榜 Top 10
+
+### 本週 vs 上週變化
+
+| 排名 | 技能標籤 | 分類 | W07 出現次數 | W06 出現次數 | 變化率 | 可能原因 | 來源 |
+|------|----------|------|-------------|---------------|--------|----------|------|
+| 1 | FastAPI | 框架與工具 | 12 | 89 | -86.5% | 樣本變化（小樣本警告） | global_hn_hiring |
+| 2 | GraphQL | 框架與工具 | 22 | 116 | -81.0% | 樣本變化 | global_hn_hiring |
+| 3 | Next.js | 框架與工具 | 29 | 146 | -80.1% | 樣本變化 | global_hn_hiring |
+| 4 | MongoDB | 資料庫 | 28 | 74 | -62.2% | NoSQL 熱潮趨緩 | global_hn_hiring |
+| 5 | Data Science | 數據與 AI | 29 | 76 | -61.8% | 轉向 ML/AI 標籤 | global_hn_hiring |
+| 6 | React | 框架與工具 | 1,102 | 1,862 | -40.8% | 資料來源組成變化 | global_hn_hiring |
+| 7 | Python | 程式語言 | 1,148 | 1,913 | -40.0% | 資料來源組成變化 | global_hn_hiring |
+| 8 | GCP | 雲端與基礎設施 | 235 | 389 | -39.6% | AWS 與 Azure 競爭 | global_hn_hiring |
+| 9 | Kotlin | 程式語言 | 31 | 51 | -39.2% | 小樣本警告 | global_hn_hiring |
+| 10 | Node.js | 框架與工具 | 288 | 465 | -38.1% | 資料來源組成變化 | global_hn_hiring |
+
+**備註**：本週下降榜多數為資料來源組成變化所致，非真實市場需求下降。W06 主要基於 HN Hiring 歷史累積資料，W07 整合更多歐洲職缺（Arbeitnow）。
 
 ---
 
@@ -130,56 +165,70 @@ qdrant_search_used: true
 
 | 技能標籤 | 變化方向 | 變化率 | 解讀 |
 |----------|----------|--------|------|
-| Excel | → | 0% | 維持低頻出現（6 筆），科技業職缺較少需求 |
-| CRM | → | 0% | 維持低頻出現（9 筆） |
+| Excel | → | 0% | 維持低頻出現，科技業職缺較少需求 |
+| SQL（基礎操作） | → | 穩定 | 作為基礎技能持續需求 |
 
-**說明**：認知例行技能在科技業職缺平台上出現頻率本就較低，本週無明顯變化。此為資料來源偏重科技業的結構性限制。
+**說明**：認知例行技能在科技業職缺平台上出現頻率本就較低。tw_govjobs 資料顯示零售服務（279 筆）、餐飲（126 筆）等領域有大量職缺，但技能標籤欄位多為空值，無法量化分析。
 
 ### 認知非例行（cognitive_nonroutine）
 
-**整體趨勢**：穩定上升
+**整體趨勢**：強勁上升
 
 | 技能標籤 | 變化方向 | 變化率 | 解讀 |
 |----------|----------|--------|------|
-| LLM | ↑ | +6.8% | 大型語言模型需求持續攀升 |
-| FastAPI | ↑ | +6.7% | Python API 開發框架需求增加 |
-| CI/CD | ↑ | +6.0% | 自動化部署持續普及 |
-| Terraform | ↑ | +5.0% | 基礎設施即代碼需求上升 |
-| AI Agents | ↑ | 新出現 | 2026 年新興概念，職缺開始出現 |
+| RAG | ↑ | 新出現 | 檢索增強生成成為 LLM 應用標準架構 |
+| Agentic/AI Agent | ↑ | 新出現 | AI 代理概念進入招聘市場 |
+| LLM | ↑ | +183.8% | 大型語言模型應用需求爆發 |
+| Terraform | ↑ | +75.9% | IaC 持續普及 |
+| SRE | ↑ | 新進榜 | 歐洲市場 SRE 需求激增 |
 
 ### 體力例行（physical_routine）
 
 **整體趨勢**：資料不足
 
-**說明**：本週資料來源（HN Hiring、Stack Overflow、Hays、LinkedIn）皆偏重科技業與專業服務業，體力例行技能資料極度有限。
+| 技能標籤 | 變化方向 | 變化率 | 解讀 |
+|----------|----------|--------|------|
+| 製造/產線操作 | N/A | N/A | tw_govjobs 有 16 筆製造業職缺，但無明確技能標籤 |
+
+**說明**：本週資料來源偏重科技業與遠端工作，體力例行技能資料極度有限。
 
 ### 體力非例行（physical_nonroutine）
 
 **整體趨勢**：資料不足
 
-**說明**：同上，需要擴充資料來源（如 tw_govjobs）以追蹤此類技能變化。
+| 技能標籤 | 變化方向 | 變化率 | 解讀 |
+|----------|----------|--------|------|
+| 技術維修 | N/A | N/A | tw_govjobs 有技術職類（30 筆），無明確技能標籤 |
+| 醫療照護 | N/A | N/A | tw_govjobs 有醫療職類（126 筆），無明確技能標籤 |
 
 ### 高度人際（interpersonal）
 
-**整體趨勢**：持平
+**整體趨勢**：穩定
 
 | 技能標籤 | 變化方向 | 變化率 | 解讀 |
 |----------|----------|--------|------|
-| leadership（領導力） | → | 0% | 維持穩定需求 |
-| sales（銷售） | → | 0% | 維持穩定需求 |
+| management | → | 穩定 | 管理職需求持續 |
+| leadership | → | 穩定 | 領導力需求維持 |
+| sales | → | 穩定 | 銷售職需求穩定 |
+| marketing | → | 穩定 | 行銷職需求穩定 |
+| support | → | 穩定 | 客服支援需求穩定 |
 
 ---
 
 ## 新出現的技能標籤
 
-| 技能標籤 | 分類 | 首次出現日期 | 出現次數 | 出現在哪些產業/角色 | 來源 |
-|----------|------|-------------|----------|-------------------|------|
-| AI Agents | 數據與 AI | 2026-W07 | 15+ | AI 產品開發、電商、SaaS | global_hn_hiring |
-| Skills-First Hiring | 軟技能/招聘趨勢 | 2026-W07 | N/A | HR、人才策略 | global_linkedin_workforce |
+| 技能標籤 | 分類 | 首次大規模出現 | 出現次數 | 出現在哪些產業/角色 | 來源 |
+|----------|------|----------------|----------|-------------------|------|
+| RAG（檢索增強生成） | 數據與 AI | 2026-W07 | 73 | AI 產品開發、企業 AI 應用 | global_hn_hiring |
+| Agentic/AI Agent | 數據與 AI | 2026-W07 | 57 | AI 新創、電商自動化、客服 AI | global_hn_hiring |
+| MCP（Model Context Protocol） | 數據與 AI | 2026-W07 | 8 | AI 工具開發 | global_hn_hiring |
+| Claude（Anthropic） | 數據與 AI | 2026-W07 | 16 | AI 產品整合 | global_hn_hiring |
 
 **說明**：
-- **AI Agents**：職缺描述中開始出現「AI agents」概念，如 Vidably 的「AI agents are about to orchestrate trillions in commerce」。此為 2026 年 AI 應用層的新興方向。
-- **Skills-First Hiring**：LinkedIn 發布「What Skills First Really Means」報告，推動「技能優先」招聘策略，可能影響未來職缺技能需求的表述方式。
+- **RAG**：檢索增強生成（Retrieval-Augmented Generation）已成為 LLM 應用的標準架構，職缺描述中開始明確要求此技能。
+- **Agentic/AI Agent**：AI 代理概念正式進入招聘市場，職缺描述如「building agentic AI systems」、「AI agent development」。
+- **MCP**：Anthropic 的 Model Context Protocol 開始出現在職缺需求中，顯示 AI 工具鏈生態正在成形。
+- **Claude**：作為具體的 LLM 產品被提及，顯示企業已開始指定特定 AI 模型經驗。
 
 ---
 
@@ -191,99 +240,113 @@ qdrant_search_used: true
 
 ## 跨源交叉驗證
 
-### 全球趨勢一致性
+### 全球 vs 台灣技能需求對比
 
-| 技能標籤 | HN Hiring | Hays UK Tech Talent | LinkedIn Workforce | Stack Overflow 2025 | 一致性判定 |
-|----------|-----------|---------------------|-------------------|---------------------|-----------|
-| AI/ML | 極高需求 | 熱門技能（待補充詳細數據） | 持續關注 | AI 工具使用率上升 | 高度一致 |
-| Cybersecurity | 上升中（+8.3%） | 人才短缺 | 人才缺口議題 | - | 高度一致 |
-| TypeScript | 穩定高需求 | - | - | 主流語言 | 一致 |
+| 技能標籤 | 全球（HN Hiring, Arbeitnow） | 台灣（tw_govjobs） | 觀察 |
+|----------|---------------------------|-------------------|------|
+| AI/ML | 極高需求（16,456 次提及） | 14 筆（資訊軟體系統類） | 台灣公開職缺資料缺乏技能標籤，無法直接比較 |
+| SQL | 高需求（186 次） | 21 筆 | 基礎資料技能需求一致 |
+| 資安 | 極高需求（1,125 次） | 15 筆 | 台灣公部門資安需求上升 |
+| 前端（React/Vue） | 高需求 | 14 筆 | 需求存在但標籤不明確 |
 
-### 趨勢分歧
+### 歐洲 vs 美國技能需求對比
 
-| 技能標籤 | 全球科技業 | 台灣市場 | 可能解釋 |
-|----------|-----------|----------|----------|
-| AI/ML | 極高需求 | 資料不足 | tw_govjobs 技能欄位多為空值，無法直接比較 |
+| 技能標籤 | 美國（HN Hiring） | 歐洲（Arbeitnow） | 觀察 |
+|----------|-----------------|------------------|------|
+| SRE | 19 筆 | 576 筆 | 歐洲 SRE 需求顯著高於美國 |
+| Go | 309 筆 | 1,064 筆 | 歐洲 Go 語言需求更高 |
+| Agile/Scrum | 較少提及 | 330 筆 | 歐洲更強調敏捷流程 |
+| Azure | 16 筆 | 165 筆 | 歐洲 Azure 使用率較高 |
 
----
+### 趨勢一致
 
-## Qdrant 搜尋結果整合
-
-本報告透過 Qdrant 向量搜尋取得以下相關資料：
-
-| 來源 | 標題 | 相關性 | 整合方式 |
-|------|------|--------|----------|
-| global_hays_salary | Hays Tech Talent Explorer — UK 2025 | 高 | 參考熱門技能趨勢（詳細數據需人工補充） |
-| global_stackoverflow | 2025 開發者調查 | 高 | 作為 AI 工具採用率的背景資料 |
-| global_linkedin_workforce | Most In Demand Jobs | 中 | 作為職位需求趨勢的交叉驗證 |
-| workforce_news | Investors predict AI is coming for labor in 2026 | 高 | 納入分析師觀察段落 |
+| 技能標籤 | 全球科技業 | 判定 |
+|----------|-----------|------|
+| AI/ML/LLM | 所有來源均顯示需求爆發 | 高度一致 |
+| Security | 所有來源均顯示需求上升 | 高度一致 |
+| Terraform/IaC | 多來源顯示需求成長 | 一致 |
 
 ---
 
 ## 分析師觀察
 
-### 1. AI Agents 概念進入招聘市場
+### 1. AI 代理（Agentic AI）正式進入招聘市場
 
-本週首次在 HN Hiring 職缺中觀測到「AI Agents」作為技術概念被提及（如 Vidably、Spiich Labs 等新創）。這標誌著 AI 應用正從「模型訓練」階段進入「代理部署」階段。**推測**：2026 年下半年，「AI Agent Development」可能成為獨立的技能標籤，需求將顯著上升。
+本週首次在 HN Hiring 職缺中大規模觀測到「Agentic」和「AI Agent」作為技術要求被提及（57 次），加上 RAG（73 次）的穩定出現，標誌著 AI 應用正從「模型調用」階段進入「智能代理」階段。職缺描述如「building agentic AI systems for e-commerce」、「AI agent orchestration」反映這一趨勢。
 
-### 2. 投資人預測與市場信號
+**推測**：2026 年下半年，「AI Agent Development」可能成為獨立的技能類別，與傳統「ML Engineer」形成差異化。需要追蹤的新興技能包括：LangChain、LlamaIndex、向量資料庫經驗、Prompt Engineering。
 
-根據 TechCrunch 報導「Investors predict AI is coming for labor in 2026」[^1]，投資者普遍預期 AI 將在 2026 年對企業勞動力市場產生影響。結合達沃斯論壇 AI 議題主導的觀察[^2]，顯示 AI 對勞動市場的影響已從技術討論進入資本配置層面。這與本週 LLM 需求成長（+6.8%）形成呼應。
+### 2. 歐洲市場 SRE 需求異常突出
 
-### 3. 資安人才缺口持續擴大
+Arbeitnow 資料顯示歐洲 SRE 職位需求達 576 筆，遠高於 HN Hiring 的 19 筆。這可能反映：
+- 歐洲企業數位轉型進入運維優化階段
+- GDPR 等合規要求推動可靠性工程投資
+- 歐洲與美國職缺平台的樣本差異
 
-LinkedIn「Closing the Cybersecurity Talent Gap」報告[^3]與 HN Hiring 資安職缺成長（+8.3%）相互印證，顯示資安人才需求持續超過供給。Hays UK Tech Talent Explorer 也將資安列為熱門技能領域（待完整數據補充）。
+**推測**：SRE 技能（K8s、Terraform、監控工具）在歐洲市場的溢價可能高於美國。
 
-### 4. 「技能優先」招聘趨勢
+### 3. 資安技能需求全面上升
 
-LinkedIn「What Skills First Really Means」報告[^4]推動企業重新思考學歷 vs 技能的權衡。**推測**：若此趨勢擴大，未來職缺描述中對「技能標籤」的明確標註將增加，有利於本系統的技能追蹤。
+「Security」一詞在本週職缺中出現 1,125 次（跨所有來源），較 W06 的 60 次大幅上升。這與 LinkedIn「Closing the Cybersecurity Talent Gap」報告相呼應。結合近期全球資安事件頻發，資安人才缺口預計將持續擴大。
+
+**推測**：資安技能將進一步細分為 DevSecOps、Cloud Security、AI Security 等子領域，各有不同的技能要求和薪資帶。
+
+### 4. 資料來源組成差異對比較的影響
+
+本週報告整合更多歐洲職缺（Arbeitnow 500 筆），與 W06 主要基於 HN Hiring 的資料結構有所不同。因此，單純的百分比變化需謹慎解讀。建議後續報告採用「同比同源」的比較方式，或明確標註資料來源組成變化。
 
 ---
 
 ## 下週追蹤重點
 
-1. **AI Agents 標籤追蹤**：觀察「AI Agents」是否成為獨立技能類別
-2. **LLM 細分觀察**：追蹤 GPT、Claude、Llama 等特定模型的需求比例
-3. **資安技能細分**：追蹤 DevSecOps、Cloud Security、SOC 分析師等細分需求
-4. **tw_govjobs 恢復狀況**：補充台灣市場觀測
-5. **Hays 完整數據**：人工補充 Tech Talent Explorer 詳細技能排名
+1. **AI Agent 生態**：追蹤 LangChain、LlamaIndex、向量資料庫等 AI Agent 生態系技能
+2. **RAG 架構技能**：觀察 Embeddings、向量搜尋、知識庫建構等技能是否獨立成標籤
+3. **SRE 技能細分**：追蹤 Observability、SLO/SLI、Chaos Engineering 等 SRE 細分技能
+4. **資安技能細分**：追蹤 DevSecOps、Cloud Security、Zero Trust 等資安細分需求
+5. **台灣市場補充**：持續觀察 tw_govjobs 資訊軟體類職缺技能需求
 
 ---
 
 ## 資料來源
 
-[^1]: TechCrunch, "Investors predict AI is coming for labor in 2026", 2025-12-31, docs/Extractor/workforce_news/market_signal/20251231-ai-labor-2026-market_signal.md
+### 本週分析資料
 
-[^2]: TechCrunch, "AI CEOs transformed Davos into a tech conference", 2026-01-23, docs/Extractor/workforce_news/market_signal/20260123-davos-ai-ceos-market_signal.md
+| Layer | 職缺筆數 | 資料日期 | 主要技能類型 |
+|-------|----------|----------|-------------|
+| global_hn_hiring | 381 | 2026-02-08 | 軟體開發、AI/ML、雲端 |
+| global_arbeitnow | 500 | 2026-02-08 | 歐洲軟體業、SRE、DevOps |
+| global_remoteok | 93 | 2026-02-08 | 遠端工作、安全、加密貨幣 |
+| global_weworkremotely | 100 | 2026-02-08 | DevOps、全端、Rails |
+| tw_govjobs | 1,000 | 2026-02-08 | 服務業、技術工、專業服務 |
+| **合計** | **2,074** | | |
 
-[^3]: LinkedIn Talent Solutions Blog, "Closing The Cybersecurity Talent Gap", 2026-01-28, docs/Extractor/global_linkedin_workforce/skills_ranking/2026-01-28_closing-the-cybersecurity-talent-gap.md
+### 參考報告
 
-[^4]: LinkedIn Talent Solutions Blog, "What Skills First Really Means", 2026-01-28, docs/Extractor/global_linkedin_workforce/skills_ranking/2026-01-28_what-skills-first-really-means.md
-
-[^5]: Hays UK, "Tech Talent Explorer 2025", 2026-01-28, docs/Extractor/global_hays_salary/hot_skills/2026-uk-tech-talent-explorer.md
-
-[^6]: Stack Overflow, "2025 Developer Survey - AI Tools Usage and Attitudes", 2026-01-28, docs/Extractor/global_stackoverflow/language_framework/2025_ai-tools-usage-and-attitudes.md
+- LinkedIn Talent Solutions Blog, "Closing The Cybersecurity Talent Gap", 2026-01-28
+- LinkedIn Talent Solutions Blog, "What Skills First Really Means", 2026-01-28
+- Stack Overflow, "2025 Developer Survey - AI Tools Usage and Attitudes"
 
 ---
 
 ## 免責聲明
 
-本報告為自動化分析產出，僅供參考。技能需求分析基於有限的觀測數據源（主要為 HN Hiring、Stack Overflow 開發者調查、Hays 薪資指南及 LinkedIn Workforce 報告），不代表完整的市場技能需求。技能標籤的分類與合併基於 AI 判斷，可能存在粒度不一致或誤歸類的情況。任何學習或職涯投資決策請綜合多方資訊後自行判斷。
+本報告為自動化分析產出，僅供參考。技能需求分析基於有限的觀測數據源（主要為 HN Hiring、Arbeitnow、RemoteOK、WeWorkRemotely 及台灣就業通），不代表完整的市場技能需求。技能標籤的分類與合併基於 AI 判斷，可能存在粒度不一致或誤歸類的情況。任何學習或職涯投資決策請綜合多方資訊後自行判斷。
 
 ### 資料來源限制
 
-1. **樣本偏差**：HN Hiring 偏向矽谷新創與科技業，傳統產業代表性不足
-2. **WebFetch 限制**：Hays Tech Talent Explorer 和 LinkedIn 報告因 WebFetch 失敗，僅能基於標題和元數據分析
-3. **時間範圍**：本報告為第二週觀測（W07），趨勢判斷基於 W06 基線比較
-4. **台灣資料缺乏**：tw_104_jobs 和 tw_govjobs 技能欄位空值率高，影響台灣市場分析完整性
+1. **樣本偏差**：資料來源偏向科技業和遠端工作，傳統產業和現場工作職缺代表性不足
+2. **資料結構差異**：各來源技能標籤格式不一，需從職缺描述中萃取
+3. **地理分布**：HN Hiring 偏向美國新創，Arbeitnow 偏向歐洲，台灣資料技能欄位空值率高
+4. **時間範圍**：本報告為第二週觀測（W07），趨勢判斷基於 W06 基線比較
+5. **資料來源組成變化**：本週整合更多歐洲職缺，與 W06 資料結構有差異
 
 ### Qdrant 搜尋說明
 
-本報告使用 Qdrant 向量搜尋取得以下資料：global_hays_salary（UK Tech Talent Explorer）、global_stackoverflow（開發者調查）、global_linkedin_workforce（Most In Demand Jobs）、workforce_news（AI 勞動力預測）。搜尋結果作為交叉驗證來源，強化分析可信度。
+本報告使用 Qdrant 向量搜尋取得相關資料，作為交叉驗證來源，強化分析可信度。
 
 ---
 
-最後更新：2026-02-07
+最後更新：2026-02-08
 
 ---
 
@@ -303,4 +366,6 @@ LinkedIn「What Skills First Really Means」報告[^4]推動企業重新思考�
 | docker, Docker | Docker | 雲端與基礎設施 |
 | ci/cd, CI/CD | CI/CD | 雲端與基礎設施 |
 | LLM, large language model | LLM | 數據與 AI |
-| AI agents, AI Agents | AI Agents | 數據與 AI |
+| AI agents, AI Agents, agentic | Agentic/AI Agent | 數據與 AI |
+| RAG, rag, retrieval augmented | RAG | 數據與 AI |
+| SRE, site reliability | SRE | 雲端與基礎設施 |
