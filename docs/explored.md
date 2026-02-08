@@ -18,6 +18,11 @@
 | Hays Salary Guide | 報告/PDF | global_hays_salary | 2026-01-28 | 年度薪資指南 |
 | TechCrunch/Reuters RSS | RSS | workforce_news | 2026-01-28 | 裁員與人力動態新聞 |
 | TechCrunch Funding RSS | RSS | funding_signals | 2026-01-28 | 融資與投資新聞 |
+| Eurostat Labour Market API | REST API | global_eurostat | 2026-02-08 | 歐盟27國就業/失業/薪資統計 |
+| Australia Bureau of Statistics | REST API | global_abs | 2026-02-08 | 澳洲勞動力調查(1978至今) |
+| KOSIS (Korea Statistics) | REST API | global_kosis | 2026-02-08 | 韓國就業/失業/勞動參與率統計 |
+| Adzuna API | REST API | global_adzuna | 2026-02-08 | 全球多國職缺+薪資趨勢 |
+| Statistics Canada | REST API | global_statcan | 2026-02-08 | 加拿大勞動力調查(月度更新) |
 
 ## 評估中
 
@@ -25,11 +30,7 @@
 
 | 資料源 | 類型 | URL | 語言 | 發現日期 | 狀態 | 涵蓋範圍 |
 |--------|------|-----|------|----------|------|----------|
-| Adzuna API | REST API | https://developer.adzuna.com/ | en | 2026-02-08 | 待建 Layer | 全球多國職缺+薪資趨勢 |
-| Eurostat Labour | REST API | https://ec.europa.eu/eurostat/web/labour-market/database | en | 2026-02-08 | 待建 Layer | 歐盟 27 國就業統計 |
-| Statistics Canada | REST API | https://www.statcan.gc.ca/en/developers | en | 2026-02-08 | 待建 Layer | 加拿大勞動力調查 |
-| Australia ABS | REST API | https://www.data.gov.au/data/dataset/australian-bureau-of-statistics-labour-force-api | en | 2026-02-08 | 待建 Layer | 澳洲就業統計 |
-| Korea OPEN DATA | API | https://www.data.go.kr/en/index.do | ko/en | 2026-02-08 | 待建 Layer | 韓國就業市場 |
+
 
 ### P2 中優先（短期評估）
 
