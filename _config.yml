@@ -1,7 +1,7 @@
 title: Skills Shift Observatory
 description: 技能需求變化觀測站 — 追蹤全球就業市場變化與 AI 對各產業職缺的衝擊
-baseurl: "/agent.skills-shift-observatory"
-url: "https://weiqi-kids.github.io"
+baseurl: ""
+url: "https://skills.weiqi.kids"
 
 # Theme
 remote_theme: just-the-docs/just-the-docs@v0.10.0
