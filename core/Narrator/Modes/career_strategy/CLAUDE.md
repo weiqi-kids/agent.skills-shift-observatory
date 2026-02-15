@@ -66,7 +66,15 @@
 
 ```markdown
 ---
-title: "求職策略建議 — {YYYY}年第{WW}週"
+# === Jekyll 基本欄位 ===
+layout: default
+title: W{WW}
+parent: 求職策略
+nav_order: {10000 - WW}
+permalink: /reports/career-strategy-w{ww}/
+
+# === 報告元資料 ===
+report_title: "求職策略建議 — {YYYY}年第{WW}週"
 mode: career_strategy
 period: "{YYYY}-W{WW}"
 generated_at: "{ISO 8601 timestamp}"
@@ -96,6 +104,37 @@ data_coverage:
   modes_available: {N}
   modes_total: 4
 risk_level: HIGH
+confidence: {高/中/低}
+qdrant_search_used: true
+
+# === SEO 欄位（必填）===
+seo:
+  # SEO 標題：≤60字
+  title: "{YYYY}年第{WW}週職涯策略：{核心建議方向} | 求職策略"
+
+  # Meta 描述：≤155字
+  description: "本週職涯觀察：{熱門技能}需求上升，建議關注{技能方向}。涵蓋 AI 取代風險評估、轉職路徑分析、學習資源參考。"
+
+  # 關鍵字：5-8 個
+  keywords:
+    - 職涯規劃
+    - 轉職建議
+    - {熱門技能1}
+    - {熱門技能2}
+    - AI 取代風險
+    - {YYYY} 求職
+
+  # 文章分類：固定值
+  article_section: 職涯策略建議
+
+  # FAQ：3-5 題
+  faq:
+    - question: "{YYYY}年該學什麼技能？"
+      answer: "基於本週觀測，{熱門技能}需求上升顯著。建議可關注{技能方向}，但需依個人背景評估。"
+    - question: "哪些職業 AI 取代風險較高？"
+      answer: "{從 AI 取代向量分析提取，含風險等級}"
+    - question: "現在適合轉職嗎？"
+      answer: "依本週市場觀測，{市場溫度描述}。轉職決策需綜合個人情況，建議諮詢專業顧問。"
 ---
 
 # 求職策略建議 — {YYYY}年第{WW}週
@@ -281,6 +320,15 @@ risk_level: HIGH
 - [ ] **弱勢群體考量**：建議是否考慮了不同經濟條件的讀者？（例如：不應假設所有人都有資源學習新技能）
 - [ ] **無倖存者偏差**：是否避免了以成功案例推論一般性建議？
 
+### SEO 審核
+- [ ] **seo.title 存在且合規**：≤60 字，包含週次和核心方向
+- [ ] **seo.description 存在且合規**：≤155 字，包含技能方向
+- [ ] **seo.keywords 完整**：5-8 個關鍵字，包含「職涯規劃」「轉職」等核心詞
+- [ ] **seo.article_section 正確**：使用「職涯策略建議」
+- [ ] **seo.faq 完整**：3-5 個 Q&A，問題為使用者可能搜尋的形式
+- [ ] **FAQ 答案可獨立理解**：不依賴報告上下文即可理解答案
+- [ ] **FAQ 無確定性語氣**：FAQ 答案是否也遵循「參考方向」而非「建議」的語氣？
+
 ---
 
 ## 執行注意事項
@@ -311,3 +359,32 @@ risk_level: HIGH
    - 禁止預測特定產業或角色的「消亡時間」
    - 禁止暗示只有一條「正確」的職涯路徑
    - 禁止使用「黃金」、「鐵飯碗」、「夕陽」等帶有強烈主觀判斷的用語
+
+---
+
+## SEO 參考文件
+
+產出報告時，SEO 欄位的詳細規範請參閱：
+
+| 文件 | 說明 |
+|------|------|
+| `seo/front-matter-spec.md` | Front matter SEO 欄位完整規範 |
+| `core/Narrator/seo-integration.md` | Narrator Mode SEO 整合指引 |
+| `_data/seo.yml` | 全站 SEO 設定 |
+
+### SEO 欄位快速參考
+
+| 欄位 | 規則 | 範例 |
+|------|------|------|
+| `seo.title` | ≤60 字，含週次+方向 | `"2026年第7週職涯觀察：AI 技能需求持續上升 \| 求職策略"` |
+| `seo.description` | ≤155 字 | `"本週職涯觀察：AI/ML 技能需求上升，建議關注雲端與自動化..."` |
+| `seo.keywords` | 5-8 個 | `["職涯規劃", "轉職建議", "AI 技能", "2026 求職"]` |
+| `seo.article_section` | 固定值 | `"職涯策略建議"` |
+| `seo.faq` | 3-5 題 Q&A | 見輸出框架範例 |
+
+### SEO FAQ 特別注意
+
+由於本 Mode 為高風險報告，FAQ 答案必須遵守：
+- 使用「基於觀測」「可關注」而非「應該」「必須」
+- 包含「需依個人情況評估」等提醒
+- 不做確定性預測

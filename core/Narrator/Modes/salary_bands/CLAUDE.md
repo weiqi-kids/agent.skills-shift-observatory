@@ -61,7 +61,15 @@
 
 ```markdown
 ---
-title: "薪資帶分析 — {YYYY}年第{WW}週"
+# === Jekyll 基本欄位 ===
+layout: default
+title: W{WW}
+parent: 薪資帶
+nav_order: {10000 - WW}
+permalink: /reports/salary-bands-w{ww}/
+
+# === 報告元資料 ===
+report_title: "薪資帶分析 — {YYYY}年第{WW}週"
 mode: salary_bands
 period: "{YYYY}-W{WW}"
 generated_at: "{ISO 8601 timestamp}"
@@ -78,6 +86,37 @@ data_coverage:
   total_salary_samples: {N}
   negotiable_excluded: {N}（{X%}）
   observation_period: "{start_date} ~ {end_date}"
+confidence: {高/中/低}
+qdrant_search_used: true
+
+# === SEO 欄位（必填）===
+seo:
+  # SEO 標題：≤60字
+  title: "{YYYY}年第{WW}週薪資趨勢：{核心發現} | 薪資帶分析"
+
+  # Meta 描述：≤155字，包含薪資數據
+  description: "本週薪資分析：{高薪角色}月薪中位數達 {N}K，{薪資變化描述}。涵蓋 {N} 個職業角色的 P25/P50/P75 薪資帶分析。"
+
+  # 關鍵字：5-8 個
+  keywords:
+    - 薪資趨勢
+    - {高薪角色1}薪水
+    - {高薪角色2}薪資
+    - 科技業薪資
+    - 薪資中位數
+    - {YYYY} 薪資
+
+  # 文章分類：固定值
+  article_section: 薪資帶分析
+
+  # FAQ：3-5 題
+  faq:
+    - question: "{YYYY}年{高薪角色}薪資多少？"
+      answer: "{角色}月薪中位數（P50）為 {N}K 元，P25 為 {N}K，P75 為 {N}K。"
+    - question: "哪些職業薪資成長最快？"
+      answer: "{從薪資成長排名提取，含變化率}"
+    - question: "各地區薪資差異如何？"
+      answer: "{從地區薪資比較提取}"
 ---
 
 # 薪資帶分析 — {YYYY}年第{WW}週
@@ -258,6 +297,8 @@ data_coverage:
 
 產出報告前，必須逐項確認：
 
+### 內容審核
+
 - [ ] **數據品質聲明置頂**：報告開頭是否包含「面議」佔比和有效樣本數的聲明？
 - [ ] **樣本量標註**：每個角色/產業的薪資統計是否標註樣本數？小樣本（<10）是否加警告？
 - [ ] **P25/P50/P75 邏輯正確**：P25 < P50 < P75 的順序是否正確？
@@ -271,6 +312,15 @@ data_coverage:
 - [ ] **地區分類正確**：各地區的歸類是否一致？
 - [ ] **推測標註明確**：「可能原因」等推測性內容是否明確標註？
 
+### SEO 審核
+
+- [ ] **seo.title 存在且合規**：≤60 字，包含週次和薪資亮點
+- [ ] **seo.description 存在且合規**：≤155 字，包含具體薪資數據
+- [ ] **seo.keywords 完整**：5-8 個關鍵字，包含高薪角色名稱
+- [ ] **seo.article_section 正確**：使用「薪資帶分析」
+- [ ] **seo.faq 完整**：3-5 個 Q&A，問題為使用者可能搜尋的形式
+- [ ] **FAQ 答案可獨立理解**：不依賴報告上下文即可理解答案
+
 ---
 
 ## 執行注意事項
@@ -281,3 +331,25 @@ data_coverage:
 4. **匯率處理**：全球對標統一使用美元，台灣薪資保留新台幣。不做 PPP 換算，但在報告中提醒 PPP 差異。
 5. **週變化平滑**：鼓勵同時呈現 4 週移動平均，以降低單週樣本組成變動的影響。
 6. **公部門特殊處理**：tw_govjobs 的薪資結構與民間不同（公務員俸給表），應獨立呈現，不與民間薪資混合計算。
+
+---
+
+## SEO 參考文件
+
+產出報告時，SEO 欄位的詳細規範請參閱：
+
+| 文件 | 說明 |
+|------|------|
+| `seo/front-matter-spec.md` | Front matter SEO 欄位完整規範 |
+| `core/Narrator/seo-integration.md` | Narrator Mode SEO 整合指引 |
+| `_data/seo.yml` | 全站 SEO 設定 |
+
+### SEO 欄位快速參考
+
+| 欄位 | 規則 | 範例 |
+|------|------|------|
+| `seo.title` | ≤60 字，含週次+薪資亮點 | `"2026年第7週薪資趨勢：AI 工程師月薪破 120K \| 薪資帶分析"` |
+| `seo.description` | ≤155 字，含薪資數據 | `"本週薪資分析：軟體工程師月薪中位數達 85K，年增 5%..."` |
+| `seo.keywords` | 5-8 個 | `["薪資趨勢", "軟體工程師薪水", "AI 工程師薪資", "科技業薪資"]` |
+| `seo.article_section` | 固定值 | `"薪資帶分析"` |
+| `seo.faq` | 3-5 題 Q&A | 見輸出框架範例 |

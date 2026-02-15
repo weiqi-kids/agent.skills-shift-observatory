@@ -63,7 +63,15 @@
 
 ```markdown
 ---
-title: "就業景氣溫度計 — {YYYY}年第{WW}週"
+# === Jekyll 基本欄位 ===
+layout: default
+title: W{WW}
+parent: 景氣溫度計
+nav_order: {10000 - WW}
+permalink: /reports/climate-index-w{ww}/
+
+# === 報告元資料 ===
+report_title: "就業景氣溫度計 — {YYYY}年第{WW}週"
 mode: climate_index
 period: "{YYYY}-W{WW}"
 generated_at: "{ISO 8601 timestamp}"
@@ -86,6 +94,37 @@ data_coverage:
   layers_available: {N}
   layers_total: 14
   observation_period: "{start_date} ~ {end_date}"
+confidence: {高/中/低}
+qdrant_search_used: true
+
+# === SEO 欄位（必填）===
+seo:
+  # SEO 標題：≤60字，格式：{時間}{溫度結果} | 景氣溫度計 | Skills Shift Observatory
+  title: "{YYYY}年第{WW}週就業市場{溫度}：{一句話摘要} | 景氣溫度計"
+
+  # Meta 描述：≤155字，包含溫度判讀和核心數據
+  description: "本週就業市場溫度：{溫度等級}。{核心指標變化描述}。涵蓋台灣與全球 {N} 個資料來源的綜合分析。"
+
+  # 關鍵字：5-8 個
+  keywords:
+    - 就業市場景氣
+    - 景氣指數
+    - 失業率
+    - 職缺數量
+    - {本週亮點產業}
+    - {YYYY} 勞動市場
+
+  # 文章分類：固定值
+  article_section: 景氣溫度計
+
+  # FAQ：3-5 題
+  faq:
+    - question: "{YYYY}年第{WW}週就業市場景氣如何？"
+      answer: "本週就業市場溫度為{溫度等級}。{核心判讀依據，含具體數據}"
+    - question: "哪些產業正在擴大招聘？"
+      answer: "{從產業亮點提取，含具體數據}"
+    - question: "本週有哪些重大就業市場事件？"
+      answer: "{從重大事件提取}"
 ---
 
 # 就業景氣溫度計 — {YYYY}年第{WW}週
@@ -188,6 +227,8 @@ data_coverage:
 
 產出報告前，必須逐項確認：
 
+### 內容審核
+
 - [ ] **來源標註完整**：所有數字是否有明確來源標註（layer_name）？
 - [ ] **溫度邏輯一致**：溫度判讀是否與核心指標一致（不矛盾）？若指標方向矛盾，是否在判讀依據中說明？
 - [ ] **地域區分清晰**：是否明確區分台灣數據與全球數據，未混為一談？
@@ -199,6 +240,15 @@ data_coverage:
 - [ ] **前期銜接**：溫度變化是否與前期報告邏輯銜接？
 - [ ] **簡化風險控制**：是否避免將複雜市場過度簡化為單一判斷？
 
+### SEO 審核
+
+- [ ] **seo.title 存在且合規**：≤60 字，包含週次和溫度等級
+- [ ] **seo.description 存在且合規**：≤155 字，包含溫度判讀和核心數據
+- [ ] **seo.keywords 完整**：5-8 個關鍵字，包含「就業市場景氣」等核心詞
+- [ ] **seo.article_section 正確**：使用「景氣溫度計」
+- [ ] **seo.faq 完整**：3-5 個 Q&A，問題為使用者可能搜尋的形式
+- [ ] **FAQ 答案可獨立理解**：不依賴報告上下文即可理解答案
+
 ---
 
 ## 執行注意事項
@@ -207,3 +257,25 @@ data_coverage:
 2. **矛盾信號處理**：台灣數據與全球數據方向相反時，以台灣數據為主要判讀依據，但必須說明全球背景。
 3. **極端事件處理**：單一重大裁員或招聘事件不應單獨決定溫度，需評估是否為產業性或全面性趨勢。
 4. **季節性考量**：農曆年前後、畢業季等季節性因素應在判讀中提及，避免將季節性波動誤判為趨勢。
+
+---
+
+## SEO 參考文件
+
+產出報告時，SEO 欄位的詳細規範請參閱：
+
+| 文件 | 說明 |
+|------|------|
+| `seo/front-matter-spec.md` | Front matter SEO 欄位完整規範 |
+| `core/Narrator/seo-integration.md` | Narrator Mode SEO 整合指引 |
+| `_data/seo.yml` | 全站 SEO 設定 |
+
+### SEO 欄位快速參考
+
+| 欄位 | 規則 | 範例 |
+|------|------|------|
+| `seo.title` | ≤60 字，含週次+溫度 | `"2026年第7週就業市場溫暖：科技業回暖 \| 景氣溫度計"` |
+| `seo.description` | ≤155 字，含核心數據 | `"本週就業市場溫度：溫暖。職缺總數達 15,234 筆，年增 8.3%..."` |
+| `seo.keywords` | 5-8 個 | `["就業市場景氣", "景氣指數", "失業率", "職缺數量"]` |
+| `seo.article_section` | 固定值 | `"景氣溫度計"` |
+| `seo.faq` | 3-5 題 Q&A | 見輸出框架範例 |

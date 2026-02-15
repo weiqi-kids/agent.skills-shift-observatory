@@ -1,0 +1,116 @@
+# 全站 SEO 設定
+# 此檔案定義 JSON-LD Schema 中的固定資訊
+
+# =============================================================================
+# 網站資訊（WebSite Schema）
+# =============================================================================
+site:
+  name: "Skills Shift Observatory"
+  name_zh: "技能需求變化觀測站"
+  url: "https://skills.weiqi.kids"
+  description: "追蹤全球就業市場變化與 AI 對各產業職缺的衝擊"
+  language: "zh-TW"
+  search_url: "https://skills.weiqi.kids/search?q={search_term}"
+
+# =============================================================================
+# 出版者資訊（Organization Schema）
+# =============================================================================
+organization:
+  name: "Skills Shift Observatory"
+  url: "https://skills.weiqi.kids"
+  logo:
+    url: "https://skills.weiqi.kids/assets/images/logo.png"
+    width: 600
+    height: 60
+  # 社群連結（sameAs）
+  social:
+    - "https://github.com/anthropics/claude-code"
+  # 聯絡資訊
+  contact:
+    type: "customer service"
+    email: "contact@weiqi.kids"
+
+# =============================================================================
+# 預設作者資訊（Person Schema）
+# 用於 AI 生成的報告
+# =============================================================================
+default_author:
+  name: "Skills Shift Observatory AI"
+  url: "https://skills.weiqi.kids/about"
+  description: "由 Claude Code 驅動的 AI 分析系統，追蹤全球就業市場變化"
+  # E-E-A-T 必填欄位
+  knows_about:
+    - "就業市場分析"
+    - "AI 與自動化影響評估"
+    - "技能需求趨勢追蹤"
+    - "勞動力市場數據分析"
+  credentials:
+    - name: "Claude Code AI System"
+      category: "AI Analysis Platform"
+  social:
+    - "https://github.com/anthropics/claude-code"
+
+# =============================================================================
+# 預設圖片設定
+# =============================================================================
+images:
+  # OG 圖片預設值
+  default_og_image: "https://skills.weiqi.kids/assets/images/og-default.png"
+  og_image_width: 1200
+  og_image_height: 630
+  # 圖片授權
+  license_url: "https://creativecommons.org/licenses/by/4.0/"
+  credit_text: "Skills Shift Observatory"
+
+# =============================================================================
+# 文章分類對應（Article Section）
+# =============================================================================
+article_sections:
+  climate_index: "景氣溫度計"
+  skills_drift: "技能漂移分析"
+  industry_segments: "產業分層分析"
+  salary_bands: "薪資帶分析"
+  career_strategy: "職涯策略建議"
+
+# =============================================================================
+# 麵包屑層級對應
+# =============================================================================
+breadcrumb:
+  home:
+    name: "首頁"
+    url: "/"
+  reports:
+    climate_index:
+      name: "景氣溫度計"
+      url: "/docs/Narrator/climate_index/"
+    skills_drift:
+      name: "技能漂移"
+      url: "/docs/Narrator/skills_drift/"
+    industry_segments:
+      name: "產業分層"
+      url: "/docs/Narrator/industry_segments/"
+    salary_bands:
+      name: "薪資帶"
+      url: "/docs/Narrator/salary_bands/"
+    career_strategy:
+      name: "求職策略"
+      url: "/docs/Narrator/career_strategy/"
+
+# =============================================================================
+# Speakable 選擇器（語音搜尋優化）
+# =============================================================================
+speakable_selectors:
+  - ".article-summary"
+  - ".key-takeaway"
+  - ".key-finding"
+  - "h2 + p"
+  - ".actionable-steps li"
+
+# =============================================================================
+# 免責聲明
+# =============================================================================
+disclaimers:
+  career_advice: |
+    本報告為自動化系統基於公開資料生成，僅供參考。報告內容不構成個人化職涯諮詢建議、投資或財務建議、法律意見、就業保證或薪資承諾。職涯決策涉及個人能力、興趣、財務狀況、家庭因素、健康狀況等多重面向，本系統無法全面評估。建議諮詢專業職涯顧問、評估個人實際情況後再做決策。
+  data_accuracy: |
+    資料來源均為公開資訊，本系統盡力確保準確性，但不保證完全正確或即時更新。使用者應自行驗證關鍵資訊。

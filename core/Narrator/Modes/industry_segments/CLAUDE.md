@@ -72,7 +72,15 @@
 
 ```markdown
 ---
-title: "產業分層分析 — {YYYY}年第{WW}週"
+# === Jekyll 基本欄位 ===
+layout: default
+title: W{WW}
+parent: 產業分層
+nav_order: {10000 - WW}
+permalink: /reports/industry-segments-w{ww}/
+
+# === 報告元資料 ===
+report_title: "產業分層分析 — {YYYY}年第{WW}週"
 mode: industry_segments
 period: "{YYYY}-W{WW}"
 generated_at: "{ISO 8601 timestamp}"
@@ -89,6 +97,37 @@ data_coverage:
   layers_total: 7
   industries_covered: {N}/14
   observation_period: "{start_date} ~ {end_date}"
+confidence: {高/中/低}
+qdrant_search_used: true
+
+# === SEO 欄位（必填）===
+seo:
+  # SEO 標題：≤60字
+  title: "{YYYY}年第{WW}週產業招聘趨勢：{核心發現} | 產業分層分析"
+
+  # Meta 描述：≤155字，包含產業亮點
+  description: "本週產業招聘分析：{亮點產業}職缺{上升/下降}{X%}，{警訊產業}{趨勢描述}。涵蓋 14 大產業的職缺、薪資、AI 衝擊分析。"
+
+  # 關鍵字：5-8 個
+  keywords:
+    - 產業招聘趨勢
+    - {亮點產業1}招聘
+    - {亮點產業2}職缺
+    - 產業分析
+    - AI 衝擊評估
+    - {YYYY} 就業
+
+  # 文章分類：固定值
+  article_section: 產業分層分析
+
+  # FAQ：3-5 題
+  faq:
+    - question: "{YYYY}年第{WW}週哪些產業招聘最活躍？"
+      answer: "{從產業總覽表提取，含具體數據}"
+    - question: "哪些產業受 AI 衝擊最大？"
+      answer: "{從 AI 衝擊排名提取}"
+    - question: "各產業薪資水準如何？"
+      answer: "{從跨產業比較提取，含薪資中位數}"
 ---
 
 # 產業分層分析 — {YYYY}年第{WW}週
@@ -224,6 +263,8 @@ data_coverage:
 
 產出報告前，必須逐項確認：
 
+### 內容審核
+
 - [ ] **14 產業完整覆蓋**：是否每個產業都有分析段落？數據不足的產業是否明確標註「樣本不足」？
 - [ ] **數據來源一致**：每個產業的數據是否來自相同的觀測週期？
 - [ ] **小樣本警告**：職缺數低於 50 筆的產業是否標註「小樣本」警告？
@@ -235,6 +276,15 @@ data_coverage:
 - [ ] **推測標註明確**：所有推測性判斷是否明確標註？
 - [ ] **綜合評級有據**：產業綜合評級（星等）是否能從報告數據推導，而非主觀給分？
 
+### SEO 審核
+
+- [ ] **seo.title 存在且合規**：≤60 字，包含週次和核心發現
+- [ ] **seo.description 存在且合規**：≤155 字，包含產業亮點數據
+- [ ] **seo.keywords 完整**：5-8 個關鍵字，包含亮點產業名稱
+- [ ] **seo.article_section 正確**：使用「產業分層分析」
+- [ ] **seo.faq 完整**：3-5 個 Q&A，問題為使用者可能搜尋的形式
+- [ ] **FAQ 答案可獨立理解**：不依賴報告上下文即可理解答案
+
 ---
 
 ## 執行注意事項
@@ -244,3 +294,25 @@ data_coverage:
 3. **政府平台特殊處理**：tw_govjobs 的職缺歸入「政府與非營利」產業，但技術類職缺可同時標註對應的技術產業。
 4. **季節性考量**：部分產業有明顯季節性（如零售的年末旺季、營建的雨季淡季），應在分析中提及。
 5. **融資信號權重**：funding_signals 的融資事件僅作為「擴張信號」參考，不可直接推論為「該產業整體擴張」。
+
+---
+
+## SEO 參考文件
+
+產出報告時，SEO 欄位的詳細規範請參閱：
+
+| 文件 | 說明 |
+|------|------|
+| `seo/front-matter-spec.md` | Front matter SEO 欄位完整規範 |
+| `core/Narrator/seo-integration.md` | Narrator Mode SEO 整合指引 |
+| `_data/seo.yml` | 全站 SEO 設定 |
+
+### SEO 欄位快速參考
+
+| 欄位 | 規則 | 範例 |
+|------|------|------|
+| `seo.title` | ≤60 字，含週次+亮點 | `"2026年第7週產業趨勢：科技業職缺年增 12% \| 產業分層分析"` |
+| `seo.description` | ≤155 字，含產業數據 | `"本週產業招聘分析：科技業職缺年增 12%，金融業穩定成長..."` |
+| `seo.keywords` | 5-8 個 | `["產業招聘趨勢", "科技業職缺", "金融業招聘", "AI 衝擊評估"]` |
+| `seo.article_section` | 固定值 | `"產業分層分析"` |
+| `seo.faq` | 3-5 題 Q&A | 見輸出框架範例 |

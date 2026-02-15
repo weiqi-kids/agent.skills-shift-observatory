@@ -57,7 +57,15 @@
 
 ```markdown
 ---
-title: "技能需求漂移分析 — {YYYY}年第{WW}週"
+# === Jekyll 基本欄位 ===
+layout: default
+title: W{WW}
+parent: 技能漂移
+nav_order: {10000 - WW}
+permalink: /reports/skills-drift-w{ww}/
+
+# === 報告元資料 ===
+report_title: "技能需求漂移分析 — {YYYY}年第{WW}週"
 mode: skills_drift
 period: "{YYYY}-W{WW}"
 generated_at: "{ISO 8601 timestamp}"
@@ -71,6 +79,39 @@ data_coverage:
   layers_available: {N}
   layers_total: 5
   observation_window: "近 4 週 ({start} ~ {end})"
+  total_job_postings: {職缺總數}
+confidence: {高/中/低}
+qdrant_search_used: true
+
+# === SEO 欄位（必填）===
+seo:
+  # SEO 標題：≤60字，格式：{時間}{核心發現} | 技能漂移分析 | Skills Shift Observatory
+  title: "{YYYY}年第{WW}週技能需求變化：{核心發現摘要} | 技能漂移分析"
+
+  # Meta 描述：≤155字，包含核心數據和關鍵技能
+  description: "本週技能需求分析：{技能1}需求{上升/下降}{X%}，{技能2}{趨勢描述}。分析 {N} 筆職缺資料，追蹤 {技能3}、{技能4} 等技能需求變化趨勢。"
+
+  # 關鍵字：5-8 個，混合廣泛詞和本週熱門技能
+  keywords:
+    - 技能需求
+    - 就業市場分析
+    - {本週上升最多的技能}
+    - {本週第二熱門技能}
+    - {本週第三熱門技能}
+    - 程式語言趨勢
+    - {YYYY} 職缺
+
+  # 文章分類：固定值
+  article_section: 技能漂移分析
+
+  # FAQ：3-5 題，從報告內容提取
+  faq:
+    - question: "{YYYY}年第{WW}週哪些程式語言需求上升最多？"
+      answer: "{從技能上升榜提取，包含具體數據}"
+    - question: "AI 相關技能需求現況如何？"
+      answer: "{從 AI/ML 相關技能數據提取}"
+    - question: "本週技能需求分析涵蓋哪些資料來源？"
+      answer: "本週分析涵蓋 {N} 個資料來源，共 {M} 筆職缺資料，包括 {來源列表}。"
 ---
 
 # 技能需求漂移分析 — {YYYY}年第{WW}週
@@ -209,6 +250,8 @@ data_coverage:
 
 產出報告前，必須逐項確認：
 
+### 內容審核
+
 - [ ] **排名數據可驗證**：所有 Top 10 排名的技能標籤是否確實出現在來源 Layer 的萃取結果中？禁止編造未觀測到的技能。
 - [ ] **變化率計算合理**：百分比變化是否基於實際的出現次數計算，而非 AI 估算？
 - [ ] **標籤粒度一致**：同一報告中的技能標籤是否維持一致的粒度？（不可同時出現 "Python" 和 "Python 3.11"）
@@ -220,6 +263,15 @@ data_coverage:
 - [ ] **無幻覺內容**：是否有任何技能標籤或數據是 AI 生成而非來自觀測數據？
 - [ ] **AI 取代向量歸類合理**：技能標籤歸入各取代向量的分類是否符合邏輯？
 
+### SEO 審核
+
+- [ ] **seo.title 存在且合規**：≤60 字，包含週次和核心發現
+- [ ] **seo.description 存在且合規**：≤155 字，包含具體數據（變化率、職缺數）
+- [ ] **seo.keywords 完整**：5-8 個關鍵字，包含本週熱門技能
+- [ ] **seo.article_section 正確**：使用「技能漂移分析」
+- [ ] **seo.faq 完整**：3-5 個 Q&A，問題為使用者可能搜尋的形式
+- [ ] **FAQ 答案可獨立理解**：不依賴報告上下文即可理解答案
+
 ---
 
 ## 執行注意事項
@@ -229,3 +281,25 @@ data_coverage:
 3. **季節性排除**：特定季節性技能（如「報稅軟體」在報稅季）的變化不應被誤判為趨勢。
 4. **數據不足降級**：若主要來源（tw_104_jobs）無新數據，本週報告應降級為「僅全球趨勢摘要」，並明確標註。
 5. **歷史累積**：本 Mode 需要至少 4 週的歷史數據才能產出完整報告。首次執行時，僅產出「基線建立」版本。
+
+---
+
+## SEO 參考文件
+
+產出報告時，SEO 欄位的詳細規範請參閱：
+
+| 文件 | 說明 |
+|------|------|
+| `seo/front-matter-spec.md` | Front matter SEO 欄位完整規範 |
+| `core/Narrator/seo-integration.md` | Narrator Mode SEO 整合指引 |
+| `_data/seo.yml` | 全站 SEO 設定（Organization、預設作者等）|
+
+### SEO 欄位快速參考
+
+| 欄位 | 規則 | 範例 |
+|------|------|------|
+| `seo.title` | ≤60 字，含週次+核心發現 | `"2026年第7週技能需求：Go 語言上升 142% \| 技能漂移分析"` |
+| `seo.description` | ≤155 字，含具體數據 | `"本週分析：Go 語言需求上升 142.9%，AI 技能持續主導。分析 2,074 筆職缺..."` |
+| `seo.keywords` | 5-8 個 | `["技能需求", "Go 語言", "AI 技能", "程式語言趨勢", "2026 職缺"]` |
+| `seo.article_section` | 固定值 | `"技能漂移分析"` |
+| `seo.faq` | 3-5 題 Q&A | 見輸出框架範例 |
