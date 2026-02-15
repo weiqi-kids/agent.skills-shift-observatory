@@ -26,6 +26,25 @@ data_coverage:
   observation_period: "2026-02-02 ~ 2026-02-08"
 confidence: "中"
 qdrant_search: true
+
+seo:
+  title: "2026年第7週產業分層：AI 重塑招聘、金融整併潮 | 產業分層分析"
+  description: "W07 產業分析：觀測 4,517 筆職缺。Ricursive Intelligence 成立 2 月估值 40 億、Capital One 收購 Brex 51.5 億。軟體 SaaS 持續主導。"
+  keywords:
+    - 產業分析
+    - AI 產業
+    - 金融科技收購
+    - Capital One Brex
+    - 2026 產業趨勢
+    - 科技業整併
+  article_section: 產業分層分析
+  faq:
+    - question: "2026年第7週有哪些重大產業事件？"
+      answer: "Ricursive Intelligence 成立 2 月即完成 3 億美元 A 輪（估值 40 億）、Capital One 以 51.5 億美元收購 Brex、Pinterest 裁員 15%。"
+    - question: "2026年第7週軟體 SaaS 產業表現如何？"
+      answer: "軟體與 SaaS 持續主導市場（2,847 筆職缺、佔比 63%+），AI 相關職缺在整體市場疲軟下逆勢增長。"
+    - question: "2026年第7週金融服務產業有什麼變化？"
+      answer: "金融服務業呈現整併態勢，Capital One 收購 Brex 為代表案例。職缺數維持 131 筆，AI 衝擊評級為高。"
 ---
 
 # 產業分層分析 — 2026年第07週

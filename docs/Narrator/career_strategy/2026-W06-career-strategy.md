@@ -33,6 +33,25 @@ data_coverage:
   modes_available: 4
   modes_total: 4
 risk_level: HIGH
+
+seo:
+  title: "2026年第6週求職策略：AI 熱整體冷、認知例行風險升高 | 職涯策略建議"
+  description: "W06 求職策略參考：市場溫度持平，AI 職缺逆勢成長。認知例行工作（內容審核、客服）風險升高，建議強化 AI 協作技能。"
+  keywords:
+    - 求職策略
+    - AI 取代風險
+    - 職涯規劃
+    - 2026 求職
+    - 技能提升
+    - 職業轉型
+  article_section: 職涯策略建議
+  faq:
+    - question: "2026年第6週哪些工作類型風險較高？"
+      answer: "根據數據觀測，認知例行工作（內容審核、客服）風險升高，Pinterest、Vimeo 裁員涉及此類團隊。建議強化 AI 協作技能。"
+    - question: "2026年第6週求職市場整體狀況如何？"
+      answer: "市場呈現「AI 熱、整體冷」分化態勢。AI 相關職缺逆勢成長，傳統科技業收縮調整。建議關注 AI 相關技能培養。"
+    - question: "2026年第6週哪些技能值得投資學習？"
+      answer: "根據技能漂移分析，Python、AI/ML、雲端（AWS、K8s）、Go/Rust 系統語言需求持續上升，值得投資學習。"
 ---
 
 # 求職策略建議 — 2026年第06週

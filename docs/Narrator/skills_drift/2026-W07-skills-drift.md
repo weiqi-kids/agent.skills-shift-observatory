@@ -22,6 +22,25 @@ data_coverage:
   total_job_postings: 2074
 confidence: 中
 qdrant_search_used: true
+
+seo:
+  title: "2026年第7週技能漂移：Go 暴漲 143%、RAG 技術崛起 | 技能漂移分析"
+  description: "W07 技能需求變化：Go 語言需求暴漲 143%，新興 AI 技術 RAG、Agentic 快速崛起。Rails 回升 180%，Rust 穩定成長。共分析 2,074 筆職缺。"
+  keywords:
+    - 技能需求變化
+    - Go 語言
+    - RAG 技術
+    - AI Agent
+    - 2026 就業市場
+    - 技能漂移追蹤
+  article_section: 技能漂移分析
+  faq:
+    - question: "2026年第7週哪些技能需求成長最快？"
+      answer: "Go 語言暴漲 143%（達 3,600+ 次）、Rails 成長 180%、Scala 成長 74%。新興 AI 技術 RAG、Agentic 需求顯著上升。"
+    - question: "2026年第7週 AI 相關技能需求如何？"
+      answer: "AI 一詞在 HN Hiring 出現 1,328 次居首，新興技術 RAG（檢索增強生成）、Agentic（AI 代理）需求快速成長。"
+    - question: "2026年第7週歐洲市場有什麼特別趨勢？"
+      answer: "Arbeitnow 歐洲職缺中 SRE 職位需求異常突出（576 筆），反映歐洲企業對系統可靠性工程師的強勁需求。"
 ---
 
 # 技能需求漂移分析 — 2026年第07週

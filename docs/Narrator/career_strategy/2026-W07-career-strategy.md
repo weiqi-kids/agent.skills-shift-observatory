@@ -36,6 +36,25 @@ data_coverage:
   modes_total: 4
 risk_level: HIGH
 qdrant_search_used: true
+
+seo:
+  title: "2026年第7週求職策略：市場偏冷、結構性重組中 | 職涯策略建議"
+  description: "W07 求職策略參考：市場溫度轉為偏冷，Amazon 裁員 16,000 人。AI 重塑勞動市場，建議關注 AI 協作技能與跨域整合能力。"
+  keywords:
+    - 求職策略
+    - Amazon 裁員
+    - AI 技能
+    - 職涯規劃
+    - 2026 就業市場
+    - 結構性調整
+  article_section: 職涯策略建議
+  faq:
+    - question: "2026年第7週就業市場有什麼重大變化？"
+      answer: "市場溫度由持平轉為偏冷，Amazon 裁員 16,000 人、Pinterest 裁員 15%。但這是結構性重組而非全面寒冬，AI 相關職缺仍在擴張。"
+    - question: "2026年第7週求職者應該注意什麼？"
+      answer: "關注 AI 協作技能培養，避免單純的認知例行工作。Go、Rust 等系統語言需求上升，RAG、AI Agent 等新技術值得學習。"
+    - question: "2026年第7週哪些產業相對穩定？"
+      answer: "根據產業分析，醫療生技、政府與非營利、專業服務等產業相對穩定，受 AI 衝擊較低。服務業基層人力需求穩定。"
 ---
 
 # 求職策略建議 — 2026年第07週

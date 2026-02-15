@@ -24,6 +24,25 @@ data_coverage:
   industries_covered: 14/14
   observation_period: "2026-01-27 ~ 2026-02-06"
 confidence: "中"
+
+seo:
+  title: "2026年第6週產業分層：軟體 SaaS 主導、媒體收縮 | 產業分層分析"
+  description: "W06 產業分析：觀測 4,710 筆職缺，軟體 SaaS 佔 60%+ 主導市場。媒體娛樂收縮（Pinterest、Vimeo 裁員），AI 基礎設施融資活絡。"
+  keywords:
+    - 產業分析
+    - 軟體 SaaS
+    - 科技業裁員
+    - 金融科技
+    - 2026 產業趨勢
+    - AI 衝擊
+  article_section: 產業分層分析
+  faq:
+    - question: "2026年第6週哪些產業正在擴張？"
+      answer: "軟體與 SaaS 產業主導市場（2,847 筆職缺、佔比 60%+），金融服務、能源與綠能產業呈擴張態勢。"
+    - question: "2026年第6週哪些產業正在收縮？"
+      answer: "媒體娛樂產業收縮，Pinterest 裁員 15%、Vimeo 被收購後裁員、Meta Reality Labs 裁員 10%。"
+    - question: "2026年第6週 AI 對各產業的衝擊如何？"
+      answer: "金融服務、製造業、媒體娛樂受 AI 衝擊高；醫療生技、能源綠能、營建不動產受衝擊較低。"
 ---
 
 # 產業分層分析 — 2026年第06週

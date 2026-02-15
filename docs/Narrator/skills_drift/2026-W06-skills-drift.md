@@ -22,6 +22,25 @@ data_coverage:
   observation_window: "首次觀測（2026-W06 基線建立）"
   total_job_postings: 4710
 confidence: 中
+
+seo:
+  title: "2026年第6週技能需求基線：Python、React、AWS 居首 | 技能漂移分析"
+  description: "W06 技能需求基線建立：分析 4,710 筆職缺，Python 出現 1,913 次居首，React 1,862 次、AWS 1,116 次。Go、Rust 系統語言需求持續上升。"
+  keywords:
+    - 技能需求分析
+    - 就業市場趨勢
+    - Python 職缺
+    - React 開發
+    - 2026 求職
+    - AI 技能需求
+  article_section: 技能漂移分析
+  faq:
+    - question: "2026年第6週哪些程式語言最熱門？"
+      answer: "Python 以 1,913 次出現居首，其次為 TypeScript（1,503 次）、Go（1,482 次）、Rust（807 次）。"
+    - question: "2026年第6週哪些框架最受歡迎？"
+      answer: "React 以 1,862 次出現居首，其次為 Node.js（465 次）、Django（164 次）、Next.js（146 次）。"
+    - question: "2026年第6週雲端技能需求如何？"
+      answer: "AWS 以 1,116 次出現居首，Kubernetes（492 次）、DevOps（445 次）、GCP（389 次）緊隨其後。"
 ---
 
 # 技能需求漂移分析 — 2026年第06週（基線建立版）

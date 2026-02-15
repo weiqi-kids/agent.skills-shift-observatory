@@ -23,6 +23,25 @@ data_coverage:
   negotiable_excluded: 512 (50.0%)
   observation_period: "2026-01-26 ~ 2026-02-08"
 confidence: "中"
+
+seo:
+  title: "2026年第7週薪資帶分析：台灣中位數穩定、新增歐洲數據 | 薪資帶分析"
+  description: "W07 薪資分析：台灣薪資中位數維持 37,200 TWD/月，全球科技 $165K USD/年。新增 Arbeitnow 歐洲數據。1,024 筆有效樣本。"
+  keywords:
+    - 薪資分析
+    - 台灣薪資
+    - 歐洲薪資
+    - 科技業薪資
+    - 2026 薪資趨勢
+    - 薪資比較
+  article_section: 薪資帶分析
+  faq:
+    - question: "2026年第7週台灣薪資與上週相比有變化嗎？"
+      answer: "台灣整體薪資中位數維持約 37,200 TWD/月，與上週持平。科技類職缺薪資穩定。"
+    - question: "2026年第7週有什麼新的薪資數據來源？"
+      answer: "本週新增 Arbeitnow 歐洲職缺資料（500 筆、85 筆有效薪資樣本），可提供歐洲市場薪資參考。"
+    - question: "2026年第7週全球科技職缺薪資表現如何？"
+      answer: "全球遠端科技職缺薪資中位數維持 $165K USD/年，HN Hiring 381 筆 + Arbeitnow 500 筆，薪資水準穩定。"
 ---
 
 # 薪資帶分析 — 2026年第07週

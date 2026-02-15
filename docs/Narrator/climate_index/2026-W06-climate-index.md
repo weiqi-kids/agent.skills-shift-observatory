@@ -26,6 +26,25 @@ data_coverage:
   layers_available: 9
   layers_total: 14
   observation_period: "2026-01-27 ~ 2026-02-06"
+
+seo:
+  title: "2026年第6週就業市場持平：AI 熱、整體冷的分化格局 | 景氣溫度計"
+  description: "本週就業市場溫度：🟡 持平。AI 職缺逆勢成長，傳統科技業收縮。美國失業率降至 4.4%，Pinterest、Meta VR 裁員，但 AI 融資活絡。"
+  keywords:
+    - 就業市場景氣
+    - 景氣指數
+    - 失業率
+    - AI 職缺
+    - 2026 勞動市場
+    - 科技業裁員
+  article_section: 景氣溫度計
+  faq:
+    - question: "2026年第6週就業市場景氣如何？"
+      answer: "本週就業市場溫度為「持平」。全球勞動市場呈分化態勢：AI 相關職缺逆勢成長，傳統科技業持續收縮調整。"
+    - question: "2026年第6週有哪些重大裁員事件？"
+      answer: "Pinterest 裁員 15%（資源轉向 AI）、Vimeo 被收購後裁員、Meta Reality Labs 裁員 10%（約 1,000 人）。"
+    - question: "2026年第6週哪些產業正在擴大招聘？"
+      answer: "AI 基礎設施領域融資活絡（xAI、Ricursive Intelligence），物流科技（Zipline 獲 6 億美元）、金融科技持續擴張。"
 ---
 
 # 就業景氣溫度計 — 2026年第06週
