@@ -4,6 +4,7 @@ title: W08
 parent: 產業分層
 nav_order: 9992
 permalink: /reports/industry-segments-w08/
+last_modified_date: 2026-02-18
 report_title: "產業分層分析 — 2026年第08週"
 mode: industry_segments
 period: "2026-W08"

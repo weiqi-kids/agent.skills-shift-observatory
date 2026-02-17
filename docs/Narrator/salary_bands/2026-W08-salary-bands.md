@@ -4,6 +4,7 @@ title: W08
 parent: 薪資帶
 nav_order: 9992
 permalink: /reports/salary-bands-w08/
+last_modified_date: 2026-02-18
 report_title: "薪資帶分析 — 2026年第08週"
 mode: salary_bands
 period: "2026-W08"

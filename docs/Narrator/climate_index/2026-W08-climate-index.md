@@ -4,6 +4,7 @@ title: W08
 parent: 景氣溫度計
 nav_order: 9992
 permalink: /reports/climate-index-w08/
+last_modified_date: 2026-02-18
 report_title: "就業景氣溫度計 — 2026年第08週"
 mode: climate_index
 period: "2026-W08"
