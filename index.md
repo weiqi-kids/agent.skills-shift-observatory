@@ -12,11 +12,11 @@ permalink: /
 追蹤全球就業市場變化與 AI 對各產業職缺的衝擊
 {: .fs-6 .fw-300 }
 
-[景氣溫度計]({{ site.baseurl }}/reports/climate-index-w07/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[技能漂移]({{ site.baseurl }}/reports/skills-drift-w07/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[產業分層]({{ site.baseurl }}/reports/industry-segments-w07/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[薪資帶]({{ site.baseurl }}/reports/salary-bands-w07/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[求職策略]({{ site.baseurl }}/reports/career-strategy-w07/){: .btn .fs-5 .mb-4 .mb-md-0 }
+[景氣溫度計]({{ site.baseurl }}/reports/climate-index-w08/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[技能漂移]({{ site.baseurl }}/reports/skills-drift-w08/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[產業分層]({{ site.baseurl }}/reports/industry-segments-w08/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[薪資帶]({{ site.baseurl }}/reports/salary-bands-w08/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[求職策略]({{ site.baseurl }}/reports/career-strategy-w08/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -50,17 +50,17 @@ permalink: /
 
 | 報告 | 週次 | 說明 |
 |:-----|:-----|:-----|
-| [景氣溫度計]({{ site.baseurl }}/reports/climate-index-w07/) | W07 | 就業市場綜合溫度判讀 |
-| [技能漂移]({{ site.baseurl }}/reports/skills-drift-w07/) | W07 | 技能標籤上升/下降榜 |
-| [產業分層]({{ site.baseurl }}/reports/industry-segments-w07/) | W07 | 各產業用人方向與趨勢 |
-| [薪資帶]({{ site.baseurl }}/reports/salary-bands-w07/) | W07 | 跨產業跨地區薪資比較 |
-| [求職策略]({{ site.baseurl }}/reports/career-strategy-w07/) | W07 | 技能缺口→學習路徑→職缺 |
+| [景氣溫度計]({{ site.baseurl }}/reports/climate-index-w08/) | W08 | 就業市場綜合溫度判讀 |
+| [技能漂移]({{ site.baseurl }}/reports/skills-drift-w08/) | W08 | 技能標籤上升/下降榜 |
+| [產業分層]({{ site.baseurl }}/reports/industry-segments-w08/) | W08 | 各產業用人方向與趨勢 |
+| [薪資帶]({{ site.baseurl }}/reports/salary-bands-w08/) | W08 | 跨產業跨地區薪資比較 |
+| [求職策略]({{ site.baseurl }}/reports/career-strategy-w08/) | W08 | 技能缺口→學習路徑→職缺 |
 
 ---
 
 ## 系統健康度
 
-> 最後更新：2026-02-08
+> 最後更新：2026-02-18
 
 ### 資料總覽
 
@@ -82,11 +82,11 @@ permalink: /
 
 | Mode | 狀態 | 最新報告 |
 |:-----|:-----|:---------|
-| climate_index | ✅ | 2026-W07 |
-| skills_drift | ✅ | 2026-W07 |
-| industry_segments | ✅ | 2026-W07 |
-| salary_bands | ✅ | 2026-W07 |
-| career_strategy | ✅ | 2026-W07 |
+| climate_index | ✅ | 2026-W08 |
+| skills_drift | ✅ | 2026-W08 |
+| industry_segments | ✅ | 2026-W08 |
+| salary_bands | ✅ | 2026-W08 |
+| career_strategy | ✅ | 2026-W08 |
 
 ---
 
