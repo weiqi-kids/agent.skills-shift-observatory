@@ -92,6 +92,7 @@ include:
 plugins:
   - jekyll-seo-tag
   - jekyll-relative-links
+  - jekyll-sitemap
 
 # Markdown
 markdown: kramdown
