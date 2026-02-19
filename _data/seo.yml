@@ -79,22 +79,34 @@ breadcrumb:
   home:
     name: "首頁"
     url: "/"
+  about:
+    name: "關於本站"
+    url: "/about/"
+  glossary:
+    name: "名詞解釋"
+    url: "/glossary/"
+  faq:
+    name: "常見問題"
+    url: "/faq/"
+  how_to_use:
+    name: "如何使用"
+    url: "/how-to-use/"
   reports:
     climate_index:
       name: "景氣溫度計"
-      url: "/docs/Narrator/climate_index/"
+      url: "/climate-index/"
     skills_drift:
       name: "技能漂移"
-      url: "/docs/Narrator/skills_drift/"
+      url: "/skills-drift/"
     industry_segments:
       name: "產業分層"
-      url: "/docs/Narrator/industry_segments/"
+      url: "/industry-segments/"
     salary_bands:
       name: "薪資帶"
-      url: "/docs/Narrator/salary_bands/"
+      url: "/salary-bands/"
     career_strategy:
       name: "求職策略"
-      url: "/docs/Narrator/career_strategy/"
+      url: "/career-strategy/"
 
 # =============================================================================
 # Speakable 選擇器（語音搜尋優化）

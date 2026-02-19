@@ -26,6 +26,12 @@ search:
 nav_enabled: true
 nav_sort: case_insensitive
 
+# Auxiliary links (top right)
+aux_links:
+  "關於": "/about/"
+  "GitHub": "https://github.com/weiqi-kids/agent.skills-shift-observatory"
+aux_links_new_tab: false
+
 # Footer
 footer_content: "Skills Shift Observatory &copy; 2026. Powered by Claude Code."
 gh_edit_link: true

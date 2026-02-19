@@ -12,17 +12,61 @@ permalink: /
 追蹤全球就業市場變化與 AI 對各產業職缺的衝擊
 {: .fs-6 .fw-300 }
 
-[景氣溫度計]({{ site.baseurl }}/reports/climate-index-w08/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[技能漂移]({{ site.baseurl }}/reports/skills-drift-w08/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[產業分層]({{ site.baseurl }}/reports/industry-segments-w08/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[薪資帶]({{ site.baseurl }}/reports/salary-bands-w08/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[求職策略]({{ site.baseurl }}/reports/career-strategy-w08/){: .btn .fs-5 .mb-4 .mb-md-0 }
+---
+
+## 你是誰？
+
+選擇你的角色，我們為你推薦最相關的報告：
+
+[我正在找工作 / 考慮轉職](/for-job-seekers/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[我是在職專業人士](/for-professionals/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
+
+[我是 HR / 企業主管](/for-employers/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[我是研究者 / 政策制定者](/for-researchers/){: .btn .fs-5 .mb-4 .mb-md-0 }
+
+---
+
+## 本週重點
+
+> **2026 年第 08 週景氣溫度：🟠 偏冷**
+>
+> AI 融資狂潮與科技業結構重組並行，整體市場呈現分化態勢。
+>
+> [查看完整報告 →]({{ site.baseurl }}/reports/climate-index-w08/)
+
+---
+
+## 五大觀測報告
+
+| 報告 | 適合誰看 | 回答什麼問題 |
+|:-----|:---------|:-------------|
+| [景氣溫度計]({{ site.baseurl }}/climate-index/) | 所有人 | 現在市場好嗎？哪些產業在擴張？ |
+| [技能漂移]({{ site.baseurl }}/skills-drift/) | 求職者、在職者 | 哪些技能正在變熱門？該學什麼？ |
+| [產業分層]({{ site.baseurl }}/industry-segments/) | HR、投資人 | 各產業的用人方向？AI 衝擊程度？ |
+| [薪資帶]({{ site.baseurl }}/salary-bands/) | 求職者、HR | 合理的薪資期望是多少？ |
+| [求職策略]({{ site.baseurl }}/career-strategy/) | 求職者、轉職者 | 我該怎麼規劃職涯？ |
+
+[查看最新報告 (W08)]({{ site.baseurl }}/reports/climate-index-w08/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[名詞解釋]({{ site.baseurl }}/glossary/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[如何使用本站]({{ site.baseurl }}/how-to-use/){: .btn .fs-5 .mb-4 .mb-md-0 }
+
+---
+
+## 這個網站是什麼？
+
+本站是一套 **AI 驅動的就業市場觀測系統**，每週自動分析來自台灣與全球的 15+ 個資料來源，追蹤：
+
+- **53 個職業角色**的需求變化
+- **14 個產業**的用人趨勢
+- **5 種 AI 取代向量**的風險評估
+
+我們的目標是：**讓每個人都能用數據做出更好的職涯決策。**
+
+[了解更多 →](/about/)
 
 ---
 
 ## 系統概覽
-
-本系統透過 Claude CLI 驅動，自動擷取、萃取、分析全球就業市場數據，追蹤 **53 個職務角色**在 **14 個產業**中的需求變化，並以 **5 種 AI 取代向量**分析自動化衝擊。
 
 ### 觀測架構
 
@@ -44,17 +88,7 @@ permalink: /
 | 體力非例行 | 需靈活應變的體力工作 | 14 |
 | 高度人際 | 核心在人際連結 | 4 |
 
----
-
-## 最新報告
-
-| 報告 | 週次 | 說明 |
-|:-----|:-----|:-----|
-| [景氣溫度計]({{ site.baseurl }}/reports/climate-index-w08/) | W08 | 就業市場綜合溫度判讀 |
-| [技能漂移]({{ site.baseurl }}/reports/skills-drift-w08/) | W08 | 技能標籤上升/下降榜 |
-| [產業分層]({{ site.baseurl }}/reports/industry-segments-w08/) | W08 | 各產業用人方向與趨勢 |
-| [薪資帶]({{ site.baseurl }}/reports/salary-bands-w08/) | W08 | 跨產業跨地區薪資比較 |
-| [求職策略]({{ site.baseurl }}/reports/career-strategy-w08/) | W08 | 技能缺口→學習路徑→職缺 |
+→ [什麼是 AI 取代向量？](/glossary/#ai-取代向量)
 
 ---
 
@@ -90,9 +124,5 @@ permalink: /
 
 ---
 
-## 關於本站
-
-本站由 [Claude Code](https://claude.ai) 驅動的 AI 系統自動產出報告，使用 [Just the Docs](https://just-the-docs.github.io/just-the-docs/) 主題呈現。
-
 {: .warning }
-> 本站所有報告均為 AI 系統基於公開數據自動產出，僅供參考。重大職涯決策請諮詢專業人士。
+> **免責聲明**：本站所有報告均為 AI 系統基於公開數據自動產出，僅供參考。重大職涯決策請諮詢專業人士。
