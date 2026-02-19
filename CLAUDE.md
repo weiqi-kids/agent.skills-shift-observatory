@@ -124,6 +124,12 @@ fi
 
 使用者說「執行完整流程」或「更新資料」時，依照以下步驟執行：
 
+```
+步驟一 → 步驟二 → 步驟三 → 步驟四 → 步驟五 → 步驟六 → 步驟七
+Layer    Layer    Mode     Revamp   Mode     發布     品質
+發現     執行     發現     檢查     報告              檢查
+```
+
 ### 步驟一：動態發現所有 Layer
 
 掃描 `core/Extractor/Layers/*/`，排除含有 `.disabled` 檔案的目錄。
@@ -142,9 +148,69 @@ fi
 掃描 `core/Narrator/Modes/*/`，排除含有 `.disabled` 檔案的目錄。
 每個有效 Mode 目錄應包含 `CLAUDE.md`。
 
-### 步驟四：執行 Mode 報告產出
+### 步驟四：Revamp 檢查與優化建議
 
-#### 4.1 執行順序
+在產出報告前，對每個 Mode 執行受眾導向內容檢查，識別優化方向。
+
+#### 4.1 檢查流程
+
+對每個 Mode 執行以下檢查：
+
+```bash
+MODE_DIR="docs/Narrator/{mode_name}"
+
+# 1. 檢查內容規格是否存在
+if [[ ! -f "$MODE_DIR/.content-spec.md" ]]; then
+  echo "❌ {mode_name}: 缺少內容規格，需執行完整 revamp 流程"
+  # 觸發 revamp 0-5 階段
+fi
+
+# 2. 檢查內容規格是否過期（> 30 天）
+spec_age=$(( ($(date +%s) - $(stat -f %m "$MODE_DIR/.content-spec.md")) / 86400 ))
+if [[ $spec_age -gt 30 ]]; then
+  echo "⚠️ {mode_name}: 內容規格已 ${spec_age} 天未更新，建議重新評估"
+fi
+
+# 3. 檢查定位文件是否存在
+if [[ ! -f "$MODE_DIR/.positioning.md" ]]; then
+  echo "⚠️ {mode_name}: 缺少定位文件"
+fi
+```
+
+#### 4.2 優化建議產出
+
+針對每個 Mode，參照 `revamp/3-analysis/CLAUDE.md` 快速評估：
+
+| 檢查項目 | 動作 |
+|----------|------|
+| 受眾定位是否仍符合現況 | 若有新資料來源或市場變化，建議更新 |
+| 競品是否有新動態 | 執行 `revamp/tools/competitive-audit.sh` 快速比較 |
+| 內容差距是否已補齊 | 對照 `.analysis.md` 檢查 |
+| KPI 是否達標 | 對照 `.strategy.md` 中的目標值 |
+
+#### 4.3 輸出
+
+產出 `docs/Narrator/.revamp-check-{YYYY}-W{WW}.md`，記錄：
+
+```markdown
+# Revamp 檢查報告 {YYYY}-W{WW}
+
+| Mode | 規格狀態 | 定位狀態 | 優化建議 |
+|------|----------|----------|----------|
+| climate_index | ✅ 有效 | ✅ 有效 | 無 |
+| skills_drift | ⚠️ 過期 | ✅ 有效 | 建議更新內容規格 |
+| ... | | | |
+
+## 本週優化行動
+
+- [ ] {具體行動項目}
+```
+
+> **注意**：若有 Mode 缺少內容規格，必須先執行 revamp 流程才能繼續步驟五。
+
+### 步驟五：執行 Mode 報告產出
+
+#### 5.1 執行順序
 
 ```
 第一批（平行執行）：
@@ -157,20 +223,23 @@ fi
 └── Task(opus) → career_strategy（依賴前 4 個報告）
 ```
 
-#### 4.2 每個 Mode 執行步驟
+#### 5.2 每個 Mode 執行步驟
 
-1. **Qdrant 向量搜尋**（Opus 主執行緒執行，取得相關資料）
-2. **分派 Task(opus)**，prompt 包含：
+1. **確認內容規格存在**（步驟四已檢查，若缺少則先執行 revamp）
+2. **Qdrant 向量搜尋**（Opus 主執行緒執行，取得相關資料）
+3. **分派 Task(opus)**，prompt 包含：
    - 該 Mode 的 `CLAUDE.md` 指令
+   - **該 Mode 的 `.content-spec.md` 內容規格**
    - Qdrant 搜尋結果
    - 來源 Layer 路徑（`docs/Extractor/{layer_name}/`）
-3. **Task 內部**：
+4. **Task 內部**：
    - 讀取 Layer 資料（.md 檔）
+   - **依據內容規格撰寫報告**（關鍵訊息、語氣調性、CTA 等）
    - 產出報告到 `docs/Narrator/{mode_name}/`
    - 報告必須標註「本報告使用 Qdrant 向量搜尋取得相關資料」
    - 設定正確的 Jekyll 前置資料（nav_order = 10000 - 週次）
 
-### 步驟五：發布到 GitHub Pages
+### 步驟六：發布到 GitHub Pages
 
 完成報告產出後，自動發布更新：
 
@@ -194,7 +263,7 @@ fi
 
 > **⚠️ 常見錯誤**：首頁有多處週次引用，必須全部更新，不可只改按鈕。
 
-### 步驟六：品質檢查（強制）
+### 步驟七：品質檢查（強制）
 
 完成所有步驟後，**必須**執行「十七、任務完成品質關卡」中的檢查清單：
 
@@ -204,6 +273,7 @@ fi
 4. 內容更新確認
 5. Git 狀態檢查
 6. SOP 完成度檢查
+7. **Revamp 檢查報告確認**（步驟四產出的優化建議是否已處理）
 
 > **⚠️ 未通過品質檢查的執行不視為成功。** 必須修正所有問題並重新檢查，直到全部通過才能回報「完成」。
 
@@ -942,10 +1012,107 @@ jq -r '.categories[].roles[]' roles.json
 
 ---
 
-## 十八、變更紀錄
+## 十八、受眾導向內容改造（Revamp）
+
+### 18.1 概述
+
+本系統整合了結構化的內容改造流程，確保 Mode 報告的內容品質與受眾相關性。此流程位於 `revamp/` 目錄，包含完整的 Writer/Reviewer 雙角色品質保證機制。
+
+### 18.2 流程總覽
+
+```
+0-Positioning → 1-Discovery → 2-Competitive → 3-Analysis → 4-Strategy → 5-Content-Spec → 執行 → Final-Review
+     ↓              ↓             ↓              ↓            ↓              ↓                       ↓
+  Review ✓      Review ✓      Review ✓      Review ✓     Review ✓       Review ✓                Review ✓
+```
+
+| 階段 | 目的 | 輸出 | 引用路徑 |
+|------|------|------|----------|
+| **0-positioning** | 釐清品牌定位、核心價值 | 定位文件 | `revamp/0-positioning/CLAUDE.md` |
+| **1-discovery** | 盤點現有內容 + 技術健檢 | 健檢報告 + KPI | `revamp/1-discovery/CLAUDE.md` |
+| **2-competitive** | 分析競爭對手 | 競品分析報告 | `revamp/2-competitive/CLAUDE.md` |
+| **3-analysis** | 受眾分析 + 內容差距 | 差距分析報告 | `revamp/3-analysis/CLAUDE.md` |
+| **4-strategy** | 改版計劃 + 優先級排序 | 改版計劃書 | `revamp/4-strategy/CLAUDE.md` |
+| **5-content-spec** | 每頁內容規格 | 內容規格書 | `revamp/5-content-spec/CLAUDE.md` |
+| **final-review** | 驗收執行結果 | 驗收報告 | `revamp/final-review/CLAUDE.md` |
+
+### 18.3 與 Mode 報告整合
+
+**觸發時機**：每次 Mode 報告產出（步驟四）前，需確認該 Mode 已完成受眾定位。
+
+**整合方式**：
+
+1. **首次建立 Mode** 或 **大改版時**：執行完整 0-5 階段
+2. **例行週報產出**：參照已完成的 Content-Spec 產出報告
+3. **季度檢視**：執行 Final-Review 驗收，評估是否需要重新分析
+
+**快速參照路徑**：
+
+```bash
+# 查看某 Mode 的定位文件
+cat docs/Narrator/{mode_name}/.positioning.md
+
+# 查看某 Mode 的內容規格
+cat docs/Narrator/{mode_name}/.content-spec.md
+```
+
+### 18.4 執行指令
+
+使用者可透過以下指令觸發內容改造流程：
+
+| 指令 | 動作 |
+|------|------|
+| 「執行內容改造」 | 對所有 Mode 執行完整 0-5 階段 |
+| 「執行 {mode_name} 定位分析」 | 對指定 Mode 執行 0-positioning 階段 |
+| 「執行 {mode_name} 內容規格」 | 對指定 Mode 執行完整 0-5 階段並產出規格書 |
+| 「執行內容驗收」 | 執行 Final-Review，驗收所有 Mode 報告 |
+
+### 18.5 自動化工具
+
+`revamp/tools/` 目錄提供可直接執行的腳本：
+
+| 工具 | 用途 | 指令 |
+|------|------|------|
+| `site-audit.sh` | 網站技術健檢（效能、安全、SEO） | `./revamp/tools/site-audit.sh {URL}` |
+| `competitive-audit.sh` | 競品批次比較 | `./revamp/tools/competitive-audit.sh {URL} {競品URL...}` |
+
+### 18.6 輸出位置
+
+各階段輸出統一存放於 `docs/Narrator/{mode_name}/` 目錄下：
+
+```
+docs/Narrator/{mode_name}/
+├── .positioning.md          # 定位文件（0-positioning 輸出）
+├── .discovery.md             # 盤點報告（1-discovery 輸出）
+├── .competitive.md           # 競品分析（2-competitive 輸出）
+├── .analysis.md              # 差距分析（3-analysis 輸出）
+├── .strategy.md              # 改版計劃（4-strategy 輸出）
+├── .content-spec.md          # 內容規格（5-content-spec 輸出）
+├── index.md                  # Mode 索引頁
+└── {YYYY}-W{WW}-{mode}.md    # 週報（依規格產出）
+```
+
+> **注意**：以 `.` 開頭的檔案為內部規劃文件，不會發布到 GitHub Pages。
+
+### 18.7 模型指派規則
+
+| 階段 | Writer 模型 | Reviewer 模型 | 說明 |
+|------|-------------|---------------|------|
+| 0-positioning | `sonnet` | `sonnet` | 品牌定位分析，邏輯推理為主 |
+| 1-discovery | `sonnet` | `sonnet` | 技術健檢，工具執行為主 |
+| 2-competitive | `sonnet` | `sonnet` | 競品資料收集，搜尋為主 |
+| 3-analysis | `opus` | `opus` | 受眾深度分析，需跨來源綜合判斷 |
+| 4-strategy | `opus` | `opus` | 策略規劃，需整合前階段所有輸出 |
+| 5-content-spec | `sonnet` | `sonnet` | 規格撰寫，格式化輸出為主 |
+| final-review | `opus` | — | 整合驗收，需對照所有階段文件 |
+
+---
+
+## 十九、變更紀錄
 
 | 日期 | 版本 | 變更內容 |
 |------|------|----------|
+| 2026-02-19 | v2.3 | 新增「十八、受眾導向內容改造」章節；重新編排執行流程（新增步驟四 Revamp 檢查），將 revamp 流程整合至完整執行流程中，每次執行都會檢查優化方向 |
 | 2026-02-18 | v2.2 | 新增「十七、任務完成品質關卡」，整合任務完成前的強制檢查清單 |
 | 2026-02-03 | v2.1 | 新增「十六、已知問題與解決方案」，記錄 tw_govjobs/tw_104_jobs/global_wef_jobs/tw_company_reviews 的技術債與修復方案 |
 | - | v2.0 | 初始版本 |
