@@ -252,7 +252,101 @@ docs/Narrator/climate_index/2026-W04-climate_index.md
 
 ---
 
-### 5. 自我審核 Checklist
+### 5. 術語連結規範
+
+報告中首次出現以下術語時，**必須**連結到名詞解釋頁面：
+
+#### 必連結術語清單
+
+| 術語 | 連結目標 | 適用報告 |
+|------|----------|----------|
+| P25 / P50 / P75 | `/glossary/#p25--p50--p75` | salary_bands |
+| 薪資帶 | `/glossary/#薪資帶salary-band` | salary_bands |
+| AI 取代向量 | `/glossary/#ai-取代向量` | 所有報告 |
+| 認知例行 | `/glossary/#認知例行cognitive-routine` | 所有報告 |
+| 認知非例行 | `/glossary/#認知非例行cognitive-non-routine` | 所有報告 |
+| 體力例行 | `/glossary/#體力例行physical-routine` | 所有報告 |
+| 體力非例行 | `/glossary/#體力非例行physical-non-routine` | 所有報告 |
+| 高度人際 | `/glossary/#高度人際interpersonal` | 所有報告 |
+| 景氣溫度 | `/glossary/#景氣溫度` | climate_index |
+| 技能漂移 | `/glossary/#技能漂移skills-drift` | skills_drift |
+| 技能重疊度 | `/glossary/#技能重疊度` | career_strategy |
+
+#### 連結格式
+
+```markdown
+# 首次出現時連結
+本週[景氣溫度](/glossary/#景氣溫度)為「偏冷」...
+
+# 後續出現不再連結
+根據景氣溫度判斷，市場仍處於觀望期。
+```
+
+#### 注意事項
+
+- **每篇報告僅連結一次**：首次出現時連結，後續不重複連結
+- **摘要區優先**：若術語在摘要區出現，優先在摘要區連結
+- **表格內不連結**：表格欄位中的術語不連結，以保持表格簡潔
+- **不連結自身 Mode 名稱**：如 skills_drift 報告中不需連結「技能漂移」
+
+---
+
+### 6. 趨勢視覺化規範
+
+報告應使用 Mermaid 圖表呈現趨勢變化，增強可讀性。
+
+#### 適用場景
+
+| Mode | 建議圖表類型 | 用途 |
+|------|--------------|------|
+| climate_index | 折線圖 | 近 4 週景氣溫度變化 |
+| skills_drift | 長條圖 | 技能上升/下降排名 |
+| industry_segments | 長條圖 | 產業職缺變化率 |
+| salary_bands | 長條圖 | 薪資帶分布 |
+
+#### Mermaid 語法範例
+
+**折線圖（趨勢變化）**：
+
+````markdown
+```mermaid
+xychart-beta
+    title "近 4 週景氣溫度"
+    x-axis [W05, W06, W07, W08]
+    y-axis "溫度指數" 0 --> 100
+    line [45, 42, 40, 38]
+```
+````
+
+**長條圖（排名比較）**：
+
+````markdown
+```mermaid
+xychart-beta
+    title "技能需求上升榜 Top 5"
+    x-axis ["Docker", "K8s", "React", "Python", "AWS"]
+    y-axis "週增長 %" 0 --> 30
+    bar [25, 22, 18, 15, 12]
+```
+````
+
+#### 使用原則
+
+1. **簡潔優先**：圖表最多呈現 5-8 個數據點
+2. **標題必填**：每個圖表必須有明確標題
+3. **單位標註**：Y 軸必須標註單位（%、指數、筆數等）
+4. **資料來源**：圖表下方需註明資料來源週期
+5. **每報告 1-2 個**：避免圖表過多造成閱讀負擔
+
+#### 不使用圖表的情況
+
+- 數據點少於 3 個（用表格即可）
+- 純定性描述（無法量化的觀察）
+- 資料來源不足以支撐趨勢判斷
+
+---
+
+### 7. 自我審核 Checklist
 
 每個報告產出前必須逐項確認：
 
@@ -266,10 +360,11 @@ docs/Narrator/climate_index/2026-W04-climate_index.md
 - [ ] 若涉及職涯建議,已包含免責聲明
 - [ ] 檔案命名符合 `{YYYY}-W{WW}-{mode_name}.md` 格式
 - [ ] 已使用 Write tool 寫入檔案
+- [ ] 術語首次出現時已連結到名詞解釋頁
 
 ---
 
-### 6. 審核人設（按 Mode 選擇）
+### 8. 審核人設（按 Mode 選擇）
 
 | Mode | 建議審核人設 |
 |------|--------------|
@@ -281,7 +376,7 @@ docs/Narrator/climate_index/2026-W04-climate_index.md
 
 ---
 
-### 7. 高風險內容限制
+### 9. 高風險內容限制
 
 以下類型內容**不得全自動產出**，必須標記 `[REVIEW_NEEDED]` 或由人工審核：
 
@@ -300,7 +395,7 @@ docs/Narrator/climate_index/2026-W04-climate_index.md
 
 ---
 
-### 8. 免責聲明範本
+### 10. 免責聲明範本
 
 涉及職涯建議的報告必須包含以下免責聲明（可依實際情況調整）：
 

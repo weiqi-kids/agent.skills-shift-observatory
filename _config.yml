@@ -99,3 +99,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+# Mermaid diagrams (for trend charts)
+mermaid:
+  version: "10.9.0"
