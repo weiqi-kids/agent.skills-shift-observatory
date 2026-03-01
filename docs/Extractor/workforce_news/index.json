@@ -1,5 +1,15 @@
 [
   {
+    "id": "restructuring-20260205-washington-post-restructuring-md",
+    "title": "The Washington Post is retreating from Silicon Valley when it matters most",
+    "category": "restructuring",
+    "date": "",
+    "file": "restructuring/20260205-washington-post-restructuring.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
     "id": "restructuring-20251031-luminar-restructuring-md",
     "title": "Luminar is cutting jobs, losing its CFO, and warning of a cash shortage",
     "category": "restructuring",
@@ -40,6 +50,26 @@
     "source_layer": "workforce_news"
   },
   {
+    "id": "market_signal-20260222-waymo-market_signal-md",
+    "title": "TechCrunch Mobility: Waymo makes its defense",
+    "category": "market_signal",
+    "date": "",
+    "file": "market_signal/20260222-waymo-market_signal.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "market_signal-20260201-ai-layoffs-market_signal-md",
+    "title": "AI layoffs or 'AI-washing'?",
+    "category": "market_signal",
+    "date": "",
+    "file": "market_signal/20260201-ai-layoffs-market_signal.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
     "id": "market_signal-20260123-davos-ai-ceos-market_signal-md",
     "title": "AI CEOs transformed Davos into a tech conference",
     "category": "market_signal",
@@ -75,6 +105,46 @@
     "category": "market_signal",
     "date": "",
     "file": "market_signal/20250709-microsoft-ai-savings-market_signal.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-20260226-ebay-layoff-md",
+    "title": "eBay to lay off 800 staff",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/20260226-ebay-layoff.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-20260226-block-layoff-md",
+    "title": "Jack Dorsey just halved the size of Block's employee base — and he says your company is next",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/20260226-block-layoff.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-20260220-lucid-motors-layoff-md",
+    "title": "Lucid Motors slashes 12% of its workforce as it seeks profitability",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/20260220-lucid-motors-layoff.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-20260128-amazon-layoff-md",
+    "title": "Amazon says it is laying off 16,000 employees",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/20260128-amazon-layoff.md",
     "source": "",
     "severity": "",
     "source_layer": "workforce_news"
