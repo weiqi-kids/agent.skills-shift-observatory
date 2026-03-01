@@ -4,7 +4,7 @@ title: 薪資帶
 nav_order: 5
 has_children: true
 permalink: /salary-bands/
-redirect_to: /reports/salary-bands-w08/
+redirect_to: /reports/salary-bands-w09/
 ---
 
 # 薪資帶
@@ -48,4 +48,4 @@ redirect_to: /reports/salary-bands-w08/
 
 ---
 
-[查看最新報告 (W08)]({{ site.baseurl }}/reports/salary-bands-w08/){: .btn .btn-primary }
+[查看最新報告 (W09)]({{ site.baseurl }}/reports/salary-bands-w09/){: .btn .btn-primary }
