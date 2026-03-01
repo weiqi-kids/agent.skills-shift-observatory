@@ -1,5 +1,65 @@
 [
   {
+    "id": "market_trend-20260227-space-tech-funding-market_trend-md",
+    "title": "Sector Snapshot: Space Tech Startup Funding Still Flying High",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/20260227-space-tech-funding-market_trend.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-20260227-biggest-funding-rounds-ai-market_trend-md",
+    "title": "The Week's 10 Biggest Funding Rounds: OpenAI Takes The Spotlight With Record-Setting $110B Round",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/20260227-biggest-funding-rounds-ai-market_trend.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-20260226-gv-fintech-ai-investor-market_trend-md",
+    "title": "How This GV Investor Looks For The Next Stripe And Other 'Compounding' Startups In Fintech And AI",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/20260226-gv-fintech-ai-investor-market_trend.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-20260225-ipos-saas-absent-market_trend-md",
+    "title": "IPOs Are Holding Up In 2026, But SaaS Debuts Aren't Happening",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/20260225-ipos-saas-absent-market_trend.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-20260224-turbine-lp-liquidity-market_trend-md",
+    "title": "Beyond Secondaries: Turbine Wants To Unlock Liquidity For Venture LPs",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/20260224-turbine-lp-liquidity-market_trend.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-20260223-interesting-startup-deals-market_trend-md",
+    "title": "5 Interesting Startup Deals You May Have Missed: Plant-Based Clothing Dyes, A Shoebox-Picking Robot, And Power Generated On The Moon",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/20260223-interesting-startup-deals-market_trend.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
     "id": "market_trend-20260127-unicorn-board-december-2025-market_trend-md",
     "title": "SpaceX Vaults To Top Of The List As 23 Companies Join Unicorn Board In December",
     "category": "market_trend",
@@ -115,6 +175,46 @@
     "category": "market_trend",
     "date": "",
     "file": "market_trend/20250326-amazon-alexa-fund-ai-market_trend.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "funding_round-20260227-openai-funding_round-md",
+    "title": "OpenAI's New $110B Raise At A $840B Valuation Marks The Largest Venture Deal Ever",
+    "category": "funding_round",
+    "date": "",
+    "file": "funding_round/20260227-openai-funding_round.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "funding_round-20260226-plaid-funding_round-md",
+    "title": "Fintech Plaid Completes Tender Offer At $8B Valuation",
+    "category": "funding_round",
+    "date": "",
+    "file": "funding_round/20260226-plaid-funding_round.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "funding_round-20260224-stripe-funding_round-md",
+    "title": "Fintech Giant Stripe's Valuation Soars to $159B In Latest Secondary Stock Sale",
+    "category": "funding_round",
+    "date": "",
+    "file": "funding_round/20260224-stripe-funding_round.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "funding_round-20260211-meridian-funding_round-md",
+    "title": "Meridian raises $17 million to remake the agentic spreadsheet",
+    "category": "funding_round",
+    "date": "",
+    "file": "funding_round/20260211-meridian-funding_round.md",
     "source": "",
     "severity": "",
     "source_layer": "funding_signals"

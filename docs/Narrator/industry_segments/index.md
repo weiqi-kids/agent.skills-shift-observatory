@@ -4,7 +4,7 @@ title: 產業分層
 nav_order: 4
 has_children: true
 permalink: /industry-segments/
-redirect_to: /reports/industry-segments-w08/
+redirect_to: /reports/industry-segments-w09/
 ---
 
 # 產業分層
@@ -41,4 +41,4 @@ redirect_to: /reports/industry-segments-w08/
 
 ---
 
-[查看最新報告 (W08)]({{ site.baseurl }}/reports/industry-segments-w08/){: .btn .btn-primary }
+[查看最新報告 (W09)]({{ site.baseurl }}/reports/industry-segments-w09/){: .btn .btn-primary }
