@@ -4,6 +4,7 @@ title: 在職者專區
 nav_exclude: true
 permalink: /for-professionals/
 description: "在職專業人士如何保持技能競爭力？追蹤市場趨勢，規劃職涯發展"
+last_modified_date: 2026-03-03
 ---
 
 # 在職專業人士專區
@@ -25,7 +26,7 @@ description: "在職專業人士如何保持技能競爭力？追蹤市場趨勢
 
 **如何使用**：找到你的職業角色，對照「技能上升榜」，看看有沒有你還不熟悉的技能。
 
-[查看最新技能趨勢 →](/reports/skills-drift-w08/)
+[查看最新技能趨勢 →](/reports/skills-drift-w09/)
 
 ---
 
@@ -38,7 +39,7 @@ description: "在職專業人士如何保持技能競爭力？追蹤市場趨勢
 - 各產業的 AI 衝擊程度評估
 - 各產業的薪資水準比較
 
-[查看產業分析 →](/reports/industry-segments-w08/)
+[查看產業分析 →](/reports/industry-segments-w09/)
 
 ---
 
@@ -51,7 +52,7 @@ description: "在職專業人士如何保持技能競爭力？追蹤市場趨勢
 - 該向量的整體風險趨勢
 - 建議關注的技能補充方向
 
-[查看職涯策略 →](/reports/career-strategy-w08/)
+[查看職涯策略 →](/reports/career-strategy-w09/)
 
 {: .note }
 > **什麼是 AI 取代向量？** 我們將職業分為 5 類（認知例行、認知非例行、體力例行、體力非例行、高度人際），分析不同類型工作的自動化風險。[詳細解釋 →](/glossary/#ai-取代向量)
@@ -67,7 +68,7 @@ description: "在職專業人士如何保持技能競爭力？追蹤市場趨勢
 - 同樣職位在不同產業的薪資差異
 - 薪資變化趨勢
 
-[查看薪資分析 →](/reports/salary-bands-w08/)
+[查看薪資分析 →](/reports/salary-bands-w09/)
 
 ---
 

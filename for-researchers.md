@@ -4,6 +4,7 @@ title: 研究者專區
 nav_exclude: true
 permalink: /for-researchers/
 description: "研究者與政策制定者：資料來源、方法論、引用格式與 AI 取代向量框架說明"
+last_modified_date: 2026-03-03
 ---
 
 # 研究者 / 政策制定者專區
@@ -65,7 +66,7 @@ description: "研究者與政策制定者：資料來源、方法論、引用格
 
 ### 53 個觀測角色
 
-完整角色清單請見各 Mode 報告的 CLAUDE.md 定義，或參考 [薪資帶報告](/reports/salary-bands-w08/) 的角色列表。
+完整角色清單請見各 Mode 報告的 CLAUDE.md 定義，或參考 [薪資帶報告](/reports/salary-bands-w09/) 的角色列表。
 
 ---
 
@@ -109,18 +110,18 @@ description: "研究者與政策制定者：資料來源、方法論、引用格
 ### APA 格式
 
 ```
-Skills Shift Observatory. (2026). 就業景氣溫度計 — 2026年第08週.
-    Retrieved from https://skills.weiqi.kids/reports/climate-index-w08/
+Skills Shift Observatory. (2026). 就業景氣溫度計 — 2026年第09週.
+    Retrieved from https://skills.weiqi.kids/reports/climate-index-w09/
 ```
 
 ### BibTeX
 
 ```bibtex
-@misc{skillsshift2026w08,
-  title = {就業景氣溫度計 — 2026年第08週},
+@misc{skillsshift2026w09,
+  title = {就業景氣溫度計 — 2026年第09週},
   author = {{Skills Shift Observatory}},
   year = {2026},
-  url = {https://skills.weiqi.kids/reports/climate-index-w08/},
+  url = {https://skills.weiqi.kids/reports/climate-index-w09/},
   note = {AI-generated report based on public employment data}
 }
 ```

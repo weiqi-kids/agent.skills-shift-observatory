@@ -4,6 +4,7 @@ title: 常見問題
 nav_order: 96
 permalink: /faq/
 description: "關於技能需求變化觀測站的常見問題與解答"
+last_modified_date: 2026-03-03
 ---
 
 # 常見問題（FAQ）
@@ -55,7 +56,7 @@ description: "關於技能需求變化觀測站的常見問題與解答"
 
 ### 這個網站是誰做的？
 
-本站由 [Claude Code](https://claude.ai) AI 系統驅動，自動擷取、分析資料並產出報告。專案開源於 [GitHub](https://github.com/weiqi-kids/agent.skills-shift-observatory)。
+本站由 [Claude Code](https://github.com/anthropics/claude-code) AI 系統驅動，自動擷取、分析資料並產出報告。專案開源於 [GitHub](https://github.com/weiqi-kids/agent.skills-shift-observatory)。
 
 ### 為什麼要做這個網站？
 

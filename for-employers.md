@@ -4,6 +4,7 @@ title: HR/企業專區
 nav_exclude: true
 permalink: /for-employers/
 description: "HR 與企業主管如何了解人才市場？薪資對標、招聘策略、產業趨勢分析"
+last_modified_date: 2026-03-03
 ---
 
 # HR / 企業主管專區
@@ -25,7 +26,7 @@ description: "HR 與企業主管如何了解人才市場？薪資對標、招聘
 
 **如何使用**：找到你要招聘的職位，對照你開出的薪資是落在 P25、P50 還是 P75。
 
-[查看薪資分析 →](/reports/salary-bands-w08/)
+[查看薪資分析 →](/reports/salary-bands-w09/)
 
 ---
 
@@ -39,7 +40,7 @@ description: "HR 與企業主管如何了解人才市場？薪資對標、招聘
 - 各產業的熱門技能 Top 5
 - 擴張/收縮信號
 
-[查看產業分析 →](/reports/industry-segments-w08/)
+[查看產業分析 →](/reports/industry-segments-w09/)
 
 ---
 
@@ -52,7 +53,7 @@ description: "HR 與企業主管如何了解人才市場？薪資對標、招聘
 - 各產業的擴張/收縮信號
 - 最近的裁員/招聘事件
 
-[查看市場溫度 →](/reports/climate-index-w08/)
+[查看市場溫度 →](/reports/climate-index-w09/)
 
 ---
 
@@ -65,7 +66,7 @@ description: "HR 與企業主管如何了解人才市場？薪資對標、招聘
 - 跨產業的技能需求趨勢
 - 新出現的技能標籤（可能代表新興領域）
 
-[查看技能趨勢 →](/reports/skills-drift-w08/)
+[查看技能趨勢 →](/reports/skills-drift-w09/)
 
 ---
 
@@ -102,7 +103,7 @@ description: "HR 與企業主管如何了解人才市場？薪資對標、招聘
 
 ```
 資料來源：Skills Shift Observatory (skills.weiqi.kids)
-報告週次：2026-W08
+報告週次：2026-W09
 資料限制：基於公開職缺資料，可能存在樣本偏差
 ```
 

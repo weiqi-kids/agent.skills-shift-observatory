@@ -3,6 +3,7 @@ layout: default
 title: 方法論
 nav_order: 90
 description: "了解 Skills Shift Observatory 的數據來源、分析方法與限制。我們整合 15+ 公開資料來源，每週自動分析就業市場趨勢。"
+last_modified_date: 2026-03-03
 permalink: /methodology/
 ---
 
@@ -72,7 +73,7 @@ permalink: /methodology/
 | **體力非例行** | 需靈活應變的體力工作 | 水電工、廚師、護理師 | 較低：需適應多變環境 |
 | **高度人際** | 核心價值在人際互動 | 業務、心理諮商師、教師 | 最低：人際連結難以取代 |
 
-此分類參考 [Autor, Levy & Murnane (2003)](https://economics.mit.edu/files/11600) 的工作任務框架，並針對 AI 時代進行調整。
+此分類參考 [Autor, Levy & Murnane (2003)](https://economics.mit.edu/sites/default/files/publications/the%20skill%20content%202003.pdf) 的工作任務框架，並針對 AI 時代進行調整。
 
 ### 景氣指標計算
 

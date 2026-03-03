@@ -4,6 +4,7 @@ title: 關於本站
 nav_order: 90
 permalink: /about/
 description: "技能需求變化觀測站的使命、資料來源、方法論與限制說明"
+last_modified_date: 2026-03-03
 ---
 
 # 關於技能需求變化觀測站
@@ -113,7 +114,7 @@ description: "技能需求變化觀測站的使命、資料來源、方法論與
 
 ## AI 系統聲明
 
-本站所有報告由 [Claude Code](https://claude.ai) AI 系統自動產出。
+本站所有報告由 [Claude Code](https://github.com/anthropics/claude-code) AI 系統自動產出。
 
 **我們相信**：
 - AI 可以協助處理大量數據，發現人類難以察覺的趨勢

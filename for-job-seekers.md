@@ -4,6 +4,7 @@ title: 求職者專區
 nav_exclude: true
 permalink: /for-job-seekers/
 description: "正在找工作或考慮轉職？這裡有你最需要的市場分析報告"
+last_modified_date: 2026-03-03
 ---
 
 # 求職者 / 轉職者專區
@@ -23,7 +24,7 @@ description: "正在找工作或考慮轉職？這裡有你最需要的市場分
 - 哪些產業正在擴張、哪些在收縮
 - 最近有沒有大規模裁員或招聘潮
 
-[查看最新景氣溫度 →](/reports/climate-index-w08/)
+[查看最新景氣溫度 →](/reports/climate-index-w09/)
 
 ---
 
@@ -36,7 +37,7 @@ description: "正在找工作或考慮轉職？這裡有你最需要的市場分
 - 越來越少提到的技能（下降榜）
 - 新出現的技能標籤
 
-[查看最新技能趨勢 →](/reports/skills-drift-w08/)
+[查看最新技能趨勢 →](/reports/skills-drift-w09/)
 
 ---
 
@@ -49,7 +50,7 @@ description: "正在找工作或考慮轉職？這裡有你最需要的市場分
 - 同樣職位在不同產業的薪資差異
 - 同樣職位在不同地區的薪資差異
 
-[查看薪資分析 →](/reports/salary-bands-w08/)
+[查看薪資分析 →](/reports/salary-bands-w09/)
 
 {: .note }
 > **什麼是 P25 / P50 / P75？** 簡單說，P50 就是「中位數」，代表一半的人高於這個數字、一半低於。[詳細解釋 →](/glossary/#p25--p50--p75)
@@ -65,7 +66,7 @@ description: "正在找工作或考慮轉職？這裡有你最需要的市場分
 - 可能的轉職路徑（基於技能重疊度）
 - 值得關注的技能學習方向
 
-[查看職涯策略 →](/reports/career-strategy-w08/)
+[查看職涯策略 →](/reports/career-strategy-w09/)
 
 ---
 
