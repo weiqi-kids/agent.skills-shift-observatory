@@ -10,6 +10,16 @@
     "source_layer": "workforce_news"
   },
   {
+    "id": "restructuring-2026-03-13_digg-layoff-app-shutdown-md",
+    "title": "",
+    "category": "restructuring",
+    "date": "",
+    "file": "restructuring/2026-03-13_digg-layoff-app-shutdown.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
     "id": "restructuring-20251031-luminar-restructuring-md",
     "title": "Luminar is cutting jobs, losing its CFO, and warning of a cash shortage",
     "category": "restructuring",
@@ -75,6 +85,16 @@
     "category": "market_signal",
     "date": "",
     "file": "market_signal/20260123-davos-ai-ceos-market_signal.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "market_signal-2026-03-18_sam-altman-coders-ai-displacement-md",
+    "title": "",
+    "category": "market_signal",
+    "date": "",
+    "file": "market_signal/2026-03-18_sam-altman-coders-ai-displacement.md",
     "source": "",
     "severity": "",
     "source_layer": "workforce_news"
@@ -175,6 +195,26 @@
     "category": "layoff",
     "date": "",
     "file": "layoff/20260114-meta-reality-labs-layoff.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-2026-03-14_meta-20pct-layoff-considering-md",
+    "title": "",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/2026-03-14_meta-20pct-layoff-considering.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-2026-03-12_atlassian-10pct-layoff-ai-md",
+    "title": "",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/2026-03-12_atlassian-10pct-layoff-ai.md",
     "source": "",
     "severity": "",
     "source_layer": "workforce_news"

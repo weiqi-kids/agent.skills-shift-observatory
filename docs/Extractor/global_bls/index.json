@@ -1,5 +1,25 @@
 [
   {
+    "id": "unemployment_rate-LNS14000000_2026-02-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2026-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS14000000_2026-01-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS14000000_2026-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
     "id": "unemployment_rate-LNS14000000_2025-12-md",
     "title": "",
     "category": "unemployment_rate",
@@ -235,6 +255,26 @@
     "category": "unemployment_rate",
     "date": "",
     "file": "unemployment_rate/LNS14000000_2024-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2026-02-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2026-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "unemployment_rate-LNS13327709_2026-01-md",
+    "title": "",
+    "category": "unemployment_rate",
+    "date": "",
+    "file": "unemployment_rate/LNS13327709_2026-01.md",
     "source": "",
     "severity": "",
     "source_layer": "global_bls"
@@ -480,6 +520,26 @@
     "source_layer": "global_bls"
   },
   {
+    "id": "nonfarm_payroll-CES0000000001_2026-02-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2026-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "nonfarm_payroll-CES0000000001_2026-01-md",
+    "title": "",
+    "category": "nonfarm_payroll",
+    "date": "",
+    "file": "nonfarm_payroll/CES0000000001_2026-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
     "id": "nonfarm_payroll-CES0000000001_2025-12-md",
     "title": "",
     "category": "nonfarm_payroll",
@@ -720,6 +780,26 @@
     "source_layer": "global_bls"
   },
   {
+    "id": "jolts_openings-JTS000000000000000JOL_2026-01-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2026-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "jolts_openings-JTS000000000000000JOL_2025-12-md",
+    "title": "",
+    "category": "jolts_openings",
+    "date": "",
+    "file": "jolts_openings/JTS000000000000000JOL_2025-12.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
     "id": "jolts_openings-JTS000000000000000JOL_2025-11-md",
     "title": "",
     "category": "jolts_openings",
@@ -945,6 +1025,26 @@
     "category": "jolts_openings",
     "date": "",
     "file": "jolts_openings/JTS000000000000000JOL_2024-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2026-02-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2026-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "cpi_inflation-CUSR0000SA0_2026-01-md",
+    "title": "",
+    "category": "cpi_inflation",
+    "date": "",
+    "file": "cpi_inflation/CUSR0000SA0_2026-01.md",
     "source": "",
     "severity": "",
     "source_layer": "global_bls"
@@ -1185,6 +1285,26 @@
     "category": "cpi_inflation",
     "date": "",
     "file": "cpi_inflation/CUSR0000SA0_2024-01.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2026-02-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2026-02.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_bls"
+  },
+  {
+    "id": "average_earnings-CES0500000003_2026-01-md",
+    "title": "",
+    "category": "average_earnings",
+    "date": "",
+    "file": "average_earnings/CES0500000003_2026-01.md",
     "source": "",
     "severity": "",
     "source_layer": "global_bls"

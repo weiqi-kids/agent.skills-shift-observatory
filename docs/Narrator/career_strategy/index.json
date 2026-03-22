@@ -8,6 +8,14 @@
     "source_mode": "career_strategy"
   },
   {
+    "id": "2026-W12-career-strategy-md",
+    "title": "求職策略建議 — 2026年第12週",
+    "date": "2026-W12",
+    "period": "",
+    "file": "2026-W12-career-strategy.md",
+    "source_mode": "career_strategy"
+  },
+  {
     "id": "2026-W09-career-strategy-md",
     "title": "求職策略建議 — 2026年第09週",
     "date": "2026-W09",
@@ -37,6 +45,54 @@
     "date": "2026-W06",
     "period": "",
     "file": "2026-W06-career-strategy.md",
+    "source_mode": "career_strategy"
+  },
+  {
+    "id": "-strategy-md",
+    "title": "改版策略計劃書：career_strategy / 求職策略建議",
+    "date": "",
+    "period": "",
+    "file": ".strategy.md",
+    "source_mode": "career_strategy"
+  },
+  {
+    "id": "-positioning-md",
+    "title": "定位文件：career_strategy / 求職策略建議",
+    "date": "",
+    "period": "",
+    "file": ".positioning.md",
+    "source_mode": "career_strategy"
+  },
+  {
+    "id": "-discovery-md",
+    "title": "盤點報告 + 技術健檢：career_strategy / 求職策略建議",
+    "date": "",
+    "period": "",
+    "file": ".discovery.md",
+    "source_mode": "career_strategy"
+  },
+  {
+    "id": "-content-spec-md",
+    "title": "內容規格書：career_strategy / 求職策略建議 — 每週報告",
+    "date": "",
+    "period": "",
+    "file": ".content-spec.md",
+    "source_mode": "career_strategy"
+  },
+  {
+    "id": "-competitive-md",
+    "title": "競品分析報告（共用）",
+    "date": "",
+    "period": "",
+    "file": ".competitive.md",
+    "source_mode": "career_strategy"
+  },
+  {
+    "id": "-analysis-md",
+    "title": "受眾與內容差距分析：career_strategy / 求職策略建議",
+    "date": "",
+    "period": "",
+    "file": ".analysis.md",
     "source_mode": "career_strategy"
   }
 ]

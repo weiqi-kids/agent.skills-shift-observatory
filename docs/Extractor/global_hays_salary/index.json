@@ -60,11 +60,81 @@
     "source_layer": "global_hays_salary"
   },
   {
+    "id": "salary_benchmark-2026-newzealand-salary-checker-md",
+    "title": "Hays New Zealand Salary Checker 2026",
+    "category": "salary_benchmark",
+    "date": "",
+    "file": "salary_benchmark/2026-newzealand-salary-checker.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
     "id": "salary_benchmark-2026-newzealand-highest-paying-jobs-md",
     "title": "",
     "category": "salary_benchmark",
     "date": "",
     "file": "salary_benchmark/2026-newzealand-highest-paying-jobs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "salary_benchmark-2026-japan-supply-chain-sector-jobs-md",
+    "title": "Hays Japan Supply Chain Sector Job Listings 2026",
+    "category": "salary_benchmark",
+    "date": "",
+    "file": "salary_benchmark/2026-japan-supply-chain-sector-jobs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "salary_benchmark-2026-japan-life-science-sector-jobs-md",
+    "title": "Hays Japan Life Science Sector Job Listings 2026",
+    "category": "salary_benchmark",
+    "date": "",
+    "file": "salary_benchmark/2026-japan-life-science-sector-jobs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "salary_benchmark-2026-japan-it-sector-jobs-md",
+    "title": "Hays Japan IT/Technology Sector Job Listings 2026",
+    "category": "salary_benchmark",
+    "date": "",
+    "file": "salary_benchmark/2026-japan-it-sector-jobs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "salary_benchmark-2026-japan-hr-legal-sector-jobs-md",
+    "title": "Hays Japan HR & Legal Sector Job Listings 2026",
+    "category": "salary_benchmark",
+    "date": "",
+    "file": "salary_benchmark/2026-japan-hr-legal-sector-jobs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "salary_benchmark-2026-japan-engineering-sector-jobs-md",
+    "title": "Hays Japan Engineering Sector Job Listings 2026",
+    "category": "salary_benchmark",
+    "date": "",
+    "file": "salary_benchmark/2026-japan-engineering-sector-jobs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "salary_benchmark-2026-australia-salary-checker-md",
+    "title": "Hays Australia Salary Checker 2026",
+    "category": "salary_benchmark",
+    "date": "",
+    "file": "salary_benchmark/2026-australia-salary-checker.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hays_salary"
@@ -130,6 +200,16 @@
     "source_layer": "global_hays_salary"
   },
   {
+    "id": "regional_comparison-2026-hongkong-mobile-search-jobs-md",
+    "title": "Hays Hong Kong Job Search Listings 2026 (Mobile)",
+    "category": "regional_comparison",
+    "date": "",
+    "file": "regional_comparison/2026-hongkong-mobile-search-jobs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
     "id": "regional_comparison-2026-global-overview-md",
     "title": "",
     "category": "regional_comparison",
@@ -155,6 +235,16 @@
     "category": "regional_comparison",
     "date": "",
     "file": "regional_comparison/2026-china-overview.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hays_salary"
+  },
+  {
+    "id": "regional_comparison-2026-china-hays-china-cn-overview-md",
+    "title": "Hays China Salary Guide 2026 (hays-china.cn)",
+    "category": "regional_comparison",
+    "date": "",
+    "file": "regional_comparison/2026-china-hays-china-cn-overview.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hays_salary"

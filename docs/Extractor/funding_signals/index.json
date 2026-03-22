@@ -1,5 +1,15 @@
 [
   {
+    "id": "merger_acquisition-2026-03-20_most-active-startup-acquirers-3-years-md",
+    "title": "",
+    "category": "merger_acquisition",
+    "date": "",
+    "file": "merger_acquisition/2026-03-20_most-active-startup-acquirers-3-years.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
     "id": "market_trend-20260227-space-tech-funding-market_trend-md",
     "title": "Sector Snapshot: Space Tech Startup Funding Still Flying High",
     "category": "market_trend",
@@ -120,6 +130,66 @@
     "source_layer": "funding_signals"
   },
   {
+    "id": "market_trend-2026-03-20_building-startup-reputation-trust-vcs-md",
+    "title": "",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-03-20_building-startup-reputation-trust-vcs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-03-20_biggest-funding-rounds-security-ai-md",
+    "title": "",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-03-20_biggest-funding-rounds-security-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-03-19_measuring-ai-business-outputs-md",
+    "title": "",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-03-19_measuring-ai-business-outputs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-03-18_crunchbase-tech-layoffs-tracker-md",
+    "title": "",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-03-18_crunchbase-tech-layoffs-tracker.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-03-17_unicorn-investment-momentum-ai-2025-md",
+    "title": "",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-03-17_unicorn-investment-momentum-ai-2025.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-02-03_apple-xcode-agentic-coding-claude-codex-md",
+    "title": "",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-02-03_apple-xcode-agentic-coding-claude-codex.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
     "id": "market_trend-20250830-cybersecurity-budget-ai-market_trend-md",
     "title": "Software commands 40% of cybersecurity budgets as gen AI attacks execute in milliseconds",
     "category": "market_trend",
@@ -175,6 +245,26 @@
     "category": "market_trend",
     "date": "",
     "file": "market_trend/20250326-amazon-alexa-fund-ai-market_trend.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "ipo-2026-03-18_pwc-2026-ipo-outlook-md",
+    "title": "",
+    "category": "ipo",
+    "date": "",
+    "file": "ipo/2026-03-18_pwc-2026-ipo-outlook.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "ipo-2026-03-18_defense-tech-ipo-candidates-swarmer-md",
+    "title": "",
+    "category": "ipo",
+    "date": "",
+    "file": "ipo/2026-03-18_defense-tech-ipo-candidates-swarmer.md",
     "source": "",
     "severity": "",
     "source_layer": "funding_signals"
@@ -265,6 +355,26 @@
     "category": "funding_round",
     "date": "",
     "file": "funding_round/20260121-zipline-funding_round.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "funding_round-2026-03-18_meadow-memorials-9m-series-a-md",
+    "title": "",
+    "category": "funding_round",
+    "date": "",
+    "file": "funding_round/2026-03-18_meadow-memorials-9m-series-a.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "funding_round-2026-03-17_candex-40m-series-c-extension-md",
+    "title": "",
+    "category": "funding_round",
+    "date": "",
+    "file": "funding_round/2026-03-17_candex-40m-series-c-extension.md",
     "source": "",
     "severity": "",
     "source_layer": "funding_signals"

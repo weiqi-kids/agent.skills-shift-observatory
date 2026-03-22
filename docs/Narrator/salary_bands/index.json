@@ -8,6 +8,14 @@
     "source_mode": "salary_bands"
   },
   {
+    "id": "2026-W12-salary-bands-md",
+    "title": "薪資帶分析 — 2026年第12週",
+    "date": "2026-W12",
+    "period": "",
+    "file": "2026-W12-salary-bands.md",
+    "source_mode": "salary_bands"
+  },
+  {
     "id": "2026-W09-salary-bands-md",
     "title": "薪資帶分析 — 2026年第09週",
     "date": "2026-W09",
@@ -37,6 +45,54 @@
     "date": "2026-W06",
     "period": "",
     "file": "2026-W06-salary-bands.md",
+    "source_mode": "salary_bands"
+  },
+  {
+    "id": "-strategy-md",
+    "title": "改版策略計劃書：salary_bands / 薪資帶分析",
+    "date": "",
+    "period": "",
+    "file": ".strategy.md",
+    "source_mode": "salary_bands"
+  },
+  {
+    "id": "-positioning-md",
+    "title": "定位文件：salary_bands / 薪資帶分析",
+    "date": "",
+    "period": "",
+    "file": ".positioning.md",
+    "source_mode": "salary_bands"
+  },
+  {
+    "id": "-discovery-md",
+    "title": "盤點報告 + 技術健檢：salary_bands / 薪資帶分析",
+    "date": "",
+    "period": "",
+    "file": ".discovery.md",
+    "source_mode": "salary_bands"
+  },
+  {
+    "id": "-content-spec-md",
+    "title": "內容規格書：salary_bands / 薪資帶分析 — 每週報告",
+    "date": "",
+    "period": "",
+    "file": ".content-spec.md",
+    "source_mode": "salary_bands"
+  },
+  {
+    "id": "-competitive-md",
+    "title": "競品分析報告（共用）",
+    "date": "",
+    "period": "",
+    "file": ".competitive.md",
+    "source_mode": "salary_bands"
+  },
+  {
+    "id": "-analysis-md",
+    "title": "受眾與內容差距分析：salary_bands / 薪資帶分析",
+    "date": "",
+    "period": "",
+    "file": ".analysis.md",
     "source_mode": "salary_bands"
   }
 ]

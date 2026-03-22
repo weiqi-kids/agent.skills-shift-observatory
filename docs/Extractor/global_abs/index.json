@@ -1,5 +1,45 @@
 [
   {
+    "id": "unemployment-2026-02_M6-md",
+    "title": "澳洲失業人數 (2026-02)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2026-02_M6.md",
+    "source": "**來源**：Australian Bureau of Statistics (ABS) 勞動力調查",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2026-02_M13-md",
+    "title": "澳洲失業率 (2026-02)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2026-02_M13.md",
+    "source": "**來源**：Australian Bureau of Statistics (ABS) 勞動力調查",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2026-01_M6-md",
+    "title": "澳洲失業人數 (2026-01)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2026-01_M6.md",
+    "source": "**來源**：Australian Bureau of Statistics (ABS) 勞動力調查",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "unemployment-2026-01_M13-md",
+    "title": "澳洲失業率 (2026-01)",
+    "category": "unemployment",
+    "date": "",
+    "file": "unemployment/2026-01_M13.md",
+    "source": "**來源**：Australian Bureau of Statistics (ABS) 勞動力調查",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
     "id": "unemployment-2025-12_M6-md",
     "title": "Unemployed persons — Australia (2025-12)",
     "category": "unemployment",
@@ -480,6 +520,46 @@
     "source_layer": "global_abs"
   },
   {
+    "id": "labour_force-2026-02_M9-md",
+    "title": "澳洲勞動力人數 (2026-02)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2026-02_M9.md",
+    "source": "**來源**：Australian Bureau of Statistics (ABS) 勞動力調查",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2026-02_M12-md",
+    "title": "澳洲勞動參與率 (2026-02)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2026-02_M12.md",
+    "source": "**來源**：Australian Bureau of Statistics (ABS) 勞動力調查",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2026-01_M9-md",
+    "title": "澳洲勞動力人數 (2026-01)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2026-01_M9.md",
+    "source": "**來源**：Australian Bureau of Statistics (ABS) 勞動力調查",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "labour_force-2026-01_M12-md",
+    "title": "澳洲勞動參與率 (2026-01)",
+    "category": "labour_force",
+    "date": "",
+    "file": "labour_force/2026-01_M12.md",
+    "source": "**來源**：Australian Bureau of Statistics (ABS) 勞動力調查",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
     "id": "labour_force-2025-12_M9-md",
     "title": "Labour Force — Australia (2025-12)",
     "category": "labour_force",
@@ -956,6 +1036,46 @@
     "date": "",
     "file": "labour_force/2024-01_M12.md",
     "source": "- **來源**: Australian Bureau of Statistics (ABS)",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2026-02_M3-md",
+    "title": "澳洲就業人數 (2026-02)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2026-02_M3.md",
+    "source": "**來源**：Australian Bureau of Statistics (ABS) 勞動力調查",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2026-02_M16-md",
+    "title": "澳洲就業人口比率 (2026-02)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2026-02_M16.md",
+    "source": "**來源**：Australian Bureau of Statistics (ABS) 勞動力調查",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2026-01_M3-md",
+    "title": "澳洲就業人數 (2026-01)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2026-01_M3.md",
+    "source": "**來源**：Australian Bureau of Statistics (ABS) 勞動力調查",
+    "severity": "",
+    "source_layer": "global_abs"
+  },
+  {
+    "id": "employment-2026-01_M16-md",
+    "title": "澳洲就業人口比率 (2026-01)",
+    "category": "employment",
+    "date": "",
+    "file": "employment/2026-01_M16.md",
+    "source": "**來源**：Australian Bureau of Statistics (ABS) 勞動力調查",
     "severity": "",
     "source_layer": "global_abs"
   },

@@ -710,6 +710,66 @@
     "source_layer": "global_remoteok"
   },
   {
+    "id": "tech-1130840-remote-forward-deployed-engineer-voip-parloa-1130840-md",
+    "title": "Forward Deployed Engineer VoIP @ Parloa",
+    "category": "tech",
+    "date": "",
+    "file": "tech/1130840-remote-forward-deployed-engineer-voip-parloa-1130840.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "tech-1130814-remote-saas-platform-architect-legion-1130814-md",
+    "title": "SaaS Platform Architect @ Legion",
+    "category": "tech",
+    "date": "",
+    "file": "tech/1130814-remote-saas-platform-architect-legion-1130814.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "tech-1130799-remote-devops-database-assistant-vice-president-icapital-1130799-md",
+    "title": "DevOps Database Assistant Vice President @ iCapital",
+    "category": "tech",
+    "date": "",
+    "file": "tech/1130799-remote-devops-database-assistant-vice-president-icapital-1130799.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "tech-1130778-remote-c-c-linux-developer-tempesta-technologies-1130778-md",
+    "title": "C C++ Linux developer @ Tempesta Technologies",
+    "category": "tech",
+    "date": "",
+    "file": "tech/1130778-remote-c-c-linux-developer-tempesta-technologies-1130778.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "tech-1130761-remote-senior-firmware-engineer-sanctuary-computer-1130761-md",
+    "title": "Senior Firmware Engineer @ Sanctuary Computer",
+    "category": "tech",
+    "date": "",
+    "file": "tech/1130761-remote-senior-firmware-engineer-sanctuary-computer-1130761.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "tech-1130744-remote-bpm-llp-ai-ml-engineer-bpm-llp-1130744-md",
+    "title": "BPM LLP AI ML Engineer @ BPM LLP",
+    "category": "tech",
+    "date": "",
+    "file": "tech/1130744-remote-bpm-llp-ai-ml-engineer-bpm-llp-1130744.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
     "id": "support-remote-senior-enterprise-customer-success-manager-signifyd-1129983-md",
     "title": "Senior Enterprise Customer Success Manager @ Signifyd",
     "category": "support",
@@ -750,12 +810,32 @@
     "source_layer": "global_remoteok"
   },
   {
+    "id": "support-1130805-remote-customer-support-agent-alx-africa-1130805-md",
+    "title": "Customer Support Agent @ ALX Africa",
+    "category": "support",
+    "date": "",
+    "file": "support/1130805-remote-customer-support-agent-alx-africa-1130805.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
     "id": "product-remote-senior-product-manager-client-growth-betterhelp-1129998-md",
     "title": "Senior Product Manager Client Growth @ BetterHelp",
     "category": "product",
     "date": "",
     "file": "product/remote-senior-product-manager-client-growth-betterhelp-1129998.md",
     "source": "",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "product-1130851-remote-product-manager-growth-12go-asia-1130851-md",
+    "title": "Product Manager Growth @ 12Go Asia",
+    "category": "product",
+    "date": "",
+    "file": "product/1130851-remote-product-manager-growth-12go-asia-1130851.md",
+    "source": "- **來源**: RemoteOK API",
     "severity": "",
     "source_layer": "global_remoteok"
   },
@@ -776,6 +856,26 @@
     "date": "",
     "file": "other/remote-business-development-representative-usa-storyblok-1129988.md",
     "source": "",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "operations-1130832-remote-revenue-operations-manager-testgorilla-1130832-md",
+    "title": "Revenue Operations Manager @ TestGorilla",
+    "category": "operations",
+    "date": "",
+    "file": "operations/1130832-remote-revenue-operations-manager-testgorilla-1130832.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "operations-1130785-remote-data-center-site-start-up-manager-serverfarm-1130785-md",
+    "title": "Data Center Site Start Up Manager @ Serverfarm",
+    "category": "operations",
+    "date": "",
+    "file": "operations/1130785-remote-data-center-site-start-up-manager-serverfarm-1130785.md",
+    "source": "- **來源**: RemoteOK API",
     "severity": "",
     "source_layer": "global_remoteok"
   },
@@ -860,6 +960,86 @@
     "source_layer": "global_remoteok"
   },
   {
+    "id": "marketing-1130820-remote-business-development-representative-east-coast-only-qualio-1130820-md",
+    "title": "Business Development Representative East Coast Only @ Qualio",
+    "category": "marketing",
+    "date": "",
+    "file": "marketing/1130820-remote-business-development-representative-east-coast-only-qualio-1130820.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "marketing-1130793-remote-senior-sales-systems-engineer-veeam-software-1130793-md",
+    "title": "Senior Sales Systems Engineer @ Veeam Software",
+    "category": "marketing",
+    "date": "",
+    "file": "marketing/1130793-remote-senior-sales-systems-engineer-veeam-software-1130793.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "marketing-1130766-remote-vice-president-of-sales-asg-1130766-md",
+    "title": "Vice President of Sales @ ASG",
+    "category": "marketing",
+    "date": "",
+    "file": "marketing/1130766-remote-vice-president-of-sales-asg-1130766.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "marketing-1130756-remote-go-to-market-strategist-ai-trainer-freelance-8-20-hrs-week-10x-team-1130756-md",
+    "title": "Go To Market Strategist AI Trainer Freelance 8 20 hrs week @ 10x Team",
+    "category": "marketing",
+    "date": "",
+    "file": "marketing/1130756-remote-go-to-market-strategist-ai-trainer-freelance-8-20-hrs-week-10x-team-1130756.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "hr-1130772-remote-payroll-and-benefits-specialist-the-pac-group-1130772-md",
+    "title": "Payroll and Benefits Specialist @ The PAC Group",
+    "category": "hr",
+    "date": "",
+    "file": "hr/1130772-remote-payroll-and-benefits-specialist-the-pac-group-1130772.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "finance-1130845-remote-financial-crimes-analyst-i-dave-1130845-md",
+    "title": "Financial Crimes Analyst I @ Dave",
+    "category": "finance",
+    "date": "",
+    "file": "finance/1130845-remote-financial-crimes-analyst-i-dave-1130845.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "finance-1130825-remote-director-medecon-waymark-1130825-md",
+    "title": "Director MedEcon @ Waymark",
+    "category": "finance",
+    "date": "",
+    "file": "finance/1130825-remote-director-medecon-waymark-1130825.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "finance-1130739-remote-cfo-marathon-talent-1130739-md",
+    "title": "CFO @ Marathon Talent",
+    "category": "finance",
+    "date": "",
+    "file": "finance/1130739-remote-cfo-marathon-talent-1130739.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
     "id": "design-remote-talent-acquisition-specialist-alphasense-1129960-md",
     "title": "Talent Acquisition Specialist @ AlphaSense",
     "category": "design",
@@ -936,6 +1116,26 @@
     "date": "",
     "file": "design/remote-entry-level-business-development-representative-bisnow-1129997.md",
     "source": "",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "design-1130857-remote-brand-designer-vanta-1130857-md",
+    "title": "Brand Designer @ Vanta",
+    "category": "design",
+    "date": "",
+    "file": "design/1130857-remote-brand-designer-vanta-1130857.md",
+    "source": "- **來源**: RemoteOK API",
+    "severity": "",
+    "source_layer": "global_remoteok"
+  },
+  {
+    "id": "design-1130749-remote-lead-3d-environment-artist-eleventh-hour-games-1130749-md",
+    "title": "Lead 3D Environment Artist @ Eleventh Hour Games",
+    "category": "design",
+    "date": "",
+    "file": "design/1130749-remote-lead-3d-environment-artist-eleventh-hour-games-1130749.md",
+    "source": "- **來源**: RemoteOK API",
     "severity": "",
     "source_layer": "global_remoteok"
   }

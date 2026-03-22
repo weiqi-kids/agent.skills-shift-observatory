@@ -1,5 +1,35 @@
 [
   {
+    "id": "tech-20260304_資深維運工程師_14175219-md",
+    "title": "資深維運工程師",
+    "category": "tech",
+    "date": "",
+    "file": "tech/20260304_資深維運工程師_14175219.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "tech-20260304_系統分析師_14173427-md",
+    "title": "系統分析師",
+    "category": "tech",
+    "date": "",
+    "file": "tech/20260304_系統分析師_14173427.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "tech-20260212_網路資安工程師_14136263-md",
+    "title": "網路資安工程師（閘道/端點）",
+    "category": "tech",
+    "date": "",
+    "file": "tech/20260212_網路資安工程師_14136263.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
     "id": "tech-20260204_開發業務此為現場徵才活動職缺_399-md",
     "title": "開發業務（此為現場徵才活動職缺）",
     "category": "tech",
@@ -920,6 +950,16 @@
     "source_layer": "tw_govjobs"
   },
   {
+    "id": "skilled_trade-20260212_機動清潔人員_14138413-md",
+    "title": "工務部機動清潔人員",
+    "category": "skilled_trade",
+    "date": "",
+    "file": "skilled_trade/20260212_機動清潔人員_14138413.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
     "id": "skilled_trade-20260204_清潔員212信義站小徵_158-md",
     "title": "清潔員(2/12信義站小徵)",
     "category": "skilled_trade",
@@ -1565,6 +1605,176 @@
     "category": "skilled_trade",
     "date": "",
     "file": "skilled_trade/20211216_作-業-員-無求職意願者勿洽無誠勿擾_840.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260319_洗碗清潔人員兼職_14218515-md",
+    "title": "Li teppanyaki 洗碗清潔人員（兼職）",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260319_洗碗清潔人員兼職_14218515.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260319_外場服務人員酒吧咖啡師_14173465-md",
+    "title": "Café de LUGANO 外場服務人員/酒吧人員/咖啡師（兼職）",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260319_外場服務人員酒吧咖啡師_14173465.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260318_信義店內場廚房人員_14215437-md",
+    "title": "信義店內場早班廚房人員（一段班）",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260318_信義店內場廚房人員_14215437.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260316_餐飲服務及接待員師大雞肉飯_14207093-md",
+    "title": "餐飲服務及接待員",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260316_餐飲服務及接待員師大雞肉飯_14207093.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260316_儲備幹部外場服務接待員_14206207-md",
+    "title": "儲備幹部/外場服務接待員",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260316_儲備幹部外場服務接待員_14206207.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260316_SUKIYA全職人員_14206451-md",
+    "title": "すき家 SUKIYA 全職人員",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260316_SUKIYA全職人員_14206451.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260314_廚工_14204971-md",
+    "title": "廚工",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260314_廚工_14204971.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260313_美髮培訓生_14048931-md",
+    "title": "美髮培訓生",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260313_美髮培訓生_14048931.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260313_廚房內場廚師_14203799-md",
+    "title": "廚房內場廚師",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260313_廚房內場廚師_14203799.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260309_客服總經理特助_14187367-md",
+    "title": "客服總經理特助",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260309_客服總經理特助_14187367.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260305_漢堡王服務員兼職_14177669-md",
+    "title": "漢堡王服務員-兼職人員",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260305_漢堡王服務員兼職_14177669.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260304_客製旅遊業務代表_14172453-md",
+    "title": "客製旅遊業務代表",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260304_客製旅遊業務代表_14172453.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260224_兼職人員麥味登炸雞大獅_14150875-md",
+    "title": "兼職人員（麥味登、炸雞大獅）",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260224_兼職人員麥味登炸雞大獅_14150875.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260223_默爾內場廚師_14146417-md",
+    "title": "默爾-內場廚師",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260223_默爾內場廚師_14146417.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260213_計時兼職夥伴中山錦州_14141821-md",
+    "title": "計時/兼職夥伴-中山錦州",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260213_計時兼職夥伴中山錦州_14141821.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260211_乾杯內場兼職夥伴_14134511-md",
+    "title": "老乾杯 信義店 內場兼職夥伴（燒肉日料職人）",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260211_乾杯內場兼職夥伴_14134511.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "retail_service-20260205_餐廳服務兼職人員_14120171-md",
+    "title": "餐廳服務時薪兼職人員（無經驗可）",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20260205_餐廳服務兼職人員_14120171.md",
     "source": "",
     "severity": "",
     "source_layer": "tw_govjobs"
@@ -6320,6 +6530,16 @@
     "source_layer": "tw_govjobs"
   },
   {
+    "id": "retail_service-20240409_天閣集團房務員_12225383-md",
+    "title": "天閣集團-早班房務員（劍潭館）",
+    "category": "retail_service",
+    "date": "",
+    "file": "retail_service/20240409_天閣集團房務員_12225383.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
     "id": "retail_service-20231218_微風精品超市--營運儲備培訓人員-遴選徵才_930-md",
     "title": "微風精品超市- 營運儲備培訓人員 遴選徵才",
     "category": "retail_service",
@@ -6395,6 +6615,46 @@
     "category": "public_service",
     "date": "",
     "file": "public_service/20260105_安管人員-兼職0206-中徵_250.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "professional-20260313_銷售業務人員_14192263-md",
+    "title": "銷售業務人員",
+    "category": "professional",
+    "date": "",
+    "file": "professional/20260313_銷售業務人員_14192263.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "professional-20260225_行政總務助理_14155187-md",
+    "title": "行政總務助理",
+    "category": "professional",
+    "date": "",
+    "file": "professional/20260225_行政總務助理_14155187.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "professional-20260224_專案駐點人員台北_14147863-md",
+    "title": "專案駐點人員（台北）",
+    "category": "professional",
+    "date": "",
+    "file": "professional/20260224_專案駐點人員台北_14147863.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "professional-20260210_業務行政助理_14130927-md",
+    "title": "業務行政助理",
+    "category": "professional",
+    "date": "",
+    "file": "professional/20260210_業務行政助理_14130927.md",
     "source": "",
     "severity": "",
     "source_layer": "tw_govjobs"
@@ -7390,6 +7650,46 @@
     "source_layer": "tw_govjobs"
   },
   {
+    "id": "management-20260317_門市儲備幹部_14209861-md",
+    "title": "門市儲備幹部",
+    "category": "management",
+    "date": "",
+    "file": "management/20260317_門市儲備幹部_14209861.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "management-20260305_餐飲部西華匯銷售主任副理_14178281-md",
+    "title": "餐飲部西華匯銷售主任/副理",
+    "category": "management",
+    "date": "",
+    "file": "management/20260305_餐飲部西華匯銷售主任副理_14178281.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "management-20260305_副店長外帶店_14177077-md",
+    "title": "副店長【外帶店】",
+    "category": "management",
+    "date": "",
+    "file": "management/20260305_副店長外帶店_14177077.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "management-20260304_儲備幹部群品餐飲_14174971-md",
+    "title": "儲備幹部",
+    "category": "management",
+    "date": "",
+    "file": "management/20260304_儲備幹部群品餐飲_14174971.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
     "id": "management-20260202_歐美業務經理_721-md",
     "title": "歐美業務經理",
     "category": "management",
@@ -7655,6 +7955,36 @@
     "category": "management",
     "date": "",
     "file": "management/20240408_幹部加油員_263.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "logistics-20260320_公務車駕駛人員_14221117-md",
+    "title": "公務車駕駛人員（需有職業大型車駕照）",
+    "category": "logistics",
+    "date": "",
+    "file": "logistics/20260320_公務車駕駛人員_14221117.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "logistics-20260318_電子商務出貨人員_14212813-md",
+    "title": "電子商務出貨人員",
+    "category": "logistics",
+    "date": "",
+    "file": "logistics/20260318_電子商務出貨人員_14212813.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "logistics-20260226_採購高級專員_14157681-md",
+    "title": "採購高級專員",
+    "category": "logistics",
+    "date": "",
+    "file": "logistics/20260226_採購高級專員_14157681.md",
     "source": "",
     "severity": "",
     "source_layer": "tw_govjobs"
@@ -7970,6 +8300,16 @@
     "source_layer": "tw_govjobs"
   },
   {
+    "id": "legal-20260225_法務助理稽查員_14154275-md",
+    "title": "法務助理（稽查員）",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260225_法務助理稽查員_14154275.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
     "id": "legal-20260203_管理部專員_368-md",
     "title": "管理部專員",
     "category": "legal",
@@ -8025,6 +8365,16 @@
     "category": "legal",
     "date": "",
     "file": "legal/20250604_招募專員_572.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "healthcare-20260213_傳送人員日班_14140383-md",
+    "title": "傳送人員（日班）",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260213_傳送人員日班_14140383.md",
     "source": "",
     "severity": "",
     "source_layer": "tw_govjobs"
@@ -8690,6 +9040,26 @@
     "source_layer": "tw_govjobs"
   },
   {
+    "id": "finance-20260306_會計專員財務部_14185195-md",
+    "title": "會計專員－財務部",
+    "category": "finance",
+    "date": "",
+    "file": "finance/20260306_會計專員財務部_14185195.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "finance-20260304_審計服務初階財務會計諮詢人員_14174525-md",
+    "title": "審計服務初階財務會計諮詢人員（台北所）",
+    "category": "finance",
+    "date": "",
+    "file": "finance/20260304_審計服務初階財務會計諮詢人員_14174525.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
     "id": "finance-20260204_會計專員_408-md",
     "title": "會計專員",
     "category": "finance",
@@ -9155,6 +9525,16 @@
     "category": "education",
     "date": "",
     "file": "education/20240509_陽光森林幼兒部老師助理_972.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "creative-20260205_新聞部新聞網執行製作_14119677-md",
+    "title": "新聞部新聞網執行製作",
+    "category": "creative",
+    "date": "",
+    "file": "creative/20260205_新聞部新聞網執行製作_14119677.md",
     "source": "",
     "severity": "",
     "source_layer": "tw_govjobs"
@@ -9895,6 +10275,26 @@
     "category": "construction",
     "date": "",
     "file": "construction/20220829_土建工程師台北市新北市_877.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "care-20260317_家庭照顧服務員_14211995-md",
+    "title": "家庭照顧服務員",
+    "category": "care",
+    "date": "",
+    "file": "care/20260317_家庭照顧服務員_14211995.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_govjobs"
+  },
+  {
+    "id": "care-20260303_居家督導員_14169707-md",
+    "title": "居家督導員",
+    "category": "care",
+    "date": "",
+    "file": "care/20260303_居家督導員_14169707.md",
     "source": "",
     "severity": "",
     "source_layer": "tw_govjobs"

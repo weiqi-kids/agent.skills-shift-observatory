@@ -1,5 +1,15 @@
 [
   {
+    "id": "security-hn-47244862-md",
+    "title": "Tracebit - Founding Engineer / Security Roles",
+    "category": "security",
+    "date": "",
+    "file": "security/hn-47244862.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "security-hn-46885343-md",
     "title": "EnigmoFi - DevOps Engineer (Cloud & Infrastructure)",
     "category": "security",
@@ -465,6 +475,16 @@
     "category": "security",
     "date": "",
     "file": "security/hn-45439500.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-hn-47227320-md",
+    "title": "WEX - Multiple Positions",
+    "category": "other",
+    "date": "",
+    "file": "other/hn-47227320.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hn_hiring"
@@ -2090,6 +2110,16 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "mobile-hn-47220776-md",
+    "title": "FUTO - Mobile Developer / Android/iOS Mobile Engineer",
+    "category": "mobile",
+    "date": "",
+    "file": "mobile/hn-47220776.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "mobile-hn-46884382-md",
     "title": "Curiosity - Full-Stack Developer (C# / Java / Python)",
     "category": "mobile",
@@ -2555,6 +2585,26 @@
     "category": "mobile",
     "date": "",
     "file": "mobile/hn-45445016.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "management-hn-47225465-md",
+    "title": "Lithic - Engineering Manager / Senior Software Engineer",
+    "category": "management",
+    "date": "",
+    "file": "management/hn-47225465.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "management-hn-47221642-md",
+    "title": "focal - Head of Technology & Applied AI",
+    "category": "management",
+    "date": "",
+    "file": "management/hn-47221642.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hn_hiring"
@@ -3375,6 +3425,46 @@
     "category": "management",
     "date": "",
     "file": "management/hn-45476407.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-hn-47324849-md",
+    "title": "Spruce - Lead Full Stack Engineer",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/hn-47324849.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-hn-47231977-md",
+    "title": "Upway - Software Engineers / Product Designer / Product Managers",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/hn-47231977.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-hn-47224880-md",
+    "title": "Goody - Staff Software Engineer / Senior Software Engineer",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/hn-47224880.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-hn-47221030-md",
+    "title": "Oboe - Full Stack Engineer",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/hn-47221030.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hn_hiring"
@@ -9840,6 +9930,16 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "frontend-hn-47350658-md",
+    "title": "Jurisphere.ai - Frontend Engineer / Backend Engineer / Design Engineer",
+    "category": "frontend",
+    "date": "",
+    "file": "frontend/hn-47350658.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "frontend-hn-46881344-md",
     "title": "Comulate - Senior Engineer (3+ YoE)",
     "category": "frontend",
@@ -12250,6 +12350,26 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "devops-hn-47223924-md",
+    "title": "Adaptive - Software Engineer (Infrastructure/Security)",
+    "category": "devops",
+    "date": "",
+    "file": "devops/hn-47223924.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "devops-hn-47220242-md",
+    "title": "Sienna Charles - IT System Administrator / IT Support",
+    "category": "devops",
+    "date": "",
+    "file": "devops/hn-47220242.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "devops-hn-46886146-md",
     "title": "Driftrock - Lead and Senior Software Engineer",
     "category": "devops",
@@ -13580,6 +13700,36 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "data-hn-47311360-md",
+    "title": "Remitly - Knowledge Development Engineer II (Native AI Software Engineer)",
+    "category": "data",
+    "date": "",
+    "file": "data/hn-47311360.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-hn-47277893-md",
+    "title": "Protillion Biosciences - Software Engineer (AI/ML Drug Discovery)",
+    "category": "data",
+    "date": "",
+    "file": "data/hn-47277893.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-hn-47221286-md",
+    "title": "HomeVision - Software Engineer / AI Engineer",
+    "category": "data",
+    "date": "",
+    "file": "data/hn-47221286.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "data-hn-46878732-md",
     "title": "Verge Genomics (YC S15) - Multiple roles: Computational Biologists (all levels), Principal Full-stack Engineer, Senior Data Engineer, Staff AI Scientist (Foundation Models)",
     "category": "data",
@@ -14335,6 +14485,46 @@
     "category": "data",
     "date": "",
     "file": "data/hn-44760576.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-hn-47292427-md",
+    "title": "CiceroAI - Founding Forward Deployed Engineer",
+    "category": "backend",
+    "date": "",
+    "file": "backend/hn-47292427.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-hn-47222692-md",
+    "title": "Modal - Software Engineers (Product, System, SDK)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/hn-47222692.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-hn-47222261-md",
+    "title": "Zed Industries - Software Engineer",
+    "category": "backend",
+    "date": "",
+    "file": "backend/hn-47222261.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-hn-47219691-md",
+    "title": "Beautiful.ai - Senior Platform Engineer, Senior Software Engineer, Software Engineer",
+    "category": "backend",
+    "date": "",
+    "file": "backend/hn-47219691.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hn_hiring"

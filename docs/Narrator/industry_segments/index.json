@@ -8,6 +8,14 @@
     "source_mode": "industry_segments"
   },
   {
+    "id": "2026-W12-industry-segments-md",
+    "title": "產業分層分析 — 2026年第12週",
+    "date": "2026-W12",
+    "period": "",
+    "file": "2026-W12-industry-segments.md",
+    "source_mode": "industry_segments"
+  },
+  {
     "id": "2026-W09-industry-segments-md",
     "title": "產業分層分析 — 2026年第09週",
     "date": "2026-W09",
@@ -37,6 +45,54 @@
     "date": "2026-W06",
     "period": "",
     "file": "2026-W06-industry-segments.md",
+    "source_mode": "industry_segments"
+  },
+  {
+    "id": "-strategy-md",
+    "title": "改版策略計劃書：industry_segments / 產業分層分析",
+    "date": "",
+    "period": "",
+    "file": ".strategy.md",
+    "source_mode": "industry_segments"
+  },
+  {
+    "id": "-positioning-md",
+    "title": "定位文件：industry_segments / 產業分層分析",
+    "date": "",
+    "period": "",
+    "file": ".positioning.md",
+    "source_mode": "industry_segments"
+  },
+  {
+    "id": "-discovery-md",
+    "title": "盤點報告 + 技術健檢：industry_segments / 產業分層分析",
+    "date": "",
+    "period": "",
+    "file": ".discovery.md",
+    "source_mode": "industry_segments"
+  },
+  {
+    "id": "-content-spec-md",
+    "title": "內容規格書：industry_segments / 產業分層分析 — 每週報告",
+    "date": "",
+    "period": "",
+    "file": ".content-spec.md",
+    "source_mode": "industry_segments"
+  },
+  {
+    "id": "-competitive-md",
+    "title": "競品分析報告（共用）",
+    "date": "",
+    "period": "",
+    "file": ".competitive.md",
+    "source_mode": "industry_segments"
+  },
+  {
+    "id": "-analysis-md",
+    "title": "受眾與內容差距分析：industry_segments / 產業分層分析",
+    "date": "",
+    "period": "",
+    "file": ".analysis.md",
     "source_mode": "industry_segments"
   }
 ]

@@ -1,5 +1,65 @@
 [
   {
+    "id": "salary_trend-2026-03-18_advertised-wage-growth-and-inflation-across-countries-md",
+    "title": "Advertised Wage Growth Has Still Not Caught Up With Post-Pandemic Inflation in Some Countries",
+    "category": "salary_trend",
+    "date": "",
+    "file": "salary_trend/2026-03-18_advertised-wage-growth-and-inflation-across-countries.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "labor_market_overview-2026-03-18_march-2026-fomc-reaction-hold-on-to-your-hats-md",
+    "title": "March 2026 FOMC Reaction: Hold On to Your Hats",
+    "category": "labor_market_overview",
+    "date": "",
+    "file": "labor_market_overview/2026-03-18_march-2026-fomc-reaction-hold-on-to-your-hats.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "labor_market_overview-2026-03-13_january-2026-jolts-report-waiting-to-exhale-md",
+    "title": "January 2026 JOLTS Report: Waiting to Exhale",
+    "category": "labor_market_overview",
+    "date": "",
+    "file": "labor_market_overview/2026-03-13_january-2026-jolts-report-waiting-to-exhale.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "labor_market_overview-2026-03-06_february-2026-jobs-report-overwhelmingly-disappointing-md",
+    "title": "February 2026 Jobs Report: An Overwhelmingly Disappointing Report",
+    "category": "labor_market_overview",
+    "date": "",
+    "file": "labor_market_overview/2026-03-06_february-2026-jobs-report-overwhelmingly-disappointing.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "labor_market_overview-2026-02-20_us-labor-market-quarterly-verticals-q4-2025-md",
+    "title": "US Labor Market Quarterly Verticals for Q4 2025",
+    "category": "labor_market_overview",
+    "date": "",
+    "file": "labor_market_overview/2026-02-20_us-labor-market-quarterly-verticals-q4-2025.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "labor_market_overview-2026-02-11_january-2026-jobs-report-revisions-to-2025-data-md",
+    "title": "January 2026 Jobs Report: Revisions to 2025 Data Made an Already Bad Year Worse",
+    "category": "labor_market_overview",
+    "date": "",
+    "file": "labor_market_overview/2026-02-11_january-2026-jobs-report-revisions-to-2025-data.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
     "id": "labor_market_overview-2026-02-05_december-2025-jolts-report-md",
     "title": "December 2025 JOLTS Report: Balance or Breaking Point?",
     "category": "labor_market_overview",
@@ -55,6 +115,16 @@
     "category": "labor_market_overview",
     "date": "",
     "file": "labor_market_overview/2026-01-07_november-2025-jolts-report-musical-chairs-but-the-music-has-stopped.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "job_seeker_behavior-2026-02-19_february-2026-labor-market-update-new-year-same-resolutions-md",
+    "title": "February 2026 US Labor Market Update: New Year, Same Resolutions",
+    "category": "job_seeker_behavior",
+    "date": "",
+    "file": "job_seeker_behavior/2026-02-19_february-2026-labor-market-update-new-year-same-resolutions.md",
     "source": "",
     "severity": "",
     "source_layer": "global_indeed_hiring"
@@ -125,6 +195,26 @@
     "category": "job_posting_trend",
     "date": "",
     "file": "job_posting_trend/2026-01-09_december-2025-jobs-report.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "industry_hiring-2026-03-03_we-cant-all-be-nurses-healthcare-labor-market-md",
+    "title": "We Can't All Be Nurses: Why Healthcare Alone Can't Fix the Ailing Labor Market",
+    "category": "industry_hiring",
+    "date": "",
+    "file": "industry_hiring/2026-03-03_we-cant-all-be-nurses-healthcare-labor-market.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_indeed_hiring"
+  },
+  {
+    "id": "industry_hiring-2026-02-26_healthcare-hiring-keeps-signing-bonuses-alive-md",
+    "title": "Healthcare Hiring Keeps Signing Bonuses Alive in a Cooling Labor Market",
+    "category": "industry_hiring",
+    "date": "",
+    "file": "industry_hiring/2026-02-26_healthcare-hiring-keeps-signing-bonuses-alive.md",
     "source": "",
     "severity": "",
     "source_layer": "global_indeed_hiring"
