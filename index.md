@@ -14,20 +14,20 @@ permalink: /
 
 ---
 
-## 30 秒看懂本週 (W09)
+## 30 秒看懂本週 (W12)
 
-| 📊 市場溫度 | 🟠 偏冷 |
+| 📊 市場溫度 | 🟠 偏冷（指數 35） |
 |------------|---------|
-| **一句話** | Block 減半員工、OpenAI $1,100 億融資，市場極度分化 |
+| **一句話** | 全球同步轉弱：美國非農 -92K、澳加失業率上升、醫療業首度轉負 |
 
-| 🔥 本週最熱 | MCP (+50%)、AI Agent (+24%) |
+| 🔥 本週最熱 | Agentic AI (+32.2%)、MCP (+27.3%)、Rust (+5.7%) |
 |------------|---------------------|
-| **為什麼** | Anthropic 工具鏈標準加速採用，AI Agent 生態持續擴張 |
+| **為什麼** | AI Agent 從概念走向生產部署，MCP 成為 AI 協作標準，Rust 在金融科技崛起 |
 
-| ✅ 本週建議 | 關注 AI Agent 生態技能（MCP、RAG），評估產業重組對職涯影響 |
+| ✅ 本週建議 | 關注 Agentic AI 與 Platform Engineering 技能，留意醫療業就業拐點信號 |
 |------------|----------------------------------------------|
 
-[查看完整報告 →](/reports/climate-index-w09/)
+[查看完整報告 →](/reports/climate-index-w12/)
 {: .btn .btn-green .fs-5 .mb-4 .mb-md-0 }
 
 ---
@@ -54,7 +54,7 @@ permalink: /
 | [薪資帶]({{ site.baseurl }}/salary-bands/) | 求職者、HR | 合理的薪資期望是多少？ |
 | [求職策略]({{ site.baseurl }}/career-strategy/) | 求職者、轉職者 | 我該怎麼規劃職涯？ |
 
-[查看最新報告 (W09)]({{ site.baseurl }}/reports/climate-index-w09/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[查看最新報告 (W12)]({{ site.baseurl }}/reports/climate-index-w12/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [名詞解釋]({{ site.baseurl }}/glossary/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [如何使用本站]({{ site.baseurl }}/how-to-use/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
@@ -102,7 +102,7 @@ permalink: /
 
 ## 系統健康度
 
-> 最後更新：2026-02-28
+> 最後更新：2026-03-22
 
 ### 資料總覽
 
@@ -124,11 +124,11 @@ permalink: /
 
 | Mode | 狀態 | 最新報告 |
 |:-----|:-----|:---------|
-| climate_index | ✅ | 2026-W09 |
-| skills_drift | ✅ | 2026-W09 |
-| industry_segments | ✅ | 2026-W09 |
-| salary_bands | ✅ | 2026-W09 |
-| career_strategy | ✅ | 2026-W09 |
+| climate_index | ✅ | 2026-W12 |
+| skills_drift | ✅ | 2026-W12 |
+| industry_segments | ✅ | 2026-W12 |
+| salary_bands | ✅ | 2026-W12 |
+| career_strategy | ✅ | 2026-W12 |
 
 ---
 

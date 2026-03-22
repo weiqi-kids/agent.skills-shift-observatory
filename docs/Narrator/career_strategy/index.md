@@ -4,7 +4,7 @@ title: 求職策略
 nav_order: 6
 has_children: true
 permalink: /career-strategy/
-redirect_to: /reports/career-strategy-w09/
+redirect_to: /reports/career-strategy-w12/
 ---
 
 # 求職策略
@@ -44,4 +44,4 @@ redirect_to: /reports/career-strategy-w09/
 
 ---
 
-[查看最新報告 (W09)]({{ site.baseurl }}/reports/career-strategy-w09/){: .btn .btn-primary }
+[查看最新報告 (W12)]({{ site.baseurl }}/reports/career-strategy-w12/){: .btn .btn-primary }

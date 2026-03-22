@@ -4,7 +4,7 @@ title: 景氣溫度計
 nav_order: 2
 has_children: true
 permalink: /climate-index/
-redirect_to: /reports/climate-index-w09/
+redirect_to: /reports/climate-index-w12/
 ---
 
 # 景氣溫度計
@@ -38,4 +38,4 @@ redirect_to: /reports/climate-index-w09/
 
 ---
 
-[查看最新報告 (W09)]({{ site.baseurl }}/reports/climate-index-w09/){: .btn .btn-primary }
+[查看最新報告 (W12)]({{ site.baseurl }}/reports/climate-index-w12/){: .btn .btn-primary }
