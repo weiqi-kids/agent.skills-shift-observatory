@@ -4,7 +4,7 @@ title: 技能漂移
 nav_order: 3
 has_children: true
 permalink: /skills-drift/
-redirect_to: /reports/skills-drift-w12/
+redirect_to: /reports/skills-drift-w13/
 ---
 
 # 技能漂移

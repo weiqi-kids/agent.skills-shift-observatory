@@ -4,7 +4,7 @@ title: 薪資帶
 nav_order: 5
 has_children: true
 permalink: /salary-bands/
-redirect_to: /reports/salary-bands-w12/
+redirect_to: /reports/salary-bands-w13/
 ---
 
 # 薪資帶
