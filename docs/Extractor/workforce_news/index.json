@@ -130,6 +130,16 @@
     "source_layer": "workforce_news"
   },
   {
+    "id": "layoff-20260313-digg-layoff-md",
+    "title": "Digg lays off staff and shuts down app as company retools",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/20260313-digg-layoff.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
     "id": "layoff-20260226-ebay-layoff-md",
     "title": "eBay to lay off 800 staff",
     "category": "layoff",
