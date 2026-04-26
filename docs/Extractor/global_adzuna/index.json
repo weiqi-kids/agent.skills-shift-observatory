@@ -340,6 +340,16 @@
     "source_layer": "global_adzuna"
   },
   {
+    "id": "sales-20260126_de_5601240094_sales-representative-dermatology-ucb-south2-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260126_de_5601240094_sales-representative-dermatology-ucb-south2.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
     "id": "sales-2026-04-26_ocean-marine-underwriter-account-executi-5710853376-md",
     "title": "Ocean Marine Underwriter, Account Executive",
     "category": "sales",
@@ -415,6 +425,26 @@
     "category": "sales",
     "date": "",
     "file": "sales/2026-04-25_mid-market-sales-manager-germany-5710613398.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20250925_de_5414268052_regional-account-manager-hematology-alexion-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20250925_de_5414268052_regional-account-manager-hematology-alexion.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20250723_de_5318552673_key-account-manager-hpp-alexion-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20250723_de_5318552673_key-account-manager-hpp-alexion.md",
     "source": "",
     "severity": "",
     "source_layer": "global_adzuna"
@@ -750,11 +780,61 @@
     "source_layer": "global_adzuna"
   },
   {
+    "id": "other-20251224_de_5554716453_regulatory-affairs-manager-labeling-merz-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20251224_de_5554716453_regulatory-affairs-manager-labeling-merz.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20251201_de_5522190241_general-manager-site-director-ceva-riems-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20251201_de_5522190241_general-manager-site-director-ceva-riems.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20250913_de_5397059095_lead-pharmacist-germany-ecomplete-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20250913_de_5397059095_lead-pharmacist-germany-ecomplete.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20250725_de_5321929222_pharmazeut-praktikum-starnberger-kliniken-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20250725_de_5321929222_pharmazeut-praktikum-starnberger-kliniken.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
     "id": "marketing-20260425_media-operations-specialist-webmd-berlin-md",
     "title": "",
     "category": "marketing",
     "date": "",
     "file": "marketing/20260425_media-operations-specialist-webmd-berlin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "marketing-20260425_marketing-manager-chemistry-journals-thieme-stuttgart-md",
+    "title": "",
+    "category": "marketing",
+    "date": "",
+    "file": "marketing/20260425_marketing-manager-chemistry-journals-thieme-stuttgart.md",
     "source": "",
     "severity": "",
     "source_layer": "global_adzuna"
@@ -795,6 +875,16 @@
     "category": "marketing",
     "date": "",
     "file": "marketing/20260410_de_5695199367_marketing-director-gsk-munich-inclusive.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "marketing-20260106_de_5570297379_creative-strategist-paid-social-eucalyptus-md",
+    "title": "",
+    "category": "marketing",
+    "date": "",
+    "file": "marketing/20260106_de_5570297379_creative-strategist-paid-social-eucalyptus.md",
     "source": "",
     "severity": "",
     "source_layer": "global_adzuna"
@@ -5070,6 +5160,16 @@
     "source_layer": "global_adzuna"
   },
   {
+    "id": "healthcare-20260425_studienassistenz-study-nurse-uniklinikum-augsburg-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_studienassistenz-study-nurse-uniklinikum-augsburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
     "id": "healthcare-20260425_mfa-kinderarzt-paediatrie-fair-doctors-oberhausen-md",
     "title": "",
     "category": "healthcare",
@@ -5620,6 +5720,26 @@
     "source_layer": "global_adzuna"
   },
   {
+    "id": "healthcare-20260127_de_5602352642_digital-health-nurse-eucalyptus-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260127_de_5602352642_digital-health-nurse-eucalyptus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260127_de_5602351376_virtuelle-pflegerin-eucalyptus-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260127_de_5602351376_virtuelle-pflegerin-eucalyptus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
     "id": "healthcare-2026-04-25_principal-actuary-medicare-advantage-5710787113-md",
     "title": "Principal Actuary - Medicare Advantage",
     "category": "healthcare",
@@ -6050,6 +6170,16 @@
     "source_layer": "global_adzuna"
   },
   {
+    "id": "education-20260416_de_5701871926_angewandte-sportwissenschaft-dhgs-leipzig-md",
+    "title": "",
+    "category": "education",
+    "date": "",
+    "file": "education/20260416_de_5701871926_angewandte-sportwissenschaft-dhgs-leipzig.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
     "id": "data_scientist-20260423_cheminformatician-relx-frankfurt-md",
     "title": "",
     "category": "data_scientist",
@@ -6225,6 +6355,36 @@
     "category": "data_scientist",
     "date": "",
     "file": "data_scientist/2025-07-31_senior-actuary-pricing-5330198125.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "customer_service-20260425_kundenberater-innendienst-carl-beutlhauser-dresden-md",
+    "title": "",
+    "category": "customer_service",
+    "date": "",
+    "file": "customer_service/20260425_kundenberater-innendienst-carl-beutlhauser-dresden.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "customer_service-20260425_kundenberater-innendienst-carl-beutlhauser-dresden-3-md",
+    "title": "",
+    "category": "customer_service",
+    "date": "",
+    "file": "customer_service/20260425_kundenberater-innendienst-carl-beutlhauser-dresden-3.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "customer_service-20260425_kundenberater-innendienst-carl-beutlhauser-dresden-2-md",
+    "title": "",
+    "category": "customer_service",
+    "date": "",
+    "file": "customer_service/20260425_kundenberater-innendienst-carl-beutlhauser-dresden-2.md",
     "source": "",
     "severity": "",
     "source_layer": "global_adzuna"

@@ -510,6 +510,26 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "security-2026-04-04_mongodb-md",
+    "title": "MongoDB | Security Software Engineers / SRE | Remote (US) / NYC (Hybrid)",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-04_mongodb.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-04_coast-md",
+    "title": "Coast | Security & Engineering Roles | NYC (Hybrid)",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-04_coast.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "security-2026-04-04_chainsecurity-md",
     "title": "ChainSecurity | Blockchain Security Engineer | Zurich, Switzerland",
     "category": "security",
@@ -2310,6 +2330,16 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "other-2026-04-04_sage-senior-living-md",
+    "title": "Sage | Business Development Executive | Remote (FL/TX/OR/WA)",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-04_sage-senior-living.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "other-2026-04-04_safetywing-md",
     "title": "SafetyWing | Multiple Roles | 100% Remote (Global)",
     "category": "other",
@@ -2325,6 +2355,16 @@
     "category": "other",
     "date": "",
     "file": "other/2026-04-04_rad-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-04_proven-software-md",
+    "title": "Proven Software | QA Analyst | Remote (US)",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-04_proven-software.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hn_hiring"
@@ -3330,6 +3370,16 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "mobile-2026-04-04_revelare-networks-md",
+    "title": "Revelare Networks | Mobile Software Engineer | Remote (US Citizens Only)",
+    "category": "mobile",
+    "date": "",
+    "file": "mobile/2026-04-04_revelare-networks.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "mobile-2026-04-04_instinct-science-md",
     "title": "Instinct Science | Senior Software Engineer (React Native) | Remote (US)",
     "category": "mobile",
@@ -4210,11 +4260,31 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "management-2026-04-04_greenhouse-software-md",
+    "title": "Greenhouse Software | Engineering Manager (Analytics Product) | Remote (Canada)",
+    "category": "management",
+    "date": "",
+    "file": "management/2026-04-04_greenhouse-software.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "management-2026-04-04_brandmultiplier-md",
     "title": "BrandMultiplier | Head of AI & Engineering | Remote",
     "category": "management",
     "date": "",
     "file": "management/2026-04-04_brandmultiplier.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "management-2026-04-04_adyen-md",
+    "title": "Adyen | Engineering Director, Developer Experience | San Francisco (Hybrid)",
+    "category": "management",
+    "date": "",
+    "file": "management/2026-04-04_adyen.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hn_hiring"
@@ -10880,6 +10950,16 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "fullstack-2026-04-04_tango-me-md",
+    "title": "Tango Me | Senior Engineers | Limassol, Cyprus (Hybrid)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_tango-me.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "fullstack-2026-04-04_straighterline-md",
     "title": "StraighterLine | Staff Software Engineer (Full Stack) | Remote (US Only)",
     "category": "fullstack",
@@ -10895,6 +10975,26 @@
     "category": "fullstack",
     "date": "",
     "file": "fullstack/2026-04-04_stealth-ai-startup.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_solace-health-md",
+    "title": "Solace Health | TypeScript Engineers | Remote (US)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_solace-health.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_shapes-md",
+    "title": "Shapes | Fullstack Engineer (AI Product) | San Francisco (Onsite)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_shapes.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hn_hiring"
@@ -10970,6 +11070,16 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "fullstack-2026-04-04_joom-md",
+    "title": "Joom | Multiple Engineering Roles | Lisbon, Portugal (Onsite)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_joom.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "fullstack-2026-04-04_i3w-md",
     "title": "I3W | Multiple Roles | Noida, India (Onsite)",
     "category": "fullstack",
@@ -11025,6 +11135,16 @@
     "category": "fullstack",
     "date": "",
     "file": "fullstack/2026-04-04_evolve-robotics.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_diamond-hands-fantasy-md",
+    "title": "Diamond Hands Fantasy | CTO Co-Founder | Remote",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_diamond-hands-fantasy.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hn_hiring"
@@ -15775,6 +15895,16 @@
     "category": "devops",
     "date": "",
     "file": "devops/2026-04-04_bwell.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "devops-2026-04-04_apple-sre-md",
+    "title": "Apple | SRE | San Diego, CA",
+    "category": "devops",
+    "date": "",
+    "file": "devops/2026-04-04_apple-sre.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hn_hiring"
@@ -26050,6 +26180,16 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "backend-2026-04-04_onechronos-md",
+    "title": "OneChronos | Systems & Data Platform Engineers | NYC / London / Amsterdam",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-04_onechronos.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "backend-2026-04-04_mubit-md",
     "title": "Mubit | Founding Engineer | London, UK (Onsite)",
     "category": "backend",
@@ -26105,6 +26245,16 @@
     "category": "backend",
     "date": "",
     "file": "backend/2026-04-04_freight-brokerage-nj.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-04_eequ-md",
+    "title": "Eequ | Senior Backend Engineer | Remote (UK)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-04_eequ.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hn_hiring"
