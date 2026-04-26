@@ -1,5 +1,1065 @@
 [
   {
+    "id": "software_engineer-20260424_senior-software-engineer-samedi-berlin-md",
+    "title": "",
+    "category": "software_engineer",
+    "date": "",
+    "file": "software_engineer/20260424_senior-software-engineer-samedi-berlin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "software_engineer-20260423_scc-system-engineer-airbus-defence-md",
+    "title": "",
+    "category": "software_engineer",
+    "date": "",
+    "file": "software_engineer/20260423_scc-system-engineer-airbus-defence.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "software_engineer-20260423_scc-it-system-engineer-airbus-defence-md",
+    "title": "",
+    "category": "software_engineer",
+    "date": "",
+    "file": "software_engineer/20260423_scc-it-system-engineer-airbus-defence.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "software_engineer-20260423_devsecops-devops-engineer-caspar-health-berlin-md",
+    "title": "",
+    "category": "software_engineer",
+    "date": "",
+    "file": "software_engineer/20260423_devsecops-devops-engineer-caspar-health-berlin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "software_engineer-2026-04-26_system-administrator-ii-bala-cynwyd-pa-5710868619-md",
+    "title": "System Administrator II- Bala Cynwyd, PA",
+    "category": "software_engineer",
+    "date": "",
+    "file": "software_engineer/2026-04-26_system-administrator-ii-bala-cynwyd-pa-5710868619.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "software_engineer-2026-04-26_student-intern-select-health-5710909849-md",
+    "title": "Student Intern Select Health",
+    "category": "software_engineer",
+    "date": "",
+    "file": "software_engineer/2026-04-26_student-intern-select-health-5710909849.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "software_engineer-2026-04-26_earnix-tech-lead-5710863421-md",
+    "title": "Earnix Tech Lead",
+    "category": "software_engineer",
+    "date": "",
+    "file": "software_engineer/2026-04-26_earnix-tech-lead-5710863421.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "software_engineer-2026-04-26_earnix-emadvisor-5710863419-md",
+    "title": "Earnix EM/Advisor",
+    "category": "software_engineer",
+    "date": "",
+    "file": "software_engineer/2026-04-26_earnix-emadvisor-5710863419.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "software_engineer-2026-04-26_director-risk-adjustment-5710943377-md",
+    "title": "Director, Risk Adjustment",
+    "category": "software_engineer",
+    "date": "",
+    "file": "software_engineer/2026-04-26_director-risk-adjustment-5710943377.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "software_engineer-2026-04-25_vp-delivery-quality-engineering-5710764468-md",
+    "title": "VP, Delivery Quality & Engineering",
+    "category": "software_engineer",
+    "date": "",
+    "file": "software_engineer/2026-04-25_vp-delivery-quality-engineering-5710764468.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "software_engineer-2026-04-25_product-developer-mfd-5710186417-md",
+    "title": "Product Developer (m/f/d)",
+    "category": "software_engineer",
+    "date": "",
+    "file": "software_engineer/2026-04-25_product-developer-mfd-5710186417.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "software_engineer-2026-04-25_manager-rsi-5710788017-md",
+    "title": "Manager, RSI",
+    "category": "software_engineer",
+    "date": "",
+    "file": "software_engineer/2026-04-25_manager-rsi-5710788017.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260425_new-business-development-manager-relx-muenchen-2-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260425_new-business-development-manager-relx-muenchen-2.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260425_new-business-development-manager-relx-hamburg-2-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260425_new-business-development-manager-relx-hamburg-2.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260425_new-business-development-manager-relx-bremen-2-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260425_new-business-development-manager-relx-bremen-2.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260425_de_5710246699_kundenberater-innendienst-beutlhauser-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260425_de_5710246699_kundenberater-innendienst-beutlhauser.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260425_de_5710007726_new-business-development-manager-relx-bremen-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260425_de_5710007726_new-business-development-manager-relx-bremen.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260425_de_5710007676_new-business-development-manager-relx-hamburg-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260425_de_5710007676_new-business-development-manager-relx-hamburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260425_de_5710007662_new-business-development-manager-relx-munich-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260425_de_5710007662_new-business-development-manager-relx-munich.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260424_new-business-development-manager-relx-saarland-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260424_new-business-development-manager-relx-saarland.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260424_new-business-development-manager-relx-muenchen-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260424_new-business-development-manager-relx-muenchen.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260424_new-business-development-manager-relx-hamburg-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260424_new-business-development-manager-relx-hamburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260424_new-business-development-manager-relx-deutschland-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260424_new-business-development-manager-relx-deutschland.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260424_new-business-development-manager-relx-bremen-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260424_new-business-development-manager-relx-bremen.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260424_new-business-development-manager-relx-brandenburg-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260424_new-business-development-manager-relx-brandenburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260424_de_5709108038_new-business-development-manager-relx-brandenburg-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260424_de_5709108038_new-business-development-manager-relx-brandenburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260424_de_5709108033_new-business-development-manager-relx-saarland-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260424_de_5709108033_new-business-development-manager-relx-saarland.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260424_de_5709108031_new-business-development-manager-relx-munich2-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260424_de_5709108031_new-business-development-manager-relx-munich2.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260424_de_5709108030_new-business-development-manager-relx-hamburg2-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260424_de_5709108030_new-business-development-manager-relx-hamburg2.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260424_de_5709108028_new-business-development-manager-relx-germany-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260424_de_5709108028_new-business-development-manager-relx-germany.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260424_de_5709108027_new-business-development-manager-relx-bremen2-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260424_de_5709108027_new-business-development-manager-relx-bremen2.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260423_new-business-development-manager-lexisnexis-deutschland-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260423_new-business-development-manager-lexisnexis-deutschland.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260409_de_5694943733_sales-representative-dermatology-ucb-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260409_de_5694943733_sales-representative-dermatology-ucb.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-20260402_de_5687944048_sales-representative-rheumatology-ucb-south-md",
+    "title": "",
+    "category": "sales",
+    "date": "",
+    "file": "sales/20260402_de_5687944048_sales-representative-rheumatology-ucb-south.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-2026-04-26_ocean-marine-underwriter-account-executi-5710853376-md",
+    "title": "Ocean Marine Underwriter, Account Executive",
+    "category": "sales",
+    "date": "",
+    "file": "sales/2026-04-26_ocean-marine-underwriter-account-executi-5710853376.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-2026-04-26_ocean-marine-underwriter-account-executi-5710853375-md",
+    "title": "Ocean Marine Underwriter, Account Executive",
+    "category": "sales",
+    "date": "",
+    "file": "sales/2026-04-26_ocean-marine-underwriter-account-executi-5710853375.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-2026-04-26_ocean-marine-underwriter-account-executi-5710853374-md",
+    "title": "Ocean Marine Underwriter, Account Executive",
+    "category": "sales",
+    "date": "",
+    "file": "sales/2026-04-26_ocean-marine-underwriter-account-executi-5710853374.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-2026-04-26_ocean-marine-underwriter-account-executi-5710842566-md",
+    "title": "Ocean Marine Underwriter, Account Executive",
+    "category": "sales",
+    "date": "",
+    "file": "sales/2026-04-26_ocean-marine-underwriter-account-executi-5710842566.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-2026-04-25_new-business-development-manager-mfd-5710007726-md",
+    "title": "New Business Development Manager (m/f/d)",
+    "category": "sales",
+    "date": "",
+    "file": "sales/2026-04-25_new-business-development-manager-mfd-5710007726.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-2026-04-25_new-business-development-manager-mfd-5710007676-md",
+    "title": "New Business Development Manager (m/f/d)",
+    "category": "sales",
+    "date": "",
+    "file": "sales/2026-04-25_new-business-development-manager-mfd-5710007676.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-2026-04-25_new-business-development-manager-mfd-5710007662-md",
+    "title": "New Business Development Manager (m/f/d)",
+    "category": "sales",
+    "date": "",
+    "file": "sales/2026-04-25_new-business-development-manager-mfd-5710007662.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "sales-2026-04-25_mid-market-sales-manager-germany-5710613398-md",
+    "title": "Mid Market Sales Manager, Germany",
+    "category": "sales",
+    "date": "",
+    "file": "sales/2026-04-25_mid-market-sales-manager-germany-5710613398.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "product_manager-20260424_sr-product-manager-vcluster-labs-berlin-md",
+    "title": "",
+    "category": "product_manager",
+    "date": "",
+    "file": "product_manager/20260424_sr-product-manager-vcluster-labs-berlin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "product_manager-20260422_senior-product-owner-noxtua-legal-ai-md",
+    "title": "",
+    "category": "product_manager",
+    "date": "",
+    "file": "product_manager/20260422_senior-product-owner-noxtua-legal-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "product_manager-2026-04-25_senior-technical-product-owner-user-mana-5710185024-md",
+    "title": "Senior Technical Product Owner – User Management (m/f/d)",
+    "category": "product_manager",
+    "date": "",
+    "file": "product_manager/2026-04-25_senior-technical-product-owner-user-mana-5710185024.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "product_manager-2026-04-25_senior-technical-product-owner-platform--5710189535-md",
+    "title": "Senior Technical Product Owner – Platform & DMS (m/f/d)",
+    "category": "product_manager",
+    "date": "",
+    "file": "product_manager/2026-04-25_senior-technical-product-owner-platform--5710189535.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260426_de_5710760624_director-real-world-evidence-merck-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260426_de_5710760624_director-real-world-evidence-merck.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260425_logistics-erp-solutions-architect-osi-gersthofen-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260425_logistics-erp-solutions-architect-osi-gersthofen.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260425_ausbildung-zweiradmechatroniker-doctor-bike-muenchen-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260425_ausbildung-zweiradmechatroniker-doctor-bike-muenchen.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260425_arbeitsvorbereiter-hochbau-aschenbeck-oldenburg-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260425_arbeitsvorbereiter-hochbau-aschenbeck-oldenburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260424_projektsteuerer-bau-architektur-aschenbeck-oldenburg-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260424_projektsteuerer-bau-architektur-aschenbeck-oldenburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260424_projektassistent-hochbau-aschenbeck-oldenburg-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260424_projektassistent-hochbau-aschenbeck-oldenburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260424_light-twins-techdata-production-manager-airbus-donauwörth-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260424_light-twins-techdata-production-manager-airbus-donauwörth.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260424_de_5708847800_quality-assurance-manager-socratec-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260424_de_5708847800_quality-assurance-manager-socratec.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260424_bauleiter-hochbau-aschenbeck-oldenburg-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260424_bauleiter-hochbau-aschenbeck-oldenburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260423_translator-interpreter-us-army-kaiserslautern-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260423_translator-interpreter-us-army-kaiserslautern.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260421_de_5705786612_qualified-person-pci-pharma-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260421_de_5705786612_qualified-person-pci-pharma.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260417_de_5702957680_quality-regulatory-affairs-henry-schein-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260417_de_5702957680_quality-regulatory-affairs-henry-schein.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260417_de_5702681452_pharmacist-business-development-fraunhofer-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260417_de_5702681452_pharmacist-business-development-fraunhofer.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260417_de_5702426736_pharmacist-head-qc-probiogen-berlin-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260417_de_5702426736_pharmacist-head-qc-probiogen-berlin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260410_de_5695877481_working-student-graphic-design-zava-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260410_de_5695877481_working-student-graphic-design-zava.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260409_de_5694366892_pharmacist-regulatory-affairs-immatics-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260409_de_5694366892_pharmacist-regulatory-affairs-immatics.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260409_de_5694366891_pharmacist-regulatory-affairs-manager-immatics-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260409_de_5694366891_pharmacist-regulatory-affairs-manager-immatics.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260402_de_5687905408_senior-scientist-tech-transfer-lilly-alzey-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260402_de_5687905408_senior-scientist-tech-transfer-lilly-alzey.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260329_de_5682438338_senior-scientist-validation-lilly-alzey-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260329_de_5682438338_senior-scientist-validation-lilly-alzey.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260327_de_5680424496_pharmacist-director-heidelberg-pharma-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260327_de_5680424496_pharmacist-director-heidelberg-pharma.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260327_de_5680424495_pharmacist-clinical-operations-heidelberg-pharma-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260327_de_5680424495_pharmacist-clinical-operations-heidelberg-pharma.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260326_de_5679340902_project-manager-cmc-biologics-protagene-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260326_de_5679340902_project-manager-cmc-biologics-protagene.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260307_de_5657181475_qualified-person-pci-pharma-2-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260307_de_5657181475_qualified-person-pci-pharma-2.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-20260306_de_5656712965_qualified-person-pci-pharma-3-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/20260306_de_5656712965_qualified-person-pci-pharma-3.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-2026-04-26_benefits-specialist-5710910002-md",
+    "title": "Benefits Specialist",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-26_benefits-specialist-5710910002.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-2026-04-26_analyst-3-business-performance-analytics-5710836454-md",
+    "title": "Analyst 3, Business Performance Analytics",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-26_analyst-3-business-performance-analytics-5710836454.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-2026-04-25_client-support-advocate-intelliscript-re-5710768174-md",
+    "title": "Client Support Advocate - IntelliScript (Remote)",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-25_client-support-advocate-intelliscript-re-5710768174.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-2026-04-17_senior-aktuar-versicherungsmathematiker--5702335478-md",
+    "title": "(Senior) Aktuar / Versicherungsmathematiker (m/w/d)",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-17_senior-aktuar-versicherungsmathematiker--5702335478.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "other-2026-03-07_senior-consultant-mfd-allianz-consulting-5658055547-md",
+    "title": "Senior Consultant (m/f/d) - Allianz Consulting - Life Operations",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-03-07_senior-consultant-mfd-allianz-consulting-5658055547.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "marketing-20260425_media-operations-specialist-webmd-berlin-md",
+    "title": "",
+    "category": "marketing",
+    "date": "",
+    "file": "marketing/20260425_media-operations-specialist-webmd-berlin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "marketing-20260425_head-of-marketing-avelios-medical-deutschland-md",
+    "title": "",
+    "category": "marketing",
+    "date": "",
+    "file": "marketing/20260425_head-of-marketing-avelios-medical-deutschland.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "marketing-20260423_de_5708688292_growth-marketing-manager-eucalyptus-md",
+    "title": "",
+    "category": "marketing",
+    "date": "",
+    "file": "marketing/20260423_de_5708688292_growth-marketing-manager-eucalyptus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "marketing-20260411_de_5696960558_marketing-director-gsk-viiV-munich-md",
+    "title": "",
+    "category": "marketing",
+    "date": "",
+    "file": "marketing/20260411_de_5696960558_marketing-director-gsk-viiV-munich.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "marketing-20260410_de_5695199367_marketing-director-gsk-munich-inclusive-md",
+    "title": "",
+    "category": "marketing",
+    "date": "",
+    "file": "marketing/20260410_de_5695199367_marketing-director-gsk-munich-inclusive.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "marketing-2026-04-25_teilzeit-volljurist-wirtschaftsrecht-mfd-5710637409-md",
+    "title": "(Teilzeit) Volljurist Wirtschaftsrecht (m/f/div)",
+    "category": "marketing",
+    "date": "",
+    "file": "marketing/2026-04-25_teilzeit-volljurist-wirtschaftsrecht-mfd-5710637409.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "manufacturing-2026-04-26_project-superintendent-commercial-constr-5710938675-md",
+    "title": "Project Superintendent - Commercial Construction",
+    "category": "manufacturing",
+    "date": "",
+    "file": "manufacturing/2026-04-26_project-superintendent-commercial-constr-5710938675.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "manufacturing-2026-04-26_driver-for-general-contractor-commercial-5710940332-md",
+    "title": "Driver for General Contractor-Commercial Construction",
+    "category": "manufacturing",
+    "date": "",
+    "file": "manufacturing/2026-04-26_driver-for-general-contractor-commercial-5710940332.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260424_wirtschaftsjurist-business-lawyer-debt-capital-markets-simmons-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260424_wirtschaftsjurist-business-lawyer-debt-capital-markets-simmons.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260424_sr-director-legislative-regulatory-rwe-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260424_sr-director-legislative-regulatory-rwe.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260424_legal-engineer-legartis-leipzig-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260424_legal-engineer-legartis-leipzig.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260424_lawyer-mercor-5709142388-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260424_lawyer-mercor-5709142388.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260424_lawyer-fully-remote-mercor-5709142436-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260424_lawyer-fully-remote-mercor-5709142436.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260423_legal-expert-ai-collaboration-mercor-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260423_legal-expert-ai-collaboration-mercor.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260423_legal-counsel-jobgether-deutschland-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260423_legal-counsel-jobgether-deutschland.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260423_legal-analyst-undp-bonn-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260423_legal-analyst-undp-bonn.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260423_junior-mid-ai-legal-specialist-everai-5708709717-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260423_junior-mid-ai-legal-specialist-everai-5708709717.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260423_corporate-compliance-support-basf-coatings-muenster-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260423_corporate-compliance-support-basf-coatings-muenster.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260423_clean-energy-transaction-lawyer-mercor-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260423_clean-energy-transaction-lawyer-mercor.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260423_attorney-mercor-berlin-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260423_attorney-mercor-berlin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260422_legal-engineer-product-specialist-harvey-munich-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260422_legal-engineer-product-specialist-harvey-munich.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260421_head-of-legal-compliance-roche-penzberg-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260421_head-of-legal-compliance-roche-penzberg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260421_head-of-legal-compliance-roche-mannheim-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260421_head-of-legal-compliance-roche-mannheim.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-20260421_associate-lawyer-mercor-berlin-md",
+    "title": "",
+    "category": "legal",
+    "date": "",
+    "file": "legal/20260421_associate-lawyer-mercor-berlin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-2026-04-26_senior-legal-counsel-mergers-acquisition-5710767366-md",
+    "title": "(Senior) Legal Counsel - Mergers & Acquisitions (m/f/d) - REF90472Q",
+    "category": "legal",
+    "date": "",
+    "file": "legal/2026-04-26_senior-legal-counsel-mergers-acquisition-5710767366.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-2026-04-25_principal-corporate-counsel-5710632594-md",
+    "title": "Principal Corporate Counsel",
+    "category": "legal",
+    "date": "",
+    "file": "legal/2026-04-25_principal-corporate-counsel-5710632594.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-2026-04-25_principal-corporate-counsel-5710060710-md",
+    "title": "Principal Corporate Counsel",
+    "category": "legal",
+    "date": "",
+    "file": "legal/2026-04-25_principal-corporate-counsel-5710060710.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-2026-04-25_principal-corporate-counsel-5710060709-md",
+    "title": "Principal Corporate Counsel",
+    "category": "legal",
+    "date": "",
+    "file": "legal/2026-04-25_principal-corporate-counsel-5710060709.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-2026-04-25_legal-engineer-berlin-5710181493-md",
+    "title": "Legal Engineer (Berlin)",
+    "category": "legal",
+    "date": "",
+    "file": "legal/2026-04-25_legal-engineer-berlin-5710181493.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-2026-04-25_legal-counsel-data-privacy-5710381836-md",
+    "title": "Legal Counsel Data Privacy",
+    "category": "legal",
+    "date": "",
+    "file": "legal/2026-04-25_legal-counsel-data-privacy-5710381836.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "legal-2026-04-24_legal-counsel-data-privacy-5709736786-md",
+    "title": "Legal Counsel Data Privacy",
+    "category": "legal",
+    "date": "",
+    "file": "legal/2026-04-24_legal-counsel-data-privacy-5709736786.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
     "id": "job_posting-us_5620342305_20260208-md",
     "title": "K12 Teacher",
     "category": "job_posting",
@@ -3965,6 +5025,1206 @@
     "category": "job_posting",
     "date": "",
     "file": "job_posting/us_5619924844_20260207.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "hr-20260422_compensation-benefits-expert-novataste-production-md",
+    "title": "",
+    "category": "hr",
+    "date": "",
+    "file": "hr/20260422_compensation-benefits-expert-novataste-production.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "hr-2026-04-26_project-manager-people-and-project-manag-5710941063-md",
+    "title": "Project Manager, People and Project Management",
+    "category": "hr",
+    "date": "",
+    "file": "hr/2026-04-26_project-manager-people-and-project-manag-5710941063.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "hr-2026-04-25_talent-acquisition-and-hr-coordinator-5710633185-md",
+    "title": "Talent Acquisition and HR Coordinator",
+    "category": "hr",
+    "date": "",
+    "file": "hr/2026-04-25_talent-acquisition-and-hr-coordinator-5710633185.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "hr-2026-04-25_healthcare-financialactuarial-analyst-5710821814-md",
+    "title": "Healthcare Financial/Actuarial Analyst",
+    "category": "hr",
+    "date": "",
+    "file": "hr/2026-04-25_healthcare-financialactuarial-analyst-5710821814.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_mfa-kinderarzt-paediatrie-fair-doctors-oberhausen-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_mfa-kinderarzt-paediatrie-fair-doctors-oberhausen.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_de_5710385740_advanced-practice-nurses-vinzentius-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_de_5710385740_advanced-practice-nurses-vinzentius.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_de_5710385259_pflegefachkraefte-klinikum-lippe-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_de_5710385259_pflegefachkraefte-klinikum-lippe.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_de_5710385243_study-nurse-klinikum-lippe-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_de_5710385243_study-nurse-klinikum-lippe.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_de_5710385192_pflegefachkraefte-neurologie-ulm-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_de_5710385192_pflegefachkraefte-neurologie-ulm.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_de_5710385185_pflegefachkraft-intensivstation-ulm-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_de_5710385185_pflegefachkraft-intensivstation-ulm.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_de_5710383008_studienassistentin-dermatologie-dresden-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_de_5710383008_studienassistentin-dermatologie-dresden.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_de_5710382117_pflegefachkraft-geriatrie-heidelberg-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_de_5710382117_pflegefachkraft-geriatrie-heidelberg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_de_5710216964_oberarzt-anaesthesiologie-regensburg-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_de_5710216964_oberarzt-anaesthesiologie-regensburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_de_5710194843_pain-nurse-muelheim-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_de_5710194843_pain-nurse-muelheim.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_de_5710026624_staff-nurse-right-advisors-berlin-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_de_5710026624_staff-nurse-right-advisors-berlin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_de_5710007700_new-parent-support-manager-wiesbaden-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_de_5710007700_new-parent-support-manager-wiesbaden.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_de_5709982929_pflegefachkraft-koblenz-caritas-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_de_5709982929_pflegefachkraft-koblenz-caritas.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_de_5709982927_pflegefachkraft-mayen-caritas-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_de_5709982927_pflegefachkraft-mayen-caritas.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_de_5709773409_ergotherapeutin-caritas-stadtsteinach-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_de_5709773409_ergotherapeutin-caritas-stadtsteinach.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260425_de_5709764139_study-nurse-neurologie-tuebingen-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260425_de_5709764139_study-nurse-neurologie-tuebingen.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260424_specialist-orthodontist-searchplus-hr-germersheim-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260424_specialist-orthodontist-searchplus-hr-germersheim.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260424_facharzt-paediatrie-fair-doctors-duisburg-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260424_facharzt-paediatrie-fair-doctors-duisburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260424_de_5709688669_new-parent-support-manager-wiesbaden-v2-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260424_de_5709688669_new-parent-support-manager-wiesbaden-v2.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260424_de_5709413418_pain-nurse-sana-berlin-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260424_de_5709413418_pain-nurse-sana-berlin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260424_de_5709413114_eras-nurse-uke-hamburg-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260424_de_5709413114_eras-nurse-uke-hamburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260424_de_5709238667_pflegefachkraefte-neurologie-bonn-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260424_de_5709238667_pflegefachkraefte-neurologie-bonn.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260424_de_5709139402_clinical-solutions-specialist-medtechrec-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260424_de_5709139402_clinical-solutions-specialist-medtechrec.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260424_de_5708964218_near-patient-nurse-spangdahlem-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260424_de_5708964218_near-patient-nurse-spangdahlem.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260424_de_5708902482_pflegehelfer-volkssolidaritaet-dresden-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260424_de_5708902482_pflegehelfer-volkssolidaritaet-dresden.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260424_de_5708771690_gesundheits-krankenpfleger-homecare-braun-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260424_de_5708771690_gesundheits-krankenpfleger-homecare-braun.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260424_consultant-general-surgeon-searchplus-hr-germering-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260424_consultant-general-surgeon-searchplus-hr-germering.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260424_aerztliche-leitung-paediatrie-fair-doctors-koeln-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260424_aerztliche-leitung-paediatrie-fair-doctors-koeln.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260423_de_5708707455_advanced-practice-nurse-eras-sozialstiftung-bamberg-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260423_de_5708707455_advanced-practice-nurse-eras-sozialstiftung-bamberg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260423_de_5708707391_advanced-practice-nurses-sozialstiftung-bamberg-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260423_de_5708707391_advanced-practice-nurses-sozialstiftung-bamberg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260423_de_5708707183_weiterqualifizierung-apn-sozialstiftung-bamberg-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260423_de_5708707183_weiterqualifizierung-apn-sozialstiftung-bamberg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260423_de_5708617497_paedagogische-fachkraft-air-liquide-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260423_de_5708617497_paedagogische-fachkraft-air-liquide.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260423_de_5708458665_apn-herzinsuffizienz-stuttgart-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260423_de_5708458665_apn-herzinsuffizienz-stuttgart.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260423_de_5708353045_apn-palliativ-starnberg-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260423_de_5708353045_apn-palliativ-starnberg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260423_de_5708353015_apn-nephrologie-starnberg-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260423_de_5708353015_apn-nephrologie-starnberg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260423_de_5708096092_apn-stationsleitung-vitanas-berlin-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260423_de_5708096092_apn-stationsleitung-vitanas-berlin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260422_zahnarzt-fair-doctors-essen-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260422_zahnarzt-fair-doctors-essen.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260422_rezeptionsmitarbeiter-fair-doctors-krefeld-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260422_rezeptionsmitarbeiter-fair-doctors-krefeld.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260422_private-doctor-vip-yacht-medicine-leipzig-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260422_private-doctor-vip-yacht-medicine-leipzig.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260422_private-doctor-uhnw-yacht-medicine-freiburg-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260422_private-doctor-uhnw-yacht-medicine-freiburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260422_oberarzt-onkologie-hire-a-doctor-berlin-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260422_oberarzt-onkologie-hire-a-doctor-berlin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260422_oberarzt-neurologie-hire-a-doctor-zerbst-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260422_oberarzt-neurologie-hire-a-doctor-zerbst.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260422_oberarzt-kardiologie-hire-a-doctor-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260422_oberarzt-kardiologie-hire-a-doctor.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260422_oberarzt-geriatrie-hire-a-doctor-zerbst-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260422_oberarzt-geriatrie-hire-a-doctor-zerbst.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260422_mfa-foot-ankle-sportsclinic-berlin-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260422_mfa-foot-ankle-sportsclinic-berlin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260422_leitender-oberarzt-psychiatrie-hire-a-doctor-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260422_leitender-oberarzt-psychiatrie-hire-a-doctor.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260422_facharzt-paediatrie-fair-doctors-duisburg-2-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260422_facharzt-paediatrie-fair-doctors-duisburg-2.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260422_aerztliche-leitung-paediatrie-fair-doctors-koeln-2-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260422_aerztliche-leitung-paediatrie-fair-doctors-koeln-2.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260327_de_5680684471_health-coach-oekotrophologe-eucalyptus-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260327_de_5680684471_health-coach-oekotrophologe-eucalyptus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260325_de_5678469533_health-coach-eucalyptus-berlin-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260325_de_5678469533_health-coach-eucalyptus-berlin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260319_de_5671968728_pharmacy-technician-french-consulting-landstuhl-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260319_de_5671968728_pharmacy-technician-french-consulting-landstuhl.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260314_de_5665759137_operations-associate-prescriber-eucalyptus-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260314_de_5665759137_operations-associate-prescriber-eucalyptus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260307_de_5658033943_operations-associate-eucalyptus-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260307_de_5658033943_operations-associate-eucalyptus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260202_de_5610721928_telemedizinische-pflegekraft-eucalyptus-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260202_de_5610721928_telemedizinische-pflegekraft-eucalyptus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-20260127_de_5602365876_medical-support-associate-eucalyptus-md",
+    "title": "",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/20260127_de_5602365876_medical-support-associate-eucalyptus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "healthcare-2026-04-25_principal-actuary-medicare-advantage-5710787113-md",
+    "title": "Principal Actuary - Medicare Advantage",
+    "category": "healthcare",
+    "date": "",
+    "file": "healthcare/2026-04-25_principal-actuary-medicare-advantage-5710787113.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-20260425_teamleiter-kostenrechnung-controlling-airbus-calden-md",
+    "title": "",
+    "category": "finance",
+    "date": "",
+    "file": "finance/20260425_teamleiter-kostenrechnung-controlling-airbus-calden.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-20260425_finance-business-partner-a400m-airbus-manching-md",
+    "title": "",
+    "category": "finance",
+    "date": "",
+    "file": "finance/20260425_finance-business-partner-a400m-airbus-manching.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-20260424_teamleiter-kostenrechnung-controlling-airbus-kassel-md",
+    "title": "",
+    "category": "finance",
+    "date": "",
+    "file": "finance/20260424_teamleiter-kostenrechnung-controlling-airbus-kassel.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-20260424_investment-analyst-private-credit-bright-capital-md",
+    "title": "",
+    "category": "finance",
+    "date": "",
+    "file": "finance/20260424_investment-analyst-private-credit-bright-capital.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-20260421_teamleiter-jahresabschluesse-steuerberater-workwise-hamburg-md",
+    "title": "",
+    "category": "finance",
+    "date": "",
+    "file": "finance/20260421_teamleiter-jahresabschluesse-steuerberater-workwise-hamburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-20260421_steuerfachwirt-mandate-bilanzbuchhaltung-workwise-hamburg-md",
+    "title": "",
+    "category": "finance",
+    "date": "",
+    "file": "finance/20260421_steuerfachwirt-mandate-bilanzbuchhaltung-workwise-hamburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-20260421_steuerfachwirt-bilanzbuchhaltung-datev-workwise-hamburg-md",
+    "title": "",
+    "category": "finance",
+    "date": "",
+    "file": "finance/20260421_steuerfachwirt-bilanzbuchhaltung-datev-workwise-hamburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-20260421_steuerfachangestellter-datev-workwise-hamburg-md",
+    "title": "",
+    "category": "finance",
+    "date": "",
+    "file": "finance/20260421_steuerfachangestellter-datev-workwise-hamburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-20260421_steuerberater-umstruktur-nachfolge-workwise-hamburg-md",
+    "title": "",
+    "category": "finance",
+    "date": "",
+    "file": "finance/20260421_steuerberater-umstruktur-nachfolge-workwise-hamburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-20260421_steuerberater-finanzbuchhaltung-datev-sap-workwise-hamburg-md",
+    "title": "",
+    "category": "finance",
+    "date": "",
+    "file": "finance/20260421_steuerberater-finanzbuchhaltung-datev-sap-workwise-hamburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-20260421_steuerberater-beratung-kanzlei-workwise-hamburg-md",
+    "title": "",
+    "category": "finance",
+    "date": "",
+    "file": "finance/20260421_steuerberater-beratung-kanzlei-workwise-hamburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-20260421_pruefungsleiter-wirtschaftspruefung-workwise-hamburg-md",
+    "title": "",
+    "category": "finance",
+    "date": "",
+    "file": "finance/20260421_pruefungsleiter-wirtschaftspruefung-workwise-hamburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-20260421_bilanzbuchhalter-steuerrecht-datev-workwise-hamburg-md",
+    "title": "",
+    "category": "finance",
+    "date": "",
+    "file": "finance/20260421_bilanzbuchhalter-steuerrecht-datev-workwise-hamburg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_vp-strategic-partnerships-employee-benef-5710831628-md",
+    "title": "VP, Strategic Partnerships - Employee Benefits",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_vp-strategic-partnerships-employee-benef-5710831628.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_senior-manager-enterprise-risk-managemen-5710928874-md",
+    "title": "Senior Manager, Enterprise Risk Management",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_senior-manager-enterprise-risk-managemen-5710928874.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_senior-actuarial-analyst-5710927842-md",
+    "title": "Senior Actuarial Analyst",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_senior-actuarial-analyst-5710927842.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_risk-management-supervisor-5710929942-md",
+    "title": "Risk Management Supervisor",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_risk-management-supervisor-5710929942.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_remote-5710863525-md",
+    "title": "Remote",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_remote-5710863525.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_insurance-technical-statutory-accounting-5710926537-md",
+    "title": "Insurance Technical Statutory Accounting Controller",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_insurance-technical-statutory-accounting-5710926537.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_insurance-technical-statutory-accounting-5710853543-md",
+    "title": "Insurance Technical Statutory Accounting Controller",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_insurance-technical-statutory-accounting-5710853543.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_insurance-technical-statutory-accounting-5710851740-md",
+    "title": "Insurance Technical Statutory Accounting Controller",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_insurance-technical-statutory-accounting-5710851740.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_insurance-technical-statutory-accounting-5710851738-md",
+    "title": "Insurance Technical Statutory Accounting Controller",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_insurance-technical-statutory-accounting-5710851738.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_financial-reporting-analyst-5710922845-md",
+    "title": "Financial Reporting Analyst",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_financial-reporting-analyst-5710922845.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_finance-program-manager-5710913709-md",
+    "title": "Finance Program Manager",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_finance-program-manager-5710913709.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_extreme-events-research-scientist-5710895806-md",
+    "title": "Extreme Events Research Scientist",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_extreme-events-research-scientist-5710895806.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_excess-workers-compensation-regional-und-5710826674-md",
+    "title": "Excess Workers' Compensation, Regional Underwriting Manager",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_excess-workers-compensation-regional-und-5710826674.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_actuary-analyst-5710922016-md",
+    "title": "Actuary Analyst",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_actuary-analyst-5710922016.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_actuary-5710863908-md",
+    "title": "Actuary",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_actuary-5710863908.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-26_actuarial-consultant-farm-and-irca-prici-5710830405-md",
+    "title": "Actuarial Consultant - Farm and IRCA Pricing",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-26_actuarial-consultant-farm-and-irca-prici-5710830405.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-25_sr-actuary-general-liability-commercial--5710823562-md",
+    "title": "Sr. Actuary - General Liability Commercial Lines - REMOTE",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-25_sr-actuary-general-liability-commercial--5710823562.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-25_senior-director-risk-adjustment-hedis-5710822784-md",
+    "title": "Senior Director Risk Adjustment & HEDIS",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-25_senior-director-risk-adjustment-hedis-5710822784.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-25_senior-analyst-strategic-investments-and-5710779126-md",
+    "title": "Senior Analyst, Strategic Investments and Private Capital",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-25_senior-analyst-strategic-investments-and-5710779126.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-25_senior-actuarial-analyst-5710761432-md",
+    "title": "Senior Actuarial Analyst",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-25_senior-actuarial-analyst-5710761432.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-25_senior-accountant-rebates-and-other-liab-5710778786-md",
+    "title": "Senior Accountant Rebates and Other Liabilities",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-25_senior-accountant-rebates-and-other-liab-5710778786.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-25_pharmacy-senior-underwriter-5710807726-md",
+    "title": "Pharmacy Senior Underwriter",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-25_pharmacy-senior-underwriter-5710807726.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-25_insurance-technical-statutory-accounting-5710792245-md",
+    "title": "Insurance Technical Statutory Accounting Controller",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-25_insurance-technical-statutory-accounting-5710792245.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-25_insurance-technical-statutory-accounting-5710790557-md",
+    "title": "Insurance Technical Statutory Accounting Controller",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-25_insurance-technical-statutory-accounting-5710790557.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-25_insurance-technical-statutory-accounting-5710758362-md",
+    "title": "Insurance Technical Statutory Accounting Controller",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-25_insurance-technical-statutory-accounting-5710758362.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-25_insurance-technical-statutory-accounting-5710757347-md",
+    "title": "Insurance Technical Statutory Accounting Controller",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-25_insurance-technical-statutory-accounting-5710757347.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-25_insurance-technical-statutory-accounting-5710757315-md",
+    "title": "Insurance Technical Statutory Accounting Controller",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-25_insurance-technical-statutory-accounting-5710757315.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "finance-2026-04-25_general-accounting-associate-5710760669-md",
+    "title": "General Accounting Associate",
+    "category": "finance",
+    "date": "",
+    "file": "finance/2026-04-25_general-accounting-associate-5710760669.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "education-20260425_de_5710184588_counsellor-primary-school-bavarian-md",
+    "title": "",
+    "category": "education",
+    "date": "",
+    "file": "education/20260425_de_5710184588_counsellor-primary-school-bavarian.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-20260423_cheminformatician-relx-frankfurt-md",
+    "title": "",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/20260423_cheminformatician-relx-frankfurt.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-20260422_commercial-analyst-dach-heidi-md",
+    "title": "",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/20260422_commercial-analyst-dach-heidi.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-20260421_data-analyst-relx-duesseldorf-md",
+    "title": "",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/20260421_data-analyst-relx-duesseldorf.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-2026-04-26_senior-manager-data-engineering-5710942924-md",
+    "title": "Senior Manager, Data Engineering",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/2026-04-26_senior-manager-data-engineering-5710942924.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-2026-04-26_senior-director-healthcare-analytics-val-5710922130-md",
+    "title": "Senior Director, Healthcare Analytics - Value Based Contracting",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/2026-04-26_senior-director-healthcare-analytics-val-5710922130.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-2026-04-25_director-analytics-product-5710793017-md",
+    "title": "Director, Analytics Product",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/2026-04-25_director-analytics-product-5710793017.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-2026-04-21_pricing-actuary-mwd-5706199933-md",
+    "title": "Pricing Actuary (m/w/d)",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/2026-04-21_pricing-actuary-mwd-5706199933.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-2026-04-16_pricing-actuary-mwd-5701175185-md",
+    "title": "Pricing Actuary (m/w/d)",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/2026-04-16_pricing-actuary-mwd-5701175185.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-2026-04-14_senior-pricing-actuary-midcorp-long-tail-5699078242-md",
+    "title": "Senior Pricing Actuary - MidCorp Long-Tail Lines",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/2026-04-14_senior-pricing-actuary-midcorp-long-tail-5699078242.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-2026-04-11_pricing-actuary-mwd-5696278545-md",
+    "title": "Pricing Actuary (m/w/d)",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/2026-04-11_pricing-actuary-mwd-5696278545.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-2026-04-08_reserving-actuary-non-life-solvency-ii-i-5693424890-md",
+    "title": "Reserving Actuary (Non-Life) - Solvency II & IFRS17 Plan (m/f/d)* - Inklusiver Job   ",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/2026-04-08_reserving-actuary-non-life-solvency-ii-i-5693424890.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-2026-04-08_reserving-actuary-non-life-ifrs17-mwd-in-5693425431-md",
+    "title": "Reserving Actuary Non-life - IFRS17 (m/w/d)* - Inklusiver Job   ",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/2026-04-08_reserving-actuary-non-life-ifrs17-mwd-in-5693425431.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-2026-04-05_chief-actuary-mfd-5690871308-md",
+    "title": "Chief Actuary (m/f/d)",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/2026-04-05_chief-actuary-mfd-5690871308.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-2026-04-02_senior-actuary-mfd-5687566657-md",
+    "title": "(Senior) Actuary (m/f/d)",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/2026-04-02_senior-actuary-mfd-5687566657.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-2026-03-21_valuation-actuary-mfd-inklusiver-job-5674405608-md",
+    "title": "Valuation Actuary (m/f/d)* - Inklusiver Job   ",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/2026-03-21_valuation-actuary-mfd-inklusiver-job-5674405608.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-2026-02-25_senior-actuary-mfd-5644619904-md",
+    "title": "(Senior) Actuary (m/f/d)",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/2026-02-25_senior-actuary-mfd-5644619904.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-2026-02-11_chief-actuary-mfd-5624232215-md",
+    "title": "Chief Actuary (m/f/d)",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/2026-02-11_chief-actuary-mfd-5624232215.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_adzuna"
+  },
+  {
+    "id": "data_scientist-2025-07-31_senior-actuary-pricing-5330198125-md",
+    "title": "Senior Actuary (Pricing)",
+    "category": "data_scientist",
+    "date": "",
+    "file": "data_scientist/2025-07-31_senior-actuary-pricing-5330198125.md",
     "source": "",
     "severity": "",
     "source_layer": "global_adzuna"

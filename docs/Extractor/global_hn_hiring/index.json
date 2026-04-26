@@ -480,6 +480,186 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "security-2026-04-04_trustle-md",
+    "title": "Trustle | Customer Success Engineer | Remote (US)",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-04_trustle.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-04_threatmark-md",
+    "title": "ThreatMark | Security & ML Engineers | Remote / Brno, Czech Republic",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-04_threatmark.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-04_saving-bitcoin-md",
+    "title": "Saving Bitcoin | Cryptographic & Protocol Engineers | Remote (Global)",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-04_saving-bitcoin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-04_chainsecurity-md",
+    "title": "ChainSecurity | Blockchain Security Engineer | Zurich, Switzerland",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-04_chainsecurity.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-02_spruce-id-md",
+    "title": "",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-02_spruce-id.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-02_northstar-security-md",
+    "title": "Northstar Security — Agentic Cybersecurity Platform",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-02_northstar-security.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-02_kai-cyber-md",
+    "title": "",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-02_kai-cyber.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-02_common-prefix-md",
+    "title": "Common Prefix — Blockchain Security & Consulting",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-02_common-prefix.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-02_adaptive-md",
+    "title": "Adaptive — Cybersecurity / IAM Platform",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-02_adaptive.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-01_tracebit-md",
+    "title": "",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-01_tracebit.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-01_red-balloon-security-md",
+    "title": "",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-01_red-balloon-security.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-01_oneleet-md",
+    "title": "",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-01_oneleet.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-01_nxlog-md",
+    "title": "",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-01_nxlog.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-01_new-lantern-md",
+    "title": "",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-01_new-lantern.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-01_mintmcp-md",
+    "title": "",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-01_mintmcp.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-01_charted-sea-md",
+    "title": "",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-01_charted-sea.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-01_authentik-security-md",
+    "title": "",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-01_authentik-security.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "security-2026-04-01_always-further-md",
+    "title": "",
+    "category": "security",
+    "date": "",
+    "file": "security/2026-04-01_always-further.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "other-hn-47227320-md",
     "title": "WEX - Multiple Positions",
     "category": "other",
@@ -2110,6 +2290,556 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "other-2026-04-04_voltai-md",
+    "title": "Voltai | Multiple Roles | San Francisco (Onsite)",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-04_voltai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-04_skyways-md",
+    "title": "Skyways | Multiple Engineering Roles | Austin, TX (Onsite)",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-04_skyways.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-04_safetywing-md",
+    "title": "SafetyWing | Multiple Roles | 100% Remote (Global)",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-04_safetywing.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-04_rad-ai-md",
+    "title": "Rad AI | Multiple Engineering Roles | San Francisco (Onsite)",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-04_rad-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-04_minimalistech-os-md",
+    "title": "MinimalistechOS | Senior Agentic AI Engineers | Remote",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-04_minimalistech-os.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-04_lucia-protocol-md",
+    "title": "Lucia Protocol | CTO & ML Engineer | Remote",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-04_lucia-protocol.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-04_lingolooper-md",
+    "title": "LingoLooper | Lead Content Strategist | Remote (Europe-friendly)",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-04_lingolooper.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-04_foundry-robotics-md",
+    "title": "Foundry Robotics — Manufacturing Robotics (Early Stage)",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-04_foundry-robotics.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-04_engineering-square-md",
+    "title": "Engineering Square | BDR Roles | Remote (West Coast hours)",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-04_engineering-square.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-04_dimensional-md",
+    "title": "Dimensional — Agentic Operating System for Generalist Robotics",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-04_dimensional.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-04_baseten-labs-md",
+    "title": "Baseten Labs | Multiple Roles | San Francisco / New York",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-04_baseten-labs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-04_aye-eye-md",
+    "title": "Aye Eye — Privacy-First Edge-AI Camera Platform",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-04_aye-eye.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-03_testgorilla-md",
+    "title": "TestGorilla — Skills-Based Hiring Platform",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-03_testgorilla.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-03_air-space-intelligence-md",
+    "title": "Air Space Intelligence — Airspace & Critical Infrastructure Software (Series B)",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-03_air-space-intelligence.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-02_volcore-md",
+    "title": "Volcore — Electricity Grid Modelling & Proprietary Trading",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-02_volcore.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-02_planting-space-md",
+    "title": "PlantingSpace — Probabilistic Knowledge Systems",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-02_planting-space.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-02_mighty-acorn-digital-md",
+    "title": "Mighty Acorn Digital — Government Digital Services",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-02_mighty-acorn-digital.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-02_lago-md",
+    "title": "Lago (YC S21) — AI-Native Open-source Billing Platform",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-02_lago.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-02_freeform-md",
+    "title": "Freeform — AI-Native Manufacturing Systems",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-02_freeform.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-02_electric-twin-md",
+    "title": "Electric Twin — AI Customer Audience Simulation",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-02_electric-twin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-02_eagle-md",
+    "title": "Eagle — Applied AI for Engineering Firms (Lightspeed Backed)",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-02_eagle.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-02_cogram-md",
+    "title": "Cogram (YC W22) — AI Agents for Architects & Engineers",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-02_cogram.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-02_checkly-md",
+    "title": "Checkly — Testing, Monitoring & Observability",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-02_checkly.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-02_charge-robotics-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-02_charge-robotics.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-02_build-io-md",
+    "title": "Build.io — Full-Stack Cloud Platform",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-02_build-io.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-02_antioch-md",
+    "title": "Antioch — Robotics & Perception Simulation Platform",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-02_antioch.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_tech-mahindra-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_tech-mahindra.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_tandem-health-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_tandem-health.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_stellar-cs-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_stellar-cs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_springcraft-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_springcraft.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_skydio-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_skydio.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_rubypoint-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_rubypoint.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_oklo-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_oklo.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_nuance-labs-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_nuance-labs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_mongodb-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_mongodb.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_krea-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_krea.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_hover-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_hover.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_gamebrain-ai-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_gamebrain-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_eqty-lab-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_eqty-lab.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_distark-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_distark.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_di-rezze-family-office-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_di-rezze-family-office.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_copper-home-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_copper-home.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_conductor-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_conductor.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_codeweavers-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_codeweavers.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_clear-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_clear.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_beautiful-ai-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_beautiful-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_beacon-ai-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_beacon-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_archer-aviation-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_archer-aviation.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_aqora-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_aqora.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_amodo-design-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_amodo-design.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_alterdd-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_alterdd.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_9-mothers-yc-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_9-mothers-yc.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_9-mothers-defense-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_9-mothers-defense.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_40grid-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_40grid.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "other-2026-04-01_3ive-ai-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-04-01_3ive-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "mobile-hn-47220776-md",
     "title": "FUTO - Mobile Developer / Android/iOS Mobile Engineer",
     "category": "mobile",
@@ -2585,6 +3315,56 @@
     "category": "mobile",
     "date": "",
     "file": "mobile/hn-45445016.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "mobile-2026-04-04_tether-md",
+    "title": "Tether | Multiple Roles Worldwide",
+    "category": "mobile",
+    "date": "",
+    "file": "mobile/2026-04-04_tether.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "mobile-2026-04-04_instinct-science-md",
+    "title": "Instinct Science | Senior Software Engineer (React Native) | Remote (US)",
+    "category": "mobile",
+    "date": "",
+    "file": "mobile/2026-04-04_instinct-science.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "mobile-2026-04-02_puma-tech-md",
+    "title": "",
+    "category": "mobile",
+    "date": "",
+    "file": "mobile/2026-04-02_puma-tech.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "mobile-2026-04-01_swingvision-md",
+    "title": "",
+    "category": "mobile",
+    "date": "",
+    "file": "mobile/2026-04-01_swingvision.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "mobile-2026-04-01_duckduckgo-md",
+    "title": "",
+    "category": "mobile",
+    "date": "",
+    "file": "mobile/2026-04-01_duckduckgo.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hn_hiring"
@@ -3425,6 +4205,116 @@
     "category": "management",
     "date": "",
     "file": "management/hn-45476407.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "management-2026-04-04_brandmultiplier-md",
+    "title": "BrandMultiplier | Head of AI & Engineering | Remote",
+    "category": "management",
+    "date": "",
+    "file": "management/2026-04-04_brandmultiplier.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "management-2026-04-02_promptless-md",
+    "title": "",
+    "category": "management",
+    "date": "",
+    "file": "management/2026-04-02_promptless.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "management-2026-04-02_denta-md",
+    "title": "Denta — Dental Analytics & AI Automation",
+    "category": "management",
+    "date": "",
+    "file": "management/2026-04-02_denta.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "management-2026-04-01_youth-inc-md",
+    "title": "",
+    "category": "management",
+    "date": "",
+    "file": "management/2026-04-01_youth-inc.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "management-2026-04-01_wirescreen-md",
+    "title": "",
+    "category": "management",
+    "date": "",
+    "file": "management/2026-04-01_wirescreen.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "management-2026-04-01_remoteworks-pro-md",
+    "title": "",
+    "category": "management",
+    "date": "",
+    "file": "management/2026-04-01_remoteworks-pro.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "management-2026-04-01_peregrine-md",
+    "title": "",
+    "category": "management",
+    "date": "",
+    "file": "management/2026-04-01_peregrine.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "management-2026-04-01_identity-labs-md",
+    "title": "",
+    "category": "management",
+    "date": "",
+    "file": "management/2026-04-01_identity-labs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "management-2026-04-01_apple-md",
+    "title": "",
+    "category": "management",
+    "date": "",
+    "file": "management/2026-04-01_apple.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "management-2026-04-01_ai-data-intelligence-startup-md",
+    "title": "",
+    "category": "management",
+    "date": "",
+    "file": "management/2026-04-01_ai-data-intelligence-startup.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "management-2026-04-01_addepar-md",
+    "title": "",
+    "category": "management",
+    "date": "",
+    "file": "management/2026-04-01_addepar.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hn_hiring"
@@ -9930,6 +10820,1106 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "fullstack-2026-04-04_vysr-md",
+    "title": "vysr GmbH | AI Engineer & Fullstack Engineer | Remote",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_vysr.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_vozparking-md",
+    "title": "VozParking | Founding Engineer / Technical Cofounder | Netherlands / Europe / Remote",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_vozparking.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_twindo-md",
+    "title": "Twindo | Engineers | Remote (Europe / LatAm)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_twindo.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_turquoise-health-md",
+    "title": "Turquoise Health | Engineers | Remote (USA)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_turquoise-health.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_trace-labs-md",
+    "title": "Trace Labs | Engineers | Remote (USA)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_trace-labs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_temper-md",
+    "title": "Temper | Founding Engineer | San Francisco (In-Person)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_temper.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_straighterline-md",
+    "title": "StraighterLine | Staff Software Engineer (Full Stack) | Remote (US Only)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_straighterline.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_stealth-ai-startup-md",
+    "title": "Stealth AI Startup (Funded) | Engineers | Remote (US)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_stealth-ai-startup.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_rde-advisors-md",
+    "title": "RDE Advisors | Senior Full-Stack Engineer | Remote (Europe / LatAm / India)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_rde-advisors.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_prosper-ai-md",
+    "title": "Prosper AI | Engineers | Barcelona, Spain (Onsite)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_prosper-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_ploid-ai-md",
+    "title": "Ploid AI — AI-First Bioinformatics Platform",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_ploid-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_permitflow-md",
+    "title": "PermitFlow (YC W22) | Staff Engineers | New York, NY (Onsite)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_permitflow.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_odoo-md",
+    "title": "Odoo | Full Stack Developer | Belgium (Hybrid)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_odoo.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_matcha-md",
+    "title": "Matcha | Multiple Roles | Remote (Europe / Canada / US)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_matcha.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_korva-md",
+    "title": "Korva | Founding Engineer | New York City (Onsite)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_korva.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_i3w-md",
+    "title": "I3W | Multiple Roles | Noida, India (Onsite)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_i3w.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_hostgpo-md",
+    "title": "HostGPO | Lead Engineer | Remote",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_hostgpo.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_goodchat-md",
+    "title": "Goodchat | Full Stack Engineer | Remote (CET timezone)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_goodchat.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_fieldguide-md",
+    "title": "Fieldguide | Multiple Roles | San Francisco, CA (Hybrid)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_fieldguide.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_farmer-sam-md",
+    "title": "Farmer Sam LLC | Multiple Roles | Remote (Founding Team)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_farmer-sam.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_evolve-robotics-md",
+    "title": "Evolve Robotics | XR, Full-Stack, Real-Time Engineers | San Francisco (Onsite)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_evolve-robotics.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_deya-md",
+    "title": "Deya | Software Engineer (AI x Healthcare) | NYC (Hybrid)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_deya.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_deepline-md",
+    "title": "Deepline | Founding Engineers | NYC (Onsite)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_deepline.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_curie-md",
+    "title": "Curie | AI Engineer | Chicago (Hybrid) / SF (Remote)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_curie.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_comulate-md",
+    "title": "Comulate | Senior Engineer | San Francisco, CA (Onsite)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_comulate.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_colonist-md",
+    "title": "Colonist | Full-Stack Product Dev | Remote (Eastern Europe / SEA)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_colonist.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_chestnut-md",
+    "title": "Chestnut | Product Engineers | SF + Seattle (Hybrid)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_chestnut.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_bustem-md",
+    "title": "Bustem.com | Founding Engineer | NYC (On-site)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_bustem.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_biolm-md",
+    "title": "BioLM — AI Platform for Molecular Discovery",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_biolm.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_billiontone-md",
+    "title": "BillionToOne (YC S17, NASDAQ: BLLN) | Engineers | Menlo Park, CA (Onsite)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_billiontone.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_better-stack-md",
+    "title": "Better Stack | Full-Stack Engineer | Remote (North America & Europe)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_better-stack.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_au-senior-engineer-md",
+    "title": "Anonymous — Senior Engineer (AU Only / Remote)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_au-senior-engineer.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_arvo-md",
+    "title": "Arvo | Founding Engineer | NYC (Hybrid)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_arvo.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_anonymous-ai-python-react-md",
+    "title": "Anonymous | Full-Stack Engineer (Python / React) | Remote",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_anonymous-ai-python-react.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-04_adclear-md",
+    "title": "Adclear — AI Compliance for Regulated Brands",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-04_adclear.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-03_cassidy-ai-md",
+    "title": "Cassidy AI — Enterprise AI Platform (Series A)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-03_cassidy-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-02_weave-bio-md",
+    "title": "Weave Bio — AI-Native Regulatory Submission Platform (Series A)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-02_weave-bio.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-02_spade-agriculture-md",
+    "title": "SPADE Agriculture — AI-Powered Dairy Industry Platform (Series A)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-02_spade-agriculture.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-02_ria-money-transfer-md",
+    "title": "Ria Money Transfer — Digital Product Transformation",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-02_ria-money-transfer.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-02_pinwheel-md",
+    "title": "Pinwheel — Payroll API Platform (Series B)",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-02_pinwheel.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-02_onton-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-02_onton.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-02_innolitics-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-02_innolitics.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-02_gentube-md",
+    "title": "GenTube — AI Creation as Entertainment",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-02_gentube.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-02_cvector-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-02_cvector.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-02_bowatt-md",
+    "title": "BoWatt — AI Software for Hardware Manufacturing",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-02_bowatt.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-02_aurelian-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-02_aurelian.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_zed-industries-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_zed-industries.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_veritus-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_veritus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_vantage-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_vantage.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_uncountable-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_uncountable.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_storepass-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_storepass.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_starbridge-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_starbridge.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_shepherd-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_shepherd.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_sequent-tech-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_sequent-tech.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_sentinel-defense-technologies-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_sentinel-defense-technologies.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_river-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_river.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_rinse-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_rinse.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_ridgeline-international-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_ridgeline-international.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_repspark-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_repspark.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_range-finance-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_range-finance.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_radar-labs-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_radar-labs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_prairielearn-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_prairielearn.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_posthog-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_posthog.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_planlab-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_planlab.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_ping-data-intelligence-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_ping-data-intelligence.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_pango-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_pango.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_oscilar-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_oscilar.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_openrent-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_openrent.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_numeral-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_numeral.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_nova-credit-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_nova-credit.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_notco-ai-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_notco-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_north-island-ventures-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_north-island-ventures.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_norm-ai-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_norm-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_monumental-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_monumental.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_mechanize-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_mechanize.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_luminate-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_luminate.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_lantern-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_lantern.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_join-build-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_join-build.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_honey-homes-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_honey-homes.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_hike-medical-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_hike-medical.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_higharc-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_higharc.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_hifi-labs-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_hifi-labs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_hellotext-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_hellotext.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_goody-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_goody.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_futo-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_futo.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_fusionbox-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_fusionbox.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_fractional-ai-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_fractional-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_fractional-ai-staff-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_fractional-ai-staff.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_foxglove-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_foxglove.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_flaconi-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_flaconi.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_findigs-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_findigs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_eventfirst-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_eventfirst.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_duel-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_duel.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_cyngn-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_cyngn.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_civilization-labs-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_civilization-labs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_civai-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_civai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_cenva-labs-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_cenva-labs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_caribou-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_caribou.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_baton-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_baton.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_baserow-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_baserow.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_atria-health-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_atria-health.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_assembly-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_assembly.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_ashby-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_ashby.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_ascertain-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_ascertain.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_arcol-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_arcol.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_apex-dental-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_apex-dental.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_anduril-industries-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_anduril-industries.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_allspice-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_allspice.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_ai-healthcare-startup-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_ai-healthcare-startup.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "fullstack-2026-04-01_aha-md",
+    "title": "",
+    "category": "fullstack",
+    "date": "",
+    "file": "fullstack/2026-04-01_aha.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "frontend-hn-47350658-md",
     "title": "Jurisphere.ai - Frontend Engineer / Backend Engineer / Design Engineer",
     "category": "frontend",
@@ -12350,6 +14340,66 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "frontend-2026-04-04_digital-vitamins-md",
+    "title": "Digital Vitamins | Senior JS Developer | Remote (EU)",
+    "category": "frontend",
+    "date": "",
+    "file": "frontend/2026-04-04_digital-vitamins.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "frontend-2026-04-03_atomic-tessellator-md",
+    "title": "Atomic Tessellator — Computational Infrastructure for Advanced Materials",
+    "category": "frontend",
+    "date": "",
+    "file": "frontend/2026-04-03_atomic-tessellator.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "frontend-2026-04-01_verkada-md",
+    "title": "",
+    "category": "frontend",
+    "date": "",
+    "file": "frontend/2026-04-01_verkada.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "frontend-2026-04-01_stackable-md",
+    "title": "",
+    "category": "frontend",
+    "date": "",
+    "file": "frontend/2026-04-01_stackable.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "frontend-2026-04-01_karma8-md",
+    "title": "",
+    "category": "frontend",
+    "date": "",
+    "file": "frontend/2026-04-01_karma8.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "frontend-2026-04-01_homevision-md",
+    "title": "",
+    "category": "frontend",
+    "date": "",
+    "file": "frontend/2026-04-01_homevision.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "devops-hn-47223924-md",
     "title": "Adaptive - Software Engineer (Infrastructure/Security)",
     "category": "devops",
@@ -13700,6 +15750,146 @@
     "source_layer": "global_hn_hiring"
   },
   {
+    "id": "devops-2026-04-04_results-generation-md",
+    "title": "Results Generation | Cloud & DevOps Engineer | Austin, TX (Hybrid)",
+    "category": "devops",
+    "date": "",
+    "file": "devops/2026-04-04_results-generation.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "devops-2026-04-04_coder-md",
+    "title": "Coder | Multiple Engineering Roles | Multiple Locations",
+    "category": "devops",
+    "date": "",
+    "file": "devops/2026-04-04_coder.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "devops-2026-04-04_bwell-md",
+    "title": "b.well | Senior SRE | Remote (US)",
+    "category": "devops",
+    "date": "",
+    "file": "devops/2026-04-04_bwell.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "devops-2026-04-02_wasmer-md",
+    "title": "Wasmer (YC S19) — WebAssembly / AI Infrastructure",
+    "category": "devops",
+    "date": "",
+    "file": "devops/2026-04-02_wasmer.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "devops-2026-04-02_my-signal-well-md",
+    "title": "",
+    "category": "devops",
+    "date": "",
+    "file": "devops/2026-04-02_my-signal-well.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "devops-2026-04-02_milaboratories-md",
+    "title": "MiLaboratories — OS for Biology / Biological Data Infrastructure",
+    "category": "devops",
+    "date": "",
+    "file": "devops/2026-04-02_milaboratories.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "devops-2026-04-02_livekit-md",
+    "title": "LiveKit — Voice AI & Real-time Infrastructure",
+    "category": "devops",
+    "date": "",
+    "file": "devops/2026-04-02_livekit.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "devops-2026-04-02_blackshark-ai-md",
+    "title": "Blackshark AI — Geospatial AI Infrastructure",
+    "category": "devops",
+    "date": "",
+    "file": "devops/2026-04-02_blackshark-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "devops-2026-04-01_tram-case-sre-md",
+    "title": "",
+    "category": "devops",
+    "date": "",
+    "file": "devops/2026-04-01_tram-case-sre.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "devops-2026-04-01_tavily-md",
+    "title": "",
+    "category": "devops",
+    "date": "",
+    "file": "devops/2026-04-01_tavily.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "devops-2026-04-01_spacelift-md",
+    "title": "",
+    "category": "devops",
+    "date": "",
+    "file": "devops/2026-04-01_spacelift.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "devops-2026-04-01_modal-md",
+    "title": "",
+    "category": "devops",
+    "date": "",
+    "file": "devops/2026-04-01_modal.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "devops-2026-04-01_fetlife-md",
+    "title": "",
+    "category": "devops",
+    "date": "",
+    "file": "devops/2026-04-01_fetlife.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "devops-2026-04-01_clickhouse-md",
+    "title": "",
+    "category": "devops",
+    "date": "",
+    "file": "devops/2026-04-01_clickhouse.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
     "id": "data-hn-47311360-md",
     "title": "Remitly - Knowledge Development Engineer II (Native AI Software Engineer)",
     "category": "data",
@@ -14485,6 +16675,286 @@
     "category": "data",
     "date": "",
     "file": "data/hn-44760576.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-04_rover-md",
+    "title": "Rover | Data & Analytics Roles | Barcelona / Seattle",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-04_rover.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-04_nc-farm-bureau-md",
+    "title": "NC Farm Bureau | Actuarial Data Scientist | Raleigh, NC (Hybrid)",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-04_nc-farm-bureau.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-04_flow-traders-md",
+    "title": "Flow Traders | Research Engineer | Hong Kong (Onsite)",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-04_flow-traders.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-04_chalmers-university-md",
+    "title": "Chalmers University — CGR Lab, ML for Biology",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-04_chalmers-university.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-03_pomelo-care-md",
+    "title": "Pomelo Care — Women's & Children's Health Platform",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-03_pomelo-care.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-02_redistricting-data-hub-md",
+    "title": "Redistricting Data Hub — Nonpartisan Redistricting Data",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-02_redistricting-data-hub.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-02_ml6-md",
+    "title": "ML6 — Machine Learning Consulting",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-02_ml6.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-02_matterworks-md",
+    "title": "Matterworks.ai — AI for Biological Data & Therapeutic Discovery",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-02_matterworks.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-02_l2-labs-md",
+    "title": "L2 Labs — Applied AI for Database & Data Integration",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-02_l2-labs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-02_estuary-md",
+    "title": "Estuary — Real-time Data Replication & Transform",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-02_estuary.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-02_burnin-md",
+    "title": "Burnin — AI Agent Evaluation & Training",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-02_burnin.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-02_arctal-md",
+    "title": "Arctal — AI-Powered Financial Document Intelligence",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-02_arctal.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_vlm-run-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_vlm-run.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_tufalabs-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_tufalabs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_sumble-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_sumble.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_readworks-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_readworks.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_quadrature-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_quadrature.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_prior-labs-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_prior-labs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_physicsx-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_physicsx.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_livemap-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_livemap.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_immunera-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_immunera.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_humansignal-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_humansignal.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_espresso-ai-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_espresso-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_bit-capital-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_bit-capital.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_ando-work-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_ando-work.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_american-board-of-family-medicine-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_american-board-of-family-medicine.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_alphamatician-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_alphamatician.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "data-2026-04-01_akur8-md",
+    "title": "",
+    "category": "data",
+    "date": "",
+    "file": "data/2026-04-01_akur8.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hn_hiring"
@@ -23545,6 +26015,606 @@
     "category": "backend",
     "date": "",
     "file": "backend/hn-44757800.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-04_redpanda-data-md",
+    "title": "Redpanda Data | Multiple Engineering Roles | Remote",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-04_redpanda-data.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-04_rainbow-insurance-md",
+    "title": "Rainbow Insurance | Backend Software Engineer | San Francisco (Hybrid)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-04_rainbow-insurance.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-04_project-healthy-minds-md",
+    "title": "Project Healthy Minds | Lead Software Engineer | New York, NY (In-Office)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-04_project-healthy-minds.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-04_mubit-md",
+    "title": "Mubit | Founding Engineer | London, UK (Onsite)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-04_mubit.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-04_microsoft-ai-md",
+    "title": "Microsoft AI | Platform Engineering | Seattle / Bay Area (Hybrid)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-04_microsoft-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-04_infomarines-md",
+    "title": "InfoMarines Inc | Senior Java Developer | Denver, CO (Remote)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-04_infomarines.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-04_holepunch-md",
+    "title": "Holepunch | Senior Engineers | Remote (Worldwide)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-04_holepunch.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-04_furtim-modus-md",
+    "title": "Furtim Modus | Java Developer | NYC (Hybrid)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-04_furtim-modus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-04_freight-brokerage-nj-md",
+    "title": "Freight Brokerage NJ | Founding Backend Architect | Remote (US)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-04_freight-brokerage-nj.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-04_deducta-md",
+    "title": "Deducta | Senior Backend Engineer | London, UK (Hybrid)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-04_deducta.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-04_cloud-data-engine-md",
+    "title": "Cloud Data Engine (CDE) | Python Software Engineer | France (Hybrid)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-04_cloud-data-engine.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-04_category-labs-md",
+    "title": "Category Labs | Engineers | Remote and NYC",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-04_category-labs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-04_carnegie-hall-md",
+    "title": "Carnegie Hall | C# Sitecore Developer | NYC, NY (Onsite)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-04_carnegie-hall.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-03_reef-technologies-md",
+    "title": "Reef Technologies — Decentralized GPU Computing",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-03_reef-technologies.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-03_post-up-md",
+    "title": "Post Up — Databricks for Content Production",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-03_post-up.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-03_polars-md",
+    "title": "Polars — Distributed Query Engine & Managed Data Platform",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-03_polars.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-03_onos-health-md",
+    "title": "Onos Health — Behavioral Health Efficiency Platform",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-03_onos-health.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-03_gpresearch-md",
+    "title": "GP Research — Senior Systems Architect (Non-CRUD Role)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-03_gpresearch.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-03_fullstory-md",
+    "title": "Fullstory — Privacy-Preserving Session Replay & Analytics",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-03_fullstory.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-03_faqta-md",
+    "title": "Faqta — Education Platform for Teachers (Netherlands)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-03_faqta.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-02_thunder-compute-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-02_thunder-compute.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-02_stellar-science-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-02_stellar-science.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-02_scite-md",
+    "title": "Scite (scite.ai) — AI-Powered Scientific Literature Tools",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-02_scite.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-02_redbook-software-md",
+    "title": "Redbook Software — Cattle Industry Digital Platform",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-02_redbook-software.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-02_perry-street-software-md",
+    "title": "Perry Street Software — LGBTQ+ Dating Apps (Jack'd, SCRUFF)",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-02_perry-street-software.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-02_mirae-asset-securities-md",
+    "title": "Mirae Asset Securities UK — Software Engineer, Securities Finance",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-02_mirae-asset-securities.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-02_infystrat-md",
+    "title": "Infystrat — Open Digital Infrastructure",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-02_infystrat.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-02_formical-md",
+    "title": "Formical — Sustainable Bioprocessing Data Platform",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-02_formical.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-02_areo-md",
+    "title": "AREO — Retail & Grocery Software",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-02_areo.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_yeet-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_yeet.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_workwhile-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_workwhile.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_viewpost-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_viewpost.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_umh-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_umh.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_tti-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_tti.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_thelab-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_thelab.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_temporal-technologies-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_temporal-technologies.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_sycamore-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_sycamore.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_squint-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_squint.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_scorecard-ai-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_scorecard-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_rootly-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_rootly.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_quobyte-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_quobyte.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_neon-health-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_neon-health.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_mixpeek-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_mixpeek.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_longshot-systems-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_longshot-systems.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_locket-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_locket.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_kinelo-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_kinelo.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_hyperspell-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_hyperspell.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_fusionauth-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_fusionauth.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_fold-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_fold.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_enveritas-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_enveritas.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_ema-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_ema.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_dqc-ai-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_dqc-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_discord-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_discord.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_cultivate-ai-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_cultivate-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_courted-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_courted.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_cloudflare-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_cloudflare.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_bubblehouse-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_bubblehouse.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_bloomberg-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_bloomberg.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_betterdb-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_betterdb.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "global_hn_hiring"
+  },
+  {
+    "id": "backend-2026-04-01_against-malaria-foundation-md",
+    "title": "",
+    "category": "backend",
+    "date": "",
+    "file": "backend/2026-04-01_against-malaria-foundation.md",
     "source": "",
     "severity": "",
     "source_layer": "global_hn_hiring"
