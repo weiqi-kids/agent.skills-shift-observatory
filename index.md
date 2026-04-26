@@ -14,20 +14,20 @@ permalink: /
 
 ---
 
-## 30 秒看懂本週 (W13)
+## 30 秒看懂本週 (W17)
 
-| 📊 市場溫度 | 🟠 偏冷（指數 35） |
+| 📊 市場溫度 | 🟠 偏冷（指數 38，↑3） |
 |------------|---------|
-| **一句話** | 市場持續偏冷：Digg 因 AI 機器人衝擊裁員關閉 App，科技裁員延燒至社群媒體 |
+| **一句話** | 市場微幅回溫：美國 3 月非農 +178K 反彈，但失業率升至 4.3%，AI 資金集中化加劇 |
 
-| 🔥 本週最熱 | Agentic AI (+34.4%)、MCP (+31.4%)、Legal AI（新興） |
+| 🔥 本週最熱 | Agent Security（新興）、MCP (+38.3%)、Agentic AI (+28.2%) |
 |------------|---------------------|
-| **為什麼** | AI Agent 生態加速擴張，MCP 成為生產標準，AI 法律科技作為新興垂直應用崛起 |
+| **為什麼** | AI Agent 生態進入安全治理階段，MCP 商業化（MintMCP），Agent Security 成為全新技能類別 |
 
-| ✅ 本週建議 | 關注 Agentic AI 與 Legal AI 新興應用，留意 AI 對平台商業模式的間接衝擊 |
+| ✅ 本週建議 | 關注 Agent Security 新興領域，MCP 商業化帶來的職涯路徑，留意 SaaS 傳統職位風險上升 |
 |------------|----------------------------------------------|
 
-[查看完整報告 →](/reports/climate-index-w13/)
+[查看完整報告 →](/reports/climate-index-w17/)
 {: .btn .btn-green .fs-5 .mb-4 .mb-md-0 }
 
 ---
@@ -54,7 +54,7 @@ permalink: /
 | [薪資帶]({{ site.baseurl }}/salary-bands/) | 求職者、HR | 合理的薪資期望是多少？ |
 | [求職策略]({{ site.baseurl }}/career-strategy/) | 求職者、轉職者 | 我該怎麼規劃職涯？ |
 
-[查看最新報告 (W13)]({{ site.baseurl }}/reports/climate-index-w13/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[查看最新報告 (W17)]({{ site.baseurl }}/reports/climate-index-w17/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [名詞解釋]({{ site.baseurl }}/glossary/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [如何使用本站]({{ site.baseurl }}/how-to-use/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
@@ -102,7 +102,7 @@ permalink: /
 
 ## 系統健康度
 
-> 最後更新：2026-03-23
+> 最後更新：2026-04-26
 
 ### 資料總覽
 
@@ -124,11 +124,11 @@ permalink: /
 
 | Mode | 狀態 | 最新報告 |
 |:-----|:-----|:---------|
-| climate_index | ✅ | 2026-W13 |
-| skills_drift | ✅ | 2026-W13 |
-| industry_segments | ✅ | 2026-W13 |
-| salary_bands | ✅ | 2026-W13 |
-| career_strategy | ✅ | 2026-W13 |
+| climate_index | ✅ | 2026-W17 |
+| skills_drift | ✅ | 2026-W17 |
+| industry_segments | ✅ | 2026-W17 |
+| salary_bands | ✅ | 2026-W17 |
+| career_strategy | ✅ | 2026-W17 |
 
 ---
 
