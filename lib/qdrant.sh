@@ -1089,6 +1089,11 @@ if m:
         fm[k] = v
 src = fm.get("source_url", "").strip()
 title = fm.get("title", "").strip()
+if not title:
+    # 後備：部分 Layer（如 hn_hiring、oecd_stats）無 title 欄位，改取正文第一個 H1 標題
+    hm = re.search(r'^#\s+(.+?)\s*$', body, re.M)
+    if hm:
+        title = hm.group(1).strip()
 payload = {
     "source_url": src,
     "title": title,
