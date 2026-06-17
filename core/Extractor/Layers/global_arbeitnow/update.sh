@@ -33,9 +33,9 @@ if [[ -n "${QDRANT_URL:-}" ]] && command -v jq >/dev/null 2>&1; then
       UPDATED_COUNT=0
       for md_file in $(find "$DOCS_DIR" -name "*.md" -type f 2>/dev/null); do
         if [[ -f "$md_file" ]]; then
-          # 這裡可以呼叫 qdrant.sh 中的函式進行向量寫入
-          # 範例：qdrant_upsert_document "$md_file"
-          UPDATED_COUNT=$((UPDATED_COUNT + 1))
+          qdrant_upsert_document "$md_file" "$LAYER_NAME" >/dev/null \
+            && UPDATED_COUNT=$((UPDATED_COUNT + 1)) \
+            || echo "    警告: 寫入失敗: $(basename "$md_file")" >&2
         fi
       done
 

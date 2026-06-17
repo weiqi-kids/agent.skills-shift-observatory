@@ -31,10 +31,11 @@ if [[ -n "${QDRANT_URL:-}" ]]; then
     echo "✓ Qdrant 連線成功"
 
     # 處理傳入的 .md 檔案列表
-    MD_FILES="${@:-}"
-    if [[ -n "$MD_FILES" ]]; then
-      echo "更新 Qdrant 索引: $MD_FILES"
-      # TODO: 實作 Qdrant 寫入邏輯(呼叫 qdrant.sh 中的函式)
+    if [[ $# -gt 0 ]]; then
+      for f in "$@"; do
+        [[ -f "$f" ]] && { qdrant_upsert_document "$f" "$LAYER_NAME" \
+          || echo "    警告: 寫入失敗: $(basename "$f")" >&2; }
+      done
     else
       echo "未提供 .md 檔案,跳過 Qdrant 更新"
     fi

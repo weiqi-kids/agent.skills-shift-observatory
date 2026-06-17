@@ -40,9 +40,8 @@ if [[ -n "${QDRANT_URL:-}" ]]; then
         if [[ -n "$md_files" ]]; then
           echo "正在處理分類: $category"
           for md_file in $md_files; do
-            echo "  寫入: $(basename "$md_file")"
-            # 呼叫 qdrant.sh 的寫入函式（需實作 qdrant_upsert_document）
-            # qdrant_upsert_document "$md_file" "$LAYER_NAME" || echo "    警告: 寫入失敗" >&2
+            qdrant_upsert_document "$md_file" "$LAYER_NAME" \
+              || echo "    警告: 寫入失敗: $(basename "$md_file")" >&2
           done
         fi
       fi

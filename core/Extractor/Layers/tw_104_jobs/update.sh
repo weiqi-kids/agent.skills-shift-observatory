@@ -121,16 +121,12 @@ for MD_FILE in "$@"; do
     # 讀取完整內容（作為 original_content）
     CONTENT=$(cat "$MD_FILE")
 
-    # 呼叫 qdrant.sh 的寫入函式（需實作）
-    # 預期簽章：qdrant_upsert_document "$SOURCE_URL" "$TITLE" "$DATE" "$CATEGORY" "$CONTENT" "$LAYER_NAME" "$FETCHED_AT"
-
-    # 此處僅示意，實際需依 qdrant.sh 實作調整
-    echo "  → 寫入 Qdrant: $SOURCE_URL"
-    # qdrant_upsert_document "$SOURCE_URL" "$TITLE" "$DATE" "$CATEGORY" "$CONTENT" "$LAYER_NAME" "$FETCHED_AT" || {
-    #   echo "  → ⚠️  Qdrant 寫入失敗" >&2
-    # }
-
-    QDRANT_UPDATED=$((QDRANT_UPDATED + 1))
+    # 呼叫 qdrant.sh 的 canonical 寫入函式（以 .md 路徑為輸入，內部解析 frontmatter）
+    if qdrant_upsert_document "$MD_FILE" "$LAYER_NAME" >/dev/null; then
+      QDRANT_UPDATED=$((QDRANT_UPDATED + 1))
+    else
+      echo "  → ⚠️  Qdrant 寫入失敗: $SOURCE_URL" >&2
+    fi
   fi
 
   echo "  → ✓ 完成"

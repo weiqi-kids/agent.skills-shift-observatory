@@ -21,7 +21,14 @@ done
 
 # === Qdrant 更新（by source_url 去重）===
 if [[ -n "${QDRANT_URL:-}" ]]; then
-  qdrant_init_env || echo "Qdrant 連線失敗" >&2
+  if qdrant_init_env; then
+    for f in "$@"; do
+      [[ -f "$f" ]] && { qdrant_upsert_document "$f" "$LAYER_NAME" \
+        || echo "    警告: 寫入失敗: $(basename "$f")" >&2; }
+    done
+  else
+    echo "Qdrant 連線失敗" >&2
+  fi
   # 實際實作需呼叫 qdrant.sh 中的寫入函式
   # 此處省略，由後續整合時補充
 fi

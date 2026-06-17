@@ -40,9 +40,11 @@ if [[ "$QDRANT_AVAILABLE" -eq 1 ]] && [[ -n "${QDRANT_URL:-}" ]]; then
         # 遍歷所有分類目錄下的 .md 檔案
         MD_COUNT=0
         for md_file in $(find "$DOCS_DIR" -name "*.md" -type f 2>/dev/null); do
-            # 這裡可以呼叫 qdrant_upsert_document 等函式
-            # 實作細節依據 lib/qdrant.sh 的實際介面
-            ((MD_COUNT++))
+            if qdrant_upsert_document "$md_file" "$LAYER_NAME" >/dev/null; then
+              MD_COUNT=$((MD_COUNT + 1))
+            else
+              echo "    警告: 寫入失敗: $(basename "$md_file")" >&2
+            fi
         done
 
         echo "已處理 $MD_COUNT 個文件到 Qdrant"

@@ -44,64 +44,69 @@
 
 ## 系統健康度
 
-> 最後更新：2026-02-06
+> 最後更新：2026-06-17
 
 ### Layers — 微觀層（台灣）
 
 | Layer | 最後更新 | 資料筆數 | 狀態 |
 |-------|----------|----------|------|
-| tw_govjobs | 2026-02-05 | 1,000 | ✅ 正常 |
-| tw_104_jobs | — | 0 | ❌ 已停用（API 風險） |
+| tw_govjobs | 2026-04-26 | 1,040 | ⚠️ 本週 API 暫時無回應 |
+| tw_104_jobs | — | 0 | ⚠️ 非官方 API 風險（fetch 失敗） |
 | tw_company_reviews | — | 0 | ❌ 已停用（需驗證） |
 
 ### Layers — 宏觀層（全球職缺）
 
 | Layer | 最後更新 | 資料筆數 | 狀態 |
 |-------|----------|----------|------|
-| global_hn_hiring | 2026-02-06 | 2,336 | ✅ 正常 |
-| global_arbeitnow | 2026-02-06 | 1,181 | ✅ 正常 |
-| global_weworkremotely | 2026-02-05 | 99 | ✅ 正常 |
-| global_remoteok | 2026-02-05 | 94 | ✅ 正常 |
+| global_hn_hiring | 2026-06-17 | 2,677 | ✅ 正常 |
+| global_arbeitnow | 2026-06-17 | 1,212 | ✅ 正常 |
+| global_adzuna | 2026-06-17 | 639 | ✅ 正常 |
+| global_weworkremotely | 2026-06-17 | 119 | ✅ 正常 |
+| global_remoteok | 2026-06-17 | 114 | ✅ 正常 |
 
-### Layers — 宏觀層（全球報告）
+### Layers — 宏觀層（全球統計／報告）
 
 | Layer | 最後更新 | 資料筆數 | 狀態 |
 |-------|----------|----------|------|
-| global_bls | 2026-01-28 | 143 | ✅ 正常 |
-| global_hays_salary | 2026-01-28 | 23 | ✅ 正常 |
-| global_stackoverflow | 2026-01-28 | 21 | ✅ 正常 |
-| global_linkedin_workforce | 2026-01-28 | 12 | ✅ 正常 |
-| global_indeed_hiring | 2026-01-28 | 10 | ✅ 正常 |
-| global_manpower_outlook | 2026-01-28 | 3 | ✅ 正常 |
-| global_oecd_employment | — | 0 | ⚠️ 待擷取 |
-| global_ilo_stats | — | 0 | ⚠️ 待擷取 |
-| global_wef_jobs | — | 0 | ⚠️ 需手動下載 PDF |
+| global_oecd_stats | 2026-06-17 | 1,263 | ✅ 正常 |
+| global_bls | 2026-06-17 | 160 | ✅ 正常 |
+| global_abs | 2026-06-17 | 156 | ✅ 正常 |
+| global_statcan | 2026-06-17 | 116 | ✅ 正常 |
+| global_hays_salary | 2026-06-17 | 32 | ✅ 正常 |
+| global_indeed_hiring | 2026-06-17 | 23 | ✅ 正常 |
+| global_stackoverflow | 2026-06-17 | 22 | ✅ 正常 |
+| global_linkedin_workforce | 2026-06-17 | 13 | ✅ 正常 |
+| global_manpower_outlook | 2026-06-17 | 7 | ✅ 正常 |
+| global_eurostat | 2026-06-17 | 3 | ⚠️ 多數序列回傳 0 筆 |
+| global_oecd_employment / global_ilo_stats / global_kosis | — | 0 | ❌ 已停用 |
+| global_wef_jobs | — | 0 | ❌ 已停用（需手動下載 PDF） |
 
 ### Layers — 事件層
 
 | Layer | 最後更新 | 資料筆數 | 狀態 |
 |-------|----------|----------|------|
-| funding_signals | 2026-01-28 | 37 | ✅ 正常 |
-| workforce_news | 2026-01-28 | 20 | ✅ 正常 |
+| funding_signals | 2026-06-17 | 78 | ✅ 正常 |
+| workforce_news | 2026-06-17 | 50 | ✅ 正常 |
 
 ### Modes（Narrator 報告）
 
 | Mode | 最後產出 | 報告檔案 | 狀態 |
 |------|----------|----------|------|
-| climate_index | 2026-02-06 | 2026-W06-climate-index.md | ✅ 正常 |
-| skills_drift | 2026-02-06 | 2026-W06-skills-drift.md | ✅ 基線版 |
-| industry_segments | 2026-02-06 | 2026-W06-industry-segments.md | ✅ 正常 |
-| salary_bands | 2026-02-06 | 2026-W06-salary-bands.md | ✅ 正常 |
-| career_strategy | 2026-02-06 | 2026-W06-career-strategy.md | ✅ 正常 |
+| climate_index | 2026-06-17 | 2026-W25-climate-index.md | ✅ 正常 |
+| skills_drift | 2026-06-17 | 2026-W25-skills-drift.md | ✅ 正常 |
+| industry_segments | 2026-06-17 | 2026-W25-industry-segments.md | ✅ 正常 |
+| salary_bands | 2026-06-17 | 2026-W25-salary-bands.md | ✅ 正常 |
+| career_strategy | 2026-06-17 | 2026-W25-career-strategy.md | ✅ 正常 |
 
 ### 資料總覽
 
 | 類型 | 筆數 |
 |------|------|
-| 職缺資料總計 | 4,710 |
-| 宏觀報告資料 | 212 |
-| 事件信號資料 | 57 |
-| **總計** | **4,979** |
+| Extractor 萃取文件（.md） | 7,724 |
+| Qdrant 向量點數 | 7,724 |
+| **總計** | **7,724** |
+
+> Qdrant 向量資料庫已全量回填（每筆 .md 對應一個向量點）。增量寫入由各 Layer 的 `update.sh` 透過 `qdrant_upsert_document` 完成；全量重建使用 `scripts/qdrant_backfill.py`。
 
 ## 使用方式
 

@@ -35,9 +35,8 @@ if [[ -n "${QDRANT_URL:-}" ]]; then
       echo "更新 $# 筆資料到 Qdrant..."
       for md_file in "$@"; do
         if [[ -f "$md_file" ]]; then
-          # 這裡可以呼叫 qdrant.sh 中的寫入函式
-          # qdrant_upsert_document "$md_file" "$LAYER_NAME"
-          echo "  處理: $(basename "$md_file")"
+          qdrant_upsert_document "$md_file" "$LAYER_NAME" \
+            || echo "    警告: 寫入失敗: $(basename "$md_file")" >&2
         fi
       done
     fi

@@ -19,7 +19,14 @@ done
 
 # === Qdrant 更新（by source_url 去重）===
 if [[ -n "${QDRANT_URL:-}" ]]; then
-  qdrant_init_env || echo "Qdrant 連線失敗" >&2
+  if qdrant_init_env; then
+    for f in "$@"; do
+      [[ -f "$f" ]] && { qdrant_upsert_document "$f" "$LAYER_NAME" \
+        || echo "    警告: 寫入失敗: $(basename "$f")" >&2; }
+    done
+  else
+    echo "Qdrant 連線失敗" >&2
+  fi
 fi
 
 # === REVIEW_NEEDED 檢查 ===

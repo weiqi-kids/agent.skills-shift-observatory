@@ -21,7 +21,14 @@ done
 
 # Qdrant update
 if [[ -n "${QDRANT_URL:-}" ]]; then
-    qdrant_init_env || echo "Qdrant connection failed" >&2
+    if qdrant_init_env; then
+        for f in $(find "$DOCS_DIR" -name "*.md" -not -path "*/raw/*" -type f 2>/dev/null); do
+            qdrant_upsert_document "$f" "$LAYER_NAME" \
+              || echo "    warning: upsert failed: $(basename "$f")" >&2
+        done
+    else
+        echo "Qdrant connection failed" >&2
+    fi
 fi
 
 # Check for REVIEW_NEEDED
