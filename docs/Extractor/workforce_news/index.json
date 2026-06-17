@@ -10,6 +10,66 @@
     "source_layer": "workforce_news"
   },
   {
+    "id": "restructuring-2026-06-03_gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads-md",
+    "title": "GitLab cuts 14% of staff as it scales its platform to serve AI workloads",
+    "category": "restructuring",
+    "date": "",
+    "file": "restructuring/2026-06-03_gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "restructuring-2026-05-11_gm-it-layoffs-ai-skills-shift-md",
+    "title": "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
+    "category": "restructuring",
+    "date": "",
+    "file": "restructuring/2026-05-11_gm-it-layoffs-ai-skills-shift.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "restructuring-2026-05-05_coinbase-14-percent-layoff-restructuring-md",
+    "title": "Coinbase to lay off 14% of staff as part of broader restructuring",
+    "category": "restructuring",
+    "date": "",
+    "file": "restructuring/2026-05-05_coinbase-14-percent-layoff-restructuring.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "restructuring-2026-04-23_redwood-materials-coo-layoffs-restructuring-md",
+    "title": "Redwood Materials loses COO amid layoffs, restructuring",
+    "category": "restructuring",
+    "date": "",
+    "file": "restructuring/2026-04-23_redwood-materials-coo-layoffs-restructuring.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "restructuring-2026-04-22_redwood-materials-lays-off-10pct-md",
+    "title": "Redwood Materials lays off 10% in restructuring to chase energy storage business",
+    "category": "restructuring",
+    "date": "",
+    "file": "restructuring/2026-04-22_redwood-materials-lays-off-10pct.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "restructuring-2026-03-25_meta-cutting-several-hundred-jobs-md",
+    "title": "Meta is cutting several hundred jobs",
+    "category": "restructuring",
+    "date": "",
+    "file": "restructuring/2026-03-25_meta-cutting-several-hundred-jobs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
     "id": "restructuring-2026-03-13_digg-layoff-app-shutdown-md",
     "title": "",
     "category": "restructuring",
@@ -85,6 +145,26 @@
     "category": "market_signal",
     "date": "",
     "file": "market_signal/20260123-davos-ai-ceos-market_signal.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "market_signal-2026-05-27_tech-ceos-are-apparently-suffering-from-ai-psychosis-md",
+    "title": "Tech CEOs are apparently suffering from AI psychosis",
+    "category": "market_signal",
+    "date": "",
+    "file": "market_signal/2026-05-27_tech-ceos-are-apparently-suffering-from-ai-psychosis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "market_signal-2026-04-09_anjuna-layoffs-recovery-lessons-md",
+    "title": "What founders can learn from Anjuna's layoffs and recovery",
+    "category": "market_signal",
+    "date": "",
+    "file": "market_signal/2026-04-09_anjuna-layoffs-recovery-lessons.md",
     "source": "",
     "severity": "",
     "source_layer": "workforce_news"
@@ -205,6 +285,106 @@
     "category": "layoff",
     "date": "",
     "file": "layoff/20260114-meta-reality-labs-layoff.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-2026-06-16_robinhood-10-layoffs-blaming-ai-isnt-cutting-it-md",
+    "title": "Robinhood's note on 10% layoffs shows blaming AI isn't cutting it",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/2026-06-16_robinhood-10-layoffs-blaming-ai-isnt-cutting-it.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-2026-06-08_as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says-md",
+    "title": "As OpenAI files for IPO, Sam Altman's eye-scanning company is doing layoffs, report says",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/2026-06-08_as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-2026-05-20_intuit-to-lay-off-over-3000-employees-to-refocus-on-ai-md",
+    "title": "Intuit to lay off over 3,000 employees to refocus on AI",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/2026-05-20_intuit-to-lay-off-over-3000-employees-to-refocus-on-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-2026-05-14_cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue-md",
+    "title": "Cisco cuts nearly 4,000 jobs to spend more on AI, reports 'record quarterly revenue'",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/2026-05-14_cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-2026-05-08_truecaller-70-layoffs-ad-revenue-decline-md",
+    "title": "Truecaller slashes 70 jobs amid declining ad sales",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/2026-05-08_truecaller-70-layoffs-ad-revenue-decline.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-2026-05-08_oracle-layoffs-severance-warn-act-md",
+    "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/2026-05-08_oracle-layoffs-severance-warn-act.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-2026-05-08_cloudflare-ai-1100-jobs-obsolete-md",
+    "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/2026-05-08_cloudflare-ai-1100-jobs-obsolete.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-2026-04-23_meta-cuts-10pct-8000-employees-md",
+    "title": "Meta to cut 10% of jobs, or 8,000 employees, report says",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/2026-04-23_meta-cuts-10pct-8000-employees.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-2026-04-15_snap-cutting-1000-jobs-16pct-workforce-md",
+    "title": "Snap is cutting 1,000 jobs, 16% of its workforce",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/2026-04-15_snap-cutting-1000-jobs-16pct-workforce.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "workforce_news"
+  },
+  {
+    "id": "layoff-2026-03-24_epic-games-cuts-1000-jobs-fortnite-down-md",
+    "title": "Epic Games cuts 1,000 jobs, says Fortnite engagement is down",
+    "category": "layoff",
+    "date": "",
+    "file": "layoff/2026-03-24_epic-games-cuts-1000-jobs-fortnite-down.md",
     "source": "",
     "severity": "",
     "source_layer": "workforce_news"

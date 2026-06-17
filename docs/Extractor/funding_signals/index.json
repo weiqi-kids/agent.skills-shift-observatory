@@ -130,6 +130,136 @@
     "source_layer": "funding_signals"
   },
   {
+    "id": "market_trend-2026-06-17_weibo-vibethinker-3b-benchmark-md",
+    "title": "Why Weibo's Tiny VibeThinker-3B Has The AI World Arguing Over Benchmarks Again",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-06-17_weibo-vibethinker-3b-benchmark.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-06-16_playground-global-hardware-deep-tech-thesis-md",
+    "title": "Silicon Is Back: Playground Global's Decade-Long Bet On Hardware, Energy And Deep Tech Looks Prescient",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-06-16_playground-global-hardware-deep-tech-thesis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-06-15_us-ai-startup-funding-not-global-md",
+    "title": "The AI Startup Funding Boom Is Not A Global Phenomenon",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-06-15_us-ai-startup-funding-not-global.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-06-15_satya-nadella-ai-hollowing-industries-md",
+    "title": "Satya Nadella Warns That AI Could Hollow Out Entire Industries, Echoing The Damage Done By Globalization",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-06-15_satya-nadella-ai-hollowing-industries.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-06-15_saas-pitch-playbook-rewriting-ai-era-md",
+    "title": "Rewriting Your Pitch: SaaS Isn't Dead, But The Playbook For Founders Is Changing",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-06-15_saas-pitch-playbook-rewriting-ai-era.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-06-12_weekly-biggest-funding-rounds-ninjaone-leads-md",
+    "title": "The Week's 10 Biggest Funding Rounds: NinjaOne Leads With $400M As Large Deals Also Go To Blockchain, Cloud Infrastructure, Biotech And Robotics",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-06-12_weekly-biggest-funding-rounds-ninjaone-leads.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-06-11_ipo-window-ma-liquidity-outlook-md",
+    "title": "Before You Cheer The IPO Window, Watch Where The Money Goes",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-06-11_ipo-window-ma-liquidity-outlook.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-06-11_100m-round-now-typical-late-stage-md",
+    "title": "The $100M+ Round Is Now Just Your Typical Late-Stage Financing",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-06-11_100m-round-now-typical-late-stage.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-06-05_microsoft-set-free-openai-superintelligence-md",
+    "title": "Microsoft AI Chief Says Company Was 'Set Free' From OpenAI To Pursue Superintelligence",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-06-05_microsoft-set-free-openai-superintelligence.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-06-02_zip-ai-agents-procurement-platform-md",
+    "title": "Zip's New AI Agents Want To Stop Your Finance Team From Uploading Contracts Into Personal ChatGPT Accounts",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-06-02_zip-ai-agents-procurement-platform.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-06-02_microsoft-surface-rtx-spark-dev-box-md",
+    "title": "Microsoft Debuts Surface RTX Spark Dev Box To Run Large AI Models Without Cloud Costs",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-06-02_microsoft-surface-rtx-spark-dev-box.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-05-28_mistral-ai-vibe-industrial-data-center-md",
+    "title": "Mistral AI Launches Vibe, Expands Into Industrial AI And Announces Data Center Push To Challenge OpenAI",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-05-28_mistral-ai-vibe-industrial-data-center.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "market_trend-2026-05-27_datagrail-vendor-ai-data-dpa-report-md",
+    "title": "DataGrail Report Finds Your Vendor May Be Sending Data To AI Models You Never Approved",
+    "category": "market_trend",
+    "date": "",
+    "file": "market_trend/2026-05-27_datagrail-vendor-ai-data-dpa-report.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
     "id": "market_trend-2026-03-20_building-startup-reputation-trust-vcs-md",
     "title": "",
     "category": "market_trend",
@@ -250,6 +380,16 @@
     "source_layer": "funding_signals"
   },
   {
+    "id": "ipo-2026-06-12_spacex-record-ipo-md",
+    "title": "SpaceX Shares Close Up 19% After Largest IPO Of All Time",
+    "category": "ipo",
+    "date": "",
+    "file": "ipo/2026-06-12_spacex-record-ipo.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
     "id": "ipo-2026-03-18_pwc-2026-ipo-outlook-md",
     "title": "",
     "category": "ipo",
@@ -355,6 +495,56 @@
     "category": "funding_round",
     "date": "",
     "file": "funding_round/20260121-zipline-funding_round.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "funding_round-2026-06-11_base10-partners-850m-two-funds-md",
+    "title": "Base10 Partners Closes 2 Funds Totaling $850M To Invest In Real Economy Automation",
+    "category": "funding_round",
+    "date": "",
+    "file": "funding_round/2026-06-11_base10-partners-850m-two-funds.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "funding_round-2026-05-27_weroad-series-c-md",
+    "title": "Airbnb-backed WeRoad raises $58M to take its group travel platform to the US",
+    "category": "funding_round",
+    "date": "",
+    "file": "funding_round/2026-05-27_weroad-series-c.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "funding_round-2026-05-21_convective-capital-fund-ii-md",
+    "title": "Convective Capital raises an $85 million fund to build disaster resilience",
+    "category": "funding_round",
+    "date": "",
+    "file": "funding_round/2026-05-21_convective-capital-fund-ii.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "funding_round-2026-05-05_elevenlabs-series-d-md",
+    "title": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors",
+    "category": "funding_round",
+    "date": "",
+    "file": "funding_round/2026-05-05_elevenlabs-series-d.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "funding_round-2026-04-15_wayve-series-d-extension-md",
+    "title": "Chipmakers AMD, Arm, and Qualcomm are all investing in this buzzy self-driving tech startup",
+    "category": "funding_round",
+    "date": "",
+    "file": "funding_round/2026-04-15_wayve-series-d-extension.md",
     "source": "",
     "severity": "",
     "source_layer": "funding_signals"
@@ -575,6 +765,16 @@
     "category": "acquisition",
     "date": "",
     "file": "acquisition/20260123-capital-one-brex-acquisition.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "funding_signals"
+  },
+  {
+    "id": "acquisition-2026-06-16_spacex-acquires-cursor-60b-md",
+    "title": "SpaceX Acquires AI Coding Tool Cursor For $60B In Year's Largest Startup M&A Deal",
+    "category": "acquisition",
+    "date": "",
+    "file": "acquisition/2026-06-16_spacex-acquires-cursor-60b.md",
     "source": "",
     "severity": "",
     "source_layer": "funding_signals"
