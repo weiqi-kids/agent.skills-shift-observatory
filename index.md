@@ -14,20 +14,20 @@ permalink: /
 
 ---
 
-## 30 秒看懂本週 (W17)
+## 30 秒看懂本週 (W25)
 
-| 📊 市場溫度 | 🟠 偏冷（指數 38，↑3） |
+| 📊 市場溫度 | 🟠 偏冷（指數 34，↓4） |
 |------------|---------|
-| **一句話** | 市場微幅回溫：美國 3 月非農 +178K 反彈，但失業率升至 4.3%，AI 資金集中化加劇 |
+| **一句話** | 事件面密集 AI 驅動裁員逾 1.9 萬人（Meta 8,000、Cisco 4,000、Intuit 3,000），Cloudflare/Cisco 營收創高仍裁員、明確歸因 AI，屬結構性收縮 |
 
-| 🔥 本週最熱 | Agent Security（新興）、MCP (+38.3%)、Agentic AI (+28.2%) |
+| 🔥 本週最熱 | AI 技能（53.7% 職缺）、Agentic / AI Agent（18.0%）、電子硬體/半導體擴張 |
 |------------|---------------------|
-| **為什麼** | AI Agent 生態進入安全治理階段，MCP 商業化（MintMCP），Agent Security 成為全新技能類別 |
+| **為什麼** | 資本由純軟體轉向軟硬整合（SpaceX 史上最大 IPO、$60B 收購 Cursor、晶片商投資自駕 Wayve），AI 協作從加分項變基礎能力預期 |
 
-| ✅ 本週建議 | 關注 Agent Security 新興領域，MCP 商業化帶來的職涯路徑，留意 SaaS 傳統職位風險上升 |
+| ✅ 本週建議 | 盤點並具體化 AI 協作經驗，認知例行職（風險最高、薪資墊底）評估向認知非例行升級，關注機器人/太空/半導體擴張領域 |
 |------------|----------------------------------------------|
 
-[查看完整報告 →](/reports/climate-index-w17/)
+[查看完整報告 →](/reports/climate-index-w25/)
 {: .btn .btn-green .fs-5 .mb-4 .mb-md-0 }
 
 ---
@@ -54,7 +54,7 @@ permalink: /
 | [薪資帶]({{ site.baseurl }}/salary-bands/) | 求職者、HR | 合理的薪資期望是多少？ |
 | [求職策略]({{ site.baseurl }}/career-strategy/) | 求職者、轉職者 | 我該怎麼規劃職涯？ |
 
-[查看最新報告 (W17)]({{ site.baseurl }}/reports/climate-index-w17/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[查看最新報告 (W25)]({{ site.baseurl }}/reports/climate-index-w25/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [名詞解釋]({{ site.baseurl }}/glossary/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [如何使用本站]({{ site.baseurl }}/how-to-use/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
@@ -102,7 +102,7 @@ permalink: /
 
 ## 系統健康度
 
-> 最後更新：2026-04-26
+> 最後更新：2026-06-17
 
 ### 資料總覽
 
@@ -124,11 +124,11 @@ permalink: /
 
 | Mode | 狀態 | 最新報告 |
 |:-----|:-----|:---------|
-| climate_index | ✅ | 2026-W17 |
-| skills_drift | ✅ | 2026-W17 |
-| industry_segments | ✅ | 2026-W17 |
-| salary_bands | ✅ | 2026-W17 |
-| career_strategy | ✅ | 2026-W17 |
+| climate_index | ✅ | 2026-W25 |
+| skills_drift | ✅ | 2026-W25 |
+| industry_segments | ✅ | 2026-W25 |
+| salary_bands | ✅ | 2026-W25 |
+| career_strategy | ✅ | 2026-W25 |
 
 ---
 
